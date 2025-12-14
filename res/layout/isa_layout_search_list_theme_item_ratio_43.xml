@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:tag="layout/isa_layout_search_list_theme_item_ratio_43_0" android:background="@drawable/selector_search_ad_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_list_itemly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/layout_list_itemly_imgly" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/webFrameLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/layout_list_itemly_imgly_pimg" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="0.0dp" android:layout_height="0.0dp" android:scaleType="centerCrop" android:adjustViewBounds="true" app:animated="true" app:cornerRadius="@dimen/common_list_icon_radius" app:is_show_default_while_loading="true" app:is_webimage_default="@drawable/common_list_default_icon" app:is_webimage_immediate_loading="true" app:layout_constraintDimensionRatio="w,4:3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView android:textSize="10.0dp" android:textColor="@color/isa_255255255" android:gravity="center_vertical" android:id="@id/new_badge" android:tag="binding_2" android:background="@drawable/bg_badge_new" android:layout_width="wrap_content" android:layout_height="15.0dp" android:layout_marginLeft="5.0dp" android:layout_marginTop="5.0dp" android:text="@string/DREAM_SAPPS_BODY_NEW_M_PROMOTION" android:layout_marginStart="5.0dp" style="@style/isa_style_one_ui_font_regular" />
+                <TextView android:textSize="10.0dp" android:textColor="@color/isa_255255255" android:layout_gravity="end|bottom" android:id="@id/tag_badge" android:tag="binding_3" android:background="@drawable/bg_theme_tag" android:layout_width="wrap_content" android:layout_height="15.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp" android:layout_marginEnd="5.0dp" style="@style/isa_style_one_ui_font_semi_bold" />
+            </FrameLayout>
+        </FrameLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/layout_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+            <TextView android:ellipsize="marquee" android:gravity="start" android:id="@id/layout_list_itemly_centerly_pname" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent" android:lines="2" android:textDirection="locale" style="@style/isa_style_for_galaxy_list01" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/layout_list_itemly_pricely" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:gravity="start" android:id="@id/layout_list_itemly_discprice" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_for_galaxy_list01_disprice" />
+                <TextView android:ellipsize="end" android:id="@id/layout_list_itemly_price" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginStart="2.0dp" style="@style/isa_style_for_galaxy_list01_price" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

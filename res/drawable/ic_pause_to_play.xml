@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$ic_pause_to_play__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="s4" android:animation="@drawable/$ic_pause_to_play__1" />
+    <target android:name="s4p20" android:animation="@drawable/$ic_pause_to_play__2" />
+    <target android:name="s4p10" android:animation="@drawable/$ic_pause_to_play__5" />
+</animated-vector>

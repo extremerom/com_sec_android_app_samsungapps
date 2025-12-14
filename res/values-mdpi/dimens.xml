@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="category_item_line_divider">1.0px</dimen>
+    <dimen name="detailpage_layout_main_widget_divider">1.0px</dimen>
+    <dimen name="download_btn_outline_size">1.0px</dimen>
+    <dimen name="main_tab_divider_drawing_top">39.0dp</dimen>
+</resources>

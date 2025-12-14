@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/isa_layout_search_list_item_bixby_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="@drawable/isa_drawable_list_effect" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layoutDirection="locale">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_list_itemly" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="84.0dp" android:layout_marginLeft="@dimen/common_list_side_item_margin" android:layout_marginRight="@dimen/common_list_side_item_margin" android:baselineAligned="false" android:layout_marginHorizontal="@dimen/common_list_side_item_margin">
+            <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center_vertical" android:id="@id/layout_list_itemly_imgly_pimg" android:tag="binding_2" android:layout_width="@dimen/common_list_icon_size" android:layout_height="@dimen/common_list_icon_size" android:scaleType="fitXY" android:adjustViewBounds="true" app:animated="true" app:cornerRadius="@dimen/common_list_icon_radius" app:is_show_default_while_loading="true" app:is_webimage_default="@drawable/common_list_default_icon" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp">
+                <TextView android:id="@id/layout_list_itemly_centerly_pname" android:tag="binding_3" android:background="@drawable/isa_drawable_common_hoverd_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/isa_style_list_view_01_title" />
+                <TextView android:textColor="@color/search_list_seller_color" android:gravity="start|top" android:id="@id/layout_list_itemly_app_category_name" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:singleLine="true" android:includeFontPadding="false" style="@style/isa_style_list_view_01_sub_text" />
+                <TextView android:textColor="@color/list_price_color" android:id="@id/layout_list_itemly_discprice" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="3.0dp" style="@style/isa_style_list_view_01_sub_text" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.sec.android.app.samsungapps.search.DiscoverView android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:id="@id/corners" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_list_rounded_corner_top" />
+</FrameLayout>

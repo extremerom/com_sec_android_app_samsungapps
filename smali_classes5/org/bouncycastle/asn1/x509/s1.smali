@@ -1,0 +1,291 @@
+.class public Lorg/bouncycastle/asn1/x509/s1;
+.super Lorg/bouncycastle/asn1/l;
+.source "ProGuard"
+
+# interfaces
+.implements Lorg/bouncycastle/asn1/x509/X509ObjectIdentifiers;
+.implements Lorg/bouncycastle/asn1/pkcs/PKCSObjectIdentifiers;
+
+
+# direct methods
+.method public constructor <init>(Lorg/bouncycastle/asn1/u;)V
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: void <init>(org.bouncycastle.asn1.ASN1Sequence)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public static e(Ljava/lang/Object;)Lorg/bouncycastle/asn1/x509/s1;
+    .locals 1
+
+    const-string p0, "[R8]"
+
+    invoke-static {p0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p0
+
+    const-string v0, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.X509CertificateStructure getInstance(java.lang.Object)"
+
+    invoke-virtual {p0, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p0, Ljava/lang/RuntimeException;
+
+    invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static f(Lorg/bouncycastle/asn1/y;Z)Lorg/bouncycastle/asn1/x509/s1;
+    .locals 0
+
+    const-string p0, "[R8]"
+
+    invoke-static {p0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p0
+
+    const-string p1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.X509CertificateStructure getInstance(org.bouncycastle.asn1.ASN1TaggedObject,boolean)"
+
+    invoke-virtual {p0, p1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p0, Ljava/lang/RuntimeException;
+
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+
+# virtual methods
+.method public d()Lorg/bouncycastle/asn1/x509/l1;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.Time getEndDate()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public g()Lorg/bouncycastle/asn1/x500/d;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x500.X500Name getIssuer()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public h()Lorg/bouncycastle/asn1/j;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.ASN1Integer getSerialNumber()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public i()Lorg/bouncycastle/asn1/v0;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.DERBitString getSignature()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public j()Lorg/bouncycastle/asn1/x509/b;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.AlgorithmIdentifier getSignatureAlgorithm()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public k()Lorg/bouncycastle/asn1/x509/l1;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.Time getStartDate()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public l()Lorg/bouncycastle/asn1/x500/d;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x500.X500Name getSubject()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public m()Lorg/bouncycastle/asn1/x509/a1;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.SubjectPublicKeyInfo getSubjectPublicKeyInfo()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public n()Lorg/bouncycastle/asn1/x509/h1;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.x509.TBSCertificateStructure getTBSCertificate()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public o()I
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: int getVersion()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public toASN1Primitive()Lorg/bouncycastle/asn1/s;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.x509.X509CertificateStructure: org.bouncycastle.asn1.ASN1Primitive toASN1Primitive()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

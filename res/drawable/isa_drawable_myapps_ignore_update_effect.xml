@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/isa_opa60_250250250_d" />
+    <item android:state_enabled="true" android:drawable="@drawable/isa_opa0_255255255_d" />
+</selector>

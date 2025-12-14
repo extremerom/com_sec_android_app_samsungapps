@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="common_list_begin_percent" format="float">0.125</item>
+    <item type="integer" name="common_list_end_percent" format="float">0.875</item>
+    <item type="integer" name="detail_bottom_width_percent" format="float">1.0</item>
+    <item type="integer" name="dialog_width_percentage" format="float">0.375</item>
+    <item type="integer" name="myapps_list_begin_percent" format="float">0.125</item>
+    <item type="integer" name="myapps_list_end_percent" format="float">0.875</item>
+    <integer name="promotion_list_column_count">3</integer>
+    <integer name="promotion_list_column_type">4</integer>
+</resources>

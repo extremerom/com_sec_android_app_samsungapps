@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/inital_interest_bg" android:padding="19.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dp" android:layout_marginRight="13.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="28.0dp" android:textColor="@color/main_slot_title" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_HEADER_FIND_YOUR_NEXT_FAVORITE_APP_ABB" style="@style/isa_style_one_ui_font_semi_bold" />
+        <TextView android:textSize="15.0dp" android:textColor="@color/main_slot_title" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/DREAM_SAPPS_BODY_LET_US_KNOW_WHAT_YOURE_INTERESTED_IN_SO_WE_CAN_RECOMMEND_APPS_AND_OTHER_STUFF_YOU_MIGHT_LIKE" style="@style/isa_style_one_ui_font_regular" />
+        <LinearLayout android:layout_gravity="right" android:id="@id/start_button" android:background="@drawable/interest_button_bg" android:clickable="true" android:layout_width="126.0dp" android:layout_height="36.0dp" android:layout_marginTop="25.0dp" android:foreground="@drawable/isa_drawable_review_btn_effect">
+            <TextView android:textSize="15.0dp" android:textColor="@color/isa_255255255" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/DREAM_SAPPS_BUTTON_GET_STARTED_15" android:textAllCaps="false" style="@style/isa_style_one_ui_font_semi_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

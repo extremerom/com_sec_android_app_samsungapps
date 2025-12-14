@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24.0dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80.0dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64.0dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8.0dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8.0dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dp</dimen>
+    <dimen name="cloudgame_loading_contained_button_width">296.0dp</dimen>
+    <dimen name="cloudgame_loading_description_text_max_width">432.0dp</dimen>
+    <dimen name="cloudgame_loading_gameicon_size">150.0dp</dimen>
+    <dimen name="cloudgame_loading_gametitle_text_size">28.0sp</dimen>
+    <dimen name="cloudgame_loading_progressbar_margin_horizontal">0.0dp</dimen>
+    <dimen name="cloudgame_splash_width_percent">0.52</dimen>
+    <dimen name="design_navigation_max_width">320.0dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0.0dp</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2.0dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24.0dp</dimen>
+    <dimen name="design_snackbar_max_width">576.0dp</dimen>
+    <dimen name="design_snackbar_min_width">320.0dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="design_tab_scrollable_min_width">160.0dp</dimen>
+    <dimen name="instant_plays_pp_logo_height">118.0dp</dimen>
+    <dimen name="instant_plays_pp_logo_width">450.0dp</dimen>
+    <dimen name="interstitialAd_ad_badge_text_margin_top">41.0dp</dimen>
+    <dimen name="interstitialAd_view_more_container_margin_bottom">40.0dp</dimen>
+    <dimen name="mtrl_bottomappbar_height">64.0dp</dimen>
+    <dimen name="mtrl_toolbar_default_height">64.0dp</dimen>
+    <dimen name="top_big_banner_normal_width">280.0dp</dimen>
+    <dimen name="top_big_banner_wrapper_height">157.0dp</dimen>
+    <dimen name="top_egp_banner_wrapper_height">250.0dp</dimen>
+    <dimen name="top_egp_tablet_player_height">210.0dp</dimen>
+    <dimen name="welcome_page_agree_button_max_width">300.0dp</dimen>
+</resources>

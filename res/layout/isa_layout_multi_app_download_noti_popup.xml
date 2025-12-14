@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dot" android:background="@drawable/dot_for_permission" android:layout_width="4.0dp" android:layout_height="4.0dp" android:layout_marginTop="20.0dp" android:layout_marginStart="20.0dp" />
+    <TextView android:id="@id/app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="app name app name" android:textDirection="locale" android:layout_marginStart="30.0dp" android:layout_toEndOf="@id/dot" style="@style/isa_style_list_popup_text_01" />
+    <TextView android:id="@id/app_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="app size" android:layout_below="@id/app_name" android:textDirection="locale" android:layout_alignStart="@id/app_name" style="@style/isa_style_list_popup_text_02" />
+</RelativeLayout>

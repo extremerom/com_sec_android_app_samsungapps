@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="isa_style_action_bar_searchbar_global_text" parent="@style/isa_style_one_ui_font_regular">
+        <item name="android:textSize">@dimen/action_bar_text_size</item>
+        <item name="android:textColor">@color/one_ui_app_bar_main_title_color</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+</resources>

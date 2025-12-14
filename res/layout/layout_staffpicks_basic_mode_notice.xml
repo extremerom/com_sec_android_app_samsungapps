@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/isa_drawable_bg_senior" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dp" android:textColor="@color/basic_mode_text_color" android:textColorLink="@color/basic_mode_link_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_basic_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/DREAM_SAPPS_BODY_SWITCH_TO_THE_PS_FOR_MORE_APPS_AND_UPDATED_VERSIONS_OF_THE_APPS" android:maxLines="3" android:textDirection="locale" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" style="@style/isa_style_one_ui_font_regular" />
+    <View android:id="@id/layout_card" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_basic_mode_notice_effect" />
+</FrameLayout>

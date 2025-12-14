@@ -1,0 +1,14 @@
+.class public synthetic Lcom/fasterxml/jackson/core/io/doubleparser/g$a;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/fasterxml/jackson/core/io/doubleparser/g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation

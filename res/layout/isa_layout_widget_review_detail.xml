@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/review_detail_rating_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="12.0dp">
+            <RatingBar android:layout_gravity="center" android:id="@id/review_detail_rating" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:isIndicator="true" android:contentDescription="@string/IDS_IS_BODY_RATING_ABB" android:importantForAccessibility="yes" style="@style/isa_detail_review_write_RatingBar" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+            <EditText android:scrollbarStyle="insideInset" android:gravity="start|bottom" android:id="@id/review_detail_comment" android:paddingBottom="8.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="4" android:maxLength="1000" android:inputType="textCapSentences|textMultiLine" android:privateImeOptions="disableSticker=true;disableGifKeyboard=true" android:imeOptions="flagNoExtractUi" android:overScrollMode="always" android:textCursorDrawable="@drawable/isa_drawable_cursor_shape" android:backgroundTint="@color/write_review_edit_text_underline_color" style="@style/isa_detail_review_comment" />
+            <TextView android:id="@id/review_detail_alert_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_TPOP_REVIEW_INCLUDES_A_PROHIBITED_WORD" style="@style/isa_detail_review_alert_description" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+                <TextView android:id="@id/review_detail_alert_number" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/isa_detail_review_alert_number" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_write_review_tag_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="6.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_write_review_tag_button_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <View android:id="@id/view_suggested_app_tag_tag_gap" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/write_review_notice_text" android:gravity="start" android:id="@id/write_review_notice_description" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:layout_marginBottom="5.0dp" android:text="@string/LDS_SAPPS_BODY_PLEASE_BE_CAREFUL_NOT_TO_INCLUDE_YOUR_PERSONAL_INFORMATION_SINCE_REVIEWS_ARE_PUBLIC" android:textDirection="locale" style="@style/isa_detail_write_review_notice_description" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ලකුණු %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ලකුණු %dක්</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ටැග %dකට වඩා තේරිය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ටැග %dකට වඩා තේරිය නොහැක.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ක්ෂණික ක්‍රීඩා භාවිතා කිරීමට ඔබ අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ක්ෂණික ක්‍රීඩා භාවිතා කිරීමට ඔබ අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dක් තේරිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dක් තේරිණි</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d දිනකින් පමණ ඔබේ ගිණුමට ලකුණු %1$sක් එක් කරනු ලැබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %2$dකින් පමණ ඔබේ ගිණුමට ලකුණු %1$sක් එක් කරනු ලැබේ.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම යෙදුම බාගැනීම සඳහා, ඔබට ඔබේ අනන්‍යතාවය සත්‍යාපනය කර ඔබේ වයස අවුරුදු %dට වැඩි බව තහවුරු කිරීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම යෙදුම බාගැනීම සඳහා, ඔබට ඔබේ අනන්‍යතාවය සත්‍යාපනය කර ඔබේ වයස අවුරුදු %dට වැඩි බව තහවුරු කිරීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s භාවිතා කිරීමට ඔබ අඩු තරමින් වයස අවුරුදු %1$dක් වීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s භාවිතා කිරීමට ඔබ අඩු තරමින් වයස අවුරුදු %1$dක් වීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දින %dක් ඉතිරියි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %dක් ඉතිරියි</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ලකුණක් %d දිනකින් පමණ ඔබේ ගිණුමට එක් කරනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ලකුණක් දින %dකින් පමණ ඔබේ ගිණුමට එක් කරනු ඇත.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s, %3$s, සහ තව %4$d යෙදුමකින් ස්ටිකර් කට්ටලය මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s, %3$s, සහ තව යෙදුම් %4$dකින් ස්ටිකර් කට්ටලය මකන්න ද?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ස්ථාපනය කිරීමට අඩු තරමින් වයස අවුරුදු %dක් විය යුතු වේ. වයස් ශ්‍රේණිගත කිරීම් සැකසුම් වෙනස් කිරීමට ඔබට ඔබේ පවුලේ සංවිධායකගෙන් විමසිය හැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ස්ථාපනය කිරීමට අඩු තරමින් වයස අවුරුදු %dක් විය යුතු වේ. වයස් ශ්‍රේණිගත කිරීම් සැකසුම් වෙනස් කිරීමට ඔබට ඔබේ පවුලේ සංවිධායකගෙන් විමසිය හැක.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d දිනකින් පමණ ඔබේ ගිණුමට ලකුණු %1$sක් එක් කරනු ලැබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %2$dකින් පමණ ඔබේ ගිණුමට ලකුණු %1$sක් එක් කරනු ලැබේ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ලකුණක් දින 7ක් තුළ ඔබේ ගිණුමට එක් කරනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ලකුණු %dක් දින 7ක් තුළ ඔබේ ගිණුමට එක් කරනු ඇත.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Samsung Rewards ලකුණක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Samsung Rewards ලකුණු %dක්</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම යෙදුම සඳහා පූර්ව-ලියාපදිංචි කිරීමට, ඔබට ඔබ වයස අවුරුදු %d වඩා වැඩි බව සත්‍යාපනයට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම යෙදුම සඳහා පූර්ව-ලියාපදිංචි කිරීමට, ඔබට ඔබ වයස අවුරුදු %d වඩා වැඩි බව සත්‍යාපනයට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම යෙදුම බැලීම සඳහා, ඔබට පිවිසී ඔබ වයස අවුරුදු %dට වඩා වැඩි බව සත්‍යාපනයට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම යෙදුම බැලීම සඳහා, ඔබට පිවිසී ඔබ වයස අවුරුදු %dට වඩා වැඩි බව සත්‍යාපනයට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ දැනටමත් අපගේ ඉහළම යෙදුම් %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ දැනටමත් අපගේ ඉහළම යෙදුම් %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ දැනටමත් අපගේ ඉහළම ක්‍රීඩා %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ දැනටමත් අපගේ ඉහළම ක්‍රීඩා %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ දැනටමත් අපගේ ඉහළම විලාස අයිතම %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ දැනටමත් අපගේ ඉහළම විලාස අයිතම %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ දැනටමත් අපගේ ඉහළම තේමා %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ දැනටමත් අපගේ ඉහළම තේමා %dක් ස්ථාපනය කර ඇත. වැඩිදුර බැලීමට > තට්ටු කරන්න.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ 1 ලකුණක් උපයා ඇත! දැන් ඔබට Galaxy Store තුළ යෙදුම් සහ වෙනත් දේවල් මිල දී ගැනීමට භාවිතා කළ හැකි %d ලකුණක් තිබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ 1 ලකුණක් උපයා ඇත! දැන් ඔබට Galaxy Store තුළ යෙදුම් සහ වෙනත් දේවල් මිල දී ගැනීමට භාවිතා කළ හැකි ලකුණු %dක් තිබේ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම යෙදුම බාගැනීම සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් විය යුතු යි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම යෙදුම බාගැනීම සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් විය යුතු යි.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම යෙදුම සඳහා පූර්ව-ලියාපදිංචි කිරීමට ඔබේ වයස අඩු තරමින් %dක් විය යුතුයි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම යෙදුම සඳහා පූර්ව-ලියාපදිංචි කිරීමට ඔබේ වයස අඩු තරමින් %dක් විය යුතුයි.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දින %dක් සඳහා නැවත නොපෙන්වන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දින %dක් සඳහා නැවත නොපෙන්වන්න</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s සෑම දින %2$dකම</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s සෑම දින %2$dකම</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s සෑම මාස %2$dකම</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s සෑම මාස %2$dකම</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s සෑම සති %2$dකම</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s සෑම සති %2$dකම</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s සෑම වසර %2$dකම</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s සෑම වසර %2$dකම</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ලකුණක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ලකුණු %dක්</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම දින %3$dකම %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම දින %3$dකම %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම මාස %3$dකම %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම මාස %3$dකම %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම සති %3$dකම %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම සති %3$dකම %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම වසර %3$dකම %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s තෙක් නොමිලේ, ඉන්පසු සෑම වසර %3$dකම %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පුද්ගලයෙකුට මෙය උපකාරී විය</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පුද්ගලයින් %dකට මෙය උපකාරී විය</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">යාවත්කාල %dක් ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යාවත්කාල %dක් ඇත</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තරු %d සමාලෝචනය</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තරු %d සමාලෝචන</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ ඇගයීම: තරු %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ ඇගයීම: තරු %dක්</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දැනුම්දීම් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම ක්‍රීඩාව කිරීම සඳහා ඔබ අඩු තරමින් වයස අවුරුදු %dක් විය යුතු වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම ක්‍රීඩාව කිරීම සඳහා ඔබ අඩු තරමින් වයස අවුරුදු %dක් විය යුතු වේ.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ක්‍රීඩා සැසිය විනාඩි %dකින් නිමා වනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ක්‍රීඩා සැසිය විනාඩි %dකින් නිමා වනු ඇත.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ ජාල සබැඳුම අස්ථායී වේ. අපට සම්බන්ධ වීමට නොහැකි නම් ක්‍රීඩාව තත්පර %dකින් වැසෙනු ඇත. ඔබේ ක්‍රීඩා තත්ත්වය සුරැකෙනු ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ ජාල සබැඳුම අස්ථායී වේ. අපට සම්බන්ධ වීමට නොහැකි නම් ක්‍රීඩාව තත්පර %dකින් වැසෙනු ඇත. ඔබේ ක්‍රීඩා තත්ත්වය සුරැකෙනු ඇත.</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තත් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තත් %dක්</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="root" android:pivotX="8.0" android:pivotY="8.0">
+        <path android:name="wait" android:fillColor="@color/button_text_color" android:pathData="M8,8m-7,0a7,7 0 1,1 14,0 a7,7 0 1,1 -14, 0 M7.25,3.2L7.25,8.5L11.95,8.5L11.95,7L8.75,7L8.75,3.2Z" android:fillType="nonZero" />
+    </group>
+</vector>

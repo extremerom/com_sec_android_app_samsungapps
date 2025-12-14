@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="15.0dp" android:textColor="@color/head_up_noti_title" android:ellipsize="marquee" android:id="@id/noti_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/noti_icons_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="24.0dp" android:layout_marginTop="3.0dp">
+            <ImageView android:id="@id/update_app_icon_image_01" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginRight="5.0dp" android:src="@drawable/isa_tab_quick_panel_logo" android:scaleType="fitXY" />
+            <ImageView android:id="@id/update_app_icon_image_02" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginRight="5.0dp" android:src="@drawable/isa_tab_quick_panel_logo" android:scaleType="fitXY" />
+            <ImageView android:id="@id/update_app_icon_image_03" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginRight="5.0dp" android:src="@drawable/isa_tab_quick_panel_logo" android:scaleType="fitXY" />
+            <ImageView android:id="@id/update_app_icon_image_04" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginRight="5.0dp" android:src="@drawable/isa_tab_quick_panel_logo" android:scaleType="fitXY" />
+            <ImageView android:id="@id/update_app_icon_image_05" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginRight="5.0dp" android:src="@drawable/isa_tab_quick_panel_logo" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

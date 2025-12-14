@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:layout_marginStart="@dimen/content_detail_related_widget_margin" android:layout_marginEnd="@dimen/content_detail_related_widget_margin">
+        <include layout="@layout/isa_layout_detail_line" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/tv_preorder_app_list_title" android:paddingLeft="@dimen/content_detail_main_left_layout_margin_left_18dp" android:paddingRight="24.0dp" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="42.0dp" android:text="@string/DREAM_SAPPS_HEADER_MORE_APPS_TO_PRE_REGISTER_FOR" android:textDirection="locale" style="@style/isa_style_detail_title" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/app_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

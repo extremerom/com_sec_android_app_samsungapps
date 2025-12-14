@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d포인트</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">태그는 %d개까지 선택할 수 있어요.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Instant Plays은 %d세부터 할 수 있습니다.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d개 선택됨</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">약 %2$d일 후 %1$s포인트가 계정에 적립됩니다.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">이 앱을 다운로드하려면 본인 인증 후 %d세 이상임을 인증해야 합니다.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s를 이용하려면 만 %1$d세 이상이어야 합니다.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d일 남음</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">약 %d일 후 1포인트가 계정에 적립됩니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s, %3$s 외 다른 앱 %4$d개에서 스티커 세트를 삭제할까요?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d세 이상만 설치할 수 있습니다. 가족 관리자에게 이용 등급 설정을 변경해 달라고 요청할 수 있습니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">약 %2$d일 후 %1$s포인트가 계정에 적립됩니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">7일 후에 내 계정에 %d포인트가 적립됩니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d 삼성 리워즈 포인트</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">이 앱은 %d세 이상만 사전 예약할 수 있습니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">이 앱을 보려면 로그인 후 나이(%d세 이상)를 인증해야 합니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">인기 앱 %d개를 이미 설치했습니다. 더 많은 콘텐츠를 보려면 > 버튼을 누르세요.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">인기 게임 %d개를 이미 설치했습니다. 더 많은 콘텐츠를 보려면 > 버튼을 누르세요.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">인기 스타일링 콘텐츠 %d개를 이미 설치했습니다. 더 많은 콘텐츠를 보려면 > 버튼을 누르세요.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">인기 테마 %d개를 이미 설치했습니다. 더 많은 콘텐츠를 보려면 > 버튼을 누르세요.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1포인트가 적립되었어요! 현재 %d포인트가 있으며, Galaxy Store에서 앱이나 콘텐츠를 구매할 때 사용할 수 있습니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d세 이상 사용자만 이 앱을 다운로드할 수 있습니다.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">이 앱은 %d세 이상만 사전 예약할 수 있습니다.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d일 동안 보지 않기</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$d일마다 %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$d개월마다 %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$d주마다 %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$d년마다 %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d포인트</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">무료기한: %1$s (이후에는 %3$d일마다 %2$s 결제)</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">무료기한: %1$s (이후에는 %3$d개월마다 %2$s 결제)</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">무료기한: %1$s (이후에는 %3$d주마다 %2$s 결제)</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">무료기한: %1$s (이후에는 %3$d년마다 %2$s 결제)</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">이 리뷰를 좋아한 사람 %d명</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d개 업데이트 가능</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">별 %d개</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">평점: %d점</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">알림 %d개</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">이 게임을 플레이하려면 %d세 이상이어야 합니다.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">게임이 %d분 후에 종료됩니다.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">네트워크 연결이 불안정합니다. 게임 연결이 계속 안되면 %d초 후 상태를 저장하고 게임이 종료됩니다.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d초 빨리 감기</item>
+        <item quantity="other">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d초 되감기</item>
+        <item quantity="other">%d초 되감기</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">새 알림 %d개</item>
+        <item quantity="other">새 알림 %d개</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d초</item>
+    </plurals>
+</resources>

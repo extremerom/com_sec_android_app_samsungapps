@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/screenshot_pager_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.CustomViewPager android:id="@id/isa_screenshot_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/back_button_layout" android:paddingTop="@dimen/search_view_top_bottom_margin" android:paddingBottom="@dimen/search_view_top_bottom_margin" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/search_view_height">
+        <LinearLayout android:gravity="start|center" android:layout_width="52.0dp" android:layout_height="match_parent">
+            <ImageButton android:id="@id/back_button" android:paddingLeft="8.0dp" android:paddingTop="8.0dp" android:paddingRight="8.0dp" android:paddingBottom="8.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/gs_actionbar_title_back" android:tint="@color/actionbar_background" android:contentDescription="@string/DREAM_IDLE_OPT_NAVIGATE_UP" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

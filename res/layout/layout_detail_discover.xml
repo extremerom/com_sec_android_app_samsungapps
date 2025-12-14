@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/layout_detail_discover_0" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="18.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/discover_title" android:layout_width="wrap_content" android:layout_height="42.0dp" android:text="@string/DREAM_SAPPS_HEADER_DISCOVER_MORE" android:includeFontPadding="false" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_style_detail_title" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/discover_title">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_discover_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale" />
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

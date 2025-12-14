@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="detail_popularity_1st_item_width">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="detail_popularity_2nd_item_width" parent="@style/detail_popularity_item_visibility">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="detail_popularity_item_visibility">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="detail_popularity_layout_width">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="drawer_layout_params">
+        <item name="android:layout_width">650.0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="isa_style_sub_title_line_more_black" parent="@style/isa_style_one_ui_font_semi_bold">
+        <item name="android:textSize">13.0dp</item>
+        <item name="android:textColor">@color/isa_255255255</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="isa_style_user_review_rating_progress" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:background">@drawable/progressbar_horizontal_review_background</item>
+        <item name="android:layout_width">130.0dp</item>
+        <item name="android:layout_height">@dimen/user_review_header_progressbar_height</item>
+        <item name="android:max">0</item>
+        <item name="android:progress">0</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal_review_normal</item>
+        <item name="android:layout_marginStart">6.0dp</item>
+    </style>
+    <style name="reviewscore_margin_view">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="reviewscore_progress_bar">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="startguide_bg_style_title_area">
+        <item name="android:background">@drawable/startguide_tablet_bg_inner</item>
+        <item name="android:layout_marginBottom">12.0dp</item>
+    </style>
+    <style name="startguide_bg_style_whole">
+        <item name="android:background">@drawable/startguide_tablet_bg</item>
+        <item name="android:paddingTop">0.0dp</item>
+        <item name="android:layout_width">480.0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="style_china_list_itemsize" parent="@style/isa_style_one_ui_font_regular">
+        <item name="android:textSize">11.0dp</item>
+        <item name="android:textColor">@color/content_size_text_color</item>
+    </style>
+</resources>

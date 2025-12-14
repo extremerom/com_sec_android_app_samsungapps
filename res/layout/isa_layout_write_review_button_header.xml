@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="18.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/review_rating_header" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/fortnite_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fortnite_link_layout" android:background="@drawable/fortninte_button_drawable" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="32.0dp" android:foreground="@drawable/isa_drawable_review_btn_effect" android:minWidth="205.0dp">
+            <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fortnite_link_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/DREAM_SAPPS_BUTTON_GET_SUPPORT_25" android:cursorVisible="false" android:singleLine="true" android:editable="false" style="@style/isa_style_fortnite_link_btn_text" />
+            <View android:layout_width="1.0px" android:layout_height="wrap_content" android:contentDescription="@string/IDS_CAM_BODY_BUTTON_T_TTS" />
+        </FrameLayout>
+        <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fortnite_text_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:cursorVisible="false" android:singleLine="false" android:editable="false" style="@style/isa_style_fortnite_link_description_text" />
+    </LinearLayout>
+</LinearLayout>

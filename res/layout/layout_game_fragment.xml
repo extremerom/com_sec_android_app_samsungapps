@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/layout_game_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:samsungapps="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_game_sub_tab" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/game_sub_tab_root_view" android:layout_width="match_parent" android:layout_height="match_parent" samsungapps:layout_constraintBottom_toBottomOf="parent" samsungapps:layout_constraintEnd_toEndOf="parent" samsungapps:layout_constraintStart_toStartOf="parent" samsungapps:layout_constraintTop_toTopOf="parent" samsungapps:layout_constraintWidth_percent="@integer/sub_tab_width_percent_100">
+                <LinearLayout android:orientation="horizontal" android:id="@id/instant_play_ic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/instant_play_btn" android:background="@drawable/isa_drawable_oval_btn_effect" android:layout_width="26.0dp" android:layout_height="28.0dp" android:contentDescription="@string/DREAM_GH_HEADER_INSTANT_PLAYS">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/instant_play_image" android:layout_width="26.0dp" android:layout_height="26.0dp" android:src="@drawable/instantplay" samsungapps:tint="@color/instant_play_ic_color" />
+                        <ImageView android:layout_gravity="end|top" android:id="@id/new_badge" android:background="@drawable/round_red" android:visibility="gone" android:layout_width="5.0dp" android:layout_height="5.0dp" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="5.0dp" android:layout_marginEnd="10.0dp">
+                        <View android:layout_gravity="end|center" android:id="@id/instant_play_divider" android:background="@color/instant_play_divider_color" android:layout_width="1.0dp" android:layout_height="19.0dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.sec.android.app.samsungapps.commonview.CommonSubtab android:id="@id/common_subtab" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" samsungapps:alignUsingSubTabWidth="true" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.sec.android.app.samsungapps.commonview.CustomViewPager android:id="@id/game_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <com.sec.android.app.samsungapps.commonview.TooltipWidget android:id="@id/tool_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dp" android:importantForAccessibility="yes" android:layout_marginStart="@dimen/instant_bubble_start_margin" android:layout_marginEnd="@dimen/instant_bubble_start_margin" samsungapps:tooltip_edgeHorizontalMargin="@dimen/instant_plays_tooltip_edge_margin" samsungapps:tooltip_edgeType="topStart" samsungapps:tooltip_text="@string/DREAM_SAPPS_BODY_PLAY_GAMES_WITHOUT_WAITING_FOR_INSTALLS_ABB" samsungapps:tooltip_textColor="@color/tooltip_text_color" samsungapps:tooltip_textEllipsize="end" samsungapps:tooltip_textSingleLine="true" samsungapps:tooltip_textSize="@dimen/instant_plays_tooltip_text_size" />
+</FrameLayout>

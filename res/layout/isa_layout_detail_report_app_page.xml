@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/detail_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:samsungapps="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsBasicListText android:id="@id/textView1" android:layout_width="match_parent" android:layout_height="wrap_content" samsungapps:basicTitleText="@string/DREAM_SAPPS_BODY_SELECT_WHY_YOURE_REPORTING_THIS_APP_AS_INAPPROPRIATE" samsungapps:basicTitleTheme="@style/isa_style_report_text" />
+        <ListView android:scrollbarSize="10.0dp" android:scrollbarThumbVertical="@drawable/tw_scrollbar_mtrl" android:id="@id/Report_App_Reason_list" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/isa_drawable_list_effect" android:divider="@drawable/list_divider" android:dividerHeight="1.0dp" android:layout_below="@id/textView1" style="@style/isa_style_basic_list_text_list_title_detail_report_app_page" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center|bottom" android:id="@id/ButtonLayout" android:paddingBottom="9.5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_layout_reportapp_page_buttons" />
+    </RelativeLayout>
+</LinearLayout>

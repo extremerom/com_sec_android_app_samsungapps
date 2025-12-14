@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/editorial_detail_description_view_item_0" android:paddingLeft="@dimen/editorial_detail_item_padding_horizontal" android:paddingRight="@dimen/editorial_detail_item_padding_horizontal" android:paddingBottom="@dimen/editorial_detail_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/editorial_detail_item_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.commonview.RichTextView android:textColor="@color/editorial_detail_description_text_color" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_style_one_ui_font_regular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

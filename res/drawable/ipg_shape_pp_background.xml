@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/ipg_pp_gradient_background_color1" android:endColor="@color/ipg_pp_gradient_background_color2" android:angle="@integer/ipg_main_home_default_gradient_bg_angle" />
+</shape>

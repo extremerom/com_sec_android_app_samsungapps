@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taškas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d taškai</item>
+        <item quantity="many">%d taškų</item>
+        <item quantity="other">%d taškų</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pasirinkti daugiau nei %d žymos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pasirinkti daugiau nei %d žymų.</item>
+        <item quantity="many">Negalima pasirinkti daugiau nei %d žymos.</item>
+        <item quantity="other">Negalima pasirinkti daugiau nei %d žymų.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite naudotis momentiniais žaidimais, jums būti bent %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite naudotis momentiniais žaidimais, jums būti bent %d m.</item>
+        <item quantity="many">Jei norite naudotis momentiniais žaidimais, jums būti bent %d m.</item>
+        <item quantity="other">Jei norite naudotis momentiniais žaidimais, jums būti bent %d m.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Parinkta: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Parinkta: %d</item>
+        <item quantity="many">Parinkta: %d</item>
+        <item quantity="other">Parinkta: %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per %2$d d. jūsų paskyroje bus pridėtas %1$s taškas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per %2$d d. jūsų paskyroje bus pridėti %1$s taškai.</item>
+        <item quantity="many">Per %2$d d. jūsų paskyroje bus pridėta %1$s taškų.</item>
+        <item quantity="other">Per %2$d d. jūsų paskyroje bus pridėta %1$s taškų.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite atsisiųsti šią programą, turite patvirtinti savo tapatybę ir tai, kad esate vyresni nei %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite atsisiųsti šią programą, turite patvirtinti savo tapatybę ir tai, kad esate vyresni nei %d m.</item>
+        <item quantity="many">Jei norite atsisiųsti šią programą, turite patvirtinti savo tapatybę ir tai, kad esate vyresni nei %d m.</item>
+        <item quantity="other">Jei norite atsisiųsti šią programą, turite patvirtinti savo tapatybę ir tai, kad esate vyresni nei %d m.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metai.</item>
+        <item quantity="many">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metų.</item>
+        <item quantity="other">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metų.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Liko %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Liko %d d.</item>
+        <item quantity="many">Liko %d d.</item>
+        <item quantity="other">Liko %d d.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 taškas prie jūsų paskyros bus pridėtas po maždaug %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 taškas prie jūsų paskyros bus pridėtas po maždaug %d d.</item>
+        <item quantity="many">1 taškas prie jūsų paskyros bus pridėtas po maždaug %d d.</item>
+        <item quantity="other">1 taškas prie jūsų paskyros bus pridėtas po maždaug %d d.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrinti lipdukų rinkinį iš %1$s, %2$s, %3$s ir dar %4$d programos?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti lipdukų rinkinį iš %1$s, %2$s, %3$s ir dar %4$d programų?</item>
+        <item quantity="many">Ištrinti lipdukų rinkinį iš %1$s, %2$s, %3$s ir dar %4$d programų?</item>
+        <item quantity="other">Ištrinti lipdukų rinkinį iš %1$s, %2$s, %3$s ir dar %4$d programų?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Norint diegti jums turi būti %d m. Paprašykite šeimos organizatoriaus pakeisti amžiaus grupės nustatymus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Norint diegti jums turi būti %d m. Paprašykite šeimos organizatoriaus pakeisti amžiaus grupės nustatymus.</item>
+        <item quantity="many">Norint diegti jums turi būti %d m. Paprašykite šeimos organizatoriaus pakeisti amžiaus grupės nustatymus.</item>
+        <item quantity="other">Norint diegti jums turi būti %d m. Paprašykite šeimos organizatoriaus pakeisti amžiaus grupės nustatymus.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per %2$d d. jūsų paskyroje bus pridėtas %1$s taškas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per %2$d d. jūsų paskyroje bus pridėti %1$s taškai.</item>
+        <item quantity="many">Per %2$d d. jūsų paskyroje bus pridėta %1$s taškų.</item>
+        <item quantity="other">Per %2$d d. jūsų paskyroje bus pridėta %1$s taškų.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per 7 dienas jūsų paskyroje bus pridėtas %d taškas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per 7 dienas jūsų paskyroje bus pridėti %d taškai.</item>
+        <item quantity="many">Per 7 dienas jūsų paskyroje bus pridėta %d taškų.</item>
+        <item quantity="other">Per 7 dienas jūsų paskyroje bus pridėta %d taškų.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d „Samsung Rewards“ taškas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d „Samsung Rewards“ taškai</item>
+        <item quantity="many">%d „Samsung Rewards“ taškų</item>
+        <item quantity="other">%d „Samsung Rewards“ taškų</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite iš anksto užsiregistruoti šioje programoje, turite patvirtinti, kad esate vyresnis nei %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite iš anksto užsiregistruoti šioje programoje, turite patvirtinti, kad esate vyresnis nei %d m.</item>
+        <item quantity="many">Jei norite iš anksto užsiregistruoti šioje programoje, turite patvirtinti, kad esate vyresnis nei %d m.</item>
+        <item quantity="other">Jei norite iš anksto užsiregistruoti šioje programoje, turite patvirtinti, kad esate vyresnis nei %d m.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite peržiūrėti šią programą, turite prisijungti ir patvirtinti, kad esate vyresnis nei %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite peržiūrėti šią programą, turite prisijungti ir patvirtinti, kad esate vyresnis nei %d.</item>
+        <item quantity="many">Jei norite peržiūrėti šią programą, turite prisijungti ir patvirtinti, kad esate vyresnis nei %d.</item>
+        <item quantity="other">Jei norite peržiūrėti šią programą, turite prisijungti ir patvirtinti, kad esate vyresnis nei %d.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jau įdiegėte %d populiariausią programą. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jau įdiegėte %d populiariausias mūsų programas. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="many">Jau įdiegėte %d populiariausių mūsų programų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="other">Jau įdiegėte %d populiariausių mūsų programų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jau įdiegėte %d populiariausią žaidimą. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jau įdiegėte %d populiariausius mūsų žaidimus. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="many">Jau įdiegėte %d populiariausių mūsų žaidimų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="other">Jau įdiegėte %d populiariausių mūsų žaidimų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jau įdiegėte %d populiariausią mūsų stiliaus elementą. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jau įdiegėte %d populiariausius mūsų stiliaus elementus. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="many">Jau įdiegėte %d populiariausių mūsų stiliaus elementų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="other">Jau įdiegėte %d populiariausių mūsų stiliaus elementų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jau įdiegėte %d populiariausią temą. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jau įdiegėte %d populiariausias temas. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="many">Jau įdiegėte %d populiariausių temų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+        <item quantity="other">Jau įdiegėte %d populiariausių temų. Bakstelėkite > ir peržiūrėkite daugiau.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gavote 1 tašką! Dabar turite %d tašką, kurį galite panaudoti pirkdami programas ir kitus dalykus „Galaxy Store“.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Gavote 1 tašką! Dabar turite %d taškus, kuriuos galite panaudoti pirkdami programas ir kitus dalykus „Galaxy Store“.</item>
+        <item quantity="many">Gavote 1 tašką! Dabar turite %d taškų, kuriuos galite panaudoti pirkdami programas ir kitus dalykus „Galaxy Store“.</item>
+        <item quantity="other">Gavote 1 tašką! Dabar turite %d taškų, kuriuos galite panaudoti pirkdami programas ir kitus dalykus „Galaxy Store“.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad galėtumėte atsisiųsti šią programą, jums turi būti bent %d metų.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad galėtumėte atsisiųsti šią programą, jums turi būti bent %d metų.</item>
+        <item quantity="many">Kad galėtumėte atsisiųsti šią programą, jums turi būti bent %d metų.</item>
+        <item quantity="other">Kad galėtumėte atsisiųsti šią programą, jums turi būti bent %d metų.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad galėtumėte iš anksto užsiregistruoti programoje, jums turi būti bent %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad galėtumėte iš anksto užsiregistruoti programoje, jums turi būti bent %d m.</item>
+        <item quantity="many">Kad galėtumėte iš anksto užsiregistruoti programoje, jums turi būti bent %d m.</item>
+        <item quantity="other">Kad galėtumėte iš anksto užsiregistruoti programoje, jums turi būti bent %d m.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Neberodyti daugiau %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Neberodyti daugiau %d d.</item>
+        <item quantity="many">Neberodyti daugiau %d d.</item>
+        <item quantity="other">Neberodyti daugiau %d d.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kas %2$d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s kas %2$d d.</item>
+        <item quantity="many">%1$s kas %2$d d.</item>
+        <item quantity="other">%1$s kas %2$d d.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kas %2$d mėn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s kas %2$d mėn.</item>
+        <item quantity="many">%1$s kas %2$d mėn.</item>
+        <item quantity="other">%1$s kas %2$d mėn.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kas %2$d sav.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s kas %2$d sav.</item>
+        <item quantity="many">%1$s kas %2$d sav.</item>
+        <item quantity="other">%1$s kas %2$d sav.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kas %2$d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s kas %2$d m.</item>
+        <item quantity="many">%1$s kas %2$d m.</item>
+        <item quantity="other">%1$s kas %2$d m.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taškas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d taškai</item>
+        <item quantity="many">%d taškų</item>
+        <item quantity="other">%d taškų</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nemokama iki %1$s, tada %2$s kas %3$d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nemokama iki %1$s, tada %2$s kas %3$d d.</item>
+        <item quantity="many">Nemokama iki %1$s, tada %2$s kas %3$d d.</item>
+        <item quantity="other">Nemokama iki %1$s, tada %2$s kas %3$d d.</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nemokama iki %1$s, tada %2$s kas %3$d mėn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nemokama iki %1$s, tada %2$s kas %3$d mėn.</item>
+        <item quantity="many">Nemokama iki %1$s, tada %2$s kas %3$d mėn.</item>
+        <item quantity="other">Nemokama iki %1$s, tada %2$s kas %3$d mėn.</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nemokama iki %1$s, tada %2$s kas %3$d sav.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nemokama iki %1$s, tada %2$s kas %3$d sav.</item>
+        <item quantity="many">Nemokama iki %1$s, tada %2$s kas %3$d sav.</item>
+        <item quantity="other">Nemokama iki %1$s, tada %2$s kas %3$d sav.</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nemokama iki %1$s, tada %2$s kas %3$d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nemokama iki %1$s, tada %2$s kas %3$d m.</item>
+        <item quantity="many">Nemokama iki %1$s, tada %2$s kas %3$d m.</item>
+        <item quantity="other">Nemokama iki %1$s, tada %2$s kas %3$d m.</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d žmogui tai buvo naudinga</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d žmonėms tai buvo naudinga</item>
+        <item quantity="many">%d žmonių tai buvo naudinga</item>
+        <item quantity="other">%d žmonių tai buvo naudinga</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yra %d naujinys</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Yra %d naujiniai</item>
+        <item quantity="many">Yra %d naujinių</item>
+        <item quantity="other">Yra %d naujinių</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d žvaigždučių atsiliepimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d žvaigždučių atsiliepimai</item>
+        <item quantity="many">%d žvaigždučių atsiliepimų</item>
+        <item quantity="other">%d žvaigždučių atsiliepimų</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jūsų įvertinimas: %d žvaigždutė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jūsų įvertinimas: %d žvaigždutės</item>
+        <item quantity="many">Jūsų įvertinimas: %d žvaigždučių</item>
+        <item quantity="other">Jūsų įvertinimas: %d žvaigždučių</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pranešimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pranešimai</item>
+        <item quantity="many">%d pranešimų</item>
+        <item quantity="other">%d pranešimų</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad galėtumėte žaisti šį žaidimą, jums turi būti bent %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad galėtumėte žaisti šį žaidimą, jums turi būti bent %d m.</item>
+        <item quantity="many">Kad galėtumėte žaisti šį žaidimą, jums turi būti bent %d m.</item>
+        <item quantity="other">Kad galėtumėte žaisti šį žaidimą, jums turi būti bent %d m.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Žaidimo seansas baigsis po %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Žaidimo seansas baigsis po %d min.</item>
+        <item quantity="many">Žaidimo seansas baigsis po %d min.</item>
+        <item quantity="other">Žaidimo seansas baigsis po %d min.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tinklo ryšys nestabilus. Jei nepavyks prisijungti, žaidimas bus uždarytas po %d sek. Jūsų žaidimo būsena bus išsaugota.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Tinklo ryšys nestabilus. Jei nepavyks prisijungti, žaidimas bus uždarytas po %d sek. Jūsų žaidimo būsena bus išsaugota.</item>
+        <item quantity="many">Tinklo ryšys nestabilus. Jei nepavyks prisijungti, žaidimas bus uždarytas po %d sek. Jūsų žaidimo būsena bus išsaugota.</item>
+        <item quantity="other">Tinklo ryšys nestabilus. Jei nepavyks prisijungti, žaidimas bus uždarytas po %d sek. Jūsų žaidimo būsena bus išsaugota.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Prasukti pirmyn %d sekundę</item>
+        <item quantity="few">Prasukti pirmyn %d sekundes</item>
+        <item quantity="many">Prasukti pirmyn %d sekundės</item>
+        <item quantity="other">Prasukti pirmyn %d sekundžių</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Atsukti atgal %d sekundę</item>
+        <item quantity="few">Atsukti atgal %d sekundes</item>
+        <item quantity="many">Atsukti atgal %d sekundės</item>
+        <item quantity="other">Atsukti atgal %d sekundžių</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+        <item quantity="other">%d sek.</item>
+    </plurals>
+</resources>

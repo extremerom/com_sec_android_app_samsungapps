@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentCategoryLayout" android:tag="layout/isa_layout_update_list_0" android:background="@color/mygalaxy_sublist_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.sec.android.app.samsungapps.commonview.CommonSubtab android:id="@id/common_subtab" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:alignUsingSubTabWidth="true" />
+    <com.sec.android.app.samsungapps.commonview.CustomViewPager android:id="@id/pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

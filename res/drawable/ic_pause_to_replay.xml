@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$ic_pause_to_replay__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="c1" android:animation="@drawable/$ic_pause_to_replay__1" />
+    <target android:name="c2c1s3" android:animation="@drawable/$ic_pause_to_replay__2" />
+    <target android:name="c1s3pg1p20" android:animation="@drawable/$ic_pause_to_replay__4" />
+    <target android:name="c1s3pg1p20" android:animation="@drawable/$ic_pause_to_replay__6" />
+    <target android:name="c1s3pg1p10" android:animation="@drawable/$ic_pause_to_replay__8" />
+    <target android:name="c1s3pg1p10" android:animation="@drawable/$ic_pause_to_replay__10" />
+    <target android:name="c1s1p20" android:animation="@drawable/$ic_pause_to_replay__12" />
+    <target android:name="c1s1p20" android:animation="@drawable/$ic_pause_to_replay__13" />
+    <target android:name="c1s1p10" android:animation="@drawable/$ic_pause_to_replay__16" />
+    <target android:name="c1s1p10" android:animation="@drawable/$ic_pause_to_replay__17" />
+</animated-vector>

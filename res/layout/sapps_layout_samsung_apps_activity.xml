@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/whole_content_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/bottom_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/expandable_actionbar_appbar_layout" android:background="@color/actionbar_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0.0dp" app:elevation="0.0dp" app:expanded="false">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/expandable_actionbar_collapsing_toolbar" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/detail_hero_image_height" android:importantForAccessibility="no" app:contentScrim="@android:color/transparent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:statusBarScrim="@android:color/black">
+                    <TextView android:id="@id/textview_expandable_actionbar_collapsing_toolbar_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" app:layout_collapseMode="parallax" style="@style/isa_style_expandable_action_bar_text_style" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+                <View android:id="@id/toolbar_margin" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/action_bar_margin_top" />
+                <FrameLayout android:id="@id/toolbar_parent_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/sapps_layout_samsung_apps_activity_toolbar" />
+                    <View android:layout_gravity="bottom" android:id="@id/actionbar_divider" android:background="@color/app_toolbar_divider_line_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/actionbar_divider_height" />
+                </FrameLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/isa_250250250" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+                <FrameLayout android:id="@id/content_frame" android:background="@color/isa_250250250" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <LinearLayout android:id="@id/bottom_content" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <FrameLayout android:id="@id/bottom_content_frame" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_gravity="end|top" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="end|top" android:id="@id/popup_view_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="@dimen/game_detail_popup_anchorview_top_margin" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fullscreen_view_for_web_chrome_client" android:background="@color/isa_000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

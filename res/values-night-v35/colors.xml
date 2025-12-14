@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_list_text_color">#598fff</color>
+    <color name="blue_static_text_color">#598fff</color>
+    <color name="list_rank_color">#598fff</color>
+    <color name="search_recent_searches_clear_all_text_color">#598fff</color>
+    <color name="search_special_app_text_color">#598fff</color>
+</resources>

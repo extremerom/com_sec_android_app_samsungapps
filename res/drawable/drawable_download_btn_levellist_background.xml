@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/drawable_download_btnview_outline_effect" android:maxLevel="0" />
+    <item android:drawable="@drawable/drawable_download_btnview_outline_effect_dark" android:maxLevel="10" />
+    <item android:drawable="@drawable/drawable_download_btnview_outline_effect_banner" android:maxLevel="40" />
+</level-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="isa_style_basic_list_text_list_title" parent="@style/isa_style_one_ui_font_regular">
+        <item name="android:textSize">17.0dp</item>
+        <item name="android:textColor">@color/isa_color_basiclist_text_title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:minHeight">22.0dp</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="isa_style_basic_list_text_list_title_detail_report_app_page" parent="@style/isa_style_basic_list_text_list_title">
+        <item name="android:textColor">@color/isa_color_basiclist_text_title_detail_report_app_page</item>
+    </style>
+</resources>

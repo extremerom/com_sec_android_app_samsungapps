@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/instant_plays_error_text_size" android:textColor="@color/instant_plays_pp_text_color" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginRight="30.0dp" android:text="@string/DREAM_SAPPS_BODY_CONNECT_TO_A_NETWORK_AND_TRY_AGAIN" android:textAlignment="center" android:layout_marginHorizontal="30.0dp" />
+    <Button android:textSize="@dimen/instant_plays_pp_play_button_text_size" android:textColor="@color/instant_plays_pp_play_button_text_color" android:id="@id/retry_button" android:background="@color/instant_plays_pp_play_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/retry_button_margin_top" android:text="@string/IDS_SAPPS_BODY_RETRY" style="@style/isa_style_one_ui_font_semi_bold" />
+</merge>

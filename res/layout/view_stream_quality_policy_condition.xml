@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/stream_quality_policy_condition_background" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/expand_toggle" android:background="@drawable/ic_expand_less" android:layout_width="50.0dp" android:layout_height="50.0dp" android:backgroundTint="@color/cloudgame_stream_quality_policy_condition_button" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="2.0dp" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TimeWindowSec" />
+                <EditText android:id="@id/et_time_window_sec" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="10" android:layout_weight="1.0" android:inputType="numberDecimal" android:paddingStart="10.0dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="2.0dp" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ErrorCountThreshold" />
+                <EditText android:id="@id/et_error_count_threshold" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="5" android:layout_weight="1.0" android:inputType="numberDecimal" android:paddingStart="10.0dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="2.0dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <Button android:id="@id/btn_del" android:background="@android:color/white" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Del" android:layout_weight="0.2" app:backgroundTint="@color/cloudgame_stream_quality_policy_condition_button" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/child_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp">
+        <Button android:id="@id/add_value" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Value" app:backgroundTint="@color/cloudgame_stream_quality_policy_value_button" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/staffpicks_banner_direct_download_sector" android:background="@color/isa_opa60_000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/layout_download_btn_outer" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_banner_item_effect_auto_download">
+        <com.sec.android.app.samsungapps.commonview.DownloadBtnView android:id="@id/download_btn_view" android:layout_width="0.0dp" android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginStart="14.0dp">
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/layout_list_itemly_img_frame" android:layout_width="@dimen/staffpick_nowfree_item_framesize" android:layout_height="@dimen/staffpick_nowfree_item_framesize">
+            <ImageView android:id="@id/layout_list_itemly_imgly_pimg" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+            <ViewStub android:id="@id/stub_tab_badge_widget" android:layout="@layout/staffpick_tab_badge_widget" android:inflatedId="@id/staffpick_tab_badge_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/layout_list_itemly_imgly_pimg" android:layout_alignBottom="@id/layout_list_itemly_imgly_pimg" android:layout_alignEnd="@id/layout_list_itemly_imgly_pimg" />
+            <ViewStub android:id="@id/stub_adult_icon" android:layout="@layout/staffpick_adult_icon" android:inflatedId="@id/staffpick_adult_icon" android:layout_width="@dimen/contents_img_badge_adult_size_small" android:layout_height="@dimen/contents_img_badge_adult_size_small" android:layout_alignRight="@id/layout_list_itemly_imgly_pimg" android:layout_alignBottom="@id/layout_list_itemly_imgly_pimg" android:layout_alignEnd="@id/layout_list_itemly_imgly_pimg" style="@style/isa_style_staffpicks_admin_badge" />
+            <ViewStub android:id="@id/list_vr_badge" android:layout="@layout/staffpick_vr_icon" android:inflatedId="@id/staffpick_vr_icon" android:layout_width="@dimen/vr_badge_size" android:layout_height="@dimen/vr_badge_size" />
+            <ImageView android:id="@id/staffpick_normal_items_edge" android:background="@drawable/long_banner_shadow" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="46.0dp" android:minWidth="31.0dp" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dp" android:layout_marginEnd="8.0dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/app_info_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+                <TextView android:textSize="13.0dp" android:textColor="#fafaff" android:ellipsize="end" android:id="@id/layout_auto_install_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BUTTON_INSTALL_NOW_20" android:lines="1" android:textDirection="locale" style="@style/style_main_title_2" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/layout_list_itemly_pricely" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <TextView android:textSize="8.0dp" android:textColor="#b7b7bb" android:ellipsize="end" android:id="@id/layout_auto_install_seller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="10" android:includeFontPadding="true" android:layout_marginEnd="4.0dp" style="@style/isa_style_now_free_01_discount_price" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/layout_price_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:textSize="8.0dp" android:textColor="#b7b7bb" android:id="@id/layout_list_itemly_discprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="true" style="@style/isa_style_now_free_01_discount_price" />
+                            <TextView android:textSize="8.0dp" android:textColor="#b7b7bb" android:ellipsize="end" android:id="@id/layout_list_itemly_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="true" android:layout_marginStart="3.0dp" style="@style/isa_style_now_free_01_original_price" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="8.0dp" android:textColor="#b7b7bb" android:id="@id/layout_list_itemly_isIAP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_IN_APP_PURCHASES" android:maxLines="1" android:includeFontPadding="true" android:layout_centerVertical="true" style="@style/isa_style_for_galaxy_list01_iap" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_staffpick_item_progress_sector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginEnd="13.0dp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ProgressBar android:id="@id/pb_progressbar" android:layout_width="30.0dp" android:layout_height="30.0dp" style="@style/isa_circle_progressbar" />
+                    <TextView android:textSize="12.0dp" android:textColor="#cccccc" android:ellipsize="end" android:gravity="start" android:id="@id/progress_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="5.0dp" style="@style/style_china_list_itemversion" />
+                    <LinearLayout android:id="@id/btn_progress_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/resume_button" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginLeft="10.0dp" android:contentDescription="@string/MIDS_SAPPS_BUTTON_RESUME" android:layout_marginStart="10.0dp" style="@style/isa_auto_download_resume" />
+                            <ImageView android:id="@id/pause_button" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginLeft="10.0dp" android:contentDescription="@string/MIDS_SAPPS_BUTTON_PAUSE" android:layout_marginStart="10.0dp" style="@style/isa_auto_download_pause" />
+                        </RelativeLayout>
+                        <ImageView android:id="@id/cancel_button" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginLeft="10.0dp" android:contentDescription="@string/IDS_SAPPS_BUTTON_CANCEL_ABB" android:layout_marginStart="10.0dp" style="@style/isa_auto_download_cancel" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

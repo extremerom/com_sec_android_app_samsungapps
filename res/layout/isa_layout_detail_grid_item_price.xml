@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/isa_layout_detail_grid_item_price_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dp" android:minHeight="9.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="8.0dp" android:id="@id/layout_list_itemly_isIAP" android:tag="binding_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/isa_style_iap_text" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_list_itemly_pricely" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/layout_list_itemly_discprice" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="3.0dp" style="@style/isa_style_price_text" />
+        <TextView android:id="@id/layout_list_itemly_price" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/isa_style_price_text" />
+    </LinearLayout>
+</LinearLayout>

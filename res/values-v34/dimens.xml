@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="switch_button_size">18.0dp</dimen>
+    <dimen name="switch_margin_end">22.0dp</dimen>
+    <dimen name="switch_stroke">2.0dp</dimen>
+    <dimen name="switch_thumb_margin">0.0dp</dimen>
+    <dimen name="switch_track_corner_radius">10.0dp</dimen>
+    <dimen name="tag_list_item_background_size">36.0dp</dimen>
+    <dimen name="tag_list_item_height">56.0dp</dimen>
+</resources>

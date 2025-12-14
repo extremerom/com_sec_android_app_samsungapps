@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pikë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pikë</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të përzgjedhësh më shumë se %d etiketë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S’mund të përzgjedhësh më shumë se %d etiketa.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh së paku %d vjeç, për të përdorur Lojërat e çastit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh së paku %d vjeç, për të përdorur Lojërat e çastit.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d është përzgjedhur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d janë përzgjedhur</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s pikë do të shtohen te llogaria jote brenda rreth %2$d dite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s pikë do të shtohen te llogaria jote brenda rreth %2$d ditësh.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Për ta shkarkuar këtë app, duhet të verifikosh identitetin dhe të konfirmosh se je mbi %d vjeç.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Për ta shkarkuar këtë app, duhet të verifikosh identitetin dhe të konfirmosh se je mbi %d vjeç.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh së paku %1$d vjeç, për të përdorur %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh së paku %1$d vjeç për të përdorur %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ditë mbetet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ditë mbeten</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 pikë do të shtohet te llogaria jote brenda rreth %d dite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 pikë do të shtohet te llogaria jote brenda rreth %d ditëve.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet paketa e adezivëve nga %1$s, %2$s, %3$s dhe %4$d app tjetër?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Të hiqet paketa e adezivëve nga %1$s, %2$s, %3$s dhe %4$d app-e të tjera?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh së paku %d vjeç. Kërkoji organizatorit familjar, që t’i ndryshojë cilësimet e moshës.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh së paku %d vjeç. Kërkoji organizatorit familjar, që t’i ndryshojë cilësimet e moshës.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s pikë do të shtohen te llogaria jote brenda rreth %2$d dite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s pikë do të shtohen te llogaria jote brenda rreth %2$d ditësh.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pikë do të shtohet te llogaria jote brenda 7 ditësh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pikë do të shtohen te llogaria jote brenda 7 ditësh.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pikë Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pikë Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Për t’u regjistruar paraprakisht për këtë app, duhet të verifikosh se je të paktën %d vjeç.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Për t’u regjistruar paraprakisht për këtë app, duhet të verifikosh se je të paktën %d vjeç.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Për ta afishuar këtë app, duhet të hysh me sign-in dhe të verifikosh se ke moshë më të madhe se %d vjeç.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Për ta afishuar këtë app, duhet të hysh me sign-in dhe të verifikosh se ke moshë më të madhe se %d vjeç.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ti e ke instaluar tashmë %d app-in tonë kryesor. Trokit mbi > për të parë më shumë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ti i ke instaluar tashmë %d app-et tona kryesore. Trokit mbi > për të parë më shumë.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ti e ke instaluar tashmë %d lojën tonë kryesore. Trokit mbi > për të parë më shumë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ti i ke instaluar tashmë %d lojërat tona kryesore. Trokit mbi > për të parë më shumë.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ti e ke instaluar tashmë %d artikullin tonë kryesor për rregullim të pamjes. Trokit mbi > për të parë më shumë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ti i ke instaluar tashmë %d artikujt tanë kryesorë për rregullim të pamjes. Trokit mbi > për të parë më shumë.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ti e ke instaluar tashmë %d temën tonë kryesore. Trokit mbi > për të parë më shumë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ti i ke instaluar tashmë %d temat tona kryesore. Trokit mbi > për të parë më shumë.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sapo fitove 1 pikë! Tani ke %d pikë që mund ta përdorësh për të blerë app-e dhe gjëra të tjera në Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sapo fitove 1 pikë! Tani ke %d pikë që mund t’i përdorësh për të blerë app-e dhe gjëra të tjera në Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh së paku %d vjeç për ta shkarkuar këtë app.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh së paku %d vjeç për ta shkarkuar këtë app.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh të paktën %d vjeç për t’u regjistruar paraprakisht për këtë app.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh të paktën %d vjeç për t’u regjistruar paraprakisht për këtë app.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mos e shfaq sërish për %d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mos e shfaq sërish për %d ditë</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s çdo %2$d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s çdo %2$d ditë</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s çdo %2$d muaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s çdo %2$d muaj</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s çdo %2$d javë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s çdo %2$d javë</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s çdo %2$d vit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s çdo %2$d vjet</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pikë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pikë</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Falas deri %1$s, pastaj %2$s çdo %3$d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Falas deri %1$s, pastaj %2$s çdo %3$d ditë</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Falas deri %1$s, pastaj %2$s çdo %3$d muaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Falas deri %1$s, pastaj %2$s çdo %3$d muaj</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Falas deri %1$s, pastaj %2$s çdo %3$d javë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Falas deri %1$s, pastaj %2$s çdo %3$d javë</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Falas deri %1$s, pastaj %2$s çdo %3$d vit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Falas deri %1$s, pastaj %2$s çdo %3$d vjet</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d person u ndihmua nga kjo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d persona u ndihmuan nga kjo</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ka %d përditësim</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ka %d përditësime</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vlerësime me %d yll</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vlerësime me %d yje</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vlerësimi yt: %d yll</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vlerësimi yt: %d yje</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d njoftim</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d njoftime</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh së paku %d vjeç për ta luajtur këtë lojë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh së paku %d vjeç për ta luajtur këtë lojë.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sesioni i lojës do të mbarojë për %d minutë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sesioni i lojës do të mbarojë për %d minuta.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lidhja jote me rrjetin është e paqëndrueshme. Loja do të mbyllet për %d sekondë, nëse nuk arrijmë të lidhemi. Statusi i lojës sate do të ruhet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lidhja jote me rrjetin është e paqëndrueshme. Loja do të mbyllet për %d sekonda, nëse nuk arrijmë të lidhemi. Statusi i lojës sate do të ruhet.</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekondë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekonda</item>
+    </plurals>
+</resources>

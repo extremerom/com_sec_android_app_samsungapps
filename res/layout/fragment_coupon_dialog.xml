@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_coupon_dialog_0" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_layout" android:paddingLeft="24.0dp" android:paddingTop="24.0dp" android:paddingRight="24.0dp" android:paddingBottom="20.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintWidth_max="@dimen/uxguid_dialog_max_width">
+        <TextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" style="@style/dialog_title_text2" />
+        <EditText android:id="@id/editText" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/DREAM_SAPPS_NPBODY_ENTER_CODE" android:inputType="textVisiblePassword" style="@style/isa_style_edittext_singleline" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginTop="@dimen/dialog_bottom_button_top_margin">
+            <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <Button android:id="@id/negative" android:tag="binding_2" android:background="@drawable/flat_button" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MIDS_SAPPS_SK_CANCEL" android:textAllCaps="false" android:paddingHorizontal="16.0dp" style="@style/dialog_button_text" />
+            </RelativeLayout>
+            <ImageView android:id="@id/divider" android:layout_width="1.0dp" android:layout_height="16.0dp" android:src="@color/one_ui_dialog_button_divider_color" android:importantForAccessibility="no" />
+            <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <Button android:id="@id/positive" android:tag="binding_3" android:background="@drawable/flat_button" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BUTTON_ADD_9" android:textAllCaps="false" android:paddingHorizontal="16.0dp" style="@style/dialog_button_text" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

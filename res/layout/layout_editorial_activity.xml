@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/layout_editorial_activity_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:scrollbarStyle="outsideOverlay" android:id="@id/editorial_webView" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="true" />
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

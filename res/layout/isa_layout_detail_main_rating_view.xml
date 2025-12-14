@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/star_rating_layout" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:visibility="visible" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/qip_user_star" />
+    <TextView android:id="@id/tv_rating_average" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_detail_rating_view_text" />
+</LinearLayout>

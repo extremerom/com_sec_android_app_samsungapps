@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="21.0dp" android:width="21.0dp" android:viewportWidth="21.0" android:viewportHeight="21.0" aapt:fps="60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="s1" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="0.25" android:scaleY="0.25" android:rotation="0.0" android:translateX="11.6" android:translateY="10.5" aapt:layer_name="Shape Layer 2">
+        <path android:name="s1p20" android:fillColor="#ffffff" android:pathData="M 12.022 14.659 C 12.022 14.659 12.355 14.433 12.355 14.433 C 12.355 14.433 27.474 4.192 27.474 4.192 C 29.373 2.46 29.373 -1.873 27.474 -3.605 C 27.474 -3.605 12.382 -13.828 12.382 -13.828 C 12.382 -13.828 12.022 -14.072 12.022 -14.072 C 10.124 -15.325 7.75 -13.934 7.75 -11.396 C 7.75 -11.396 7.75 11.981 7.75 11.981 C 7.75 14.521 10.124 15.912 12.022 14.659 Z" android:fillAlpha="1.0" aapt:layer_name="Path 2" aapt:style_name="Fill 3" />
+        <path android:name="s1p10" android:fillColor="#ffffff" android:pathData="M -21.536 37.092 C -21.536 37.092 -20.335 36.313 -20.335 36.313 C -20.335 36.313 26.393 6.003 26.393 6.003 C 30.783 3.469 30.783 -2.866 26.393 -5.4 C 26.393 -5.4 -20.493 -35.973 -20.493 -35.973 C -20.493 -35.973 -21.5 -36.629 -21.5 -36.629 C -25.238 -38.787 -29.911 -36.09 -29.911 -31.774 C -29.911 -31.774 -29.948 32.232 -29.948 32.232 C -29.948 36.552 -25.274 39.25 -21.536 37.092 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 3" />
+    </group>
+</vector>

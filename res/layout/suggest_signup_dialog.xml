@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:background="@drawable/dialog_inset" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guidelineTop" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/dialog_top_margin" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guidelineBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/dialog_bottom_margin" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guidelineLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/dialog_left_margin" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guidelineRight" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/dialog_right_margin" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_scroll_top_margin" android:layout_marginBottom="@dimen/dialog_scroll_bottom_margin" app:layout_constraintBottom_toTopOf="@id/layout_button" app:layout_constraintEnd_toEndOf="@id/guidelineRight" app:layout_constraintStart_toStartOf="@id/guidelineLeft" app:layout_constraintTop_toTopOf="@id/guidelineTop">
+        <ImageView android:id="@id/scroll_divider_top" android:layout_width="match_parent" android:layout_height="1.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@color/dialog_scroll_divider_color" />
+        <com.samsung.android.iap.dialog.widgets.CustomScrollView android:id="@id/scroll" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/scroll_divider_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scroll_divider_top">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="56.0dp" android:layout_height="56.0dp" app:srcCompat="@drawable/samsung_account" />
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/dialog_title" android:id="@id/dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/dialog_message" android:id="@id/dialog_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:lineSpacingExtra="4.0sp" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/dialog_link" android:id="@id/dialog_link" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0sp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp">
+                    <TableRow android:gravity="center" android:id="@id/tnc" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10.0">
+                        <CheckBox android:id="@id/dialog_checkbox" android:background="@drawable/selector_checkbox" android:layout_width="32.0dp" android:layout_height="32.0dp" android:button="@null" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/dialog_message_agree" android:id="@id/dialog_message_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:lineSpacingExtra="4.0sp" />
+                    </TableRow>
+                </LinearLayout>
+            </LinearLayout>
+        </com.samsung.android.iap.dialog.widgets.CustomScrollView>
+        <ImageView android:id="@id/scroll_divider_bottom" android:layout_width="0.0dp" android:layout_height="1.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@color/dialog_scroll_divider_color" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:layout_constraintBottom_toTopOf="@id/guidelineBottom" app:layout_constraintEnd_toEndOf="@id/guidelineRight" app:layout_constraintStart_toStartOf="@id/guidelineLeft">
+        <Button android:id="@id/dialog_cancel_btn" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_weight="1.0" android:textAllCaps="false" style="@style/DialogButtonRaisedColorless" />
+        <ImageView android:id="@id/dialog_btn_padding" android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginEnd="8.0dp" />
+        <Button android:enabled="false" android:id="@id/dialog_ok_btn" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_weight="1.0" android:textAllCaps="false" style="@style/DialogButtonRaisedColor" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

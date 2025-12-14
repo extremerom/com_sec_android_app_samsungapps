@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">%d punkti</item>
+        <item quantity="one">%d punkts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d punkti</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">Var izvēlēties ne vairāk kā %d atzīmes.</item>
+        <item quantity="one">Var izvēlēties ne vairāk kā %d atzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var izvēlēties ne vairāk kā %d atzīmes.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">Lai izmantotu tūlītējās spēles, jums jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu tūlītējās spēles, jums jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu tūlītējās spēles, jums jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlēti %d vienumi</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">Jūsu kontam tiks pievienoti %1$s punkti pēc aptuveni %2$d dienām.</item>
+        <item quantity="one">Jūsu kontam tiks pievienoti %1$s punkti pēc aptuveni %2$d dienas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu kontam tiks pievienoti %1$s punkti pēc aptuveni %2$d dienām.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">Lai lejupielādētu šo programmu, jums ir jāverificē sava identitāte un jāapstiprina, ka esat vecāks par %d gadiem.</item>
+        <item quantity="one">Lai lejupielādētu šo programmu, jums ir jāverificē sava identitāte un jāapstiprina, ka esat vecāks par %d gadu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai lejupielādētu šo programmu, jums ir jāverificē sava identitāte un jāapstiprina, ka esat vecāks par %d gadiem.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadus vecam.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">Atlikušas %d dienas</item>
+        <item quantity="one">Atlikusi %d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atlikušas %d dienas</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">1 punkts tiks pievienots jūsu kontam aptuveni %d dienu laikā.</item>
+        <item quantity="one">1 punkts tiks pievienots jūsu kontam aptuveni %d dienas laikā.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 punkts tiks pievienots jūsu kontam aptuveni %d dienu laikā.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">Vai dzēst uzlīmju komplektu no %1$s, %2$s, %3$s un %4$d citām programmām?</item>
+        <item quantity="one">Vai dzēst uzlīmju komplektu no %1$s, %2$s, %3$s un %4$d citas programmas?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst uzlīmju komplektu no %1$s, %2$s, %3$s un %4$d citām programmām?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">Lai instalētu, jābūt vismaz %d gadus vecam. Ģimenes organizators var nomainīt vecuma ierob. iestatījumus.</item>
+        <item quantity="one">Lai instalētu, jābūt vismaz %d gadu vecam. Ģimenes organizators var nomainīt vecuma ierob. iestatījumus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai instalētu, jābūt vismaz %d gadus vecam. Ģimenes organizators var nomainīt vecuma ierob. iestatījumus.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">Jūsu kontam tiks pievienoti %1$s punkti pēc aptuveni %2$d dienām.</item>
+        <item quantity="one">Jūsu kontam tiks pievienoti %1$s punkti pēc aptuveni %2$d dienas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu kontam tiks pievienoti %1$s punkti pēc aptuveni %2$d dienām.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">%d punkti tiks pievienoti jūsu kontam 7 dienu laikā.</item>
+        <item quantity="one">%d punkts tiks pievienots jūsu kontam 7 dienu laikā.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d punkti tiks pievienoti jūsu kontam 7 dienu laikā.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">%d Samsung Rewards punkti</item>
+        <item quantity="one">%d Samsung Rewards punkts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Samsung Rewards punkti</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">Lai veiktu iepriekšēju reģistrāciju šai programmai, jums jāapstiprina, ka esat vismaz %d gadus vecs.</item>
+        <item quantity="one">Lai veiktu iepriekšēju reģistrāciju šai programmai, jums jāapstiprina, ka esat vismaz %d gadu vecs.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai veiktu iepriekšēju reģistrāciju šai programmai, jums jāapstiprina, ka esat vismaz %d gadus vecs.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">Lai skatītu šo programmu, jums ir jāpierakstās un jāapstiprina, ka esat vismaz %d gadus vecs.</item>
+        <item quantity="one">Lai skatītu šo programmu, jums ir jāpierakstās un jāapstiprina, ka esat vismaz %d gadu vecs.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai skatītu šo programmu, jums ir jāpierakstās un jāapstiprina, ka esat vismaz %d gadus vecs.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">Jums jau ir instalētas %d mūsu populārākās programmas. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="one">Jums jau ir instalēta %d mūsu populārākā programma. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jums jau ir instalētas %d mūsu populārākās programmas. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">Jums jau ir instalētas %d mūsu populārākās spēles. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="one">Jums jau ir instalēta %d mūsu populārākā spēle. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jums jau ir instalētas %d mūsu populārākās spēles. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">Jums jau ir instalēti %d mūsu populārākie stila objekti. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="one">Jums jau ir instalēts %d mūsu populārākais stila objekts. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jums jau ir instalēti %d mūsu populārākie stila objekti. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">Jums jau ir instalēti %d mūsu populārākie motīvi. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="one">Jums jau ir instalēts %d mūsu populārākais motīvs. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jums jau ir instalēti %d mūsu populārākie motīvi. Pieskarieties pie >, lai skatītu plašāku informāciju.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">Jūs tikko nopelnījāt 1 punktu! Tagad jums ir %d punkti, kurus varat izmantot, lai Galaxy Store veikalā iegādātos programmas un citas lietas.</item>
+        <item quantity="one">Jūs tikko nopelnījāt 1 punktu! Tagad jums ir %d punkts, kuru varat izmantot, lai Galaxy Store veikalā iegādātos programmas un citas lietas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūs tikko nopelnījāt 1 punktu! Tagad jums ir %d punkti, kurus varat izmantot, lai Galaxy Store veikalā iegādātos programmas un citas lietas.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">Lai lejupielādētu šo programmu, jums jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai lejupielādētu šo programmu, jums jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai lejupielādētu šo programmu, jums jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">Lai veiktu iepriekšēju reģistrāciju šai programmai, jums jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai veiktu iepriekšēju reģistrāciju šai programmai, jums jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai veiktu iepriekšēju reģistrāciju šai programmai, jums jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">Nerādīt %d dienas</item>
+        <item quantity="one">Nerādīt %d dienu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nerādīt %d dienas</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">%1$s ik pēc %2$d dienām</item>
+        <item quantity="one">%1$s ik pēc %2$d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ik pēc %2$d dienām</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">%1$s ik pēc %2$d mēnešiem</item>
+        <item quantity="one">%1$s ik pēc %2$d mēneša</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ik pēc %2$d mēnešiem</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">%1$s ik pēc %2$d nedēļām</item>
+        <item quantity="one">%1$s ik pēc %2$d nedēļas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ik pēc %2$d nedēļām</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">%1$s ik pēc %2$d gadiem</item>
+        <item quantity="one">%1$s ik pēc %2$d gada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ik pēc %2$d gadiem</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">%d punkti</item>
+        <item quantity="one">%d punkts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d punkti</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">Bez maksas līdz %1$s, pēc tam %2$s par %3$d dienām</item>
+        <item quantity="one">Bez maksas līdz %1$s, pēc tam %2$s par %3$d dienu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bez maksas līdz %1$s, pēc tam %2$s par %3$d dienām</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">Bez maksas līdz %1$s, pēc tam %2$s par %3$d mēnešiem</item>
+        <item quantity="one">Bez maksas līdz %1$s, pēc tam %2$s par %3$d mēnesi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bez maksas līdz %1$s, pēc tam %2$s par %3$d mēnešiem</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">Bez maksas līdz %1$s, pēc tam %2$s par %3$d nedēļām</item>
+        <item quantity="one">Bez maksas līdz %1$s, pēc tam %2$s par %3$d nedēļu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bez maksas līdz %1$s, pēc tam %2$s par %3$d nedēļām</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">Bez maksas līdz %1$s, pēc tam %2$s par %3$d gadiem</item>
+        <item quantity="one">Bez maksas līdz %1$s, pēc tam %2$s par %3$d gadu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bez maksas līdz %1$s, pēc tam %2$s par %3$d gadiem</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">Atsauksme palīdzēja %d personām</item>
+        <item quantity="one">Atsauksme palīdzēja %d personai</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atsauksme palīdzēja %d personām</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">Pieejami %d atjauninājumi</item>
+        <item quantity="one">Pieejams %d atjauninājums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pieejami %d atjauninājumi</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">%d zvaigžņu atsauksmes</item>
+        <item quantity="one">%d zvaigžņu atsauksme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zvaigžņu atsauksmes</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">Jūsu vērtējums: %d zvaigznes</item>
+        <item quantity="one">Jūsu vērtējums: %d zvaigzne</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu vērtējums: %d zvaigznes</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">%d paziņojumi</item>
+        <item quantity="one">%d paziņojums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d paziņojumi</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">Lai spēlētu šo spēli, tev ir jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai spēlētu šo spēli, tev ir jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai spēlētu šo spēli, tev ir jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">Spēles sesija beigsies pēc %d minūtēm.</item>
+        <item quantity="one">Spēles sesija beigsies pēc %d minūtes.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Spēles sesija beigsies pēc %d minūtēm.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">Jūsu tīkla savienojums nav stabils. Ja nevarēsim izveidot savienojumu, spēle tiks aizvērta pēc %d sekundēm. Jūsu spēles statuss tiks saglabāts.</item>
+        <item quantity="one">Jūsu tīkla savienojums nav stabils. Ja nevarēsim izveidot savienojumu, spēle tiks aizvērta pēc %d sekundes. Jūsu spēles statuss tiks saglabāts.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jūsu tīkla savienojums nav stabils. Ja nevarēsim izveidot savienojumu, spēle tiks aizvērta pēc %d sekundēm. Jūsu spēles statuss tiks saglabāts.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sek.</item>
+    </plurals>
+</resources>

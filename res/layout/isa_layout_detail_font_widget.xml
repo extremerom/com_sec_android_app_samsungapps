@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/isa_layout_detail_font_widget_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="25.0dp" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/isa_layout_detail_line_game_detail" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="25.0dp" android:layout_marginHorizontal="24.0dp">
+        <TextView android:id="@id/tv_header_download_trial" android:tag="binding_1" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/MIDS_OTS_HEADER_DOWNLOAD_TRIAL" android:textDirection="locale" style="@style/isa_style_detail_title" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_btn_container" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:weightSum="2.0">
+            <com.sec.android.app.samsungapps.detail.widget.font.FontPreviewButton android:id="@id/btn_text_input" android:tag="binding_3" style="@style/isa_detail_sub_font_widget_btn_text" />
+            <com.sec.android.app.samsungapps.detail.widget.font.FontPreviewButton android:id="@id/btn_size_and_style" android:tag="binding_4" android:layout_marginStart="9.0dp" style="@style/isa_detail_sub_font_widget_btn_text" />
+        </LinearLayout>
+        <com.sec.android.app.samsungapps.detail.widget.font.DetailFontDownloadProgressBar android:id="@id/progress_bar" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/isa_layout_detail_line_game_detail" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+.class public Lcom/onetrust/otpublishers/headless/UI/fragment/k0$a;
+.super Lcom/google/android/material/bottomsheet/BottomSheetBehavior$BottomSheetCallback;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/onetrust/otpublishers/headless/UI/fragment/k0;->j(Landroid/content/DialogInterface;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/onetrust/otpublishers/headless/UI/fragment/k0;
+
+
+# direct methods
+.method public constructor <init>(Lcom/onetrust/otpublishers/headless/UI/fragment/k0;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/onetrust/otpublishers/headless/UI/fragment/k0$a;->a:Lcom/onetrust/otpublishers/headless/UI/fragment/k0;
+
+    invoke-direct {p0}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$BottomSheetCallback;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onSlide(Landroid/view/View;F)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onStateChanged(Landroid/view/View;I)V
+    .locals 0
+
+    const/4 p1, 0x5
+
+    if-ne p2, p1, :cond_0
+
+    iget-object p1, p0, Lcom/onetrust/otpublishers/headless/UI/fragment/k0$a;->a:Lcom/onetrust/otpublishers/headless/UI/fragment/k0;
+
+    const/4 p2, 0x3
+
+    invoke-static {p1, p2}, Lcom/onetrust/otpublishers/headless/UI/fragment/k0;->v(Lcom/onetrust/otpublishers/headless/UI/fragment/k0;I)V
+
+    :cond_0
+    return-void
+.end method

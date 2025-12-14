@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PolicyPage" parent="@style/SDKTheme.NoActionBar">
+        <item name="android:windowBackground">@color/mas_status_bar_color</item>
+        <item name="android:isLightTheme">true</item>
+    </style>
+    <style name="PolicyPageDark" parent="@style/PolicyPage">
+        <item name="android:isLightTheme">false</item>
+    </style>
+    <style name="write_review_dialog_global" parent="@style/SamsungAppsActionBarTheme">
+        <item name="android:backgroundDimAmount">@integer/dialog_dim_amount</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="actionBarStyle">@style/SamsungAppsActionBar</item>
+        <item name="actionModeBackground">@android:color/transparent</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+</resources>

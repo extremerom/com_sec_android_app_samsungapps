@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/isa_drawable_subtab_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/tab_stroke" android:visibility="gone" android:layout_width="1.0dp" android:layout_height="@dimen/one_ui_sub_tab_item_height">
+        <View android:id="@id/tab_background" android:background="@drawable/isa_drawable_subtab_item_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/one_ui_sub_tab_item_height" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/tab_label" android:layout_width="wrap_content" android:layout_height="@dimen/one_ui_sub_tab_item_height">
+        <TextView android:gravity="center" android:id="@id/tab_item_name" android:layout_width="wrap_content" android:layout_height="@dimen/one_ui_sub_tab_item_height" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" style="@style/style_subtab_unselected" />
+        <ImageView android:id="@id/tab_item_dot" android:visibility="gone" android:layout_width="6.0dp" android:layout_height="6.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/isa_drawable_subtab_item_dot" android:importantForAccessibility="no" android:layout_marginStart="-8.0dp" android:layout_marginEnd="12.0dp" />
+    </LinearLayout>
+</FrameLayout>

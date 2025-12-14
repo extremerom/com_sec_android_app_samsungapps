@@ -1,0 +1,26 @@
+.class public final synthetic Lcom/google/android/exoplayer2/s;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lcom/google/android/exoplayer2/BasePlayer$ListenerInvocation;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeListener(Lcom/google/android/exoplayer2/Player$EventListener;)V
+    .locals 0
+
+    invoke-static {p1}, Lcom/google/android/exoplayer2/z;->f(Lcom/google/android/exoplayer2/Player$EventListener;)V
+
+    return-void
+.end method

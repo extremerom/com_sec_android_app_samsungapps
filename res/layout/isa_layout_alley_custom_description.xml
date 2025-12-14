@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_alley_custom_description" android:tag="layout/isa_layout_alley_custom_description_0" android:paddingTop="@dimen/qip_description_margin_vertical" android:paddingBottom="@dimen/qip_description_margin_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/qip_description_margin_vertical">
+        <TextView android:id="@id/tv_alley_custom_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/qip_margin_horizontal" android:layout_marginRight="@dimen/qip_margin_horizontal" android:layout_marginHorizontal="@dimen/qip_margin_horizontal" style="@style/style_alley_detail_custom_description" />
+        <TextView android:id="@id/tv_qip_more_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/qip_margin_horizontal" android:layout_marginTop="@dimen/qip_more_detail_margin_top" android:layout_marginRight="@dimen/qip_margin_horizontal" android:text="@string/DREAM_SAPPS_BUTTON_MORE_DETAILS_15" android:layoutDirection="locale" android:layout_marginHorizontal="@dimen/qip_margin_horizontal" style="@style/style_qip_seemore" />
+    </LinearLayout>
+</merge>

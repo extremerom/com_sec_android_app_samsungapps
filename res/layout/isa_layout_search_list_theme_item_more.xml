@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/theme_item_more" android:tag="layout/isa_layout_search_list_theme_item_more_0" android:layout_width="match_parent" android:layout_height="88.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/search_list_theme_item_more_text_size" android:textColor="@color/actionbar_title" android:gravity="center" android:id="@id/theme_item_more_text_button" android:tag="binding_1" android:background="@drawable/isa_drawable_search_theme_view_more_button" android:layout_width="wrap_content" android:layout_height="@dimen/search_list_theme_item_more_btn_height" android:layout_marginTop="@dimen/search_list_theme_item_more_btn_top_margin" android:text="@string/DREAM_SAPPS_BUTTON_VIEW_MORE_IN_GALAXY_THEMES_30" style="@style/isa_style_one_ui_font_bold" />
+</LinearLayout>

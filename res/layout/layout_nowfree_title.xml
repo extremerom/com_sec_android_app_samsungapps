@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dp" android:layout_marginEnd="9.0dp">
+        <include layout="@layout/layout_nowfree_eventtime" />
+        <TextView android:textSize="18.0dp" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_HEADER_FREE_FOR_A_LIMITED_TIME_ABB" android:maxLines="1" android:textDirection="locale" style="@style/isa_style_now_free_title" />
+    </LinearLayout>
+</merge>

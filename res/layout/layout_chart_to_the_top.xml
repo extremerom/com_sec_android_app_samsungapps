@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/layout_chart_to_the_top_0" android:layout_width="match_parent" android:layout_height="53.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_button_click" android:tag="binding_1" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/isa_drawable_top_button_touch_effects">
+        <TextView android:gravity="center_vertical" android:background="@drawable/details_top_btn_normal" android:duplicateParentState="true" android:layout_width="40.0dp" android:layout_height="40.0dp" android:contentDescription="@string/IDS_WGT_HEADER_TOP" style="@style/isa_style_detail_top_btn_text" />
+    </FrameLayout>
+</LinearLayout>

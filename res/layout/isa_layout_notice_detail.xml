@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/noticedetail" android:tag="layout/isa_layout_notice_detail_0" android:background="@color/settings_body_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/notice_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsBasicListText android:id="@id/noticedetail_title" android:tag="binding_2" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="24.0dp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/notice_divider" android:tag="binding_3" android:background="@color/list_divider" android:paddingLeft="150.0dp" android:paddingRight="150.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/one_dp_line_divider" android:layout_marginTop="4.0dp" android:layout_marginBottom="16.0dp" android:importantForAccessibility="no" android:paddingHorizontal="150.0dp" />
+        <ScrollView android:id="@id/notice_scroll" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="true" style="@style/isa_style_scroll_bar">
+            <com.sec.android.app.samsungapps.commonview.SamsungAppsAnnouncementDescription android:id="@id/noticedetail_body" android:tag="binding_4" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </ScrollView>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_webview" android:tag="binding_5" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:paddingBottom="16.0dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="match_parent">
+                <WebView android:id="@id/webview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_scroll_bar" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

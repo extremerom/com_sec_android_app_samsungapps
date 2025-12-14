@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/layout_apps_top_message_0" android:layout_width="match_parent" android:layout_height="96.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/apps_top_message_bg" android:padding="18.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15.0dp" android:textColor="@color/apps_top_message_text" android:id="@id/message_text" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" />
+    </RelativeLayout>
+</LinearLayout>

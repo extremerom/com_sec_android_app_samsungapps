@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/isa_opa28_255255255" />
+            <corners android:radius="2.0dp" />
+            <stroke android:width="2.0px" android:color="@color/isa_opa30_000" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/isa_opa40_255255255" />
+            <corners android:radius="2.0dp" />
+            <stroke android:width="2.0px" android:color="@color/isa_opa10_138138138" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/isa_opa28_255255255" />
+            <corners android:radius="2.0dp" />
+            <stroke android:width="2.0px" android:color="@color/isa_opa30_000" />
+        </shape>
+    </item>
+</selector>

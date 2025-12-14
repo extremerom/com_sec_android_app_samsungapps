@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:interpolator="@anim/interpolator_sine_inout_90" android:duration="450">
+        <targets>
+            <target android:targetId="@id/btn_progress_pause" />
+            <target android:targetId="@id/btn_progress_resume" />
+            <target android:targetId="@id/layout_btn_pause_resume" />
+            <target android:targetId="@id/btn_progress_cancel" />
+        </targets>
+    </changeBounds>
+    <changeBounds android:interpolator="@anim/interpolator_critical_damping" android:duration="450">
+        <targets>
+            <target android:targetId="@id/btn_detail_wifi_now_waiting" />
+            <target android:targetId="@id/btn_detail_install" />
+        </targets>
+    </changeBounds>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="250" android:startDelay="200" class="com.sec.android.app.samsungapps.commonview.AlphaTransition">
+        <targets>
+            <target android:targetId="@id/layout_detail_install_button" />
+            <target android:targetId="@id/btn_detail_wifi_now_waiting" />
+            <target android:targetId="@id/btn_detail_wifi_reserved" />
+            <target android:targetId="@id/btn_detail_uninstall" />
+            <target android:targetId="@id/btn_detail_install" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="200" class="com.sec.android.app.samsungapps.commonview.AlphaTransition">
+        <targets>
+            <target android:targetId="@id/progress_layout" />
+            <target android:targetId="@id/btn_progress_cancel" />
+            <target android:targetId="@id/btn_progress_pause" />
+            <target android:targetId="@id/btn_progress_resume" />
+            <target android:targetId="@id/layout_btn_pause_resume" />
+            <target android:targetId="@id/downloadText" />
+            <target android:targetId="@id/pb_progressbar" />
+            <target android:targetId="@id/pb_wifi_waiting" />
+        </targets>
+    </transition>
+</transitionSet>

@@ -1,0 +1,442 @@
+{
+  "UIConfig": {
+    "globalTheme": {
+      "shouldShowlinkUnderline": true,
+      "linkColor": "",
+      "sectionalUI": "true",
+      "sectionalDrawableColor": "#272727",
+      "selectedSectionalDrawableColor" : "#09254d",
+      "selectedSectionalTextColor": "#3E91FF",
+      "tabUnselectedTextColor": "#66FFFFFF",
+      "tabBorderColor" : "#99FFFFFF"
+    },
+    "pageHeader": {
+      "fontName": "",
+      "fontSize": "",
+      "fontTextStyle": 0,
+      "textColor": "#FAFAFA"
+    },
+    "bannerTheme": {
+      "backgroundColor": "#252525",
+      "summary": {
+        "title": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textAlignment": 2,
+          "textColor": "#FAFAFA"
+        },
+        "description": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif",
+          "fontSize": "16",
+          "fontTextStyle": 0,
+          "textAlignment": 2,
+          "textColor": "#999999"
+        }
+      },
+      "buttons": {
+        "closeButtonColor": "",
+        "acceptAll": {
+          "backgroundColor": "#387AFF",
+          "fontName": "sans-serif-medium",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA",
+          "borderColor": "",
+          "borderWidth": "",
+          "borderRadius": "1000"
+        },
+        "rejectAll": {
+          "backgroundColor": "",
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 1,
+          "textColor": "",
+          "borderColor": "",
+          "borderWidth": "",
+          "borderRadius": "1000"
+        },
+        "showPreferences": {
+          "backgroundColor": "#2BFAFAFA",
+          "fontName": "sans-serif-medium",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA",
+          "borderColor": "",
+          "borderWidth": "",
+          "borderRadius": "1000"
+        }
+      },
+      "links": {
+        "policyLink": {
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 1,
+          "textColor": ""
+        },
+        "vendorList": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "16",
+          "fontTextStyle": 0,
+          "textAlignment": 2,
+          "textColor": "#999999"
+        }
+      }
+    },
+    "preferenceCenterTheme": {
+      "backgroundColor": "#010101",
+      "lineBreakColor": "#26D4D4D4",
+      "toggleThumbColorOn": "#FAFAFA",
+      "toggleThumbColorOff": "#8F8F8F",
+      "toggleTrackColor": "#0381FE",
+      "showLogoOnPC": true,
+      "summary": {
+        "title": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif",
+          "fontSize": "19",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        },
+        "description": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif",
+          "fontSize": "16",
+          "fontTextStyle": 0,
+          "textAlignment": 5,
+          "textColor": "#999999"
+        }
+      },
+      "purposesTitle": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "purposesAlwaysActiveStatus": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif-medium",
+        "fontSize": "",
+        "fontTextStyle": 0,
+        "textColor": "#3E91FF"
+      },
+      "buttons": {
+        "closeButtonColor": "",
+        "backButtonColor": "#FAFAFA",
+        "acceptAll": {
+          "backgroundColor": "#387AFF",
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "17",
+          "fontTextStyle": 0,
+          "textColor": "",
+          "borderColor": "",
+          "borderWidth": "1",
+          "borderRadius": "1000"
+        },
+        "rejectAll": {
+          "backgroundColor": "#387AFF",
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "17",
+          "fontTextStyle": 0,
+          "textColor": "",
+          "borderColor": "",
+          "borderWidth": "1",
+          "borderRadius": "1000"
+        },
+        "confirmMyChoice": {
+          "backgroundColor": "#387AFF",
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "17",
+          "fontTextStyle": 0,
+          "textColor": "",
+          "borderColor": "",
+          "borderWidth": "1",
+          "borderRadius": "1000"
+        }
+      },
+      "links": {
+        "policyLink": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "16",
+          "fontTextStyle": 0,
+          "textColor": "#999999"
+        },
+        "vendorList": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif",
+          "fontSize": "18",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        }
+      }
+    },
+    "purposeDetailsTheme": {
+      "backgroundColor": "#010101",
+      "lineBreakColor": "#26D4D4D4",
+      "toggleThumbColorOn": "#FAFAFA",
+      "toggleThumbColorOff": "#8F8F8F",
+      "toggleTrackColor": "#0381FE",
+      "backButtonColor": "#FAFAFA",
+      "groupSummary": {
+        "title": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "19",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        },
+        "description": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif",
+          "fontSize": "13",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA",
+          "textAlignment": 5
+        }
+      },
+      "consentTitle": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "18",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "legitInterestTitle": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "18",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "purposesAlwaysActiveStatus": {
+        "typeFaceKey": "",
+        "fontName": "",
+        "fontSize": "",
+        "fontTextStyle": 0,
+        "textColor": ""
+      },
+      "links": {
+        "sdkList": {
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        },
+        "vendorList": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        },
+        "fullLegalText": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        }
+      }
+    },
+    "vendorListTheme": {
+      "backgroundColor": "#010101",
+      "lineBreakColor": "#26D4D4D4",
+      "toggleThumbColorOn": "#FAFAFA",
+      "toggleThumbColorOff": "#8F8F8F",
+      "toggleTrackColor": "#0381FE",
+      "filterOnColor": "",
+      "filterOffColor": "",
+      "filterSelectionColor": "",
+      "searchBar": {
+        "textColor": "#FAFAFA",
+        "placeholderTextColor": "#999999",
+        "backgroundColor": "#2BFAFAFA",
+        "iconColor": "",
+        "borderColor": "",
+        "clearButtonColor": "#FAFAFA",
+        "borderWidth": "",
+        "borderRadius": ""
+      },
+      "filterNavText": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "",
+        "fontTextStyle": 0,
+        "textColor": ""
+      },
+      "title": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "18",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "allowAllToggleText": {
+        "typeFaceKey": "sans-serif",
+        "fontName": "",
+        "fontSize": "18",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "filterItemTitle": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "buttons": {
+        "backButtonColor": "#FAFAFA",
+        "confirmMyChoices": {
+          "backgroundColor": "#387AFF",
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "",
+          "borderColor": "",
+          "borderWidth": "",
+          "borderRadius": "1000"
+        },
+        "applyFilter": {
+          "backgroundColor": "#3E91FF",
+          "typeFaceKey": "sans-serif",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 0,
+          "textColor": "",
+          "borderColor": "",
+          "borderWidth": "1",
+          "borderRadius": "1000"
+        }
+      }
+    },
+    "vendorDetailsTheme": {
+      "backgroundColor": "#010101",
+      "toggleThumbColorOn": "",
+      "toggleThumbColorOff": "",
+      "toggleTrackColor": "#0381FE",
+      "backButtonColor": "#FAFAFA",
+      "title": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "19",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "detailsSummary": {
+        "title": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "16",
+          "fontTextStyle": 0,
+          "textColor": "#FAFAFA"
+        },
+        "description": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif",
+          "fontSize": "15",
+          "fontTextStyle": 0,
+          "textColor": "#686868"
+        }
+      },
+      "consentTitle": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "18",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "legitInterestTitle": {
+        "typeFaceKey": "",
+        "fontName": "sans-serif",
+        "fontSize": "18",
+        "fontTextStyle": 0,
+        "textColor": "#FAFAFA"
+      },
+      "links": {
+        "privacyNotice": {
+          "typeFaceKey": "",
+          "fontName": "sans-serif-medium",
+          "fontSize": "16",
+          "fontTextStyle": 0,
+          "textColor": "#999999"
+        }
+      }
+    },
+    "sdkListTheme": {
+      "backgroundColor": "",
+      "lineBreakColor": "#26D4D4D4",
+      "filterOnColor": "",
+      "filterOffColor": "",
+      "searchBar": {
+        "textColor": "",
+        "placeholderTextColor": "",
+        "backgroundColor": "",
+        "iconColor": "",
+        "borderColor": "",
+        "clearButtonColor": "",
+        "borderWidth": "",
+        "borderRadius": ""
+      },
+      "summary": {
+        "title": {
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 1,
+          "textColor": ""
+        },
+        "description": {
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 1,
+          "textColor": ""
+        }
+      },
+      "filterList": {
+        "selectionColor": "",
+        "navItem": {
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 1,
+          "textColor": ""
+        },
+        "sdkItem": {
+          "typeFaceKey": "",
+          "fontName": "",
+          "fontSize": "",
+          "fontTextStyle": 1,
+          "textColor": ""
+        },
+        "buttons": {
+          "backButtonColor": "#FAFAFA",
+          "applyFilter": {
+            "backgroundColor": "#3E91FF",
+            "typeFaceKey": "",
+            "fontName": "sans-serif",
+            "fontSize": "",
+            "fontTextStyle": 1,
+            "textColor": "",
+            "borderColor": "#3E91FF",
+            "borderWidth": "1",
+            "borderRadius": "1000"
+          }
+        }
+      }
+    }
+  }
+}

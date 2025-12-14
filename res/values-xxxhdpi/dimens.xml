@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="download_btn_outline_size">3.0px</dimen>
+    <dimen name="main_tab_divider_drawing_top">39.25dp</dimen>
+    <dimen name="searchbar_icon_bottom_padding_size">20.0dp</dimen>
+    <dimen name="searchbar_icon_size">21.0dp</dimen>
+    <dimen name="searchbar_icon_top_padding_size">-1.0dp</dimen>
+    <dimen name="shadow_corner_radius">5.0dp</dimen>
+    <dimen name="winset_divider_height">2.0px</dimen>
+</resources>

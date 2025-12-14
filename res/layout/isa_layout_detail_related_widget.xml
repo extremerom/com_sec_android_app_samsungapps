@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/isa_layout_detail_related_widget_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_sub_widget_list_container" android:visibility="visible" android:scrollbars="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" style="@style/isa_style_scroll_bar" />
+</LinearLayout>

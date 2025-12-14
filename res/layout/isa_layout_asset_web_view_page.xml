@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/asset_web_view_container" android:background="@color/settings_body_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/outer_left" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/settings_left_gap_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/outer_right" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@integer/settings_right_gap_percent" />
+    <WebView android:id="@id/webview" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginLeft="@dimen/asset_webview_side_margin" android:layout_marginRight="@dimen/asset_webview_side_margin" android:layout_marginHorizontal="@dimen/asset_webview_side_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/outer_right" app:layout_constraintStart_toStartOf="@id/outer_left" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="840.0dp" style="@style/isa_style_scroll_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

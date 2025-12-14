@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/quick_install_popup_list_view" android:background="@color/bundle_qip_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/webImageView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+            <TextView android:textSize="18.0dp" android:textColor="@color/bundle_qip_text" android:id="@id/list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="TextView" android:maxLines="2" android:textAlignment="viewStart" />
+            <TextView android:textSize="11.0dp" android:textColor="@color/bundle_qip_text" android:id="@id/list_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="TextView" android:maxLines="2" android:textAlignment="viewStart" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="15.0dp" android:layout_weight="1.0" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+        <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list_items" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" style="@style/isa_style_scroll_bar" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="80.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/install_btn" android:background="@drawable/isa_drawable_button_blue_qip" android:paddingLeft="@dimen/content_detail_main_right_button_padding" android:paddingRight="@dimen/content_detail_main_right_button_padding" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="46.0dp" android:layout_marginTop="15.0dp" android:layout_marginBottom="15.0dp" android:paddingStart="@dimen/content_detail_main_right_button_padding" android:paddingEnd="@dimen/content_detail_main_right_button_padding">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/IDS_SAPPS_BUTTON_INSTALL_ALL" style="@style/isa_style_detail_button_text" />
+            <com.sec.android.app.samsungapps.commonview.ContentSizeView android:textSize="13.0dp" android:textColor="@color/isa_250250250" android:gravity="center" android:id="@id/install_size" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="15.5dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cancel_btn" android:background="@drawable/isa_drawable_button_blue_qip" android:paddingLeft="@dimen/content_detail_main_right_button_padding" android:paddingRight="@dimen/content_detail_main_right_button_padding" android:focusable="true" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="46.0dp" android:layout_marginTop="15.0dp" android:layout_marginBottom="15.0dp" android:paddingStart="@dimen/content_detail_main_right_button_padding" android:paddingEnd="@dimen/content_detail_main_right_button_padding">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/IDS_SAPPS_HEADER_CANCEL_ALL" style="@style/isa_style_detail_button_text" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

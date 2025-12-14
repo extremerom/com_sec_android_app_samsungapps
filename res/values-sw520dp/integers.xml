@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="detail_body_width_percent" format="float">0.86</item>
+    <item type="integer" name="detail_bottom_button_width_percent" format="float">0.65</item>
+    <integer name="detail_sticker_screenshot_pos_y_extra">10</integer>
+    <integer name="max_number_of_wish_theme_at_a_line">5</integer>
+    <integer name="minus_one_recycler_span_count">5</integer>
+    <item type="integer" name="network_retry_start_guide_end" format="float">0.765</item>
+    <item type="integer" name="network_retry_start_guide_start" format="float">0.235</item>
+    <integer name="samsung_membership_point_body_percent">90</integer>
+    <integer name="watchface_item_cout_landscape">5</integer>
+    <integer name="watchface_item_cout_portrait">4</integer>
+</resources>

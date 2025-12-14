@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.CommonSubtab android:id="@id/common_subtab" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.sec.android.app.samsungapps.commonview.CustomViewPager android:id="@id/edgetab_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/edge_one_fragment" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

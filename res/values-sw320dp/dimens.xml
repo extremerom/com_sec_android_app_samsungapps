@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_sub_category_group_item_width">73.29999dp</dimen>
+    <dimen name="now_free_title_max_width">200.0dp</dimen>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background_highlight" android:background="@drawable/drawable_game_middle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_user_review_sub_header" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dp" android:layout_marginBottom="4.0dp" android:baselineAligned="false" android:weightSum="1.0" android:paddingStart="@dimen/content_detail_main_left_layout_margin_left_18dp" android:paddingEnd="24.0dp">
+            <TextView android:id="@id/tv_detail_user_review_title" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="42.0dp" android:text="@string/DREAM_SAPPS_HEADER_RATINGS_AND_REVIEWS" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_style_detail_title" />
+            <com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout android:orientation="horizontal" android:id="@id/more_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+                <ImageView android:id="@id/more_view_img" android:layout_width="@dimen/content_detail_more_arrow_width" android:layout_height="@dimen/content_detail_more_arrow_height" android:src="@drawable/subheader_next_detail_tint" android:layoutDirection="locale" android:layout_marginStart="@dimen/seemore_padding" />
+            </com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout>
+        </LinearLayout>
+        <com.sec.android.app.samsungapps.detail.widget.FrenchDisclaimerWidget android:id="@id/layout_french_disclaimer_widget" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+        <FrameLayout android:id="@id/review_detail_widget_reviewscore_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="25.0dp" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <include layout="@layout/review_rating_header" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/fortnite_layout" android:paddingBottom="25.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fortnite_link_layout" android:background="@drawable/fortninte_button_drawable" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="32.0dp" android:foreground="@drawable/isa_drawable_review_btn_effect">
+                <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fortnite_link_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/DREAM_SAPPS_BUTTON_GET_SUPPORT_25" android:cursorVisible="false" android:singleLine="true" android:editable="false" style="@style/isa_style_fortnite_link_btn_text" />
+                <View android:layout_width="1.0px" android:layout_height="wrap_content" android:contentDescription="@string/IDS_CAM_BODY_BUTTON_T_TTS" />
+            </FrameLayout>
+            <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fortnite_text_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:cursorVisible="false" android:singleLine="false" android:editable="false" style="@style/isa_style_fortnite_link_description_text" />
+        </LinearLayout>
+        <TextView android:id="@id/installapp_write_review_textview" android:background="?android:selectableItemBackground" android:paddingBottom="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BUTTON_ADD_A_RATING_18" android:layout_marginStart="24.0dp" style="@style/isa_style_review_write_btn_text" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_review_user_item_area" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:paddingStart="24.0dp" android:paddingEnd="12.0dp">
+            <include layout="@layout/isa_layout_detail_review_user_item" />
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/layout_review_item_seller_review" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <include layout="@layout/layout_review_list_item_seller_review" />
+        </FrameLayout>
+        <View android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+</FrameLayout>

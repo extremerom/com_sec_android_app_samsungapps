@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|bottom" android:orientation="vertical" android:id="@id/staffpicks_banner_direct_download_sector" android:visibility="gone" android:layout_width="@dimen/staffpick_banner_downloadbtn_width" android:layout_height="@dimen/staffpick_banner_downloadbtn_height" android:layout_marginBottom="8.0dp" android:layout_marginEnd="11.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/layout_download_btn_outer" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.sec.android.app.samsungapps.commonview.DownloadBtnView android:id="@id/download_btn_view" android:layout_width="@dimen/staffpick_banner_downloadbtn_width" android:layout_height="match_parent" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_staffpick_item_progress_sector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:id="@id/pb_progressbar" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/isa_staffpicks_progressbar_oneclick_banner" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.5">
+            <ImageView android:id="@id/cancel_button" android:visibility="gone" android:layout_width="@dimen/staffpick_banner_downloadbtn_height" android:layout_height="@dimen/staffpick_banner_downloadbtn_height" style="@style/isa_staffpicks_scrolling_banner_percent_cancel" />
+            <ImageView android:id="@id/pause_button" android:visibility="gone" android:layout_width="@dimen/staffpick_banner_downloadbtn_height" android:layout_height="@dimen/staffpick_banner_downloadbtn_height" style="@style/isa_staffpicks_scrolling_banner_percent_pause" />
+            <ImageView android:id="@id/resume_button" android:visibility="gone" android:layout_width="@dimen/staffpick_banner_downloadbtn_height" android:layout_height="@dimen/staffpick_banner_downloadbtn_height" style="@style/isa_staffpicks_scrolling_banner_percent_resume" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

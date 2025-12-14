@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/data_safety_category_list_item_container" android:tag="layout/isa_layout_detail_data_safety_category_item_0" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dp" android:id="@id/data_safety_category_list_item_name" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/isa_style_detail_title" />
+    <TextView android:id="@id/data_safety_category_list_item_purposes" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/isa_style_detail_data_safety_category_sub_text" />
+</LinearLayout>

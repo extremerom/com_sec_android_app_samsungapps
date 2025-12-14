@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <item type="integer" name="about_button_width_percent" format="float">0.6</item>
+    <integer name="adVideoView_playback_error_text_maxlines">1</integer>
+    <item type="integer" name="appIconAdTopItem_narrow_recycler_view_vertical_bias" format="float">0.425</item>
+    <integer name="appIconAdTopItem_narrow_text_maxLines">2</integer>
+    <item type="integer" name="appIconAdTopItem_wide_recycler_view_vertical_bias" format="float">0.5</item>
+    <integer name="appIconAdTopItem_wide_text_maxLines">4</integer>
+    <integer name="appIconAdTop_base_screenWidthDp">360</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bannerAdHeroView_cta_maxLines">1</integer>
+    <integer name="bannerAdHeroView_title_maxLines">2</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="cloudgame_watermark_text_shadow_size">3</integer>
+    <item type="integer" name="common_list_begin_percent" format="float">0.0</item>
+    <item type="integer" name="common_list_end_percent" format="float">1.0</item>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="content_detail_expandable_description_widget_arrow_duration">300</integer>
+    <integer name="content_detail_expandable_description_widget_duration">300</integer>
+    <integer name="content_detail_expandable_description_widget_short_duration">150</integer>
+    <integer name="coupon_max_length">17</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <item type="integer" name="detail_body_width_percent" format="float">1.0</item>
+    <item type="integer" name="detail_bottom_button_width_percent" format="float">1.0</item>
+    <integer name="detail_bottom_width_percent">@integer/detail_body_width_percent</integer>
+    <integer name="detail_sticker_screenshot_pos_y_extra">7</integer>
+    <integer name="dialog_anim_screen_in_time">400</integer>
+    <item type="integer" name="dialog_dim_amount" format="float">0.2</item>
+    <item type="integer" name="dialog_width_percentage" format="float">1.0</item>
+    <item type="integer" name="dim_dark" format="float">0.8</item>
+    <item type="integer" name="dim_light" format="float">0.65</item>
+    <item type="integer" name="disclaimer_2buttons_end" format="float">0.92</item>
+    <item type="integer" name="disclaimer_2buttons_start" format="float">0.08</item>
+    <item type="integer" name="download_recommend_popup_width_percentage" format="float">1.0</item>
+    <integer name="exo_media_button_opacity_percentage_disabled">33</integer>
+    <integer name="exo_media_button_opacity_percentage_enabled">100</integer>
+    <integer name="fab_x">16384</integer>
+    <integer name="fab_y">12034</integer>
+    <integer name="full_page_popup_begin_percent">@integer/popup_left_gap_percent</integer>
+    <integer name="full_page_popup_end_percent">@integer/popup_right_gap_percent</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="icon_round">15</integer>
+    <integer name="inner_icon_round">9</integer>
+    <integer name="interstitialAd_ad_badge_text_shadow_radius">1</integer>
+    <integer name="interstitialAd_bottom_gradient_angle">270</integer>
+    <integer name="interstitialAd_duration_text_shadow_radius">1</integer>
+    <integer name="interstitialAd_skip_text_shadow_radius">1</integer>
+    <integer name="ipg_main_home_default_gradient_bg_angle">270</integer>
+    <integer name="leader_board_ad_text_shadow_radius">1</integer>
+    <integer name="m3_btn_anim_delay_ms">100</integer>
+    <integer name="m3_btn_anim_duration_ms">100</integer>
+    <integer name="m3_card_anim_delay_ms">75</integer>
+    <integer name="m3_card_anim_duration_ms">120</integer>
+    <integer name="m3_chip_anim_duration">100</integer>
+    <integer name="m3_sys_motion_duration_100">100</integer>
+    <integer name="m3_sys_motion_duration_1000">1000</integer>
+    <integer name="m3_sys_motion_duration_150">150</integer>
+    <integer name="m3_sys_motion_duration_200">200</integer>
+    <integer name="m3_sys_motion_duration_250">250</integer>
+    <integer name="m3_sys_motion_duration_300">300</integer>
+    <integer name="m3_sys_motion_duration_350">350</integer>
+    <integer name="m3_sys_motion_duration_400">400</integer>
+    <integer name="m3_sys_motion_duration_450">450</integer>
+    <integer name="m3_sys_motion_duration_50">50</integer>
+    <integer name="m3_sys_motion_duration_500">500</integer>
+    <integer name="m3_sys_motion_duration_550">550</integer>
+    <integer name="m3_sys_motion_duration_600">600</integer>
+    <integer name="m3_sys_motion_duration_700">700</integer>
+    <integer name="m3_sys_motion_duration_800">800</integer>
+    <integer name="m3_sys_motion_duration_900">900</integer>
+    <item type="integer" name="maintab_width_weight" format="float">1.0</item>
+    <integer name="mas_single_app_icon_ad_guide_text_max_lines">2</integer>
+    <integer name="mas_video_ad_detail_cta_maxLine">1</integer>
+    <integer name="mas_video_ad_detail_title_maxLine">2</integer>
+    <integer name="mas_video_ad_mini_gradient_angle">270</integer>
+    <integer name="material_motion_duration_long_1">300</integer>
+    <integer name="material_motion_duration_long_2">350</integer>
+    <integer name="material_motion_duration_medium_1">200</integer>
+    <integer name="material_motion_duration_medium_2">250</integer>
+    <integer name="material_motion_duration_short_1">75</integer>
+    <integer name="material_motion_duration_short_2">150</integer>
+    <integer name="material_motion_path">0</integer>
+    <integer name="max_number_of_wish_theme_at_a_line">3</integer>
+    <integer name="membership_point_refresh_anim_duration">750</integer>
+    <integer name="minus_one_recycler_span_count">3</integer>
+    <integer name="mtrl_badge_max_character_count">4</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_calendar_header_orientation">1</integer>
+    <integer name="mtrl_calendar_selection_text_lines">1</integer>
+    <integer name="mtrl_calendar_year_selector_span">3</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_switch_thumb_motion_duration">250</integer>
+    <integer name="mtrl_switch_thumb_post_morphing_duration">150</integer>
+    <integer name="mtrl_switch_thumb_pre_morphing_duration">100</integer>
+    <integer name="mtrl_switch_thumb_pressed_duration">100</integer>
+    <integer name="mtrl_switch_thumb_viewport_center_coordinate">16</integer>
+    <integer name="mtrl_switch_thumb_viewport_size">32</integer>
+    <integer name="mtrl_switch_track_viewport_height">32</integer>
+    <integer name="mtrl_switch_track_viewport_width">52</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="mtrl_view_gone">2</integer>
+    <integer name="mtrl_view_invisible">1</integer>
+    <integer name="mtrl_view_visible">0</integer>
+    <item type="integer" name="myapps_list_begin_percent" format="float">0.0</item>
+    <item type="integer" name="myapps_list_end_percent" format="float">1.0</item>
+    <item type="integer" name="network_retry_start_guide_end" format="float">0.8</item>
+    <item type="integer" name="network_retry_start_guide_start" format="float">0.2</item>
+    <integer name="newsBannerAdView_ad_gradient_angle">-90</integer>
+    <integer name="newsBannerAdView_shadowRadius">1</integer>
+    <integer name="newsBannerAdView_title_maxLines">2</integer>
+    <item type="integer" name="one_ui_list_begin_percent" format="float">0.0</item>
+    <item type="integer" name="one_ui_list_end_percent" format="float">1.0</item>
+    <item type="integer" name="popup_left_gap_percent" format="float">0.027</item>
+    <item type="integer" name="popup_right_gap_percent" format="float">0.973</item>
+    <integer name="preferences_detail_pane_weight">1</integer>
+    <integer name="preferences_header_pane_weight">0</integer>
+    <item type="integer" name="promotion_list_begin_percent" format="float">0.052</item>
+    <integer name="promotion_list_column_count">1</integer>
+    <integer name="promotion_list_column_type">1</integer>
+    <item type="integer" name="promotion_list_end_percent" format="float">0.948</item>
+    <item type="integer" name="promotion_list_item_margin_percent" format="float">0.0</item>
+    <integer name="qip_window_height_margin">32</integer>
+    <item type="integer" name="qip_window_height_percent" format="float">0.7</item>
+    <item type="integer" name="qip_window_width_percent" format="float">1.0</item>
+    <integer name="samsung_membership_point_body_percent">100</integer>
+    <integer name="screen_shot_round">10</integer>
+    <item type="integer" name="selfupdate_layout_Height_percent" format="float">0.7</item>
+    <item type="integer" name="selfupdate_layout_Width_percent" format="float">0.6</item>
+    <item type="integer" name="settings_left_gap_percent" format="float">0.0</item>
+    <item type="integer" name="settings_right_gap_percent" format="float">1.0</item>
+    <integer name="show_password_duration">200</integer>
+    <item type="integer" name="staffpicks_banner_item_width_height_ratio" format="float">2.85</item>
+    <item type="integer" name="staffpicks_banner_item_width_height_ratio_rolling" format="float">1.91</item>
+    <item type="integer" name="staffpicks_large_banner_item_width_height_ratio" format="float">1.5</item>
+    <item type="integer" name="staffpicks_screen_shot_banner_item_width_height_ratio" format="float">1.77</item>
+    <item type="integer" name="starter_kit_bottom_gap_percent" format="float">0.9</item>
+    <item type="integer" name="starter_kit_left_gap_percent" format="float">0.15</item>
+    <item type="integer" name="starter_kit_right_gap_percent" format="float">0.85</item>
+    <item type="integer" name="starter_kit_top_gap_percent" format="float">0.1</item>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <item type="integer" name="sub_tab_width_percent_100" format="float">1.0</item>
+    <item type="integer" name="sub_tab_width_percent_75" format="float">0.75</item>
+    <item type="integer" name="sub_tab_width_percent_90" format="float">0.9</item>
+    <integer name="tablet_ui_min_width">520</integer>
+    <integer name="top_bannerAdView_item_shadowRadius">1</integer>
+    <integer name="top_bannerAdView_title_maxLines">2</integer>
+    <integer name="top_banner_ad_gradient_angle">-90</integer>
+    <integer name="tw_loading_progress_anim_duration">750</integer>
+    <integer name="tw_loading_progress_rot_duration">3000</integer>
+    <integer name="videoAdTopView_item_shadowRadius">1</integer>
+    <integer name="watchface_item_cout_landscape">4</integer>
+    <integer name="watchface_item_cout_portrait">3</integer>
+</resources>

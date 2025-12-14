@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/btn_view_background" android:layout_width="wrap_content" android:layout_height="@dimen/staffpick_progress_sector_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_view_background2" android:background="@drawable/drawable_download_btn_levellist_background" android:duplicateParentState="true" android:layout_width="@dimen/list_download_button_width" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@id/btn_view_link" android:background="@drawable/drawable_download_btn_levellist_link" android:duplicateParentState="true" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+        <ImageView android:id="@id/btn_view_download" android:background="@drawable/drawable_download_btn_levellist_down_chn" android:duplicateParentState="true" android:layout_width="16.0dp" android:layout_height="16.0dp" android:scaleType="fitCenter" android:backgroundTint="@color/button_text_color" />
+    </LinearLayout>
+    <TextView android:textSize="11.0dp" android:textColor="@color/main_slot_progress_color" android:gravity="center" android:id="@id/btn_view_installed_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="52.0dp" android:text="@string/IDS_SAPPS_BODY_INSTALLED_M_NOUN" android:layout_centerInParent="true" />
+</RelativeLayout>

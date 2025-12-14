@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_ad_item_progressbar_height_btn_size">24.5dp</dimen>
+    <dimen name="search_ad_item_progressbar_sector_width">71.69998dp</dimen>
+    <dimen name="search_ad_item_progressbar_width">47.0dp</dimen>
+    <dimen name="search_ad_item_size_padding">9.0dp</dimen>
+    <dimen name="staffpick_banner_item_height">112.0dp</dimen>
+    <dimen name="staffpick_banner_item_width">320.0dp</dimen>
+    <dimen name="staffpick_banner_rolling_item_height">167.0dp</dimen>
+    <dimen name="staffpick_banner_with_text_item_height">175.0dp</dimen>
+    <dimen name="starter_kit_icon_spacing">30.0dp</dimen>
+</resources>

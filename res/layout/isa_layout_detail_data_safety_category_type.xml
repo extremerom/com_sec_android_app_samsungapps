@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/data_safety_type_container" android:tag="layout/isa_layout_detail_data_safety_category_type_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dp" android:textColor="@color/detail_data_safety_type_title" android:id="@id/data_safety_type_title" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dp" android:layout_marginRight="28.0dp" android:layout_marginHorizontal="28.0dp" style="@style/isa_style_detail_title" />
+    <FrameLayout android:background="@drawable/background_detail_inner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="10.0dp" android:minHeight="68.0dp" android:layout_marginHorizontal="10.0dp">
+        <TextView android:layout_gravity="center" android:id="@id/data_safety_type_none" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_STATUS_NONE" style="@style/isa_style_detail_data_safety_none" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/data_safety_category_group_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

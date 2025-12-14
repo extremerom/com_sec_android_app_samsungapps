@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="custom_splash_constraint_vertical_bias">0.513</fraction>
+    <fraction name="default_splash_constraint_vertical_bias">0.5</fraction>
+    <fraction name="dialog_enter_anim_duration">100.0%</fraction>
+    <fraction name="dialog_exit_anim_duration">100.0%</fraction>
+    <fraction name="editorial_dim_amount">0.4</fraction>
+    <fraction name="instant_plays_pp_half_width">0.5</fraction>
+    <fraction name="instant_plays_pp_logo_margin_top">0.38</fraction>
+    <fraction name="instant_plays_pp_view_guide_end">0.9111</fraction>
+    <fraction name="instant_plays_pp_view_guide_start">0.0889</fraction>
+    <fraction name="notice_list_width_percent">1.0</fraction>
+    <fraction name="one_ui_common_list_padding">0.0</fraction>
+</resources>

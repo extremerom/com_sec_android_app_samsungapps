@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/tv_tag_click_section" android:padding="@dimen/content_detail_main_tag_padding_size" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="13.0dp" android:textColor="?detailTagWidgetItemTextColor" android:gravity="center_vertical" android:id="@id/tv_tag" android:background="@drawable/drawable_detail_main_tag_item_effect" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="30.0dp" android:paddingHorizontal="12.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_style_one_ui_font_regular" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

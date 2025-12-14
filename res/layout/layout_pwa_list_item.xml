@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/layout_pwa_list_item_0" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/chart_list_item_height" android:foreground="@drawable/isa_drawable_list_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/chart_list_item_height" android:layout_marginLeft="@dimen/common_list_side_item_margin" android:layout_marginRight="@dimen/common_list_side_item_margin" android:layoutDirection="locale" android:layout_marginHorizontal="@dimen/common_list_side_item_margin">
+        <FrameLayout android:layout_gravity="center" android:id="@id/webFrameLayout" android:tag="binding_1" android:layout_width="@dimen/common_list_icon_size" android:layout_height="@dimen/common_list_icon_size">
+            <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/layout_list_itemly_imgly_pimg" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:adjustViewBounds="true" app:cornerRadius="@dimen/staffpicks_scrolling_normal_round_radius" app:is_show_default_while_loading="true" app:is_webimage_default="@drawable/icon_default_galaxy_store_r15" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="16.0dp">
+            <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/layout_list_itemly_centerly_pname" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="17.0dp" android:maxLines="1" style="@style/isa_style_list_view_01_title" />
+                <TextView android:id="@id/layout_list_itemly_discprice" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" style="@style/isa_style_thumbnail_view_type_01_category" />
+            </LinearLayout>
+            <com.sec.android.app.samsungapps.commonview.DownloadBtnView android:layout_gravity="end|center" android:id="@id/download_btn_view" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:layout_marginStart="12.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

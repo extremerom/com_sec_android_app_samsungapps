@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/isa_layout_detail_tencent_certi_0" android:layout_width="match_parent" android:layout_height="@dimen/detail_tencent_certi_widget_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/btn_detail_ic_tencent_security" android:layout_width="13.0dp" android:layout_height="13.0dp" android:layout_marginRight="5.0dp" android:layout_marginEnd="5.0dp" />
+    <TextView android:textSize="13.0dp" android:textColor="@color/isa_102102102" android:id="@id/tencent_certi_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MIDS_SAPPS_BODY_THIS_APP_IS_PROVIDED_BY_AND_CERTIFIED_BY_TENCENT_ABB" />
+</LinearLayout>

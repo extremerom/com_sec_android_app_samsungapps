@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="download_btn_outline_size">1.0px</dimen>
+    <dimen name="main_tab_divider_drawing_top">38.599976dp</dimen>
+    <dimen name="shadow_corner_radius">20.0dp</dimen>
+    <dimen name="starter_kit_collapsed_arrow_icon_size">11.0dp</dimen>
+    <dimen name="starter_kit_collapsed_mode_margin_bottom">4.0dp</dimen>
+    <dimen name="starter_kit_collapsed_text_margin_right">2.0dp</dimen>
+    <dimen name="starter_kit_single_item_edge_icon_frame_height">40.0dp</dimen>
+    <dimen name="starter_kit_single_item_edge_icon_width">16.0dp</dimen>
+    <dimen name="starter_kit_single_item_icon_area_margin_top">12.0dp</dimen>
+    <dimen name="starter_kit_single_item_icon_height">64.0dp</dimen>
+    <dimen name="starter_kit_single_item_icon_width">64.0dp</dimen>
+    <dimen name="starter_kit_single_item_text_area_width">71.0dp</dimen>
+    <dimen name="starter_kit_startup_container_area_margin_top">11.0dp</dimen>
+    <dimen name="starter_kit_title_ts">16.0dp</dimen>
+    <dimen name="starter_kit_two_column_title_margin_left">12.0dp</dimen>
+</resources>

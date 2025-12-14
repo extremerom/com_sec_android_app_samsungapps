@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πόντος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d πόντοι</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν είναι δυνατή η επιλογή πάνω από %d ετικέτας.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν είναι δυνατή η επιλογή πάνω από %d ετικετών.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θα πρέπει να είστε τουλάχιστον %d έτους για να χρησιμοποιήσετε τα Παιχνίδια άμεσης έναρξης.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Θα πρέπει να είστε τουλάχιστον %d ετών για να χρησιμοποιήσετε τα Παιχνίδια άμεσης έναρξης.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Επιλέχθηκε %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Επιλέχθηκαν %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s πόντοι θα προστεθούν στον λογαριασμό σας σε περίπου %2$d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s πόντοι θα προστεθούν στον λογαριασμό σας σε περίπου %2$d ημέρες.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Για να κατεβάσετε αυτήν την εφαρμογή, θα πρέπει να επαληθεύσετε την ταυτότητά σας και να επιβεβαιώσετε ότι είστε άνω του %d έτους.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Για να κατεβάσετε αυτήν την εφαρμογή, θα πρέπει να επαληθεύσετε την ταυτότητά σας και να επιβεβαιώσετε ότι είστε άνω των %d ετών.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θα πρέπει να είστε τουλάχιστον %1$d έτους, για να χρησιμοποιήσετε την υπηρεσία %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Θα πρέπει να είστε τουλάχιστον %1$d ετών, για να χρησιμοποιήσετε την υπηρεσία %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Απομένει %d ημέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Απομένουν %d ημέρες</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 πόντος θα προστεθεί στον λογαριασμό σας σε περίπου %d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 πόντος θα προστεθεί στον λογαριασμό σας σε περίπου %d ημέρες.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θέλετε να διαγραφεί το σετ με τα αυτοκόλλητα από τις εφαρμογές %1$s, %2$s, %3$s και %4$d ακόμη εφαρμογή;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Θέλετε να διαγραφεί το σετ με τα αυτοκόλλητα από τις εφαρμογές %1$s, %2$s, %3$s και %4$d ακόμη εφαρμογές;</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Πρέπει να είστε τουλ. %d έτους για την εγκατ. Ζητήστε από τον διοργ. της οικογ. να αλλάξει τις ρυθμ. ηλικ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Πρέπει να είστε τουλ. %d ετών για την εγκατ. Ζητήστε από τον διοργ. της οικογ. να αλλάξει τις ρυθμ. ηλικ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s πόντοι θα προστεθούν στον λογαριασμό σας σε περίπου %2$d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s πόντοι θα προστεθούν στον λογαριασμό σας σε περίπου %2$d ημέρες.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πόντος θα προστεθεί στο λογαριασμό σας εντός 7 ημερών.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d πόντοι θα προστεθούν στο λογαριασμό σας εντός 7 ημερών.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πόντος Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d πόντοι Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Για να προ-εγγραφείτε για αυτήν την εφαρμογή, πρέπει να επαληθεύσετε ότι είστε τουλάχιστον %d έτους.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Για να προ-εγγραφείτε για αυτήν την εφαρμογή, πρέπει να επαληθεύσετε ότι είστε τουλάχιστον %d ετών.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Για να δείτε αυτήν την εφαρμογή, θα πρέπει να συνδεθείτε και να επαληθεύσετε ότι είστε %d έτους και άνω.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Για να δείτε αυτήν την εφαρμογή, θα πρέπει να συνδεθείτε και να επαληθεύσετε ότι είστε %d ετών και άνω.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχετε ήδη εγκαταστήσει τη %d κορυφαία εφαρμογή. Πατήστε > για να δείτε περισσότερες.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχετε ήδη εγκαταστήσει τις %d κορυφαίες εφαρμογές. Πατήστε > για να δείτε περισσότερες.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχετε ήδη εγκαταστήσει το %d κορυφαίο παιχνίδι. Πατήστε > για να δείτε περισσότερα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχετε ήδη εγκαταστήσει τα %d κορυφαία παιχνίδια. Πατήστε > για να δείτε περισσότερα.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχετε ήδη εγκαταστήσει το %d κορυφαίο στοιχείο διαμόρφωσης στιλ. Πατήστε > για να δείτε περισσότερα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχετε ήδη εγκαταστήσει τα %d κορυφαία στοιχεία διαμόρφωσης στιλ. Πατήστε > για να δείτε περισσότερα.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Έχετε ήδη εγκαταστήσει το %d κορυφαίο θέμα. Πατήστε > για να δείτε περισσότερα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Έχετε ήδη εγκαταστήσει τα %d κορυφαία θέματα. Πατήστε > για να δείτε περισσότερα.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μόλις κερδίσατε 1 πόντο! Τώρα, έχετε %d πόντο τον οποίο μπορείτε να χρησιμοποιήσετε για να αγοράσετε εφαρμογές και άλλα πράγματα στο Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Μόλις κερδίσατε 1 πόντο! Τώρα, έχετε %d πόντους τους οποίους μπορείτε να χρησιμοποιήσετε για να αγοράσετε εφαρμογές και άλλα πράγματα στο Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Πρέπει να είστε τουλάχιστον %d έτους για να κατεβάσετε αυτήν την εφαρμογή.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Πρέπει να είστε τουλάχιστον %d ετών για να κατεβάσετε αυτήν την εφαρμογή.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Πρέπει να είστε τουλάχιστον %d έτους για να προ-εγγραφείτε για αυτήν την εφαρμογή.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Πρέπει να είστε τουλάχιστον %d ετών για να προ-εγγραφείτε για αυτήν την εφαρμογή.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να μην εμφανιστεί ξανά για %d ημέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Να μην εμφανιστεί ξανά για %d ημέρες</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s κάθε %2$d ημέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s κάθε %2$d ημέρες</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s κάθε %2$d μήνα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s κάθε %2$d μήνες</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s κάθε %2$d εβδομάδα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s κάθε %2$d εβδομάδες</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s κάθε %2$d χρόνο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s κάθε %2$d χρόνια</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πόντος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d πόντοι</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d ημέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d ημέρες</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d μήνα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d μήνες</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d εβδομάδα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d εβδομάδες</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d έτος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δωρεάν έως τις %1$s, έπειτα %2$s κάθε %3$d έτη</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d άτομο τη βρήκε χρήσιμη</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d άτομα τη βρήκαν χρήσιμη</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d διαθέσιμη ενημέρωση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d διαθέσιμες ενημερώσεις</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Κριτικές με %d αστέρι</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Κριτικές με %d αστέρια</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η αξιολόγησή σας: %d αστέρι</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Η αξιολόγησή σας: %d αστέρια</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ειδοποίηση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Πρέπει να είστε τουλάχιστον %d έτους για να παίξετε αυτό το παιχνίδι.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Πρέπει να είστε τουλάχιστον %d ετών για να παίξετε αυτό το παιχνίδι.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η περίοδος παιχνιδιού θα τελειώσει σε %d λεπτό.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Η περίοδος παιχνιδιού θα τελειώσει σε %d λεπτά.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η σύνδεση δικτύου δεν είναι σταθερή. Το παιχνίδι θα κλείσει σε %d δευτερόλεπτο αν δεν είναι δυνατή η σύνδεση. Η κατάσταση του παιχνιδιού σας θα αποθηκευτεί.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Η σύνδεση δικτύου δεν είναι σταθερή. Το παιχνίδι θα κλείσει σε %d δευτερόλεπτα αν δεν είναι δυνατή η σύνδεση. Η κατάσταση του παιχνιδιού σας θα αποθηκευτεί.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Γρήγορη προώθηση κατά %d δευτερόλεπτο</item>
+        <item quantity="other">Γρήγορη προώθηση κατά %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτο</item>
+        <item quantity="other">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d δευτ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d δευτ.</item>
+    </plurals>
+</resources>

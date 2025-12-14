@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_page_agreement_content_max_width">640.0dp</dimen>
+    <dimen name="welcome_page_agreement_content_min_width">435.0dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/isa_layout_list_search_item_clear_history_footer_0" android:focusable="true" android:layout_width="match_parent" android:layout_height="56.0dp" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/list_divider" android:layout_width="match_parent" android:layout_height="@dimen/two_px_line_divider" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+    <TextView android:textSize="16.0dp" android:textColor="@color/clear_search_history_text_color" android:gravity="center" android:id="@id/clear_search_history" android:tag="binding_1" android:background="@drawable/isa_drawable_dialog_button_effect" android:layout_width="match_parent" android:layout_height="56.0dp" android:text="@string/DREAM_COM_BUTTON_CLEAR_ALL_30" style="@style/isa_style_one_ui_font_bold" />
+</LinearLayout>

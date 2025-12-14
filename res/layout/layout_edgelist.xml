@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:scrollbarStyle="outsideOverlay" android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/isa_style_scroll_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.sec.android.app.samsungapps.commonview.GalaxyAppsDescriptionView android:id="@id/description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/edge_list_content" android:visibility="gone" android:scrollbars="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8.0dp" android:layoutDirection="locale" style="@style/isa_style_scroll_bar" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_list_itemly" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/layout_list_itemly_imgly" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/webFrameLayout" android:layout_width="63.0dp" android:layout_height="63.0dp">
+                <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/layout_list_itemly_imgly_pimg" android:layout_width="63.0dp" android:layout_height="63.0dp" android:scaleType="fitXY" android:adjustViewBounds="true" app:animated="true" app:cornerRadius="@dimen/staffpicks_scrolling_normal_round_radius" app:is_webimage_default="@drawable/icon_default_galaxy_store_r15" />
+                <ImageView android:layout_gravity="right|bottom" android:id="@id/layout_list_itemly_imgly_ptype" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/isa_badge_widget_list" android:layoutDirection="ltr" />
+            </FrameLayout>
+            <ImageView android:id="@id/product_img_gearvr_type" android:visibility="gone" android:layout_width="27.0dp" android:layout_height="27.0dp" android:layout_marginLeft="39.0dp" android:layout_marginTop="39.0dp" android:src="@drawable/apps_icon_vr" android:scaleType="fitXY" android:layout_toRightOf="@id/layout_list_itemly_imgly_pimg" android:layout_below="@id/layout_list_itemly_imgly_pimg" android:layoutDirection="ltr" android:layout_marginStart="39.0dp" android:layout_toEndOf="@id/layout_list_itemly_imgly_pimg" />
+            <FrameLayout android:id="@id/edgeFrameLayout" android:background="@drawable/long_banner_shadow" android:visibility="gone" android:layout_width="31.0dp" android:layout_height="78.0dp">
+                <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/layout_list_itemly_edge_imgly_pimg" android:paddingLeft="1.0px" android:paddingTop="1.0px" android:paddingBottom="1.0px" android:layout_width="29.0dp" android:layout_height="78.0dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:paddingStart="1.0px" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="right|bottom" android:id="@id/adult_icon" android:visibility="gone" android:layout_width="@dimen/contents_img_badge_adult_size_large" android:layout_height="@dimen/contents_img_badge_adult_size_large" android:layout_marginRight="4.0dp" android:layout_marginBottom="4.0dp" android:src="@drawable/contents_ic_todays_19_s" android:scaleType="fitXY" android:layoutDirection="ltr" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_list_itemly_data" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/layout_list_itemly_centerly" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="6.0dp">
+                    <TextView android:textSize="11.0dp" android:ellipsize="end" android:gravity="center" android:id="@id/layout_list_itemly_centerly_pname" android:background="@drawable/isa_drawable_common_hoverd_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="23.0dp" android:maxLines="2" android:textDirection="locale" style="@style/style_china_thumbnail_list_title" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:tag="layout/layout_businessinfo_alley_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/detail_business_info_text_size" android:textColor="@color/detail_qip_custom_seller_guide" android:id="@id/tv_welcome" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/LDS_SAPPS_BODY_START_TO_DOWNLOAD_THE_APP_INSTANTLY_MSG" android:includeFontPadding="false" android:textAlignment="gravity" style="@style/isa_style_one_ui_font_regular" />
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+        <TextView android:textSize="@dimen/detail_business_info_text_size" android:textColor="@color/detail_qip_custom_seller_guide" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_SAMSUNG_ELECTRONICS_CO_LTD" android:includeFontPadding="false" style="@style/isa_style_one_ui_font_bold" />
+        <TextView android:textSize="@dimen/detail_business_info_text_size" android:textColor="@color/detail_link" android:id="@id/tv_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dp" style="@style/isa_style_one_ui_font_bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/orderhistory_list_item_background_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="end|top" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="end|top" android:id="@id/popup_view_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="@dimen/search_result_activity_more_window_top_margin" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/parentCategoryLayout" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/receipt_list_sa_login_layout" android:background="@drawable/order_detail_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/receipt_list_request_signin" android:background="@drawable/top_corners_bg" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+                <TextView android:textSize="18.0dp" android:textColor="@color/drawer_list_item_title_text" android:id="@id/receipt_list_request_signin_samsung_acc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_one_ui_font_regular" />
+                <TextView android:textSize="13.0dp" android:textColor="@color/write_review_hint_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_GAGS_BODY_TAP_HERE_TO_SIGN_IN_AND_VIEW_RECEIPTS" style="@style/isa_style_one_ui_font_regular" />
+            </LinearLayout>
+            <View android:background="@color/detail_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            <TextView android:textSize="18.0dp" android:textColor="@color/drawer_list_item_title_text" android:id="@id/receipt_list_guest_checkout" android:background="@drawable/bottom_corners_bg" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_GAGS_OPT_SEARCH_BY_RECEIPT_NUMBER_ABB" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" style="@style/isa_style_one_ui_font_regular" />
+        </LinearLayout>
+        <com.sec.android.app.samsungapps.commonview.CommonSubtab android:id="@id/common_subtab" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:alignUsingSubTabWidth="true" />
+        <com.sec.android.app.samsungapps.commonview.CustomViewPager android:id="@id/viewpager" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:interpolator="@anim/interpolator_critical_damping" android:duration="450">
+        <targets>
+            <target android:targetId="@id/iv_launch" />
+            <target android:targetId="@id/area_right" />
+            <target android:targetId="@id/progress_bar" />
+        </targets>
+    </changeBounds>
+    <fade android:interpolator="@anim/interpolator_sine_inout_33" android:duration="150" android:fadingMode="fade_in" android:startDelay="233">
+        <targets>
+            <target android:targetId="@id/lyt_price" />
+        </targets>
+    </fade>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="250" android:startDelay="200" class="com.sec.android.app.samsungapps.commonview.AnimatedDownloadButtonDrawableTransition">
+        <targets>
+            <target android:targetId="@id/iv_launch" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="200" class="com.sec.android.app.samsungapps.commonview.AnimatedDownloadButtonDrawableTransition">
+        <targets>
+            <target android:targetId="@id/iv_pause" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="50" class="com.sec.android.app.samsungapps.commonview.AnimatedDownloadButtonDrawableTransition">
+        <targets>
+            <target android:targetId="@id/progress_bar" />
+        </targets>
+    </transition>
+</transitionSet>

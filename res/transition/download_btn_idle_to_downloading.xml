@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:interpolator="@anim/interpolator_critical_damping" android:duration="450">
+        <targets>
+            <target android:targetId="@id/progress_bar_indeterminate" />
+            <target android:targetId="@id/area_right" />
+        </targets>
+    </changeBounds>
+    <fade android:interpolator="@android:interpolator/linear" android:duration="250" android:fadingMode="fade_in" android:startDelay="200">
+        <targets>
+            <target android:targetId="@id/iv_pause" />
+        </targets>
+    </fade>
+    <fade android:interpolator="@android:interpolator/linear" android:duration="100" android:fadingMode="fade_in" android:startDelay="450">
+        <targets>
+            <target android:targetId="@id/progress_bar" />
+        </targets>
+    </fade>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="200" class="com.sec.android.app.samsungapps.commonview.AlphaTransition">
+        <targets>
+            <target android:targetId="@id/iv_download" />
+            <target android:targetId="@id/lyt_price" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@android:interpolator/linear" android:duration="450" class="com.sec.android.app.samsungapps.commonview.AlphaTransition">
+        <targets>
+            <target android:targetId="@id/progress_bar_indeterminate" />
+        </targets>
+    </transition>
+</transitionSet>

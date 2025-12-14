@@ -1,0 +1,130 @@
+.class public Lorg/bouncycastle/asn1/r0;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lorg/bouncycastle/asn1/ASN1TaggedObjectParser;
+
+
+# direct methods
+.method public constructor <init>(ZILorg/bouncycastle/asn1/x;)V
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in org.bouncycastle.asn1.BERTaggedObjectParser: void <init>(boolean,int,org.bouncycastle.asn1.ASN1StreamParser)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+
+# virtual methods
+.method public a()Z
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.BERTaggedObjectParser: boolean isConstructed()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public getLoadedObject()Lorg/bouncycastle/asn1/s;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.BERTaggedObjectParser: org.bouncycastle.asn1.ASN1Primitive getLoadedObject()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public getObjectParser(IZ)Lorg/bouncycastle/asn1/ASN1Encodable;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in org.bouncycastle.asn1.BERTaggedObjectParser: org.bouncycastle.asn1.ASN1Encodable getObjectParser(int,boolean)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public getTagNo()I
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.BERTaggedObjectParser: int getTagNo()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public toASN1Primitive()Lorg/bouncycastle/asn1/s;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.asn1.BERTaggedObjectParser: org.bouncycastle.asn1.ASN1Primitive toASN1Primitive()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/interpolator_linear" android:duration="200">
+        <propertyValuesHolder android:valueFrom="0.f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="alpha" />
+    </objectAnimator>
+    <objectAnimator android:interpolator="@anim/interpolator_22_5_0_1" android:duration="350">
+        <propertyValuesHolder android:valueFrom="0.5f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="scaleX" />
+        <propertyValuesHolder android:valueFrom="0.5f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="scaleY" />
+    </objectAnimator>
+</set>

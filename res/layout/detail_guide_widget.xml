@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_detail_main_widget" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_gear_vr_guide" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_detail_main_left_layout_margin_left_18dp" android:layout_marginRight="@dimen/content_detail_main_right_layout_margin_right" android:minHeight="@dimen/content_detail_main_guide_text_min_height">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/tv_detail_gear_vr_guide" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_detail_main_guide_text_margin_top_bottom" android:layout_marginBottom="@dimen/content_detail_main_guide_text_margin_top_bottom" android:text="@string/MIDS_SAPPS_SBODY_CAN_ONLY_BE_USED_WHILE_THE_DEVICE_IS_INSERTED_INTO_GEAR_VR" style="@style/isa_style_detail_google_text_description" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_tencent_security_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_detail_main_left_layout_margin_left_18dp" android:layout_marginRight="@dimen/content_detail_main_right_layout_margin_right" android:layout_marginStart="@dimen/content_detail_main_left_layout_margin_left_18dp" android:layout_marginEnd="@dimen/content_detail_main_right_layout_margin_right">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/isa_drawable_tencent_security_guide_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_detail_main_guide_text_margin_top_bottom" android:layout_marginBottom="20.0dp" android:minHeight="35.0dp">
+            <TextView android:textSize="10.0dp" android:textColor="@color/detail_tencent_msg" android:ellipsize="end" android:id="@id/tencent_security_textview" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

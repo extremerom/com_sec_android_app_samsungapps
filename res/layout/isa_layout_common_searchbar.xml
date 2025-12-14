@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:layout_gravity="center_vertical" android:id="@id/search_edit" android:nextFocusRight="@id/search_cancel" android:nextFocusUp="@id/icon_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="100" android:soundEffectsEnabled="true" android:imeOptions="actionSearch" android:contentDescription="@string/DREAM_IDLE_OPT_SEARCH" android:layout_marginStart="30.0dp" style="@style/isa_actionbar_inputbox_fix">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/search_hint_layout" android:paddingLeft="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/search_hint_img" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/gs_ic_search" app:tint="@color/actionbar_icon_color" />
+        <TextView android:textSize="19.0dp" android:textColor="@color/dialog_edittext_hint" android:id="@id/search_hint_text" android:paddingRight="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:text="@string/DREAM_IDLE_OPT_SEARCH" style="@style/isa_style_search_edit_hint_text" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|center" android:orientation="horizontal" android:addStatesFromChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/search_cancel" android:focusable="true" android:visibility="gone" android:nextFocusLeft="@id/search_edit" android:clickable="true" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginRight="3.0dp" android:scaleType="center" app:tint="@color/actionbar_icon_color" style="@style/isa_style_action_bar_search_cancel" />
+    </LinearLayout>
+</FrameLayout>

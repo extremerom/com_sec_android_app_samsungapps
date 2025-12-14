@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Anbox Streaming SDK Example</title>
+</head>
+<style>
+ .loader {
+  border: 2px solid #f3f3f3; /* Light grey */
+  border-top: 2px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+<body>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<script type="module">
+    import {AnboxStream, AnboxStreamGatewayConnector} from './js/anbox-stream-sdk.js';
+
+    // Connectors will enable communication between the client and the
+    // gateway. They can be customized to add an additional layer between
+    // the client and the gateway in order to add more features (user management,
+    // limits, analytics, etc).
+    // For instance, to add user management, you would create a connector that
+    // would communicate with a service you own, which in turn would talk to the
+    // stream gateway to create an actual streaming session.
+    // The connector would pass that session information to the SDK which takes
+    // care of the rest.
+    const connector = new AnboxStreamGatewayConnector({
+        url: Android.getGatewayUrl(),
+        authToken: Android.getApiToken(),
+        session: {
+          app: Android.getAppName(),
+          id: Android.getId(),
+          signalingUrl: Android.getSignalingUrl(),
+          stunServers: Android.getStunServers(),
+        },
+        screen: {
+          width: 1280,
+          height: 720,
+          fps: 25,
+       }
+    });
+
+    window.stream = new AnboxStream({
+        connector: connector,
+        targetElement: "anbox-stream",
+        controls: {
+          mouse: true,
+        },
+        devices: {
+          speaker: true,
+          microphone: false,
+          camera: false,
+        },
+        callbacks: {
+            ready: () => {
+                console.log("AnboxStream is ready");
+                Android.ready();
+            },
+            controlChannelOpened: () => {
+                console.log("AnboxStream controlChannelOpened");
+                Android.controlChannelOpened();
+            },
+            resize: orientation => {
+                console.log("AnboxStream resize :" + orientation);
+                Android.resize(orientation);
+            },
+            error: error => {
+                console.error("AnboxStream failed: ", error);
+                Android.error(String(error), error.cause.code);
+            },
+            requestCameraAccess: () => {
+                return window.confirm("Anbox Cloud requires to access the camera device")
+            },
+            requestMicrophoneAccess: () => {
+                return window.confirm("Anbox Cloud requires to access the microphone device")
+            },
+            statsUpdated: stats => {
+                Android.statsUpdated(JSON.stringify(stats))
+            },
+            done: () => {
+                console.log("AnboxStream disconnected")
+                Android.disconnected()
+            }
+        },
+        enableStats: Android.showStatistics(),
+        experimental: {
+          debug: Android.isTestMode(),
+          upscaling: {
+              enabled: Android.useUpscaling(),
+          }
+        },
+        dataChannels: {
+             "device": {
+                callbacks: {
+                    close: () => {
+                        Android.dataClose("device")
+                    },
+                    open: () => {
+                        Android.dataOpen("device")
+                    },
+                    error: (err) => {
+                        Android.dataError("device", err)
+                    },
+                    message: (message) => {
+                        Android.dataMessage("device", message)
+                    }
+                }
+            }
+        },
+        video: {
+            preferred_decoder_codecs: JSON.parse(Android.getPreferredDecoderCodecs())
+        }
+    });
+    window.stream.connect();
+</script>
+<script>
+  function sendIMECommittedText(text) {
+    window.stream.sendIMECommittedText(text);
+  }
+  function sendIMEComposingText(text) {
+    window.stream.sendIMEComposingText(text);
+  }
+  function sendIMETextDeletion(counts) {
+    window.stream.sendIMETextDeletion(counts);
+  }
+  function sendIMEAction(name, params) {
+    window.stream.sendIMEAction(name, params);
+  }
+  function sendIMEComposingRegion(start, end) {
+    window.stream.sendIMEComposingRegion(start, end);
+  }
+  function showStatistics(enabled) {
+    window.stream.showStatistics(enabled);
+  }
+  function disconnect() {
+    window.stream.disconnect()
+  }
+  function rotate(orientation) {
+    window.stream.rotate(orientation)
+  }
+  function setVideoStreamEnabled(enabled) {
+    window.stream.setVideoStreamEnabled(enabled)
+  }
+  function setAudioStreamEnabled(enabled) {
+    window.stream.setAudioStreamEnabled(enabled)
+  }
+  function sendDeviceMessage(message) {
+    var CHUNK_LEN = 65536;
+    let utf8Encode = new TextEncoder();
+    var encoded = utf8Encode.encode(message)
+    var n = encoded.length / CHUNK_LEN | 0;
+    var end = 0
+    var chunkSize = (n + 1) | 0;
+    console.log("sendDeviceMessage [" + chunkSize + "]");
+    window.stream.sendData('device', new Uint32Array([chunkSize]).buffer);
+
+    var i = 0
+    if(n > 0) {
+        for (i = 0; i < n; i++) {
+            var start = i * CHUNK_LEN;
+            end = (i+1) * CHUNK_LEN;
+            console.log("sendDeviceMessage [" + i + "][" + (end - start) +"]" );
+            window.stream.sendData('device', new Uint32Array([i, end - start]).buffer);
+            window.stream.sendData('device', encoded.subarray(start, end));
+        }
+    }
+    if (encoded.length % CHUNK_LEN){
+        console.log("sendDeviceMessage [" + i + "][" + (encoded.length - end) +"]" );
+        window.stream.sendData('device', new Uint32Array([i, encoded.length - end]).buffer);
+        window.stream.sendData('device', encoded.subarray(n*CHUNK_LEN));
+    }
+  }
+  function sendLogMessage(message) {
+    let utf8Encode = new TextEncoder();
+    var encoded = utf8Encode.encode(message)
+    window.stream.sendData('log', encoded)
+  }
+</script>
+<div id="anbox-stream" style="width: 100vw; height: 100vh; position: absolute; top: 0; left: 0;"></div>
+<div class="loader"></div>
+</body>

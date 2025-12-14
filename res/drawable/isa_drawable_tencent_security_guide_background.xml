@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/detail_tencent_security_guide_container_background" />
+    <corners android:radius="@dimen/detail_tencent_certi_widget_radius" />
+</shape>

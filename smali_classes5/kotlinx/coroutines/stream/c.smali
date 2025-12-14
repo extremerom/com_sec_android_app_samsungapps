@@ -1,0 +1,25 @@
+.class public final Lkotlinx/coroutines/stream/c;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# direct methods
+.method public static final a(Ljava/util/stream/Stream;)Lkotlinx/coroutines/flow/Flow;
+    .locals 1
+
+    const-string p0, "[R8]"
+
+    invoke-static {p0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p0
+
+    const-string v0, "Shaking error: Missing method in kotlinx.coroutines.stream.StreamKt: kotlinx.coroutines.flow.Flow consumeAsFlow(java.util.stream.Stream)"
+
+    invoke-virtual {p0, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p0, Ljava/lang/RuntimeException;
+
+    invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method

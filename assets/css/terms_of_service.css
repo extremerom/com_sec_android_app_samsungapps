@@ -1,0 +1,16 @@
+* {
+    color: #eaeaeb;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.custom-title {
+    font-size: 19px;
+    font-family: sans-serif-medium;
+    font-weight: 600;
+}

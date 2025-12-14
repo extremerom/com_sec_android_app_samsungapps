@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/first_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:background="@drawable/dot_for_permission" android:layout_width="4.0dp" android:layout_height="4.0dp" />
+        </LinearLayout>
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp" android:textDirection="locale" style="@style/isa_popup_app_permissions_second_title_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/permission_description_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginStart="10.0dp" />
+    <View android:id="@id/second_gap" android:layout_width="match_parent" android:layout_height="14.0dp" />
+</LinearLayout>

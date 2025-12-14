@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_add" android:enabled="true" android:id="@id/add_action" android:title="Add action" />
+    <item android:icon="@android:drawable/ic_menu_save" android:enabled="true" android:id="@id/save_policies" android:title="Save&amp;Exit" />
+    <item android:icon="@android:drawable/ic_menu_revert" android:enabled="true" android:id="@id/exit" android:title="Cancel" />
+    <item android:icon="@android:drawable/ic_menu_agenda" android:enabled="true" android:id="@id/download_server_policy" android:title="From Server" />
+</menu>

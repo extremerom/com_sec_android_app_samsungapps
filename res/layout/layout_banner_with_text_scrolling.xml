@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_inner_item_upper" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/banner_view_wrapper" android:background="@drawable/banner_with_text_bg" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/banner_image_wrapper" android:layout_width="match_parent" android:layout_height="@dimen/staffpick_banner_with_text_item_height">
+            <ImageView android:id="@id/banner_image" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_banner_item_effect" android:scaleType="centerCrop" />
+            <View android:layout_gravity="center" android:id="@id/banner_image_corner_masking_with_text" android:background="@drawable/banner_with_text_banner_cover_corner" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <View android:layout_gravity="center" android:id="@id/banner_image_corner_masking_without_text" android:background="@drawable/banner_round_corner_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tv_banner_text_wrap_section" android:layout_width="match_parent" android:layout_height="50.0dp">
+            <TextView android:textSize="14.0dp" android:textColor="@color/main_slot_item_title" android:ellipsize="end" android:id="@id/tv_banner_text_content" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="15.0dp" />
+            <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_item_title" android:gravity="center" android:id="@id/tv_view_all_btn" android:background="@drawable/banner_with_text_view_all_bg" android:layout_width="83.0dp" android:layout_height="26.0dp" android:text="@string/DREAM_SAPPS_BUTTON_VIEW_MORE_15" android:layout_marginStart="10.0dp" android:layout_marginEnd="12.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

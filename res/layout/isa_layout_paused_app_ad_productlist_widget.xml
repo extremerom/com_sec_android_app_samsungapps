@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ad_productlist_widget_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/list_depth_side_margin" android:layout_marginEnd="@dimen/list_depth_side_margin">
+        <include layout="@layout/isa_layout_detail_line" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/tv_ad_product_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" android:layout_marginBottom="15.0dp" android:layout_marginStart="@dimen/list_depth_side_margin" android:layout_marginEnd="@dimen/list_depth_side_margin">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/tv_ad_product_title" android:focusable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="true" android:textDirection="locale" android:layout_alignParentStart="true" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/list_item_cap_img4" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_style_detail_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+    <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/product_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" />
+    </RelativeLayout>
+</LinearLayout>

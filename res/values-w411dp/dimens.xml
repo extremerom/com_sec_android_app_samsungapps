@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lego_page_banner_height">107.0dp</dimen>
+    <dimen name="lego_page_banner_top_padding">40.0dp</dimen>
+    <dimen name="lego_page_banner_width">356.0dp</dimen>
+    <dimen name="search_ad_item_progressbar_height_btn_size">28.0dp</dimen>
+    <dimen name="search_ad_item_progressbar_sector_width">82.0dp</dimen>
+    <dimen name="search_ad_item_progressbar_width">54.0dp</dimen>
+    <dimen name="staffpick_banner_item_height">130.0dp</dimen>
+    <dimen name="staffpick_banner_item_width">371.0dp</dimen>
+    <dimen name="staffpick_banner_rolling_item_height">192.0dp</dimen>
+    <dimen name="staffpick_banner_with_text_item_height">201.0dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="maintab_width_weight" format="float">0.75</item>
+    <item type="integer" name="promotion_list_begin_percent" format="float">0.032</item>
+    <integer name="promotion_list_column_type">3</integer>
+    <item type="integer" name="promotion_list_end_percent" format="float">0.968</item>
+    <item type="integer" name="promotion_list_item_margin_percent" format="float">0.064</item>
+</resources>

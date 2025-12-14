@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/businessinfo_parent" android:tag="layout/layout_list_businessinfo_0" android:background="@color/main_tab_biz_info_bg" android:layout_width="match_parent" android:layout_height="@dimen/business_info_height" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/main_tab_divider" android:layout_width="match_parent" android:layout_height="@dimen/winset_divider_height" />
+    <TextView android:textSize="10.0dp" android:textColor="@color/main_tab_biz_info_txt_1" android:id="@id/tv_welcome" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/LDS_SAPPS_BODY_WELCOME_TO_GALAXY_APPS_SAMSUNG_ELECTRONICS_CO_LTD_MSG_KOR" android:includeFontPadding="false" android:textAlignment="viewStart" style="@style/isa_style_one_ui_font_regular" />
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <TextView android:textSize="12.0dp" android:textColor="@color/main_tab_biz_info_txt_2" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_SAMSUNG_ELECTRONICS_CO_LTD" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/main_tab_biz_info_txt_2" android:id="@id/tv_link" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dp" android:layout_marginStart="1.0dp" />
+    </LinearLayout>
+</LinearLayout>

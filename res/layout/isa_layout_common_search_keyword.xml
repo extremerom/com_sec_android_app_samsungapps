@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/isa_layout_common_search_keyword_0" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/corrected_parent" android:background="@drawable/search_result_typographical_error_text_bg" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginLeft="45.0dp" android:layout_marginTop="13.0dp" android:layout_marginRight="45.0dp" android:layout_marginBottom="13.0dp">
+        <TextView android:gravity="center" android:id="@id/corrected_text" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:singleLine="true" style="@style/isa_style_suggest_text" />
+    </LinearLayout>
+</LinearLayout>

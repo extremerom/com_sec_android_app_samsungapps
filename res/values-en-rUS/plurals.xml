@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">%d points</item>
+        <item quantity="one">%d point</item>
+        <item quantity="two">%d points</item>
+        <item quantity="few">%d points</item>
+        <item quantity="many">%d points</item>
+        <item quantity="other">%d points</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">"Can't select more than %d tags."</item>
+        <item quantity="one">"Can't select more than %d tag."</item>
+        <item quantity="two">"Can't select more than %d tags."</item>
+        <item quantity="few">"Can't select more than %d tags."</item>
+        <item quantity="many">"Can't select more than %d tags."</item>
+        <item quantity="other">"Can't select more than %d tags."</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="one">You need to be at least %d year old to use Instant Plays.</item>
+        <item quantity="two">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="few">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="many">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="other">You need to be at least %d years old to use Instant Plays.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="one">%1$s points will be added to your account in about %2$d day.</item>
+        <item quantity="two">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="few">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="many">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="other">%1$s points will be added to your account in about %2$d days.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="one">"To download this app, you need to verify your identity and confirm that you're over %d year old."</item>
+        <item quantity="two">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="few">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="many">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="other">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="one">You need to be at least %1$d year old to use %2$s.</item>
+        <item quantity="two">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="few">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="many">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="other">You need to be at least %1$d years old to use %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">%d days left</item>
+        <item quantity="one">%d day left</item>
+        <item quantity="two">%d days left</item>
+        <item quantity="few">%d days left</item>
+        <item quantity="many">%d days left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">1 point will be added to your account in about %d days.</item>
+        <item quantity="one">1 point will be added to your account in about %d day.</item>
+        <item quantity="two">1 point will be added to your account in about %d days.</item>
+        <item quantity="few">1 point will be added to your account in about %d days.</item>
+        <item quantity="many">1 point will be added to your account in about %d days.</item>
+        <item quantity="other">1 point will be added to your account in about %d days.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">Delete sticker set from %1$s, %2$s, %3$s, and %4$d other apps?</item>
+        <item quantity="one">Delete sticker set from %1$s, %2$s, %3$s, and %4$d other app?</item>
+        <item quantity="two">Delete sticker set from %1$s, %2$s, %3$s, and %4$d other apps?</item>
+        <item quantity="few">Delete sticker set from %1$s, %2$s, %3$s, and %4$d other apps?</item>
+        <item quantity="many">Delete sticker set from %1$s, %2$s, %3$s, and %4$d other apps?</item>
+        <item quantity="other">Delete sticker set from %1$s, %2$s, %3$s, and %4$d other apps?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="one">Must be at least %d year old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="two">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="few">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="many">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="other">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="one">%1$s points will be added to your account in about %2$d day.</item>
+        <item quantity="two">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="few">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="many">%1$s points will be added to your account in about %2$d days.</item>
+        <item quantity="other">%1$s points will be added to your account in about %2$d days.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">%d points will be added to your account within 7 days.</item>
+        <item quantity="one">%d point will be added to your account within 7 days.</item>
+        <item quantity="two">%d points will be added to your account within 7 days.</item>
+        <item quantity="few">%d points will be added to your account within 7 days.</item>
+        <item quantity="many">%d points will be added to your account within 7 days.</item>
+        <item quantity="other">%d points will be added to your account within 7 days.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">%d Samsung Rewards points</item>
+        <item quantity="one">%d Samsung Rewards point</item>
+        <item quantity="two">%d Samsung Rewards points</item>
+        <item quantity="few">%d Samsung Rewards points</item>
+        <item quantity="many">%d Samsung Rewards points</item>
+        <item quantity="other">%d Samsung Rewards points</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">"To pre-register for this app, you need to verify that you're over %d years old."</item>
+        <item quantity="one">"To pre-register for this app, you need to verify that you're over %d year old."</item>
+        <item quantity="two">"To pre-register for this app, you need to verify that you're over %d years old."</item>
+        <item quantity="few">"To pre-register for this app, you need to verify that you're over %d years old."</item>
+        <item quantity="many">"To pre-register for this app, you need to verify that you're over %d years old."</item>
+        <item quantity="other">"To pre-register for this app, you need to verify that you're over %d years old."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">"To view this app, you need to sign in and verify that you're over %d years old."</item>
+        <item quantity="one">"To view this app, you need to sign in and verify that you're over %d year old."</item>
+        <item quantity="two">"To view this app, you need to sign in and verify that you're over %d years old."</item>
+        <item quantity="few">"To view this app, you need to sign in and verify that you're over %d years old."</item>
+        <item quantity="many">"To view this app, you need to sign in and verify that you're over %d years old."</item>
+        <item quantity="other">"To view this app, you need to sign in and verify that you're over %d years old."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">"You've already installed our top %d apps. Tap > to see more."</item>
+        <item quantity="one">"You've already installed our top %d app. Tap > to see more."</item>
+        <item quantity="two">"You've already installed our top %d apps. Tap > to see more."</item>
+        <item quantity="few">"You've already installed our top %d apps. Tap > to see more."</item>
+        <item quantity="many">"You've already installed our top %d apps. Tap > to see more."</item>
+        <item quantity="other">"You've already installed our top %d apps. Tap > to see more."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">"You've already installed our top %d games. Tap > to see more."</item>
+        <item quantity="one">"You've already installed our top %d game. Tap > to see more."</item>
+        <item quantity="two">"You've already installed our top %d games. Tap > to see more."</item>
+        <item quantity="few">"You've already installed our top %d games. Tap > to see more."</item>
+        <item quantity="many">"You've already installed our top %d games. Tap > to see more."</item>
+        <item quantity="other">"You've already installed our top %d games. Tap > to see more."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">"You've already installed our top %d styling items. Tap > to see more."</item>
+        <item quantity="one">"You've already installed our top %d styling item. Tap > to see more."</item>
+        <item quantity="two">"You've already installed our top %d styling items. Tap > to see more."</item>
+        <item quantity="few">"You've already installed our top %d styling items. Tap > to see more."</item>
+        <item quantity="many">"You've already installed our top %d styling items. Tap > to see more."</item>
+        <item quantity="other">"You've already installed our top %d styling items. Tap > to see more."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">"You've already installed our top %d themes. Tap > to see more."</item>
+        <item quantity="one">"You've already installed our top %d theme. Tap > to see more."</item>
+        <item quantity="two">"You've already installed our top %d themes. Tap > to see more."</item>
+        <item quantity="few">"You've already installed our top %d themes. Tap > to see more."</item>
+        <item quantity="many">"You've already installed our top %d themes. Tap > to see more."</item>
+        <item quantity="other">"You've already installed our top %d themes. Tap > to see more."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">You just earned 1 point! Now you have %d points you can use to buy apps and other stuff in the Galaxy Store.</item>
+        <item quantity="one">You just earned 1 point! Now you have %d point you can use to buy apps and other stuff in the Galaxy Store.</item>
+        <item quantity="two">You just earned 1 point! Now you have %d points you can use to buy apps and other stuff in the Galaxy Store.</item>
+        <item quantity="few">You just earned 1 point! Now you have %d points you can use to buy apps and other stuff in the Galaxy Store.</item>
+        <item quantity="many">You just earned 1 point! Now you have %d points you can use to buy apps and other stuff in the Galaxy Store.</item>
+        <item quantity="other">You just earned 1 point! Now you have %d points you can use to buy apps and other stuff in the Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">You must be at least %d years old to download this app.</item>
+        <item quantity="one">You must be at least %d year old to download this app.</item>
+        <item quantity="two">You must be at least %d years old to download this app.</item>
+        <item quantity="few">You must be at least %d years old to download this app.</item>
+        <item quantity="many">You must be at least %d years old to download this app.</item>
+        <item quantity="other">You must be at least %d years old to download this app.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">You must be at least %d years old to pre-register for this app.</item>
+        <item quantity="one">You must be at least %d year old to pre-register for this app.</item>
+        <item quantity="two">You must be at least %d years old to pre-register for this app.</item>
+        <item quantity="few">You must be at least %d years old to pre-register for this app.</item>
+        <item quantity="many">You must be at least %d years old to pre-register for this app.</item>
+        <item quantity="other">You must be at least %d years old to pre-register for this app.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">"Don't show again for %d days"</item>
+        <item quantity="one">"Don't show again for %d day"</item>
+        <item quantity="two">"Don't show again for %d days"</item>
+        <item quantity="few">"Don't show again for %d days"</item>
+        <item quantity="many">"Don't show again for %d days"</item>
+        <item quantity="other">"Don't show again for %d days"</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">%1$s every %2$d days</item>
+        <item quantity="one">%1$s every %2$d day</item>
+        <item quantity="two">%1$s every %2$d days</item>
+        <item quantity="few">%1$s every %2$d days</item>
+        <item quantity="many">%1$s every %2$d days</item>
+        <item quantity="other">%1$s every %2$d days</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">%1$s every %2$d months</item>
+        <item quantity="one">%1$s every %2$d month</item>
+        <item quantity="two">%1$s every %2$d months</item>
+        <item quantity="few">%1$s every %2$d months</item>
+        <item quantity="many">%1$s every %2$d months</item>
+        <item quantity="other">%1$s every %2$d months</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">%1$s every %2$d weeks</item>
+        <item quantity="one">%1$s every %2$d week</item>
+        <item quantity="two">%1$s every %2$d weeks</item>
+        <item quantity="few">%1$s every %2$d weeks</item>
+        <item quantity="many">%1$s every %2$d weeks</item>
+        <item quantity="other">%1$s every %2$d weeks</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">%1$s every %2$d years</item>
+        <item quantity="one">%1$s every %2$d year</item>
+        <item quantity="two">%1$s every %2$d years</item>
+        <item quantity="few">%1$s every %2$d years</item>
+        <item quantity="many">%1$s every %2$d years</item>
+        <item quantity="other">%1$s every %2$d years</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">%d points</item>
+        <item quantity="one">%d point</item>
+        <item quantity="two">%d points</item>
+        <item quantity="few">%d points</item>
+        <item quantity="many">%d points</item>
+        <item quantity="other">%d points</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">Free until %1$s, then %2$s every %3$d days</item>
+        <item quantity="one">Free until %1$s, then %2$s every %3$d day</item>
+        <item quantity="two">Free until %1$s, then %2$s every %3$d days</item>
+        <item quantity="few">Free until %1$s, then %2$s every %3$d days</item>
+        <item quantity="many">Free until %1$s, then %2$s every %3$d days</item>
+        <item quantity="other">Free until %1$s, then %2$s every %3$d days</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">Free until %1$s, then %2$s every %3$d months</item>
+        <item quantity="one">Free until %1$s, then %2$s every %3$d month</item>
+        <item quantity="two">Free until %1$s, then %2$s every %3$d months</item>
+        <item quantity="few">Free until %1$s, then %2$s every %3$d months</item>
+        <item quantity="many">Free until %1$s, then %2$s every %3$d months</item>
+        <item quantity="other">Free until %1$s, then %2$s every %3$d months</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">Free until %1$s, then %2$s every %3$d weeks</item>
+        <item quantity="one">Free until %1$s, then %2$s every %3$d week</item>
+        <item quantity="two">Free until %1$s, then %2$s every %3$d weeks</item>
+        <item quantity="few">Free until %1$s, then %2$s every %3$d weeks</item>
+        <item quantity="many">Free until %1$s, then %2$s every %3$d weeks</item>
+        <item quantity="other">Free until %1$s, then %2$s every %3$d weeks</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">Free until %1$s, then %2$s every %3$d years</item>
+        <item quantity="one">Free until %1$s, then %2$s every %3$d year</item>
+        <item quantity="two">Free until %1$s, then %2$s every %3$d years</item>
+        <item quantity="few">Free until %1$s, then %2$s every %3$d years</item>
+        <item quantity="many">Free until %1$s, then %2$s every %3$d years</item>
+        <item quantity="other">Free until %1$s, then %2$s every %3$d years</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">%d people found this helpful</item>
+        <item quantity="one">%d person found this helpful</item>
+        <item quantity="two">%d people found this helpful</item>
+        <item quantity="few">%d people found this helpful</item>
+        <item quantity="many">%d people found this helpful</item>
+        <item quantity="other">%d people found this helpful</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">%d updates available</item>
+        <item quantity="one">%d update available</item>
+        <item quantity="two">%d updates available</item>
+        <item quantity="few">%d updates available</item>
+        <item quantity="many">%d updates available</item>
+        <item quantity="other">%d updates available</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">%d star reviews</item>
+        <item quantity="one">%d star review</item>
+        <item quantity="two">%d star reviews</item>
+        <item quantity="few">%d star reviews</item>
+        <item quantity="many">%d star reviews</item>
+        <item quantity="other">%d star reviews</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">Your rating: %d stars</item>
+        <item quantity="one">Your rating: %d star</item>
+        <item quantity="two">Your rating: %d stars</item>
+        <item quantity="few">Your rating: %d stars</item>
+        <item quantity="many">Your rating: %d stars</item>
+        <item quantity="other">Your rating: %d stars</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">%d notifications</item>
+        <item quantity="one">%d notification</item>
+        <item quantity="two">%d notifications</item>
+        <item quantity="few">%d notifications</item>
+        <item quantity="many">%d notifications</item>
+        <item quantity="other">%d notifications</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">You must be at least %d years old to play this game.</item>
+        <item quantity="one">You must be at least %d year old to play this game.</item>
+        <item quantity="two">You must be at least %d years old to play this game.</item>
+        <item quantity="few">You must be at least %d years old to play this game.</item>
+        <item quantity="many">You must be at least %d years old to play this game.</item>
+        <item quantity="other">You must be at least %d years old to play this game.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">Game session will end in %d minutes.</item>
+        <item quantity="one">Game session will end in %d minute.</item>
+        <item quantity="two">Game session will end in %d minutes.</item>
+        <item quantity="few">Game session will end in %d minutes.</item>
+        <item quantity="many">Game session will end in %d minutes.</item>
+        <item quantity="other">Game session will end in %d minutes.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="one">"Your network connection is unstable. The game will close in %d second if we can't connect. Your game status will be saved."</item>
+        <item quantity="two">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="few">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="many">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="other">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="two">%d secs</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
+        <item quantity="other">%d secs</item>
+    </plurals>
+</resources>

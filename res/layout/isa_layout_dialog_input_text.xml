@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/edit_receipt_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/DREAM_GAGS_HEADER_ENTER_RECEIPT_NUMBER" android:inputType="textCapCharacters" android:imeOptions="actionSearch|flagNoExtractUi" android:textCursorDrawable="@drawable/isa_drawable_cursor_shape" android:textAllCaps="true" android:backgroundTint="@color/write_review_edit_text_underline_color" style="@style/isa_detail_review_comment" />
+</LinearLayout>

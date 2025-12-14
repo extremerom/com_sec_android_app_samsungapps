@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_widget_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_detail_main_left_layout_margin_left" android:layout_marginTop="@dimen/content_detail_main_left_layout_margin_top" android:layout_marginBottom="@dimen/content_detail_main_install_btn_margin_top" android:layout_marginStart="@dimen/content_detail_main_left_layout_margin_left">
+                <include android:id="@id/layout_main_left_edge" android:visibility="gone" layout="@layout/isa_layout_detail_main_left_edge" />
+                <include android:id="@id/layout_main_left_wide_edge" android:visibility="gone" layout="@layout/isa_layout_detail_main_left_wide_edge" />
+                <include android:id="@id/layout_main_left" android:visibility="gone" layout="@layout/isa_layout_detail_main_left" />
+                <LinearLayout android:gravity="start|top" android:layout_gravity="start|top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/content_detail_main_right_layout_margin_left" android:layout_marginEnd="@dimen/content_detail_main_right_layout_margin_left">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentStart="true">
+                            <TextView android:ellipsize="end" android:id="@id/tv_multi_app_detail_product_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:includeFontPadding="false" android:textDirection="locale" style="@style/isa_detail_main_product_name" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/layout_detail_main_rating_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp">
+                            <include layout="@layout/isa_layout_detail_main_rating_view" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:id="@id/tv_multi_app_detail_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_detail_tv_line_spacing" android:textDirection="locale" style="@style/isa_detail_seller_info_text" />
+                    <include android:gravity="center_vertical" android:id="@id/category_btn_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_detail_tv_line_spacing" layout="@layout/isa_layout_detail_category_btn" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_detail_main_left_layout_margin_left_18dp" android:layout_marginRight="@dimen/content_detail_main_left_layout_margin_left_18dp" android:layout_marginBottom="@dimen/detail_update_ownership_info_bottom_margin" android:layout_marginHorizontal="@dimen/content_detail_main_left_layout_margin_left_18dp" layout="@layout/layout_detail_updateownershipinfo" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_multi_app_detail_button" android:layout_width="match_parent" android:layout_height="@dimen/content_detail_multi_button_height" android:layout_marginBottom="16.0dp" android:minWidth="@dimen/content_detail_main_install_btn_min_width" android:layout_marginStart="@dimen/content_detail_main_left_layout_margin_left_18dp" android:layout_marginEnd="@dimen/content_detail_main_right_layout_margin_right">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_multi_app_detail_button" android:background="@drawable/isa_drawable_button_round_rect_blue" android:paddingLeft="@dimen/content_detail_main_right_button_padding" android:paddingRight="@dimen/content_detail_main_right_button_padding" android:focusable="true" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/content_detail_multi_button_height" android:layout_weight="1.0" android:paddingStart="@dimen/content_detail_main_right_button_padding" android:paddingEnd="@dimen/content_detail_main_right_button_padding">
+                    <TextView android:id="@id/tv_multi_app_detail_button" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_detail_download_button_text" />
+                    <TextView android:id="@id/tv_multi_app_detail_button_size" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:importantForAccessibility="3" android:layout_marginStart="5.0dp" style="@style/isa_style_detail_button_size_text" />
+                    <View android:layout_width="1.0px" android:layout_height="wrap_content" android:contentDescription="@string/IDS_CAM_BODY_BUTTON_T_TTS" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.sec.android.app.samsungapps.detail.multiapp.MultiAppListView android:id="@id/layout_multi_app_detail_app_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

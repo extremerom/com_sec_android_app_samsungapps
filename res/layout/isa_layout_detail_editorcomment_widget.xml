@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/isa_layout_detail_editorcomment_widget_0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.detail.widget.description.EditorCommentView android:id="@id/editor_comment_view" android:paddingTop="12.5dp" android:paddingBottom="12.5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="12.5dp" app:layout="@layout/isa_layout_detail_description_editor_comment" />
+</LinearLayout>

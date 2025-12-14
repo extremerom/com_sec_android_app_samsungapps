@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/isa_layout_app_info_detail_0" android:background="@color/one_ui_default_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/start_guideline" android:layout_width="1.0dp" android:layout_height="1.0dp" app:layout_constraintGuide_percent="@integer/myapps_list_begin_percent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/end_guideline" android:layout_width="1.0dp" android:layout_height="1.0dp" app:layout_constraintGuide_percent="@integer/myapps_list_end_percent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@id/end_guideline" app:layout_constraintStart_toEndOf="@id/start_guideline" app:layout_constraintWidth_max="@dimen/detail_body_width_max" app:layout_constraintWidth_percent="@integer/detail_body_width_percent">
+        <ScrollView android:id="@id/detail_scroll" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/app_info_detail_parent" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.sec.android.app.samsungapps.detail.widget.appinfo.AppInfoDetailAgeRestriction android:id="@id/age_restriction" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.sec.android.app.samsungapps.detail.widget.appinfo.AppInfoOverviewWidget android:id="@id/overview_widget" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <com.sec.android.app.samsungapps.detail.widget.appinfo.AppInfoSellerInfoMainWidget android:id="@id/sellerinfo_detail" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

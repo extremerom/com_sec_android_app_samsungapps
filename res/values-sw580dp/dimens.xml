@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_big_banner_egp_content_width">260.0dp</dimen>
+    <dimen name="top_big_banner_egp_title_width">270.0dp</dimen>
+    <dimen name="top_big_banner_normal_width">248.0dp</dimen>
+    <dimen name="top_big_banner_wrapper_height">136.0dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+.class public final synthetic Lcom/bumptech/glide/load/model/stream/h;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# direct methods
+.method public static bridge synthetic a()Z
+    .locals 1
+
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageLegacy()Z
+
+    move-result v0
+
+    return v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="detail_bottom_button_width_percent" format="float">0.55</item>
+    <item type="integer" name="network_retry_start_guide_end" format="float">0.8</item>
+    <item type="integer" name="network_retry_start_guide_start" format="float">0.2</item>
+    <integer name="samsung_membership_point_body_percent">75</integer>
+</resources>

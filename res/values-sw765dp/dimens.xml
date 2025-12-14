@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_hero_image_height">374.0dp</dimen>
+    <dimen name="detail_hero_image_top_margin_height">318.0dp</dimen>
+    <dimen name="now_free_divider_width">332.0dp</dimen>
+    <dimen name="staffpick_banner_item_height">125.0dp</dimen>
+    <dimen name="staffpick_banner_item_width">358.0dp</dimen>
+    <dimen name="staffpick_banner_rolling_item_height">179.0dp</dimen>
+    <dimen name="staffpick_banner_with_text_item_height">209.0dp</dimen>
+    <dimen name="top_big_banner_normal_width">345.0dp</dimen>
+    <dimen name="top_big_banner_wrapper_height">187.0dp</dimen>
+    <dimen name="top_egp_banner_wrapper_height">320.0dp</dimen>
+    <dimen name="top_egp_tablet_player_height">280.0dp</dimen>
+    <dimen name="write_review_detailwidget_button_width">480.0dp</dimen>
+</resources>

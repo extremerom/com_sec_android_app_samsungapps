@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Kidsapps_app_error_button">
+        <item name="android:textSize">18.0dp</item>
+        <item name="android:textColor">@color/color_common_actionbar_text</item>
+        <item name="android:background">@drawable/kids_network_error_btn_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="isa_style_announcements_devider">
+        <item name="android:layout_height">@dimen/two_px_line_divider</item>
+    </style>
+</resources>

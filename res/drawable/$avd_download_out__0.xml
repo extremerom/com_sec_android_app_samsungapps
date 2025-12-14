@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="vertical" android:pathData="M8,12L8,0.6Z" android:strokeColor="@color/button_text_color" android:strokeWidth="1.2" android:trimPathStart="0.0" android:trimPathEnd="0.5" android:trimPathOffset="0.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:name="left" android:pathData="M8,12l-8.4,-8.4" android:strokeColor="@color/button_text_color" android:strokeWidth="1.2" android:trimPathStart="0.0" android:trimPathEnd="0.5" android:trimPathOffset="0.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:name="right" android:pathData="M8,12l8.4,-8.4" android:strokeColor="@color/button_text_color" android:strokeWidth="1.2" android:trimPathStart="0.0" android:trimPathEnd="0.5" android:trimPathOffset="0.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:name="horizontal" android:pathData="M3,14.85L13,14.85Z" android:strokeColor="@color/button_text_color" android:strokeWidth="1.2" android:trimPathStart="0.0" android:trimPathEnd="0.5" android:trimPathOffset="0.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

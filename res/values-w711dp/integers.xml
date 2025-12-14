@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="disclaimer_2buttons_end" format="float">0.88</item>
+    <item type="integer" name="disclaimer_2buttons_start" format="float">0.12</item>
+</resources>

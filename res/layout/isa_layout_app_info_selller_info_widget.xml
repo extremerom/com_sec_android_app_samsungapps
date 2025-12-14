@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_content_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_related_seller_info" android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_seller_info_title_container" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:minHeight="42.0dp">
+            <TextView android:gravity="center_vertical" android:id="@id/tv_detail_related_seller_info_header" android:focusable="true" android:duplicateParentState="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_detail_main_left_layout_margin_left" android:maxWidth="@dimen/popular_apps_title_max_width" android:text="@string/MIDS_SAPPS_BODY_SELLER_INFO_ABB" android:singleLine="true" android:includeFontPadding="true" android:layout_weight="1.0" android:textDirection="locale" android:layout_marginStart="@dimen/content_detail_main_left_layout_margin_left_18dp" style="@style/isa_style_detail_title" />
+            <include android:id="@id/btn_seller_info_down_arrow" layout="@layout/isa_layout_common_more_btn" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/seller_info_container" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+    </LinearLayout>
+</LinearLayout>

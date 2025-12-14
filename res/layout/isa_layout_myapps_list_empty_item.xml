@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/isa_layout_myapps_list_empty_item_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/zero_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

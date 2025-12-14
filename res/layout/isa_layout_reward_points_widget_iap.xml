@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main_container" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_frame" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/content_frame_fake">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_for_content_frame" android:layout_width="0.0dp" android:layout_height="1.0dp" app:layout_constraintGuide_percent="1.0" />
+        <FrameLayout android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline_for_content_frame">
+            <include layout="@layout/isa_layout_reward_points_widget_inner" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/content_frame_fake" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <include layout="@layout/isa_layout_reward_points_widget_inner_fake" />
+    </FrameLayout>
+    <ImageView android:id="@id/img_for_overlap" android:layout_width="20.0dp" android:layout_height="@dimen/rewards_space_above_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/content_frame_fake" />
+    <com.samsung.android.iap.rewards.AnimatingImage android:id="@id/coins_dropping_winning" android:layout_width="200.0dp" android:layout_height="210.0dp" app:layout_constraintBottom_toBottomOf="@id/img_for_overlap" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+    <com.samsung.android.iap.rewards.AnimatingImage android:id="@id/coins_dropping_loosing" android:layout_width="120.0dp" android:layout_height="120.0dp" app:layout_constraintBottom_toBottomOf="@id/img_for_overlap" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

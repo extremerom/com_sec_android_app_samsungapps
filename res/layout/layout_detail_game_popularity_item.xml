@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonConstraintLayout android:id="@id/detail_popularity_item" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:minWidth="103.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="24.0dp" android:paddingEnd="16.0dp">
+        <TextView android:id="@id/tv_popularity_head" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/tv_popularity_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/detail_popularity_head_text" />
+        <TextView android:id="@id/tv_popularity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_popularity_head" style="@style/detail_popularity_title_text" />
+    </LinearLayout>
+</com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonConstraintLayout>

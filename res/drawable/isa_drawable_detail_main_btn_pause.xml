@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/direct_btn_pause" android:alpha="0.5" />
+        <shape android:shape="oval">
+            <solid android:color="@color/button_bg" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/direct_btn_pause">
+        <shape android:shape="oval">
+            <solid android:color="@color/button_bg" />
+        </shape>
+    </item>
+</selector>

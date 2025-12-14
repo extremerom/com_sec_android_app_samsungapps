@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="consent_setting_content_margin_horizontal">40.0dp</dimen>
+</resources>

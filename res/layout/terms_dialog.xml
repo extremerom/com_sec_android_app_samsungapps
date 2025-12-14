@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/actionbar_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dp" android:paddingTop="16.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="64.0dp" android:paddingHorizontal="20.0dp">
+        <TableRow android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10.0">
+            <ImageButton android:id="@id/backButton" android:padding="5.0dp" android:focusable="true" android:longClickable="false" android:layout_width="34.0dp" android:layout_height="34.0dp" android:src="@drawable/tw_ic_ab_back_mtrl" android:tint="@color/actionbar_icon" />
+            <TextView android:textSize="19.0sp" android:textColor="@color/actionbar_text" android:id="@id/terms_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" />
+        </TableRow>
+    </LinearLayout>
+    <ScrollView android:scrollbarStyle="outsideInset" android:id="@id/notice_scroll" android:focusable="false" android:focusableInTouchMode="false" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="true" style="@style/isa_style_scroll_bar">
+        <TextView android:textSize="16.0sp" android:textColor="@color/dialog_message" android:id="@id/textView" android:paddingLeft="24.0dp" android:paddingTop="15.0dp" android:paddingRight="24.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dp" android:textDirection="locale" /> /> </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+.class public final synthetic Landroidx/webkit/internal/x0;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# direct methods
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/webkit/ServiceWorkerWebSettings;
+    .locals 0
+
+    check-cast p0, Landroid/webkit/ServiceWorkerWebSettings;
+
+    return-object p0
+.end method

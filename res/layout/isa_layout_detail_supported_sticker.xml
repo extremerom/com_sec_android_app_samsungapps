@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/isa_layout_detail_supported_sticker_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.detail.widget.description.DetailDescriptionView android:id="@id/layout_detail_supported_tag_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout="@layout/isa_layout_detail_supported_sticker_view" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="true">
+        <objectAnimator android:duration="1000" android:valueFrom="0" android:valueTo="5000" android:valueType="intType" android:propertyName="ImageLevel"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueFrom="0" android:valueTo="0" android:valueType="intType" android:propertyName="ImageLevel"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </item>
+</selector>

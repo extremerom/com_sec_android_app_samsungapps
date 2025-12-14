@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:oneshot="false" android:fromDegrees="0.0" android:toDegrees="2880.0" android:pivotX="50.0%" android:pivotY="50.0%" android:repeatCount="infinite"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <bitmap android:gravity="center" android:src="@drawable/white_progress_circle_indeterminate_ani_no_material" android:antialias="true" />
+</rotate>

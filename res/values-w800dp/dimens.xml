@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="basic_screen_side_margin">40.0dp</dimen>
+    <dimen name="staffpick_youtube_webview_height_tab">240.0dp</dimen>
+    <dimen name="staffpick_youtube_webview_width_tab">428.0dp</dimen>
+    <dimen name="top_big_banner_egp_padding">44.0dp</dimen>
+</resources>

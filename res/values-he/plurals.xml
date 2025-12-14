@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נקודה</item>
+        <item quantity="two">%d נקודות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נקודות</item>
+        <item quantity="other">%d נקודות</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור לכל היותר %d תגית.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d תגיות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d תגיות.</item>
+        <item quantity="other">ניתן לבחור לכל היותר %d תגיות.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"עליך להיות בן %d לפחות כדי להשתמש ב'משחקים מיידיים‬'."</item>
+        <item quantity="two">"עליך להיות בן %d‏‎ לפחות כדי להשתמש ב'משחקים מיידיים'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"עליך להיות בן %d‏‎ לפחות כדי להשתמש ב'משחקים מיידיים'."</item>
+        <item quantity="other">"עליך להיות בן %d‏‎ לפחות כדי להשתמש ב'משחקים מיידיים'."</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s נקודות יתווספו לחשבון שלך בעוד כיום אחד (%2$d).</item>
+        <item quantity="two">%1$s נקודות יתווספו לחשבון שלך בעוד כ-%2$d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s נקודות יתווספו לחשבון שלך בעוד כ-%2$d ימים.</item>
+        <item quantity="other">%1$s נקודות יתווספו לחשבון שלך בעוד כ-%2$d ימים.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי להוריד את היישום, עליך לאמת את זהותך ולאשר שגילך גדול משנה אחת (%d).</item>
+        <item quantity="two">כדי להוריד את היישום, עליך לאמת את זהותך ולאשר שגילך גדול מ-%d שנים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי להוריד את היישום, עליך לאמת את זהותך ולאשר שגילך גדול מ-%d שנים.</item>
+        <item quantity="other">כדי להוריד את היישום, עליך לאמת את זהותך ולאשר שגילך גדול מ-%d שנים.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="two">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="other">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותר יום %d</item>
+        <item quantity="two">נותרו %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d ימים</item>
+        <item quantity="other">נותרו %d ימים</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק את ערכת המדבקות מ-%1$s, מ-%2$s, מ-%3$s ומיישום נוסף אחד (%4$d)?</item>
+        <item quantity="two">האם למחוק את ערכת המדבקות מ-%1$s, מ-%2$s, מ-%3$s ומ-%4$d יישומים נוספים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק את ערכת המדבקות מ-%1$s, מ-%2$s, מ-%3$s ומ-%4$d יישומים נוספים?</item>
+        <item quantity="other">האם למחוק את ערכת המדבקות מ-%1$s, מ-%2$s, מ-%3$s ומ-%4$d יישומים נוספים?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לצורך ההתקנה נדרש גיל מינימום של שנה %d. באפשרותך לבקש מהמארגן המשפחתי שלך לשנות את הגדרות דירוג הגיל.</item>
+        <item quantity="two">לצורך ההתקנה נדרש גיל מינימום של %d שנים. באפשרותך לבקש מהמארגן המשפחתי שלך לשנות את הגדרות דירוג הגיל.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לצורך ההתקנה נדרש גיל מינימום של %d שנים. באפשרותך לבקש מהמארגן המשפחתי שלך לשנות את הגדרות דירוג הגיל.</item>
+        <item quantity="other">לצורך ההתקנה נדרש גיל מינימום של %d שנים. באפשרותך לבקש מהמארגן המשפחתי שלך לשנות את הגדרות דירוג הגיל.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נקודה %d תתווסף לחשבון שלך תוך 7 ימים.</item>
+        <item quantity="two">%d נקודות יתווספו לחשבון שלך תוך 7 ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נקודות יתווספו לחשבון שלך תוך 7 ימים.</item>
+        <item quantity="other">%d נקודות יתווספו לחשבון שלך תוך 7 ימים.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נקודת Samsung Rewards</item>
+        <item quantity="two">%d נקודות Samsung Rewards</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נקודות Samsung Rewards</item>
+        <item quantity="other">%d נקודות Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי להירשם מראש ליישום זה, עליך לאמת שאתה בן %d לפחות.</item>
+        <item quantity="two">כדי להירשם מראש ליישום זה, עליך לאמת שאתה בן %d לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי להירשם מראש ליישום זה, עליך לאמת שאתה בן %d לפחות.</item>
+        <item quantity="other">כדי להירשם מראש ליישום זה, עליך לאמת שאתה בן %d לפחות.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי להציג יישום זה, עליך לבצע כניסה ולאמת שגילך מעל %d שנים.</item>
+        <item quantity="two">כדי להציג יישום זה, עליך לבצע כניסה ולאמת שגילך מעל %d שנים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי להציג יישום זה, עליך לבצע כניסה ולאמת שגילך מעל %d שנים.</item>
+        <item quantity="other">כדי להציג יישום זה, עליך לבצע כניסה ולאמת שגילך מעל %d שנים.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כבר התקנת את היישום %d המוביל שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="two">כבר התקנת את %d היישומים המובילים שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כבר התקנת את %d היישומים המובילים שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="other">כבר התקנת את %d היישומים המובילים שלנו. הקש על > כדי לראות עוד.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כבר התקנת את המשחק %d המוביל שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="two">כבר התקנת את %d המשחקים המובילים שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כבר התקנת את %d המשחקים המובילים שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="other">כבר התקנת את %d המשחקים המובילים שלנו. הקש על > כדי לראות עוד.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כבר התקנת את פריט העיצוב %d המוביל שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="two">כבר התקנת את %d פריטי העיצוב המובילים שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כבר התקנת את %d פריטי העיצוב המובילים שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="other">כבר התקנת את %d פריטי העיצוב המובילים שלנו. הקש על > כדי לראות עוד.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כבר התקנת את ערכת הנושא %d המובילה שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="two">כבר התקנת את %d ערכות הנושא המובילות שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כבר התקנת את %d ערכות הנושא המובילות שלנו. הקש על > כדי לראות עוד.</item>
+        <item quantity="other">כבר התקנת את %d ערכות הנושא המובילות שלנו. הקש על > כדי לראות עוד.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הרגע הרווחת נקודה 1! עכשיו יש לך נקודה %d שתוכל להשתמש בה לרכישת יישומים ופריטים אחרים ב-Galaxy Store.</item>
+        <item quantity="two">הרגע הרווחת נקודה 1! עכשיו יש לך %d נקודות שתוכל להשתמש בהן לרכישת יישומים ופריטים אחרים ב-Galaxy Store.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הרגע הרווחת נקודה 1! עכשיו יש לך %d נקודות שתוכל להשתמש בהן לרכישת יישומים ופריטים אחרים ב-Galaxy Store.</item>
+        <item quantity="other">הרגע הרווחת נקודה 1! עכשיו יש לך %d נקודות שתוכל להשתמש בהן לרכישת יישומים ופריטים אחרים ב-Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי להוריד יישום זה עליך להיות בן %d שנים לפחות.</item>
+        <item quantity="two">כדי להוריד יישום זה עליך להיות בן %d שנים לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי להוריד יישום זה עליך להיות בן %d שנים לפחות.</item>
+        <item quantity="other">כדי להוריד יישום זה עליך להיות בן %d שנים לפחות.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כדי להירשם מראש ליישום הזה, עליך להיות בן %d לפחות.</item>
+        <item quantity="two">כדי להירשם מראש ליישום הזה, עליך להיות בן %d לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כדי להירשם מראש ליישום הזה, עליך להיות בן %d לפחות.</item>
+        <item quantity="other">כדי להירשם מראש ליישום הזה, עליך להיות בן %d לפחות.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אל תציג שוב למשך יום %d</item>
+        <item quantity="two">אל תציג שוב למשך %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אל תציג שוב למשך %d ימים</item>
+        <item quantity="other">אל תציג שוב למשך %d ימים</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s כל יום %2$d</item>
+        <item quantity="two">%1$s כל %2$d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s כל %2$d ימים</item>
+        <item quantity="other">%1$s כל %2$d ימים</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s כל חודש %2$d</item>
+        <item quantity="two">%1$s כל %2$d חודשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s כל %2$d חודשים</item>
+        <item quantity="other">%1$s כל %2$d חודשים</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s כל שבוע %2$d</item>
+        <item quantity="two">%1$s כל %2$d שבועות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s כל %2$d שבועות</item>
+        <item quantity="other">%1$s כל %2$d שבועות</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s כל שנה %2$d</item>
+        <item quantity="two">%1$s כל %2$d שנים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s כל %2$d שנים</item>
+        <item quantity="other">%1$s כל %2$d שנים</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נקודה %d</item>
+        <item quantity="two">%d נקודות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נקודות</item>
+        <item quantity="other">%d נקודות</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בחינם עד %1$s, לאחר מכן %2$s לכל יום %3$d</item>
+        <item quantity="two">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d ימים</item>
+        <item quantity="other">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d ימים</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בחינם עד %1$s, לאחר מכן %2$s לכל חודש %3$d</item>
+        <item quantity="two">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d חודשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d חודשים</item>
+        <item quantity="other">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d חודשים</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בחינם עד %1$s, לאחר מכן %2$s לכל שבוע %3$d</item>
+        <item quantity="two">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d שבועות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d שבועות</item>
+        <item quantity="other">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d שבועות</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בחינם עד %1$s, לאחר מכן %2$s לכל שנה %3$d</item>
+        <item quantity="two">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d שנים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d שנים</item>
+        <item quantity="other">בחינם עד %1$s, לאחר מכן %2$s לכל %3$d שנים</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אדם %d חשב שזה שימושי</item>
+        <item quantity="two">%d אנשים חשבו שזה שימושי</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשים חשבו שזה שימושי</item>
+        <item quantity="other">%d אנשים חשבו שזה שימושי</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עדכון %d זמין</item>
+        <item quantity="two">%d עדכונים זמינים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d עדכונים זמינים</item>
+        <item quantity="other">%d עדכונים זמינים</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ביקורות כוכב %d</item>
+        <item quantity="two">ביקורות של %d כוכבים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ביקורות של %d כוכבים</item>
+        <item quantity="other">ביקורות של %d כוכבים</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הדירוג שלך: %d כוכב</item>
+        <item quantity="two">הדירוג שלך: %d כוכבים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הדירוג שלך: %d כוכבים</item>
+        <item quantity="other">הדירוג שלך: %d כוכבים</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d התראה</item>
+        <item quantity="two">%d התראות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d התראות</item>
+        <item quantity="other">%d התראות</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות בן %d לפחות כדי לשחק במשחק הזה.</item>
+        <item quantity="two">עליך להיות בן %d לפחות כדי לשחק במשחק הזה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות בן %d לפחות כדי לשחק במשחק הזה.</item>
+        <item quantity="other">עליך להיות בן %d לפחות כדי לשחק במשחק הזה.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפעלת המשחק תסתיים בעוד דקה %d.</item>
+        <item quantity="two">הפעלת המשחק תסתיים בעוד %d דקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הפעלת המשחק תסתיים בעוד %d דקות.</item>
+        <item quantity="other">הפעלת המשחק תסתיים בעוד %d דקות.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">החיבור שלך לרשת אינו יציב. המשחק ייסגר בעוד שניה %d אם לא נצליח להתחבר. סטטוס המשחק שלך יישמר.</item>
+        <item quantity="two">החיבור שלך לרשת אינו יציב. המשחק ייסגר בעוד %d שניות אם לא נצליח להתחבר. סטטוס המשחק שלך יישמר.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">החיבור שלך לרשת אינו יציב. המשחק ייסגר בעוד %d שניות אם לא נצליח להתחבר. סטטוס המשחק שלך יישמר.</item>
+        <item quantity="other">החיבור שלך לרשת אינו יציב. המשחק ייסגר בעוד %d שניות אם לא נצליח להתחבר. סטטוס המשחק שלך יישמר.</item>
+    </plurals>
+</resources>

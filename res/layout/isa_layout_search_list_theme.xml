@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/isa_layout_search_list_theme_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_list_side_item_margin" android:layout_marginRight="@dimen/common_list_side_item_margin" android:layout_marginHorizontal="@dimen/common_list_side_item_margin">
+                <TextView android:textSize="17.0dp" android:textColor="@color/search_list_no_result_color" android:gravity="start|center" android:id="@id/search_theme_list_title" android:tag="binding_3" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="8.0dp" style="@style/isa_style_one_ui_font_regular" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/search_theme_item_parent" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                    <include android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_weight="1.0" android:layout_marginEnd="5.0dp" layout="@layout/isa_layout_search_list_theme_basic_item" />
+                    <include android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_weight="1.0" android:layout_marginEnd="5.0dp" layout="@layout/isa_layout_search_list_theme_basic_item" />
+                    <include android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/isa_layout_search_list_theme_basic_item" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/isa_layout_search_list_theme_item_more" />
+        <com.sec.android.app.samsungapps.search.DiscoverView android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:id="@id/corners" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_list_rounded_corner_top" />
+</FrameLayout>

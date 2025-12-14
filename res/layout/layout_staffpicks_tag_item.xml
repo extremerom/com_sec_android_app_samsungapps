@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/layout_start_padding" android:visibility="gone" android:layout_width="@dimen/common_list_side_item_margin" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="center" android:id="@id/layout_item" android:background="@drawable/isa_drawable_tag_unselector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <TextView android:textSize="13.0dp" android:textColor="#909aa6" android:gravity="center" android:id="@id/tag_name" android:layout_width="wrap_content" android:layout_height="30.0dp" android:layout_marginLeft="16.0dp" android:layout_marginRight="16.0dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/isa_style_one_ui_font_semi_bold" />
+    </FrameLayout>
+</LinearLayout>

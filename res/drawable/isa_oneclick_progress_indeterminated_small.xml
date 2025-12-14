@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani1" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani2" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani3" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani4" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani5" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani6" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani7" android:scaleGravity="center" />
+    <item android:duration="50" android:drawable="@drawable/progressbar_indeterminate_small_ani8" android:scaleGravity="center" />
+</animation-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="uxguid_dialog_max_width">400.0dp</dimen>
+    <dimen name="welcome_page_agreement_content_max_width">450.0dp</dimen>
+    <dimen name="welcome_page_agreement_content_min_width">410.0dp</dimen>
+</resources>

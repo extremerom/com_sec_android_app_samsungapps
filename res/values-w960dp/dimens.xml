@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_detail_hero_start_end_margin">140.0dp</dimen>
+    <dimen name="one_ui_list_width">840.0dp</dimen>
+    <dimen name="settings_width">840.0dp</dimen>
+    <dimen name="top_big_banner_egp_padding">144.0dp</dimen>
+</resources>

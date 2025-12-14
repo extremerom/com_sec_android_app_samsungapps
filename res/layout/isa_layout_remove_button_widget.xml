@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/remove_icon" android:background="@drawable/mw_dropguide_ic_cancel_mtrl" android:layout_width="@dimen/instant_plays_remove_icon_size" android:layout_height="@dimen/instant_plays_remove_icon_size" android:layout_marginTop="@dimen/instant_plays_remove_icon_margin_vertical" android:layout_marginBottom="@dimen/instant_plays_remove_icon_margin_vertical" android:layout_marginEnd="@dimen/instant_plays_remove_icon_margin_end" android:backgroundTint="@color/isa_color_instant_plays_remove_text" android:layout_marginVertical="@dimen/instant_plays_remove_icon_margin_vertical" />
+    <TextView android:textSize="@dimen/instant_plays_remove_button_text_size" android:textColor="@color/isa_color_instant_plays_remove_text" android:layout_gravity="center_vertical" android:id="@id/remove_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_GH_BUTTON_REMOVE_12" android:includeFontPadding="false" style="@style/isa_style_one_ui_font_regular" />
+</merge>

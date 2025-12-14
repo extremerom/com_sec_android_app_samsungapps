@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.mas.internal.ui.InterstitialLightVideoAdView android:id="@id/interstitialLightVideoView" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

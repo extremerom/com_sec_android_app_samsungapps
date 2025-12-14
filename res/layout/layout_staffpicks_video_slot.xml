@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_normal_upper" />
+    <FrameLayout android:id="@id/video_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/layout_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/isa_drawable_banner_item_effect" android:layout_marginStart="@dimen/staffpick_smallbanner_layer_padding_left_right" android:layout_marginEnd="@dimen/staffpick_smallbanner_layer_padding_left_right">
+            <LinearLayout android:orientation="vertical" android:id="@id/video_linear_layout" android:background="@drawable/screen_shot_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/video_item_outline_bg">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/exo_view_wrapper" android:layout_width="@dimen/staffpick_youtube_webview_width" android:layout_height="@dimen/staffpick_youtube_webview_height">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/exo_player_content" android:background="@color/isa_000" android:layout_width="@dimen/staffpick_youtube_webview_width" android:layout_height="@dimen/staffpick_youtube_webview_height" />
+                    <FrameLayout android:id="@id/exo_player_cover_layout" android:background="@color/isa_000" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_gravity="center" android:id="@id/cover_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+                        <ImageButton android:layout_gravity="center" android:id="@id/cover_play_btn" android:background="@drawable/player_btn_play" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+                    </FrameLayout>
+                    <FrameLayout android:id="@id/exo_player_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ProgressBar android:layout_gravity="center" android:layout_width="60.0dp" android:layout_height="60.0dp" android:indeterminateTint="@color/isa_250250250" />
+                    </FrameLayout>
+                    <RelativeLayout android:id="@id/corner_layout_phone" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <View android:layout_gravity="center" android:id="@id/corner_layout_phone_inner" android:background="@drawable/screenshot_slot_corner" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/corner_layout_tablet" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <View android:layout_gravity="center" android:id="@id/corner_layout_tab_inner_1" android:background="@drawable/video_round_corner_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+                        <View android:layout_gravity="center" android:id="@id/corner_layout_tab_inner_2" android:background="@drawable/video_round_right_corner_bg" android:layout_width="20.0dp" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@id/youtube_one_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_one_item_youtube" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

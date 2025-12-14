@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:tag="layout/isa_layout_detail_supported_sticker_view_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/game_detail_background" android:background="@drawable/drawable_game_middle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:layout_marginHorizontal="10.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_detail_overview_description_container" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp">
+        <com.sec.android.app.samsungapps.detail.widget.description.CommonDescriptionTitleView android:id="@id/title_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout="@layout/isa_layout_detail_description_title_no_expander" />
+        <include layout="@layout/isa_layout_detail_salestalk" />
+        <com.sec.android.app.samsungapps.detail.widget.description.CommonDescriptionTextView android:autoLink="web|email" android:id="@id/description_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1000" android:textDirection="locale" android:paddingStart="@dimen/content_detail_main_left_layout_margin_left" android:paddingEnd="@dimen/content_detail_main_left_layout_margin_left" style="@style/isa_style_expert_reviews_text_02_with_link_color" />
+    </LinearLayout>
+</FrameLayout>

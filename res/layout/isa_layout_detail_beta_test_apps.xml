@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_detail_beta_test_apps" android:tag="layout/isa_layout_detail_beta_test_apps_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="14.0dp" android:textColor="@color/detail_legal_text" android:id="@id/layout_detail_beta_test_apps_button" android:background="@drawable/isa_drawable_network_effect" android:layout_width="match_parent" android:layout_height="@dimen/one_ui_body_area_button_height" android:layout_marginLeft="32.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="32.0dp" android:layout_marginBottom="10.0dp" android:text="@string/MIDS_SAPPS_BUTTON_VIEW_BETA_APPS" android:layout_marginHorizontal="32.0dp" android:layout_marginVertical="10.0dp" />
+</LinearLayout>

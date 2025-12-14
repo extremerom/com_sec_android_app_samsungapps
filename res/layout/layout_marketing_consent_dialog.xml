@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dialog_text_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/container_personal_information" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_text_top_margin">
+        <com.sec.android.app.samsungapps.commonview.AnimatedCheckboxImg android:id="@id/checkbox_personal_information" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="11.0dp" style="@style/isa_style_disclaimer_animatedcheckbox" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/textview_personal_information_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_OPT_COLLECT_AND_USE_MY_PERSONAL_INFORMATION_TO_PROVIDE_MARKETING_HOPTIONAL" style="@style/style_settings_checkbox_content" />
+            <TextView android:id="@id/textview_personal_information_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_HELP_OPT_DETAILS" style="@style/style_settings_checkbox_details" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/container_marketing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_text_top_margin">
+        <com.sec.android.app.samsungapps.commonview.AnimatedCheckboxImg android:id="@id/checkbox_marketing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="11.0dp" style="@style/isa_style_disclaimer_animatedcheckbox" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/textview_marketing_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_OPT_GET_MARKETING_INFORMATION_HOPTIONAL" style="@style/style_settings_checkbox_content" />
+            <TextView android:id="@id/textview_marketing_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_HELP_OPT_DETAILS" style="@style/style_settings_checkbox_details" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

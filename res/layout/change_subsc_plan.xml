@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/dialog_title" android:id="@id/plan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="Current plan : " android:fontFamily="sans-serif-medium" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/dialog_title" android:id="@id/free_start_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:maxWidth="180.0dp" android:text="Start date: " android:fontFamily="sans-serif" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title" android:gravity="right" android:id="@id/free" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:maxWidth="116.0dp" android:text="Free" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/dialog_button_raised_color" android:id="@id/free_period" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dp" android:text="1 month trial" android:fontFamily="sans-serif" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/dialog_title" android:id="@id/tiered_start_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:maxWidth="180.0dp" android:text="Start date: " android:fontFamily="sans-serif" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title" android:id="@id/tiered_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="$29.99" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/dialog_title" android:id="@id/tiered_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="/Year" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/dialog_button_raised_color" android:id="@id/tiered_period" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dp" android:text="1 month trial" android:fontFamily="sans-serif" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/dialog_title" android:id="@id/regular_start_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:maxWidth="180.0dp" android:text="Start date: " android:fontFamily="sans-serif" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title" android:id="@id/regular_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="$39.99" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/dialog_title" android:id="@id/regular_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="/Year" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

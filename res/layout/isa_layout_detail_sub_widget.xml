@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_sub_view_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_widget_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/detail_sub_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/selector_tab_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/maintab_height">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="3.0dp">
+            <ImageView android:id="@id/tab_item_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="1.0dp" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/maintab_text_size" android:ellipsize="end" android:gravity="center" android:id="@id/tab_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/isa_style_one_ui_font_regular" />
+        </LinearLayout>
+        <ImageView android:gravity="center" android:layout_gravity="center|top" android:id="@id/new_badge" android:background="@drawable/round_red" android:visibility="gone" android:layout_width="6.0dp" android:layout_height="6.0dp" android:layout_marginTop="13.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="1.0dp" />
+    </FrameLayout>
+</LinearLayout>

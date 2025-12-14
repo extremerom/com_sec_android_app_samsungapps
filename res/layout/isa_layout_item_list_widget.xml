@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/orderhistory_list_item_background_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_more_view_contaner" android:layout_width="match_parent" android:layout_height="@dimen/order_history_more_loading_height" android:layout_alignParentBottom="true" layout="@layout/isa_layout_common_more_loading" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_widget_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/layout_more_view_contaner">
+        <ListView android:id="@id/content_list" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/isa_samsungapps_list_view" />
+    </LinearLayout>
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/list_go_to_top_btn" android:visibility="gone" android:layout_width="@dimen/go_to_top_btn_size" android:layout_height="@dimen/go_to_top_btn_size" android:layout_marginBottom="20.0dp" android:src="@drawable/ic_go_to_top_mtrl" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/MIDS_SAPPS_BUTTON_GO_TO_TOP_TTS" app:backgroundTint="@color/isa_transparent" app:borderWidth="0.0dp" app:elevation="@dimen/go_to_top_shadow" app:fabSize="mini" app:maxImageSize="@dimen/go_to_top_btn_size" app:pressedTranslationZ="0.0dp" />
+</merge>

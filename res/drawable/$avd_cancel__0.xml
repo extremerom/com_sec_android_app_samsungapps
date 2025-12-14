@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="cross" android:pivotX="8.0" android:pivotY="8.0">
+        <path android:name="line1" android:pathData="M8,8L3,3Z" android:strokeColor="@color/button_text_color" android:strokeWidth="1.5" android:trimPathEnd="0.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:name="line2" android:pathData="M8,8L13,13Z" android:strokeColor="@color/button_text_color" android:strokeWidth="1.5" android:trimPathEnd="0.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:name="line3" android:pathData="M8,8L3,13Z" android:strokeColor="@color/button_text_color" android:strokeWidth="1.5" android:trimPathEnd="0.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:name="line4" android:pathData="M8,8L13,3Z" android:strokeColor="@color/button_text_color" android:strokeWidth="1.5" android:trimPathEnd="0.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

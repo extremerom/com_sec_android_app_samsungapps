@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/gs_ic_settings" android:enabled="true" android:id="@id/option_menu_mainpage_setting" android:title="@string/IDS_SAPPS_OPT2_SETTINGS" android:contentDescription="@string/DREAM_SAPPS_HEADER_GALAXY_STORE_SETTINGS" app:iconTint="@color/actionbar_icon_color" app:showAsAction="ifRoom" />
+</menu>

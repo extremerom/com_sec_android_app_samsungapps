@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bod</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d body</item>
+        <item quantity="many">%d bodu</item>
+        <item quantity="other">%d bodov</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa vybrať viac než %d značka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa vybrať viac než %d značky.</item>
+        <item quantity="many">Nedá sa vybrať viac než %d značky.</item>
+        <item quantity="other">Nedá sa vybrať viac než %d značiek.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak chcete používať aplikáciu Okamžité hry, musíte mať aspoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak chcete používať aplikáciu Okamžité hry, musíte mať aspoň %d roky.</item>
+        <item quantity="many">Ak chcete používať aplikáciu Okamžité hry, musíte mať aspoň %d roka.</item>
+        <item quantity="other">Ak chcete používať aplikáciu Okamžité hry, musíte mať aspoň %d rokov.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybraté: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybraté: %d</item>
+        <item quantity="many">Vybraté: %d</item>
+        <item quantity="other">Vybraté: %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O približne %2$d deň bude do vášho konta pridaných %1$s bodov.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O približne %2$d dni bude do vášho konta pridaných %1$s bodov.</item>
+        <item quantity="many">O približne %2$d dňa bude do vášho konta pridaných %1$s bodov.</item>
+        <item quantity="other">O približne %2$d dní bude do vášho konta pridaných %1$s bodov.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak si chcete stiahnuť túto aplikáciu, musíte overiť svoju totožnosť a potvrdiť, že máte viac než %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak si chcete stiahnuť túto aplikáciu, musíte overiť svoju totožnosť a potvrdiť, že máte viac než %d roky.</item>
+        <item quantity="many">Ak si chcete stiahnuť túto aplikáciu, musíte overiť svoju totožnosť a potvrdiť, že máte viac než %d roka.</item>
+        <item quantity="other">Ak si chcete stiahnuť túto aplikáciu, musíte overiť svoju totožnosť a potvrdiť, že máte viac než %d rokov.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d roky.</item>
+        <item quantity="many">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d roka.</item>
+        <item quantity="other">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d rokov.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zostáva %d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zostávajú %d dni</item>
+        <item quantity="many">Zostáva %d dňa</item>
+        <item quantity="other">Zostáva %d dní</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O približne %d deň bude do vášho konta pridaný 1 bod.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O približne %d dni bude do vášho konta pridaný 1 bod.</item>
+        <item quantity="many">O približne %d dňa bude do vášho konta pridaný 1 bod.</item>
+        <item quantity="other">O približne %d dní bude do vášho konta pridaný 1 bod.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstrániť súpravu nálepiek z aplikácií %1$s, %2$s, %3$s a ešte %4$d ďalšej aplikácie?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstrániť súpravu nálepiek z aplikácií %1$s, %2$s, %3$s a ešte %4$d ďalších aplikácií?</item>
+        <item quantity="many">Odstrániť súpravu nálepiek z aplikácií %1$s, %2$s, %3$s a ešte %4$d ďalšej aplikácie?</item>
+        <item quantity="other">Odstrániť súpravu nálepiek z aplikácií %1$s, %2$s, %3$s a ešte %4$d ďalších aplikácií?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na inštaláciu musíte mať aspoň %d rok. O zmenu nast. vekového hodnotenia požiadajte organizátora rodiny.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na inštaláciu musíte mať aspoň %d roky. O zmenu nast. vekového hodnotenia požiadajte organizátora rodiny.</item>
+        <item quantity="many">Na inštaláciu musíte mať aspoň %d roka. O zmenu nast. vekového hodnotenia požiadajte organizátora rodiny.</item>
+        <item quantity="other">Na inštaláciu musíte mať aspoň %d rokov. O zmenu nast. vekového hodnotenia požiadajte organizátora rodiny.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O približne %2$d deň bude do vášho konta pridaných %1$s bodov.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O približne %2$d dni bude do vášho konta pridaných %1$s bodov.</item>
+        <item quantity="many">O približne %2$d dňa bude do vášho konta pridaných %1$s bodov.</item>
+        <item quantity="other">O približne %2$d dní bude do vášho konta pridaných %1$s bodov.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do 7 dní bude do vášho konta pridaný %d bod.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do 7 dní budú do vášho konta pridané %d body.</item>
+        <item quantity="many">Do 7 dní bude do vášho konta pridaného %d bodu.</item>
+        <item quantity="other">Do 7 dní bude do vášho konta pridaných %d bodov.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bod Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d body Samsung Rewards</item>
+        <item quantity="many">%d bodu Samsung Rewards</item>
+        <item quantity="other">%d bodov Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte overiť, že máte aspoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte overiť, že máte aspoň %d roky.</item>
+        <item quantity="many">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte overiť, že máte aspoň %d roka.</item>
+        <item quantity="other">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte overiť, že máte aspoň %d rokov.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak chcete zobraziť túto aplikáciu, musíte sa prihlásiť a overiť, že máte viac ako %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak chcete zobraziť túto aplikáciu, musíte sa prihlásiť a overiť, že máte viac ako %d roky.</item>
+        <item quantity="many">Ak chcete zobraziť túto aplikáciu, musíte sa prihlásiť a overiť, že máte viac ako %d roka.</item>
+        <item quantity="other">Ak chcete zobraziť túto aplikáciu, musíte sa prihlásiť a overiť, že máte viac ako %d rokov.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Už ste si nainštalovali našu %d najobľúbenejšiu aplikáciu. Ťuknutím na > zistíte viac.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Už ste si nainštalovali naše %d najobľúbenejšie aplikácie. Ťuknutím na > zistíte viac.</item>
+        <item quantity="many">Už ste si nainštalovali našej %d najobľúbenejšej aplikácie. Ťuknutím na > zistíte viac.</item>
+        <item quantity="other">Už ste si nainštalovali našich %d najobľúbenejších aplikácií. Ťuknutím na > zistíte viac.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Už ste si nainštalovali našu %d najobľúbenejšiu hru. Ťuknutím na > zistíte viac.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Už ste si nainštalovali naše %d najobľúbenejšie hry. Ťuknutím na > zistíte viac.</item>
+        <item quantity="many">Už ste si nainštalovali našej %d najobľúbenejšej hry. Ťuknutím na > zistíte viac.</item>
+        <item quantity="other">Už ste si nainštalovali našich %d najobľúbenejších hier. Ťuknutím na > zistíte viac.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Už ste si nainštalovali našu %d najobľúbenejšiu položku na úpravu štýlu. Ťuknutím na > zistíte viac.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Už ste si nainštalovali naše %d najobľúbenejšie položky na úpravu štýlu. Ťuknutím na > zistíte viac.</item>
+        <item quantity="many">Už ste si nainštalovali našej %d najobľúbenejšej položky na úpravu štýlu. Ťuknutím na > zistíte viac.</item>
+        <item quantity="other">Už ste si nainštalovali našich %d najobľúbenejších položiek na úpravu štýlu. Ťuknutím na > zistíte viac.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Už ste si nainštalovali našu %d najobľúbenejšiu tému. Ťuknutím na > zistíte viac.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Už ste si nainštalovali naše %d najobľúbenejšie témy. Ťuknutím na > zistíte viac.</item>
+        <item quantity="many">Už ste si nainštalovali našej %d najobľúbenejšej témy. Ťuknutím na > zistíte viac.</item>
+        <item quantity="other">Už ste si nainštalovali našich %d najobľúbenejších tém. Ťuknutím na > zistíte viac.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Práve ste získali 1 bod. Teraz máte %d bod, ktorý môžete použiť na nákup aplikácií a ďalších vecí v obchode Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Práve ste získali 1 bod. Teraz máte %d body, ktoré môžete použiť na nákup aplikácií a ďalších vecí v obchode Galaxy Store.</item>
+        <item quantity="many">Práve ste získali 1 bod. Teraz máte %d bodu, ktorého môžete použiť na nákup aplikácií a ďalších vecí v obchode Galaxy Store.</item>
+        <item quantity="other">Práve ste získali 1 bod. Teraz máte %d bodov, ktoré môžete použiť na nákup aplikácií a ďalších vecí v obchode Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak si chcete stiahnuť túto aplikáciu, musíte mať aspoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak si chcete stiahnuť túto aplikáciu, musíte mať aspoň %d roky.</item>
+        <item quantity="many">Ak si chcete stiahnuť túto aplikáciu, musíte mať aspoň %d roka.</item>
+        <item quantity="other">Ak si chcete stiahnuť túto aplikáciu, musíte mať aspoň %d rokov.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte mať aspoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte mať aspoň %d roky.</item>
+        <item quantity="many">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte mať aspoň %d roka.</item>
+        <item quantity="other">Ak si chcete vopred zaregistrovať túto aplikáciu, musíte mať aspoň %d rokov.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nezobrazovať znova po dobu %d dňa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nezobrazovať znova po dobu %d dní</item>
+        <item quantity="many">Nezobrazovať znova po dobu %d dňa</item>
+        <item quantity="other">Nezobrazovať znova po dobu %d dní</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s každý %2$d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s každé %2$d dni</item>
+        <item quantity="many">%1$s každého %2$d dňa</item>
+        <item quantity="other">%1$s každých %2$d dní</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s každý %2$d mesiac</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s každé %2$d mesiace</item>
+        <item quantity="many">%1$s každého %2$d mesiaca</item>
+        <item quantity="other">%1$s každých %2$d mesiacov</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s každý %2$d týždeň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s každé %2$d týždne</item>
+        <item quantity="many">%1$s každého %2$d týždňa</item>
+        <item quantity="other">%1$s každých %2$d týždňov</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s každý %2$d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s každé %2$d roky</item>
+        <item quantity="many">%1$s každého %2$d roka</item>
+        <item quantity="other">%1$s každých %2$d rokov</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bod</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d body</item>
+        <item quantity="many">%d bodu</item>
+        <item quantity="other">%d bodov</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadarmo do %1$s, potom %2$s každý %3$d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadarmo do %1$s, potom %2$s každé %3$d dni</item>
+        <item quantity="many">Zadarmo do %1$s, potom %2$s každého %3$d dňa</item>
+        <item quantity="other">Zadarmo do %1$s, potom %2$s každých %3$d dní</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadarmo do %1$s, potom %2$s každý %3$d mesiac</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadarmo do %1$s, potom %2$s každé %3$d mesiace</item>
+        <item quantity="many">Zadarmo do %1$s, potom %2$s každého %3$d mesiaca</item>
+        <item quantity="other">Zadarmo do %1$s, potom %2$s každých %3$d mesiacov</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadarmo do %1$s, potom %2$s každý %3$d týždeň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadarmo do %1$s, potom %2$s každé %3$d týždne</item>
+        <item quantity="many">Zadarmo do %1$s, potom %2$s každého %3$d týždňa</item>
+        <item quantity="other">Zadarmo do %1$s, potom %2$s každých %3$d týždňov</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadarmo do %1$s, potom %2$s každý %3$d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadarmo do %1$s, potom %2$s každé %3$d roky</item>
+        <item quantity="many">Zadarmo do %1$s, potom %2$s každého %3$d roka</item>
+        <item quantity="other">Zadarmo do %1$s, potom %2$s každých %3$d rokov</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba to považ. za užitočné</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osoby to považ. za užitočné</item>
+        <item quantity="many">%d osoby to považ. za užitočné</item>
+        <item quantity="other">%d osôb to považovalo za užitočné</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">K dispozícii je %d aktualizácia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">K dispozícii sú %d aktualizácie</item>
+        <item quantity="many">K dispozícii je %d aktualizácie</item>
+        <item quantity="other">K dispozícii je %d aktualizácií</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-hviezdičkové recenzie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d-hviezdičkové recenzie</item>
+        <item quantity="many">%d-hviezdičkové recenzie</item>
+        <item quantity="other">%d-hviezdičkové recenzie</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vaše hodnotenie: %d hviezdička</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vaše hodnotenie: %d hviezdičky</item>
+        <item quantity="many">Vaše hodnotenie: %d hviezdičky</item>
+        <item quantity="other">Vaše hodnotenie: %d hviezdičiek</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oznámenie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d oznámenia</item>
+        <item quantity="many">%d oznámenia</item>
+        <item quantity="other">%d oznámení</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak chcete hrať túto hru, musíte mať aspoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak chcete hrať túto hru, musíte mať aspoň %d roky.</item>
+        <item quantity="many">Ak chcete hrať túto hru, musíte mať aspoň %d roka.</item>
+        <item quantity="other">Ak chcete hrať túto hru, musíte mať aspoň %d rokov.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Herná relácia sa skončí o %d minútu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Herná relácia sa skončí o %d minúty.</item>
+        <item quantity="many">Herná relácia sa skončí o %d minúty.</item>
+        <item quantity="other">Herná relácia sa skončí o %d minút.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vaše sieťové pripojenie je nestabilné. Ak sa nám nepodarí pripojiť, hra sa o %d sekundu ukončí. Vašu stav v hre sa uloží.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vaše sieťové pripojenie je nestabilné. Ak sa nám nepodarí pripojiť, hra sa o %d sekundy ukončí. Vašu stav v hre sa uloží.</item>
+        <item quantity="many">Vaše sieťové pripojenie je nestabilné. Ak sa nám nepodarí pripojiť, hra sa o %d sekundy ukončí. Vašu stav v hre sa uloží.</item>
+        <item quantity="other">Vaše sieťové pripojenie je nestabilné. Ak sa nám nepodarí pripojiť, hra sa o %d sekúnd ukončí. Vašu stav v hre sa uloží.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Pretočiť dopredu o %d sekundu</item>
+        <item quantity="few">Pretočiť dopredu o %d sekundy</item>
+        <item quantity="many">Pretočiť dopredu o %d sekundy</item>
+        <item quantity="other">Pretočiť dopredu o %d sekúnd</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Pretočiť späť o %d sekundu</item>
+        <item quantity="few">Pretočiť späť o %d sekundy</item>
+        <item quantity="many">Pretočiť späť o %d sekundy</item>
+        <item quantity="other">Pretočiť späť o %d sekúnd</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+</resources>

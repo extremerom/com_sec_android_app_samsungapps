@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_normal_upper" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/banner_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/banner_image_boarder" android:background="@drawable/banner_boarder_bg" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="@dimen/staffpick_banner_item_height" />
+        <ImageView android:layout_gravity="center" android:id="@id/banner_image" android:focusable="true" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="@dimen/staffpick_banner_item_height" android:foreground="@drawable/isa_drawable_banner_item_effect" android:scaleType="fitCenter" />
+        <View android:layout_gravity="center" android:id="@id/banner_image_round_mask" android:background="@drawable/banner_round_corner_bg" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="@dimen/staffpick_banner_item_height" />
+        <include layout="@layout/layout_download_btn_progress_view_banner" />
+    </FrameLayout>
+</LinearLayout>

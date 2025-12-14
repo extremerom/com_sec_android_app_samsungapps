@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/detail_popularity_area" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:background="@drawable/drawable_game_middle" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="5.0dp">
+        <LinearLayout android:layout_height="61.0dp" style="@style/detail_popularity_layout_width">
+            <com.sec.android.app.samsungapps.detail.widget.game.DetailTopRankWidget android:gravity="start" android:id="@id/detail_popularity_item_1" android:visibility="visible" android:layout_height="match_parent" style="@style/detail_popularity_1st_item_width" />
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/detail_popularity_divider_2" android:background="?detailPopularityDivider" android:layout_width="@dimen/detail_popularity_divider_width" android:layout_height="@dimen/detail_popularity_divider_height" android:layout_marginTop="4.0dp" style="@style/detail_popularity_item_visibility" />
+            <com.sec.android.app.samsungapps.detail.widget.game.DetailTopRankWidget android:gravity="start" android:id="@id/detail_popularity_item_2" android:layout_height="match_parent" style="@style/detail_popularity_2nd_item_width" />
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/detail_popularity_divider_3" android:background="?detailPopularityDivider" android:layout_width="@dimen/detail_popularity_divider_width" android:layout_height="@dimen/detail_popularity_divider_height" android:layout_marginTop="4.0dp" style="@style/detail_popularity_item_visibility" />
+            <com.sec.android.app.samsungapps.detail.widget.game.DetailTopRankWidget android:gravity="start" android:id="@id/detail_popularity_item_3" android:layout_height="match_parent" style="@style/detail_popularity_2nd_item_width" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

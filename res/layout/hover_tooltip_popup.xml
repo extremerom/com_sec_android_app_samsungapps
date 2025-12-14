@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="2.0dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/isa_drawable_popup_menu_toast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="2.0dp">
+        <TextView android:id="@id/custom_text_view_action_menu_toast_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="18.0dp" android:layout_marginBottom="10.0dp" android:maxWidth="@dimen/hover_tooltip_popup_max_text_width" android:maxHeight="@dimen/hover_tooltip_popup_max_text_height" android:layout_marginHorizontal="18.0dp" android:layout_marginVertical="10.0dp" style="@style/style_custom_toast_popup_view_for_action_menu" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/dialog_radius" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+        <TextView android:textSize="20.0sp" android:textColor="@color/dialog_title" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dp" android:text="Change subscription" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+        <ImageView android:id="@id/scroll_divider_top" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="11.0dp" app:srcCompat="@color/dialog_scroll_divider_color" />
+        <com.samsung.android.iap.dialog.widgets.CustomScrollView android:id="@id/scroll" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/app_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="21.0dp" app:srcCompat="@drawable/isa_tab_quick_panel_logo" />
+                    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title" android:ellipsize="end" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:maxWidth="260.0dp" android:text="Pokemon legend" android:maxLines="2" android:fontFamily="sans-serif-medium" android:layout_marginStart="12.0dp" />
+                </LinearLayout>
+                <ImageView android:id="@id/divider1" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" app:srcCompat="@color/dialog_button_separation_color" />
+                <include android:id="@id/current_plan_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_subsc_plan" />
+                <ImageView android:id="@id/divider2" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" app:srcCompat="@color/dialog_button_separation_color" />
+                <include android:id="@id/new_plan_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_subsc_plan" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/dialog_message_extra" android:id="@id/new_plan_notice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </com.samsung.android.iap.dialog.widgets.CustomScrollView>
+        <ImageView android:id="@id/scroll_divider_bottom" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginBottom="11.0dp" app:srcCompat="@color/dialog_scroll_divider_color" />
+        <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/next_button" android:layout_width="220.0dp" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:layout_marginBottom="22.0dp" android:text="Next" android:textAllCaps="false" style="@style/DialogButtonRaisedColor" />
+    </LinearLayout>
+</LinearLayout>

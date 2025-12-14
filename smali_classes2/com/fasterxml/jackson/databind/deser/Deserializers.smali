@@ -1,0 +1,205 @@
+.class public interface abstract Lcom/fasterxml/jackson/databind/deser/Deserializers;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# virtual methods
+.method public abstract findArrayDeserializer(Lcom/fasterxml/jackson/databind/type/ArrayType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;Lcom/fasterxml/jackson/databind/jsontype/m;Lcom/fasterxml/jackson/databind/f;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/type/ArrayType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            "Lcom/fasterxml/jackson/databind/jsontype/m;",
+            "Lcom/fasterxml/jackson/databind/f;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findBeanDeserializer(Lcom/fasterxml/jackson/databind/JavaType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/JavaType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findCollectionDeserializer(Lcom/fasterxml/jackson/databind/type/CollectionType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;Lcom/fasterxml/jackson/databind/jsontype/m;Lcom/fasterxml/jackson/databind/f;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/type/CollectionType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            "Lcom/fasterxml/jackson/databind/jsontype/m;",
+            "Lcom/fasterxml/jackson/databind/f;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findCollectionLikeDeserializer(Lcom/fasterxml/jackson/databind/type/CollectionLikeType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;Lcom/fasterxml/jackson/databind/jsontype/m;Lcom/fasterxml/jackson/databind/f;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/type/CollectionLikeType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            "Lcom/fasterxml/jackson/databind/jsontype/m;",
+            "Lcom/fasterxml/jackson/databind/f;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findEnumDeserializer(Ljava/lang/Class;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findMapDeserializer(Lcom/fasterxml/jackson/databind/type/MapType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;Lcom/fasterxml/jackson/databind/j;Lcom/fasterxml/jackson/databind/jsontype/m;Lcom/fasterxml/jackson/databind/f;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/type/MapType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            "Lcom/fasterxml/jackson/databind/j;",
+            "Lcom/fasterxml/jackson/databind/jsontype/m;",
+            "Lcom/fasterxml/jackson/databind/f;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findMapLikeDeserializer(Lcom/fasterxml/jackson/databind/type/MapLikeType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;Lcom/fasterxml/jackson/databind/j;Lcom/fasterxml/jackson/databind/jsontype/m;Lcom/fasterxml/jackson/databind/f;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/type/MapLikeType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            "Lcom/fasterxml/jackson/databind/j;",
+            "Lcom/fasterxml/jackson/databind/jsontype/m;",
+            "Lcom/fasterxml/jackson/databind/f;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findReferenceDeserializer(Lcom/fasterxml/jackson/databind/type/ReferenceType;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;Lcom/fasterxml/jackson/databind/jsontype/m;Lcom/fasterxml/jackson/databind/f;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/type/ReferenceType;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            "Lcom/fasterxml/jackson/databind/jsontype/m;",
+            "Lcom/fasterxml/jackson/databind/f;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract findTreeNodeDeserializer(Ljava/lang/Class;Lcom/fasterxml/jackson/databind/DeserializationConfig;Lcom/fasterxml/jackson/databind/b;)Lcom/fasterxml/jackson/databind/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "+",
+            "Lcom/fasterxml/jackson/databind/g;",
+            ">;",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Lcom/fasterxml/jackson/databind/b;",
+            ")",
+            "Lcom/fasterxml/jackson/databind/f;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/fasterxml/jackson/databind/JsonMappingException;
+        }
+    .end annotation
+.end method
+
+.method public abstract hasDeserializerFor(Lcom/fasterxml/jackson/databind/DeserializationConfig;Ljava/lang/Class;)Z
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/fasterxml/jackson/databind/DeserializationConfig;",
+            "Ljava/lang/Class<",
+            "*>;)Z"
+        }
+    .end annotation
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/isa_layout_guest_checkout_listitem_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dp" android:textColor="@color/drawer_list_item_title_text" android:gravity="center" android:id="@id/receipt_guest_check_bottom_listItem" android:tag="binding_1" android:background="@drawable/unsubscribe_button_background" android:layout_width="wrap_content" android:layout_height="63.0dp" android:layout_marginTop="20.0dp" android:minWidth="270.0dp" android:layout_centerHorizontal="true" android:textAlignment="center" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" style="@style/isa_style_one_ui_font_semi_bold" />
+    <TextView android:gravity="center" android:id="@id/no_data_text" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="24.0dp" android:layout_marginTop="165.0dp" android:layout_marginRight="24.0dp" android:text="@string/DREAM_SAPPS_BODY_AFTER_YOU_BUY_ITEMS_YOUR_RECEIPTS_WILL_BE_SHOWN_HERE" android:layout_below="@id/receipt_guest_check_bottom_listItem" android:textDirection="locale" android:layoutDirection="locale" style="@style/isa_style_no_items_text" />
+</RelativeLayout>

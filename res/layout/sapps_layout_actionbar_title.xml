@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_left_margineview_title" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="match_parent" />
+    <include layout="@layout/sapps_layout_appbar_expandable" />
+</LinearLayout>

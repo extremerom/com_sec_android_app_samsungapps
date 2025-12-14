@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/common_dialog_root_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/switch_section" android:background="@drawable/isa_drawable_list_effect" android:focusable="true" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginLeft="@dimen/common_list_side_item_margin" android:layout_marginRight="@dimen/common_list_side_item_margin" android:layout_marginHorizontal="@dimen/common_list_side_item_margin">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/switch_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_TMBODY_SHOW_INSTALLED_APPS" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_style_my_apps_show_installed_apps_text" />
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/isa_layout_settings_switch" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/sort_by_latest_purchase" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_ad_layout_dialog_single_choice_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/sort_by_name" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_ad_layout_dialog_single_choice_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/sort_by_size" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_ad_layout_dialog_single_choice_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36.0dp" android:text="@string/DREAM_SAPPS_HEADER_ORDER_M_SORT" android:layout_marginStart="24.0dp" style="@style/isa_style_my_apps_popup_subhead_text" />
+        <LinearLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/sec_subheader_divider" android:layout_marginStart="16.0dp" android:layout_marginEnd="20.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/sort_order_ascending" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_ad_layout_dialog_single_choice_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/sort_order_descending" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_ad_layout_dialog_single_choice_item" />
+    </LinearLayout>
+</LinearLayout>

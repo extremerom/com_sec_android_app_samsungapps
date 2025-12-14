@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/galaxy_store_task_edge_shortcut_update" android:enabled="true" android:shortcutId="updates" android:shortcutShortLabel="@string/DREAM_SAPPS_OPT_UPDATE_APPS" android:shortcutLongLabel="@string/DREAM_SAPPS_OPT_UPDATE_APPS">
+        <intent android:targetPackage="com.sec.android.app.samsungapps" android:action="com.sec.android.app.samsungapps.SHORTCUT" android:data="samsungappsshortcut://GoUpdates/">
+            <extra android:name="shortcut" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/galaxy_store_task_edge_shortcut_game" android:enabled="true" android:shortcutId="games" android:shortcutShortLabel="@string/DREAM_SAPPS_BUTTON2_GAMES" android:shortcutLongLabel="@string/DREAM_SAPPS_BUTTON2_GAMES">
+        <intent android:targetPackage="com.sec.android.app.samsungapps" android:action="com.sec.android.app.samsungapps.SHORTCUT" android:data="samsungappsshortcut://GameHome/">
+            <extra android:name="shortcut" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/galaxy_store_task_edge_shortcut_apps" android:enabled="true" android:shortcutId="apps" android:shortcutShortLabel="@string/DREAM_SAPPS_OPT_APPS_ABB2" android:shortcutLongLabel="@string/DREAM_SAPPS_OPT_APPS_ABB2">
+        <intent android:targetPackage="com.sec.android.app.samsungapps" android:action="com.sec.android.app.samsungapps.SHORTCUT" android:data="samsungappsshortcut://AppsMain/Featured">
+            <extra android:name="shortcut" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/galaxy_store_task_edge_shortcut_event" android:enabled="true" android:shortcutId="events" android:shortcutShortLabel="@string/DREAM_SAPPS_TMBODY_EVENTS_ABB" android:shortcutLongLabel="@string/DREAM_SAPPS_TMBODY_EVENTS_ABB">
+        <intent android:targetPackage="com.sec.android.app.samsungapps" android:action="com.sec.android.app.samsungapps.SHORTCUT" android:data="samsungappsshortcut://PromotionList/">
+            <extra android:name="shortcut" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

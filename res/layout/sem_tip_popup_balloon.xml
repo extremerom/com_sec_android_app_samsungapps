@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/sem_tip_popup_balloon_bubble" android:layout_width="@dimen/sem_tip_popup_bubble_width" android:layout_height="@dimen/sem_tip_popup_bubble_height">
+        <ImageView android:id="@id/sem_tip_popup_balloon_bubble_hint" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/sem_tip_popup_hint_background_02" app:tint="?semTipPopupBackgroundColor" />
+        <ImageView android:id="@id/sem_tip_popup_balloon_bubble_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/sem_tip_popup_hint_background_02" app:tint="?semTipPopupTextColor" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sem_tip_popup_balloon_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/sem_tip_popup_balloon_bg_01" android:background="@drawable/sem_tip_popup_balloon_background_left" android:layout_width="match_parent" android:layout_height="match_parent" android:backgroundTint="?semTipPopupBackgroundColor" />
+        <ImageView android:id="@id/sem_tip_popup_balloon_bg_02" android:background="@drawable/sem_tip_popup_balloon_background_right" android:layout_width="match_parent" android:layout_height="match_parent" android:backgroundTint="?semTipPopupBackgroundColor" />
+        <FrameLayout android:gravity="top" android:orientation="vertical" android:id="@id/sem_tip_popup_balloon_content" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sem_tip_popup_game_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sem_tip_popup_button_padding_horizontal" android:layout_marginEnd="@dimen/sem_tip_popup_button_padding_horizontal" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <com.samsung.android.game.cloudgame.sdk.ui.view.SquircleImageView android:id="@id/sem_tip_popup_game_icon" android:layout_width="@dimen/sem_tip_popup_balloon_game_icon_size" android:layout_height="@dimen/sem_tip_popup_balloon_game_icon_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textAppearance="@style/TextAppearance.SemTipPopup.Message" android:id="@id/sem_tip_popup_game_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sem_tip_popup_balloon_game_title_margin_start" app:layout_constraintBottom_toBottomOf="@id/sem_tip_popup_game_icon" app:layout_constraintStart_toEndOf="@id/sem_tip_popup_game_icon" app:layout_constraintTop_toTopOf="@id/sem_tip_popup_game_icon" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView android:textAppearance="@style/TextAppearance.SemTipPopup.Message" android:id="@id/sem_tip_popup_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sem_tip_popup_balloon_message_margin_top" android:layout_marginStart="@dimen/sem_tip_popup_button_padding_horizontal" android:layout_marginEnd="@dimen/sem_tip_popup_button_padding_horizontal" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sem_tip_popup_game_info" app:layout_goneMarginTop="0.0dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout android:layout_gravity="end|bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:ellipsize="end" android:id="@id/sem_tip_popup_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Widget.DeviceDefault.Light.Button.SemTipPopup" />
+                <Button android:ellipsize="end" android:id="@id/sem_tip_popup_action2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Widget.DeviceDefault.Light.Button.SemTipPopup" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

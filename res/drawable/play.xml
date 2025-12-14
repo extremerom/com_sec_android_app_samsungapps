@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="184.0dp" android:width="184.0dp" android:viewportWidth="184.0" android:viewportHeight="184.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="s1" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="91.5" android:translateY="91.5">
+        <group android:name="s1pg1" android:pivotX="-1.9866333" android:pivotY="31.940002" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="10.486633" android:translateY="-31.940002">
+            <path android:name="s1pg1p20" android:fillColor="#ffffff" android:pathData="M -32.08 -3.867 C -32.08 -8.875 -27.264 -10.938 -22.907 -8.378 C -22.907 -8.378 29.399 26.057 29.399 26.057 C 29.818 26.455 30.227 26.682 30.372 26.931 C 33.375 29.25 33.438 35.75 29.877 37.825 C 29.689 37.934 29.542 38.108 29.364 38.244 C 29.364 38.244 -22.907 72.391 -22.907 72.391 C -27.264 74.952 -32.08 72.889 -32.08 67.88 C -32.08 67.88 -32.08 -3.867 -32.08 -3.867 Z" android:fillAlpha="1.0" />
+            <path android:name="s1pg1p10" android:fillColor="#ffffff" android:pathData="M 17.042 19.47 C 19.708 21.25 20.084 21.313 22.712 23.001 C 26.285 25.295 27.732 26.127 30.329 28.634 C 32.639 30.864 32.053 34.966 30.186 36.411 C 27.889 38.19 26.201 39.221 22.637 41.64 C 22.637 41.64 20.867 43.001 16.985 45.296 C 13.081 47.604 9.436 41.916 9.436 37.747 C 9.436 37.747 9.494 27.019 9.494 27.019 C 9.494 22.85 13.415 17.048 17.042 19.47 Z" android:fillAlpha="1.0" />
+        </group>
+    </group>
+</vector>

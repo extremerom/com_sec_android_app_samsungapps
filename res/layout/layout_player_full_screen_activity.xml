@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.PlayerView android:gravity="center" android:id="@id/exo_player_content" android:background="@color/isa_000" android:layout_width="match_parent" android:layout_height="match_parent" app:controller_layout_id="@layout/layout_full_screen_player_controller" />
+    <FrameLayout android:id="@id/exo_player_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="60.0dp" android:layout_height="60.0dp" android:indeterminateTint="@color/isa_250250250" />
+    </FrameLayout>
+</FrameLayout>

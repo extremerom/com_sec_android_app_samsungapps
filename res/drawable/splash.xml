@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/main_bg" />
+    <item android:gravity="center" android:height="@dimen/splash_height" android:width="@dimen/splash_width" android:drawable="@drawable/splash_icon_bg_v" />
+    <item android:gravity="center" android:height="@dimen/splash_basket_height" android:width="@dimen/splash_basket_width" android:drawable="@drawable/splash_icon_v" />
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/searchview_parent" android:tag="layout/isa_layout_actionbar_search_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/isa_drawable_actionbar_searchview_background_global" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="@dimen/search_view_height">
+        <com.sec.android.app.samsungapps.commonview.ListenerSearchView android:theme="@style/searchview_theme" android:gravity="start" android:id="@id/searchview" android:paddingLeft="0.0dp" android:paddingRight="0.0dp" android:layout_width="wrap_content" android:layout_height="@dimen/search_view_height" android:maxLength="1024" android:layout_weight="1.0" android:queryHint="@string/DREAM_IDLE_OPT_SEARCH" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" android:layout_marginStart="-14.0dp" android:searchHintIcon="@null" style="@style/isa_style_action_bar_searchbar_global_text" />
+    </LinearLayout>
+</LinearLayout>

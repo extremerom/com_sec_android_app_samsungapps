@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="common_list_begin_percent" format="float">0.07</item>
+    <item type="integer" name="common_list_end_percent" format="float">0.93</item>
+    <item type="integer" name="myapps_list_begin_percent" format="float">0.05</item>
+    <item type="integer" name="myapps_list_end_percent" format="float">0.95</item>
+</resources>

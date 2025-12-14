@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.mas.ads.view.AppIconAdView android:id="@id/appIconAdTopItem_adView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/appIconAdTopItem_textSize" android:textColor="@color/appIconAdTop_textColor" android:ellipsize="end" android:gravity="center" android:id="@id/appIconAdTopItem_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="@integer/appIconAdTopItem_narrow_text_maxLines" style="@style/MasSec400" />
+</LinearLayout>

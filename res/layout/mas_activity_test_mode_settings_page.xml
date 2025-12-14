@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_enableTestMode" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15.0dp" android:paddingEnd="15.0dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:id="@id/txt_enableTestMode" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/enable_test_mode" app:layout_constraintStart_toStartOf="parent" />
+            <TextView android:textSize="11.0sp" android:id="@id/sdk_version_info" android:background="@drawable/sdk_info_background" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dp" app:layout_constraintBottom_toBottomOf="@id/txt_enableTestMode" app:layout_constraintStart_toEndOf="@id/txt_enableTestMode" app:layout_constraintTop_toTopOf="@id/txt_enableTestMode" />
+            <TextView android:textSize="16.0sp" android:id="@id/txt_enableTestServer" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/use_test_server" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/txt_enableTestMode" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/switch_EnableTestMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:textOn="@string/on" android:textOff="@string/off" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_TestModeSettings" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_mock_settings" app:layout_constraintBottom_toTopOf="@id/mockSettingsInfo" app:layout_constraintStart_toStartOf="parent" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/test_mode_blue_color" android:id="@id/mockSettingsInfo" android:padding="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/switch_EnableMockSettings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/on" android:textOff="@string/off" android:layout_weight="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_adConfigInfo" android:layout_weight="1.0" />
+                    <Button android:layout_gravity="end|center" android:id="@id/button_ClearAdConfigInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_clear" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_appData" android:layout_weight="1.0" />
+                    <Button android:layout_gravity="end|center" android:id="@id/button_ClearAppData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_clear" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/support_fold_device" android:layout_weight="1.0" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end|center" android:id="@id/switch_SupportFoldDevice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/on" android:textOff="@string/off" />
+                </LinearLayout>
+                <TextView android:textSize="14.0dp" android:textColor="@color/test_mode_blue_color" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:text="log and toasts for test" android:layout_marginStart="20.0dp" />
+                <View android:background="@color/test_mode_blue_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_adevent_toast" android:layout_weight="1.0" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/switch_EnableAdEventToast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/on" android:textOff="@string/off" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_dev_log" android:layout_weight="1.0" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/switch_EnableDevLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="on" android:textOff="off" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_om_obstruction_log" android:layout_weight="1.0" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/switch_EnableOmObstructionLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="on" android:textOff="off" android:layout_weight="1.0" />
+                </LinearLayout>
+                <TextView android:textSize="14.0dp" android:textColor="@color/test_mode_blue_color" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:text="video test settings" android:layout_marginStart="20.0dp" />
+                <View android:background="@color/test_mode_blue_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+                    <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disable_autoplay" android:layout_weight="1.0" />
+                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/switch_DisableAutoPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/on" android:textOff="@string/off" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/sticker_background" android:background="@drawable/isa_drawable_bg_sticker_previews" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_sticker_half">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/thumbnail_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="20.0dp" android:layout_marginStart="@dimen/content_detail_main_left_layout_margin_left" android:layout_marginEnd="@dimen/content_detail_main_left_layout_margin_left" android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+    <com.sec.android.app.samsungapps.detail.widget.sticker.DetailStickerFullScreenView android:layout_gravity="center" android:id="@id/layout_detail_sticker_full_screen" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

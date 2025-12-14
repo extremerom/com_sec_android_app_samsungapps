@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_detail_main_left_layout_margin_top" android:layout_marginBottom="@dimen/content_detail_main_margin_bottom" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_widget_view_child_bg" android:background="@drawable/drawable_game_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_widget_view" android:paddingLeft="@dimen/content_detail_main_left_layout_margin_left" android:paddingRight="@dimen/content_detail_main_left_layout_margin_left" android:paddingBottom="10.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingHorizontal="@dimen/content_detail_main_left_layout_margin_left" app:layout_constraintBottom_toTopOf="@id/mid" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed">
+            <include android:id="@id/layout_main_left_edge" android:visibility="gone" layout="@layout/isa_layout_detail_main_left_edge" />
+            <include android:id="@id/layout_main_left_wide_edge" android:visibility="gone" layout="@layout/isa_layout_detail_main_left_wide_edge" />
+            <include android:id="@id/layout_main_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/isa_layout_detail_main_left" />
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/isa_layout_detail_main_right" />
+        </LinearLayout>
+        <com.sec.android.app.samsungapps.detail.widget.appinfo.DetailThirdPartyBillingInfoView android:id="@id/third_party_billing_info_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/isa_layout_detail_main_middle" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

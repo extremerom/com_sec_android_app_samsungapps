@@ -1,0 +1,147 @@
+.class public final Lcom/google/common/base/z1;
+.super Lcom/google/common/base/q0;
+.source "ProGuard"
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/regex/Matcher;)V
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: void <init>(java.util.regex.Matcher)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+
+# virtual methods
+.method public a()I
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: int end()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public b()Z
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: boolean find()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public c(I)Z
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: boolean find(int)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public d()Z
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: boolean matches()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public e(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: java.lang.String replaceAll(java.lang.String)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public f()I
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.base.JdkPattern$JdkMatcher: int start()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

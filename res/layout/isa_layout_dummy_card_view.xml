@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="20.0dp" android:layout_height="match_parent" />
+    <include android:id="@id/dummy_card_1" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_2" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_3" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_4" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_5" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_6" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_7" layout="@layout/isa_layout_dummy_card_item" />
+    <include android:id="@id/dummy_card_8" layout="@layout/isa_layout_dummy_card_item" />
+</LinearLayout>

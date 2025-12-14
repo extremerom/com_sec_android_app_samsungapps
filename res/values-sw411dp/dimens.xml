@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_banner_item_height">135.0dp</dimen>
+    <dimen name="detail_banner_item_width">385.0dp</dimen>
+    <dimen name="detail_hero_image_height">200.0dp</dimen>
+    <dimen name="detail_hero_image_top_margin_height">171.0dp</dimen>
+    <dimen name="for_galaxy_edge_item_big_image_total_width">151.0dp</dimen>
+    <dimen name="for_galaxy_edge_item_image_height">542.0dp</dimen>
+    <dimen name="forgalaxy_inner_item_space_land">43.0dp</dimen>
+    <dimen name="game_sub_category_group_item_width">94.099976dp</dimen>
+    <dimen name="geartop_item_space_freestore">27.0dp</dimen>
+    <dimen name="maintab_china_min_width">72.0dp</dimen>
+    <dimen name="now_free_divider_width">359.0dp</dimen>
+    <dimen name="now_free_title_max_width">280.0dp</dimen>
+    <dimen name="preorder_screenshot_9_16_height">178.0dp</dimen>
+    <dimen name="preorder_screenshot_sectoin_top_margin">5.0dp</dimen>
+    <dimen name="preorder_screenshots_margin">20.0dp</dimen>
+    <dimen name="similar_item_padding">5.0dp</dimen>
+    <dimen name="similar_item_padding_land">43.0dp</dimen>
+    <dimen name="staffpick_scrolling_item_padding">5.0dp</dimen>
+    <dimen name="staffpick_smallbanner_item_width">178.5dp</dimen>
+    <dimen name="starter_single_item_width_dream">108.0dp</dimen>
+</resources>

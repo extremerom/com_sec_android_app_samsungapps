@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_description_title_container" android:tag="layout/isa_layout_detail_description_title_0" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:minHeight="42.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/tv_title" android:tag="binding_1" android:paddingLeft="@dimen/content_detail_main_left_layout_margin_left_18dp" android:paddingRight="@dimen/content_detail_main_left_layout_margin_left" android:focusable="false" android:clickable="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_style_detail_title" />
+    <include android:id="@id/btn_detail_overview_description_down_arrow" layout="@layout/isa_layout_common_more_btn" />
+</LinearLayout>

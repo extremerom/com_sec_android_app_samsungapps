@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dp</dimen>
+    <dimen name="abc_dialog_fixed_height_major">60.000004%</dimen>
+    <dimen name="abc_dialog_fixed_height_minor">90.0%</dimen>
+    <dimen name="abc_dialog_fixed_width_major">60.000004%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">90.0%</dimen>
+    <dimen name="abc_dialog_min_width_major">55.000008%</dimen>
+    <dimen name="abc_dialog_min_width_minor">79.99999%</dimen>
+    <dimen name="action_bar_height">64.0dp</dimen>
+    <dimen name="basic_listtext_minheight_1line">64.0dp</dimen>
+    <dimen name="basic_listtext_minheight_2line">75.0dp</dimen>
+    <dimen name="button_text_size">16.0dp</dimen>
+    <dimen name="content_detail_main_progress_bar_height">5.0dp</dimen>
+    <dimen name="content_detail_main_progress_bottom_margin">5.0dp</dimen>
+    <dimen name="content_detail_main_progress_cancel_left_margin">8.0dp</dimen>
+    <dimen name="content_detail_main_progress_top_margin">14.0dp</dimen>
+    <dimen name="custom_action_item_button_width">72.0dp</dimen>
+    <dimen name="detailpage_layout_main_widget_divider">2.0px</dimen>
+    <dimen name="gcf_setting_action_bar_height">80.0dp</dimen>
+    <dimen name="search_result_activity_more_window_top_margin">-58.0dp</dimen>
+    <dimen name="toastpopup_left_right_margin">12.0dp</dimen>
+    <dimen name="two_px_line_divider">2.0px</dimen>
+</resources>

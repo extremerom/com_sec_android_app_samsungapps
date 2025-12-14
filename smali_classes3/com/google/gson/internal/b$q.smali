@@ -1,0 +1,45 @@
+.class public Lcom/google/gson/internal/b$q;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lcom/google/gson/internal/ObjectConstructor;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/gson/internal/b;->c(Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/google/gson/internal/ObjectConstructor;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/google/gson/internal/b;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/gson/internal/b;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/gson/internal/b$q;->a:Lcom/google/gson/internal/b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public construct()Ljava/lang/Object;
+    .locals 1
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    return-object v0
+.end method

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/whole_layout" android:background="@color/isa_opa100_250250250" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/scroll_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/img_security_card" android:background="@drawable/img_kids_app_icon" android:layout_width="@dimen/kids_layout_network_unavailable_center_image_width" android:layout_height="@dimen/kids_layout_network_unavailable_center_image_height" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kids_layout_network_unavailable_text_margin_top" android:text="@string/DREAM_SAPPS_BODY_CONNECT_TO_A_NETWORK_TO_BROWSE_THE_GALAXY_STORE" style="@style/Kidsapps_app_update_error_text" />
+            <View android:layout_width="match_parent" android:layout_height="@dimen/kids_layout_network_unavailable_btn_margin_top" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bottom_layout_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="@dimen/kids_layout_network_unavailable_bottom_main_button_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kids_layout_network_unavailable_bottom_button_margine_left">
+                <Button android:layout_gravity="center_horizontal" android:id="@id/network_retry" android:layout_width="match_parent" android:layout_height="@dimen/kids_layout_network_unavailable_bottom_main_button_height" android:text="@string/IDS_SAPPS_BUTTON_TRY_AGAIN_ABB" android:layout_centerHorizontal="true" style="@style/Kidsapps_app_error_button" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

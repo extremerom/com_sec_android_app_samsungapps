@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/pause"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="s1pg1p20" android:animation="@anim/pause_to_play_anim1" />
+    <target android:name="s1pg1p10" android:animation="@anim/pause_to_play_anim2" />
+</animated-vector>

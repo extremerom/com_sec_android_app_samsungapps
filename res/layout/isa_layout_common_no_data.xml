@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:ellipsize="end" android:gravity="start|center" android:id="@id/title" android:paddingTop="1.0dp" android:paddingBottom="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/action_bar_height" android:layout_marginTop="@dimen/action_bar_margin_top" android:minHeight="@dimen/action_bar_height" android:textDirection="locale" android:paddingEnd="@dimen/actionbar_right_padding" android:layout_marginStart="16.0dp" style="@style/isa_style_action_bar_text_01" />
+        <ScrollView android:layout_gravity="center" android:id="@id/common_no_data_layout" android:background="@null" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:measureAllChildren="true" android:fillViewport="true" android:layoutDirection="locale" android:nestedScrollingEnabled="true" style="@style/isa_style_scroll_bar">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/loading_layout" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/body" android:clipToPadding="false" android:layout_width="60.0dp" android:layout_height="60.0dp" android:outlineProvider="background" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/loading_progress" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_waiting_progress_middle" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_data_layout" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="100.0">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="75.0">
+                            <TextView android:textSize="17.0dp" android:textColor="@color/common_no_data_text_color" android:gravity="center_horizontal" android:id="@id/no_data_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/IDS_SAPPS_BODY_NO_ITEMS" android:textDirection="locale" style="@style/isa_style_one_ui_font_regular" />
+                            <TextView android:textSize="13.0dp" android:textColor="@color/common_no_data_sub_text_color" android:gravity="center_horizontal" android:id="@id/no_data_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/isa_style_one_ui_font_regular" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/retry_layout" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.94" />
+                    <TextView android:textSize="17.0dp" android:textColor="@color/no_network_widget_desc_text_color" android:gravity="center" android:id="@id/retry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" android:text="@string/DREAM_IDLE_NPBODY_NO_NETWORKS_AVAILABLE" />
+                    <include android:id="@id/network_retry_button" layout="@layout/isa_layout_networkretry_button" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.06" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </LinearLayout>
+</merge>

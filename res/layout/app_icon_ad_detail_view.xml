@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/appIconAdTop_paddingHorizontal" android:paddingTop="@dimen/appIconAdTop_detail_paddingTop" android:paddingRight="@dimen/appIconAdTop_paddingHorizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/appIconAdTop_AD_detail_min_height" android:paddingHorizontal="@dimen/appIconAdTop_paddingHorizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/appIconAdTop_AD_textSize" android:textColor="@color/appIconAdTop_AD_textColor" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/appIconAdTop_AD_text_min_width" android:text="@string/text_ad" android:layout_marginEnd="@dimen/appIconAdTop_AD_text_marginEnd" style="@style/MasSec400" />
+    <TextView android:textSize="@dimen/appIconAdTop_AD_detail_textSize" android:textColor="@color/appIconAdTop_AD_textColor" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/suggested_for_you" style="@style/MasSec600" />
+</LinearLayout>

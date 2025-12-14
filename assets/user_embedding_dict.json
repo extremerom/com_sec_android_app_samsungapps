@@ -1,0 +1,23 @@
+{
+    "uGendType": {
+        "F": 0,
+        "NaN": 1,
+        "M": 2
+    },
+    "uAgeGroup": {
+        "NaN": 0,
+        "18to34": 1,
+        "35to54": 2,
+        "over55": 3
+    },
+    "uParetSts": {
+        "NaN": 0,
+        "NP": 1,
+        "P": 2
+    },
+    "uGend": {
+        "NaN": 0,
+        "F": 1,
+        "M": 2
+    }
+}

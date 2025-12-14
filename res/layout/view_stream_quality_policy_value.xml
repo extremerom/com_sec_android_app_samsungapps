@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/stream_quality_policy_value_background" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="0.0dp">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Spinner android:entries="@array/cloudgame_stream_quality_policy_value_types" android:id="@id/value_types" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <Spinner android:entries="@array/cloudgame_stream_quality_policy_value_conditions" android:id="@id/value_condition" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <EditText android:id="@id/standard" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="0.5" android:layout_weight="1.0" android:inputType="numberSigned|numberDecimal" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <Button android:id="@id/btn_del" android:background="@android:color/white" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Del" android:layout_weight="0.3" app:backgroundTint="@color/cloudgame_stream_quality_policy_value_button" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

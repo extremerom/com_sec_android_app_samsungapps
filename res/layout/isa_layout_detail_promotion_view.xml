@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_widget_container" android:tag="layout/isa_layout_detail_promotion_view_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.detail.widget.description.CommonDescriptionTitleView android:id="@id/title_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout="@layout/isa_layout_detail_promotion_title" />
+    <com.sec.android.app.samsungapps.detail.widget.description.CommonDescriptionTextView android:autoLink="web|email" android:id="@id/description_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1000" android:textDirection="locale" android:paddingStart="@dimen/content_detail_main_left_layout_margin_left" android:paddingEnd="@dimen/content_detail_main_left_layout_margin_left" style="@style/isa_style_expert_reviews_text_02_with_link_color" />
+</LinearLayout>

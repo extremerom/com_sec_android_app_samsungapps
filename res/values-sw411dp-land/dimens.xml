@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="staffpick_scrolling_item_padding">43.0dp</dimen>
+</resources>

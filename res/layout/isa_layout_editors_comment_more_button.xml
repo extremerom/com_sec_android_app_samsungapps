@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="end" android:tag="layout/isa_layout_editors_comment_more_button_0" android:focusable="false" android:clickable="false" android:layout_width="19.0dp" android:layout_height="19.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/btn_common_more_down_arrow" android:visibility="gone" android:layout_width="@dimen/content_detail_arrow_width" android:layout_height="@dimen/content_detail_arrow_height" android:src="@drawable/arrow_down_detail_tint" android:scaleType="centerInside" android:contentDescription="@string/IDS_SAPPS_BODY_EXPAND" />
+</LinearLayout>

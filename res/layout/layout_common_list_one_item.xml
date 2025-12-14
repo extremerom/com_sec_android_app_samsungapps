@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="6.0dp" android:paddingRight="6.0dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/samsungapps_text_large_multi" />
+    <View android:background="@drawable/isa_drawable_list_line" android:layout_width="match_parent" android:layout_height="@dimen/two_px_line_divider" android:layout_alignParentBottom="true" />
+</RelativeLayout>

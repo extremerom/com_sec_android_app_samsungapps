@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/content_detail_main_bubble_icon_info_image_size" android:width="@dimen/content_detail_main_bubble_icon_info_image_size">
+        <bitmap android:src="@drawable/subheader_info" android:tint="?detailAgeIconColor" />
+    </item>
+</layer-list>

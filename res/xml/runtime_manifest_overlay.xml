@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<runtime-manifest
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <activity android:name="com.sec.android.app.samsungapps.SamsungAppsMainActivity">
+        <policy android:label="@string/STORE_ONLY_SIMPLE_APP_NAME" android:priority="1" minValue="60000" type="ONEUI" />
+    </activity>
+</runtime-manifest>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">%d نقطة</item>
+        <item quantity="one">نقطة واحدة</item>
+        <item quantity="two">نقطتان</item>
+        <item quantity="few">%d نقاط</item>
+        <item quantity="many">%d نقطة</item>
+        <item quantity="other">%d نقطة</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">يتعذر تحديد أكثر من %d علامة.</item>
+        <item quantity="one">يتعذر تحديد أكثر من علامة واحدة.</item>
+        <item quantity="two">يتعذر تحديد أكثر من علامتَين.</item>
+        <item quantity="few">يتعذر تحديد أكثر من %d علامات.</item>
+        <item quantity="many">يتعذر تحديد أكثر من %d علامة.</item>
+        <item quantity="other">يتعذر تحديد أكثر من %d علامة.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">يجب أن يكون عمرك ‏‎%d‎‏‎ سنة على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="one">يجب أن يكون عمرك ‏‎سنة واحدة على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="two">يجب أن يكون عمرك ‏‎سنتين على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="few">يجب أن يكون عمرك ‏‎%d سنوات على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="many">يجب أن يكون عمرك ‏‎%d سنةً على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="other">يجب أن يكون عمرك ‏‎%d سنة على الأقل لاستخدام الألعاب الفورية.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d يوم تقريباً.</item>
+        <item quantity="one">ستتم إضافة %1$s نقطة إلى حسابك خلال يوم واحد تقريباً.</item>
+        <item quantity="two">ستتم إضافة %1$s نقطة إلى حسابك خلال يومين تقريباً.</item>
+        <item quantity="few">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d أيام تقريباً.</item>
+        <item quantity="many">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d يوماً تقريباً.</item>
+        <item quantity="other">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d يوم تقريباً.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">لتنزيل هذا التطبيق، تحتاج إلى التحقق من هويتك وتأكيد أن عمرك يزيد عن %d عام.</item>
+        <item quantity="one">لتنزيل هذا التطبيق، تحتاج إلى التحقق من هويتك وتأكيد أن عمرك يزيد عن عام واحد.</item>
+        <item quantity="two">لتنزيل هذا التطبيق، تحتاج إلى التحقق من هويتك وتأكيد أن عمرك يزيد عن عامين.</item>
+        <item quantity="few">لتنزيل هذا التطبيق، تحتاج إلى التحقق من هويتك وتأكيد أن عمرك يزيد عن %d أعوام.</item>
+        <item quantity="many">لتنزيل هذا التطبيق، تحتاج إلى التحقق من هويتك وتأكيد أن عمرك يزيد عن %d عاماً.</item>
+        <item quantity="other">لتنزيل هذا التطبيق، تحتاج إلى التحقق من هويتك وتأكيد أن عمرك يزيد عن %d عام.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">يجب أن يكون عمرك %1$d عام على الأقل لاستخدام %2$s.</item>
+        <item quantity="one">يجب أن يكون عمرك عاماً واحداً على الأقل لاستخدام %2$s.</item>
+        <item quantity="two">يجب أن يكون عمرك عامين على الأقل لاستخدام %2$s.</item>
+        <item quantity="few">يجب أن يكون عمرك %1$d أعوام على الأقل لاستخدام %2$s.</item>
+        <item quantity="many">يجب أن يكون عمرك %1$d عاماً على الأقل لاستخدام %2$s.</item>
+        <item quantity="other">يجب أن يكون عمرك %1$d عام على الأقل لاستخدام %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">يتبقى %d يوم</item>
+        <item quantity="one">يتبقى يوم واحد</item>
+        <item quantity="two">يتبقى يومان</item>
+        <item quantity="few">يتبقى %d أيام</item>
+        <item quantity="many">يتبقى %d يوماً</item>
+        <item quantity="other">يتبقى %d يوم</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">ستتم إضافة نقطة واحدة إلى حسابك خلال %d يوم تقريباً.</item>
+        <item quantity="one">ستتم إضافة نقطة واحدة إلى حسابك خلال يوم واحد تقريباً.</item>
+        <item quantity="two">ستتم إضافة نقطة واحدة إلى حسابك خلال يومين تقريباً.</item>
+        <item quantity="few">ستتم إضافة نقطة واحدة إلى حسابك خلال %d أيام تقريباً.</item>
+        <item quantity="many">ستتم إضافة نقطة واحدة إلى حسابك خلال %d يوماً تقريباً.</item>
+        <item quantity="other">ستتم إضافة نقطة واحدة إلى حسابك خلال %d يوم تقريباً.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">هل تريد حذف مجموعة الملصقات من %1$s و%2$s و%3$s و%4$d تطبيق آخر؟</item>
+        <item quantity="one">هل تريد حذف مجموعة الملصقات من %1$s و%2$s و%3$s وتطبيق واحد آخر؟</item>
+        <item quantity="two">هل تريد حذف مجموعة الملصقات من %1$s و%2$s و%3$s وتطبيقين آخرين؟</item>
+        <item quantity="few">هل تريد حذف مجموعة الملصقات من %1$s و%2$s و%3$s و%4$d تطبيقات أخرى؟</item>
+        <item quantity="many">هل تريد حذف مجموعة الملصقات من %1$s و%2$s و%3$s و%4$d تطبيقاً آخراً؟</item>
+        <item quantity="other">هل تريد حذف مجموعة الملصقات من %1$s و%2$s و%3$s و%4$d تطبيق آخر؟</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">يجب أن يكون عمرك %d عام على الأقل للتثبيت. يمكنك أن تطلب من منظم عائلتك تغيير ضبط ‏‫التصنيف بحسب العمر.</item>
+        <item quantity="one">يجب أن يكون عمرك عام واحد على الأقل للتثبيت. يمكنك أن تطلب من منظم عائلتك تغيير ضبط ‏‫التصنيف بحسب العمر.</item>
+        <item quantity="two">يجب أن يكون عمرك عامين على الأقل للتثبيت. يمكنك أن تطلب من منظم عائلتك تغيير ضبط ‏‫التصنيف بحسب العمر.</item>
+        <item quantity="few">يجب أن يكون عمرك %d أعوام على الأقل للتثبيت. يمكنك أن تطلب من منظم عائلتك تغيير ضبط ‏‫التصنيف بحسب العمر.</item>
+        <item quantity="many">يجب أن يكون عمرك %d عاماً على الأقل للتثبيت. يمكنك أن تطلب من منظم عائلتك تغيير ضبط ‏‫التصنيف بحسب العمر.</item>
+        <item quantity="other">يجب أن يكون عمرك %d عام على الأقل للتثبيت. يمكنك أن تطلب من منظم عائلتك تغيير ضبط ‏‫التصنيف بحسب العمر.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d يوم تقريباً.</item>
+        <item quantity="one">ستتم إضافة %1$s نقطة إلى حسابك خلال يوم واحد تقريباً.</item>
+        <item quantity="two">ستتم إضافة %1$s نقطة إلى حسابك خلال يومين تقريباً.</item>
+        <item quantity="few">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d أيام تقريباً.</item>
+        <item quantity="many">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d يوماً تقريباً.</item>
+        <item quantity="other">ستتم إضافة %1$s نقطة إلى حسابك خلال %2$d يوم تقريباً.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">ستتم إضافة %d نقطة إلى حسابك خلال ٧ أيام.</item>
+        <item quantity="one">ستتم إضافة نقطة واحدة إلى حسابك خلال ٧ أيام.</item>
+        <item quantity="two">ستتم إضافة نقطتين إلى حسابك خلال ٧ أيام.</item>
+        <item quantity="few">ستتم إضافة %d نقاط إلى حسابك خلال ٧ أيام.</item>
+        <item quantity="many">ستتم إضافة %d نقطةً إلى حسابك خلال ٧ أيام.</item>
+        <item quantity="other">ستتم إضافة %d نقطة إلى حسابك خلال ٧ أيام.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">%d نقطة Samsung Rewards</item>
+        <item quantity="one">نقطة Samsung Rewards واحدة</item>
+        <item quantity="two">نقطتا Samsung Rewards</item>
+        <item quantity="few">%d نقاط Samsung Rewards</item>
+        <item quantity="many">%d نقطة Samsung Rewards</item>
+        <item quantity="other">%d نقطة Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">للتسجيل المسبق لهذا التطبيق، يجب التحقق من أن يكون عمرك أكبر من %d سنة.</item>
+        <item quantity="one">للتسجيل المسبق لهذا التطبيق، يجب التحقق من أن يكون عمرك أكبر من سنة.</item>
+        <item quantity="two">للتسجيل المسبق لهذا التطبيق، يجب التحقق من أن يكون عمرك أكبر من سنتين.</item>
+        <item quantity="few">للتسجيل المسبق لهذا التطبيق، يجب التحقق من أن يكون عمرك أكبر من %d سنوات.</item>
+        <item quantity="many">للتسجيل المسبق لهذا التطبيق، يجب التحقق من أن يكون عمرك أكبر من %d سنةً.</item>
+        <item quantity="other">للتسجيل المسبق لهذا التطبيق، يجب التحقق من أن يكون عمرك أكبر من %d سنة.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">لعرض هذا التطبيق، يجب عليك تسجيل الدخول والتحقق من أن عمرك أكبر من %d عام.</item>
+        <item quantity="one">لعرض هذا التطبيق، يجب عليك تسجيل الدخول والتحقق من أن عمرك أكبر من عام واحد.</item>
+        <item quantity="two">لعرض هذا التطبيق، يجب عليك تسجيل الدخول والتحقق من أن عمرك أكبر من عامين.</item>
+        <item quantity="few">لعرض هذا التطبيق، يجب عليك تسجيل الدخول والتحقق من أن عمرك أكبر من %d أعوام.</item>
+        <item quantity="many">لعرض هذا التطبيق، يجب عليك تسجيل الدخول والتحقق من أن عمرك أكبر من %d عاماً.</item>
+        <item quantity="other">لعرض هذا التطبيق، يجب عليك تسجيل الدخول والتحقق من أن عمرك أكبر من %d عام.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">لقد قمت مسبقاً بتثبيت أفضل %d تطبيق لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="one">لقد قمت مسبقاً بتثبيت أفضل تطبيق لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="two">لقد قمت مسبقاً بتثبيت أفضل تطبيقين لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="few">لقد قمت مسبقاً بتثبيت أفضل %d تطبيقات لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="many">لقد قمت مسبقاً بتثبيت أفضل %d تطبيقًا لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="other">لقد قمت مسبقاً بتثبيت أفضل %d تطبيق لدينا. انقر فوق > لعرض المزيد.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">لقد قمت مسبقاً بتثبيت أفضل %d لعبة لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="one">لقد قمت مسبقاً بتثبيت أفضل لعبة لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="two">لقد قمت مسبقاً بتثبيت أفضل لعبتين لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="few">لقد قمت مسبقاً بتثبيت أفضل %d ألعاب لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="many">لقد قمت مسبقاً بتثبيت أفضل %d لعبةً لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="other">لقد قمت مسبقاً بتثبيت أفضل %d لعبة لدينا. انقر فوق > لعرض المزيد.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">لقد قمت مسبقاً بتثبيت أفضل %d عنصر تصميم لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="one">لقد قمت مسبقاً بتثبيت أفضل عنصر تصميم لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="two">لقد قمت مسبقاً بتثبيت أفضل عنصري تصميم لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="few">لقد قمت مسبقاً بتثبيت أفضل %d عناصر تصميم لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="many">لقد قمت مسبقاً بتثبيت أفضل %d عنصر تصميم لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="other">لقد قمت مسبقاً بتثبيت أفضل %d عنصر تصميم لدينا. انقر فوق > لعرض المزيد.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">لقد قمت مسبقاً بتثبيت أفضل %d سمة لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="one">لقد قمت مسبقاً بتثبيت أفضل سمة لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="two">لقد قمت مسبقاً بتثبيت أفضل سمتين لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="few">لقد قمت مسبقاً بتثبيت أفضل %d سمات لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="many">لقد قمت مسبقاً بتثبيت أفضل %d سمةً لدينا. انقر فوق > لعرض المزيد.</item>
+        <item quantity="other">لقد قمت مسبقاً بتثبيت أفضل %d سمة لدينا. انقر فوق > لعرض المزيد.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">لقد كسبت نقطة واحدة فقط! والآن أصبح لديك %d نقطة يمكنك استخدامها لشراء تطبيقات وعناصر أخرى من Galaxy Store.</item>
+        <item quantity="one">لقد كسبت نقطة واحدة فقط! والآن أصبح لديك نقطة واحدة يمكنك استخدامها لشراء تطبيقات وعناصر أخرى من Galaxy Store.</item>
+        <item quantity="two">لقد كسبت نقطة واحدة فقط! والآن أصبح لديك نقطتان يمكنك استخدامهما لشراء تطبيقات وعناصر أخرى من Galaxy Store.</item>
+        <item quantity="few">لقد كسبت نقطة واحدة فقط! والآن أصبح لديك %d نقاط يمكنك استخدامها لشراء تطبيقات وعناصر أخرى من Galaxy Store.</item>
+        <item quantity="many">لقد كسبت نقطة واحدة فقط! والآن أصبح لديك %d نقطةً يمكنك استخدامها لشراء تطبيقات وعناصر أخرى من Galaxy Store.</item>
+        <item quantity="other">لقد كسبت نقطة واحدة فقط! والآن أصبح لديك %d نقطة يمكنك استخدامها لشراء تطبيقات وعناصر أخرى من Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">يجب أن يكون عمرك %d عام على الأقل لتنزيل هذا التطبيق.</item>
+        <item quantity="one">يجب أن يكون عمرك عام واحد على الأقل لتنزيل هذا التطبيق.</item>
+        <item quantity="two">يجب أن يكون عمرك عامين على الأقل لتنزيل هذا التطبيق.</item>
+        <item quantity="few">يجب أن يكون عمرك %d أعوام على الأقل لتنزيل هذا التطبيق.</item>
+        <item quantity="many">يجب أن يكون عمرك %d عامًا على الأقل لتنزيل هذا التطبيق.</item>
+        <item quantity="other">يجب أن يكون عمرك %d عام على الأقل لتنزيل هذا التطبيق.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">يجب أن يكون عمرك %d سنة على الأقل للتسجيل المسبق لهذا التطبيق.</item>
+        <item quantity="one">يجب أن يكون عمرك سنة واحدة على الأقل للتسجيل المسبق لهذا التطبيق.</item>
+        <item quantity="two">يجب أن يكون عمرك سنتين على الأقل للتسجيل المسبق لهذا التطبيق.</item>
+        <item quantity="few">يجب أن يكون عمرك %d سنوات على الأقل للتسجيل المسبق لهذا التطبيق.</item>
+        <item quantity="many">يجب أن يكون عمرك %d سنةً على الأقل للتسجيل المسبق لهذا التطبيق.</item>
+        <item quantity="other">يجب أن يكون عمرك %d سنة على الأقل للتسجيل المسبق لهذا التطبيق.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">عدم الإظهار مرة أخرى لمدة %d يوم</item>
+        <item quantity="one">عدم الإظهار مرة أخرى لمدة يوم</item>
+        <item quantity="two">عدم الإظهار مرة أخرى لمدة يومين</item>
+        <item quantity="few">عدم الإظهار مرة أخرى لمدة %d أيام</item>
+        <item quantity="many">عدم الإظهار مرة أخرى لمدة %d يوماً</item>
+        <item quantity="other">عدم الإظهار مرة أخرى لمدة %d يوم</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">%1$s كل %2$d يوم</item>
+        <item quantity="one">%1$s كل يوم</item>
+        <item quantity="two">%1$s كل يومين</item>
+        <item quantity="few">%1$s كل %2$d أيام</item>
+        <item quantity="many">%1$s كل %2$d يوماً</item>
+        <item quantity="other">%1$s كل %2$d يوم</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">%1$s كل %2$d شهر</item>
+        <item quantity="one">%1$s كل شهر</item>
+        <item quantity="two">%1$s كل شهرين</item>
+        <item quantity="few">%1$s كل %2$d أشهر</item>
+        <item quantity="many">%1$s كل %2$d شهراً</item>
+        <item quantity="other">%1$s كل %2$d شهر</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">%1$s كل %2$d أسبوع</item>
+        <item quantity="one">%1$s كل أسبوع</item>
+        <item quantity="two">%1$s كل أسبوعين</item>
+        <item quantity="few">%1$s كل %2$d أسابيع</item>
+        <item quantity="many">%1$s كل %2$d أسبوعاً</item>
+        <item quantity="other">%1$s كل %2$d أسبوع</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">%1$s كل %2$d سنة</item>
+        <item quantity="one">%1$s كل سنة</item>
+        <item quantity="two">%1$s كل سنتين</item>
+        <item quantity="few">%1$s كل %2$d سنوات</item>
+        <item quantity="many">%1$s كل %2$d سنةً</item>
+        <item quantity="other">%1$s كل %2$d سنة</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">%d نقطة</item>
+        <item quantity="one">نقطة واحدة</item>
+        <item quantity="two">نقطتان</item>
+        <item quantity="few">%d نقاط</item>
+        <item quantity="many">%d نقطةً</item>
+        <item quantity="other">%d نقطة</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">مجاني حتى %1$s، ثم %2$s كل %3$d يوم</item>
+        <item quantity="one">مجاني حتى %1$s، ثم %2$s كل يوم</item>
+        <item quantity="two">مجاني حتى %1$s، ثم %2$s كل يومين</item>
+        <item quantity="few">مجاني حتى %1$s، ثم %2$s كل %3$d أيام</item>
+        <item quantity="many">مجاني حتى %1$s، ثم %2$s كل %3$d يوماً</item>
+        <item quantity="other">مجاني حتى %1$s، ثم %2$s كل %3$d يوم</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">مجاني حتى %1$s، ثم %2$s كل %3$d شهر</item>
+        <item quantity="one">مجاني حتى %1$s، ثم %2$s كل شهر</item>
+        <item quantity="two">مجاني حتى %1$s، ثم %2$s كل شهرين</item>
+        <item quantity="few">مجاني حتى %1$s، ثم %2$s كل %3$d أشهر</item>
+        <item quantity="many">مجاني حتى %1$s، ثم %2$s كل %3$d شهراً</item>
+        <item quantity="other">مجاني حتى %1$s، ثم %2$s كل %3$d شهر</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">مجاني حتى %1$s، ثم %2$s كل %3$d أسبوع</item>
+        <item quantity="one">مجاني حتى %1$s، ثم %2$s كل أسبوع</item>
+        <item quantity="two">مجاني حتى %1$s، ثم %2$s كل أسبوعين</item>
+        <item quantity="few">مجاني حتى %1$s، ثم %2$s كل %3$d أسابيع</item>
+        <item quantity="many">مجاني حتى %1$s، ثم %2$s كل %3$d أسبوعاً</item>
+        <item quantity="other">مجاني حتى %1$s، ثم %2$s كل %3$d أسبوع</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">مجاني حتى %1$s، ثم %2$s كل %3$d سنة</item>
+        <item quantity="one">مجاني حتى %1$s، ثم %2$s كل سنة</item>
+        <item quantity="two">مجاني حتى %1$s، ثم %2$s كل سنتين</item>
+        <item quantity="few">مجاني حتى %1$s، ثم %2$s كل %3$d سنوات</item>
+        <item quantity="many">مجاني حتى %1$s، ثم %2$s كل %3$d سنةً</item>
+        <item quantity="other">مجاني حتى %1$s، ثم %2$s كل %3$d سنة</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">وجد %d شخص هذا مفيداً</item>
+        <item quantity="one">وجد شخص واحد هذا مفيداً</item>
+        <item quantity="two">وجد شخصان هذا مفيداً</item>
+        <item quantity="few">وجد %d أشخاص هذا مفيداً</item>
+        <item quantity="many">وجد %d شخصاً هذا مفيداً</item>
+        <item quantity="other">وجد %d شخص هذا مفيداً</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">%d تحديث متوفر</item>
+        <item quantity="one">تحديث واحد متوفر</item>
+        <item quantity="two">تحديثان متوفران</item>
+        <item quantity="few">%d تحديثات متوفرة</item>
+        <item quantity="many">%d تحديثاً متوفراً</item>
+        <item quantity="other">%d تحديث متوفر</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">تقييم %d نجمة</item>
+        <item quantity="one">تقييم نجمة واحدة</item>
+        <item quantity="two">تقييم نجمتين</item>
+        <item quantity="few">تقييم %d نجوم</item>
+        <item quantity="many">تقييم %d نجمةً</item>
+        <item quantity="other">تقييم %d نجمة</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">تصنيفك: %d نجمة</item>
+        <item quantity="one">تصنيفك: نجمة واحدة</item>
+        <item quantity="two">تصنيفك: نجمتان</item>
+        <item quantity="few">تصنيفك: %d نجوم</item>
+        <item quantity="many">تصنيفك: %d نجمة</item>
+        <item quantity="other">تصنيفك: %d نجمة</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">%d إشعار</item>
+        <item quantity="one">إشعار واحد</item>
+        <item quantity="two">إشعاران</item>
+        <item quantity="few">%d إشعارات</item>
+        <item quantity="many">%d إشعاراً</item>
+        <item quantity="other">%d إشعار</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">يجب أن يكون عمرك %d سنة على الأقل لتشغيل هذه اللعبة.</item>
+        <item quantity="one">يجب أن يكون عمرك سنة واحدة على الأقل لتشغيل هذه اللعبة.</item>
+        <item quantity="two">يجب أن يكون عمرك سنتين على الأقل لتشغيل هذه اللعبة.</item>
+        <item quantity="few">يجب أن يكون عمرك %d سنوات على الأقل لتشغيل هذه اللعبة.</item>
+        <item quantity="many">يجب أن يكون عمرك %d سنةً على الأقل لتشغيل هذه اللعبة.</item>
+        <item quantity="other">يجب أن يكون عمرك %d سنة على الأقل لتشغيل هذه اللعبة.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">ستنتهي جلسة اللعبة بعد %d دقيقة.</item>
+        <item quantity="one">ستنتهي جلسة اللعبة بعد دقيقة واحدة.</item>
+        <item quantity="two">ستنتهي جلسة اللعبة بعد دقيقتين.</item>
+        <item quantity="few">ستنتهي جلسة اللعبة بعد %d دقائق.</item>
+        <item quantity="many">ستنتهي جلسة اللعبة بعد %d دقيقةً.</item>
+        <item quantity="other">ستنتهي جلسة اللعبة بعد %d دقيقة.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">‏‫اتصال شبكتك غير مستقر.‬ سيتم إغلاق اللعبة خلال %d ثانية إذا تعذر علينا الاتصال. سيتم حفظ حالة اللعبة الخاصة بك.</item>
+        <item quantity="one">‏‫اتصال شبكتك غير مستقر.‬ سيتم إغلاق اللعبة خلال ثانية واحدة إذا تعذر علينا الاتصال. سيتم حفظ حالة اللعبة الخاصة بك.</item>
+        <item quantity="two">‏‫اتصال شبكتك غير مستقر.‬ سيتم إغلاق اللعبة خلال ثانيتين إذا تعذر علينا الاتصال. سيتم حفظ حالة اللعبة الخاصة بك.</item>
+        <item quantity="few">‏‫اتصال شبكتك غير مستقر.‬ سيتم إغلاق اللعبة خلال %d ثواني إذا تعذر علينا الاتصال. سيتم حفظ حالة اللعبة الخاصة بك.</item>
+        <item quantity="many">‏‫اتصال شبكتك غير مستقر.‬ سيتم إغلاق اللعبة خلال %d ثانيةً إذا تعذر علينا الاتصال. سيتم حفظ حالة اللعبة الخاصة بك.</item>
+        <item quantity="other">‏‫اتصال شبكتك غير مستقر.‬ سيتم إغلاق اللعبة خلال %d ثانية إذا تعذر علينا الاتصال. سيتم حفظ حالة اللعبة الخاصة بك.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانيةً</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+</resources>

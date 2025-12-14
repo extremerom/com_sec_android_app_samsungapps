@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sub_category_title" android:tag="layout/layout_forgalaxy_category_title_0" android:background="@drawable/isa_drawable_list_effect" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/forgalaxy_common_left_margin">
+        <TextView android:textSize="13.0dp" android:gravity="center_vertical" android:id="@id/category_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style_forgalaxy_title" />
+    </com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout>
+</merge>

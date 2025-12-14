@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/isa_layout_main_staffpicks_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/whole_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/staffpicks_contents" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale" style="@style/isa_style_scroll_bar" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="center|bottom" android:id="@id/list_go_to_top_btn" android:visibility="gone" android:layout_width="@dimen/go_to_top_btn_size" android:layout_height="@dimen/go_to_top_btn_size" android:layout_marginBottom="20.0dp" android:src="@drawable/ic_go_to_top_mtrl" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/MIDS_SAPPS_BUTTON_GO_TO_TOP_TTS" app:backgroundTint="@color/isa_transparent" app:borderWidth="0.0dp" app:elevation="@dimen/go_to_top_shadow" app:fabSize="mini" app:maxImageSize="@dimen/go_to_top_btn_size" app:pressedTranslationZ="0.0dp" />
+    </FrameLayout>
+    <com.sec.android.app.samsungapps.commonview.DeeplinkBusinessInfoView android:layout_gravity="bottom" android:id="@id/businessInfo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

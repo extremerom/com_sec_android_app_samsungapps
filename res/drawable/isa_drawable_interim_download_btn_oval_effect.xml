@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/ic_interim_download" />
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="oval">
+            <solid android:color="@drawable/isa_opa12_Color4_d" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@drawable/isa_opa12_Color4_d" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@drawable/isa_opa12_Color4_d" />
+        </shape>
+    </item>
+</layer-list>

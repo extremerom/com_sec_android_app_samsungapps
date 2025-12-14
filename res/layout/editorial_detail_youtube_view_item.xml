@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/editorial_detail_youtube_view_item_0" android:paddingLeft="@dimen/editorial_detail_item_padding_horizontal" android:paddingRight="@dimen/editorial_detail_item_padding_horizontal" android:paddingBottom="@dimen/editorial_detail_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/editorial_detail_item_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="0.0dp" android:layout_height="0.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.sec.android.app.samsungapps.editorial.detail.ui.list.custom.EditorialYoutubeWebView android:id="@id/youtube_webview" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+    <ProgressBar android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_waiting_progress_middle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

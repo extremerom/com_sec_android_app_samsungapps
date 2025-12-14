@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/staffpick_banner_downloadbtn_radius" />
+            <padding android:left="@dimen/staffpick_banner_downloadbtn_outline_size" android:top="@dimen/staffpick_banner_downloadbtn_outline_size" android:right="@dimen/staffpick_banner_downloadbtn_outline_size" android:bottom="@dimen/staffpick_banner_downloadbtn_outline_size" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="@color/banner_download_btnview_progressbar" />
+                <corners android:radius="@dimen/staffpick_banner_downloadbtn_radius" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

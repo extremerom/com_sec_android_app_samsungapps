@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/order_history_spinner_popup_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/spinner_default_color" />
+            <corners android:radius="26.0dp" />
+        </shape>
+    </item>
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="26.0dp" />
+            <solid android:color="@color/spinner_mask_color" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/common_dialog_root_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.widget.CustomScrollView android:id="@id/scroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/body_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_text_side_margin" android:layout_marginRight="@dimen/popup_text_side_margin" android:layout_marginStart="@dimen/popup_text_side_margin" android:layout_marginEnd="@dimen/popup_text_side_margin">
+            <TextView android:textColorLink="@color/description_text_link_color" android:ellipsize="none" android:id="@id/body" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dp" android:text="@string/DREAM_SAPPS_BODY_TO_GET_DEALS_NEWS_ABOUT_UPCOMING_GAMES_AND_MORE_AGREE_TO_THE_FOLLOWING_C" android:singleLine="false" android:lineSpacingExtra="3.0dp" android:textDirection="locale" style="@style/isa_ssapps_text_37_large_popup" />
+            <include android:id="@id/welcome_marketing_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/message" layout="@layout/isa_layout_welcome_marketing_agree_area_korea" />
+        </LinearLayout>
+    </com.sec.android.app.samsungapps.widget.CustomScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

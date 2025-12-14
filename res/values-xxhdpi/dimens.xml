@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_divider_height">3.0px</dimen>
+    <dimen name="business_info_upper_line_height">2.0px</dimen>
+    <dimen name="category_item_line_divider">2.0px</dimen>
+    <dimen name="cloudgame_quick_start_dialog_scroll_line_thickness">3.0px</dimen>
+    <dimen name="common_divider_height">2.0px</dimen>
+    <dimen name="content_detail_widget_screenshot_youtube_height">235.0dp</dimen>
+    <dimen name="content_detail_widget_screenshot_youtube_width">315.0dp</dimen>
+    <dimen name="detailpage_layout_main_widget_divider">2.0px</dimen>
+    <dimen name="download_btn_outline_size">3.0px</dimen>
+    <dimen name="main_tab_divider_drawing_top">39.0dp</dimen>
+    <dimen name="personal_item_list_line_divider">3.0px</dimen>
+    <dimen name="settings_list_item_line_divider">2.0px</dimen>
+    <dimen name="settings_list_item_vertical_line_divider">2.0px</dimen>
+    <dimen name="settings_subtitle_line_divider">3.0px</dimen>
+    <dimen name="shadow_corner_radius">5.0dp</dimen>
+    <dimen name="two_px_line_divider">2.0px</dimen>
+    <dimen name="winset_divider_height">2.0px</dimen>
+</resources>

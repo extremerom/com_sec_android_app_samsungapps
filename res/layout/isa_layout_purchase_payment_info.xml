@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/purchase_widget_left_right_margin" android:layout_marginRight="@dimen/purchase_widget_left_right_margin" android:layout_marginBottom="@dimen/purchase_info_text_bottom_margin" android:textDirection="locale">
+        <TextView android:gravity="center_vertical" android:id="@id/payment_info_title" android:layout_width="match_parent" android:layout_height="@dimen/basic_listtext_minheight_1line" android:text="@string/IDS_SAPPS_BODY_INFORMATION" style="@style/isa_style_basic_list_text_list_title" />
+        <TextView android:id="@id/payment_info_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/isa_style_payment_info_text" />
+    </LinearLayout>
+    <View android:id="@id/list_line" android:background="@drawable/isa_drawable_list_view_divder" android:layout_width="match_parent" android:layout_height="@dimen/two_px_line_divider" android:layout_marginLeft="@dimen/basic_list_divider_margine" android:layout_marginStart="@dimen/basic_list_divider_margine" />
+</merge>

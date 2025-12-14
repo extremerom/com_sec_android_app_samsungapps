@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/subtab_disable_color" />
+    <item android:drawable="@drawable/isa_drawable_spinner_effect" />
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/settings_body_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.settings.SettingsListWidget android:id="@id/widget_settings_list" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/bottom_left" android:layout_width="@dimen/background_radius" android:layout_height="@dimen/background_radius" android:src="@drawable/sesl_bottom_left_round" android:tint="@color/settings_bottom_curve_color" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/bottom_right" android:layout_width="@dimen/background_radius" android:layout_height="@dimen/background_radius" android:src="@drawable/sesl_bottom_right_round" android:tint="@color/settings_bottom_curve_color" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

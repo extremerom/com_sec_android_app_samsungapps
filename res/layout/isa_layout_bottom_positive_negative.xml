@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/softkey_layout" android:background="@drawable/tw_ab_bottom_transparent_mtrl" android:layout_width="match_parent" android:layout_height="48.0dp" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_btn_layout_none_gb" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/negative" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.5" style="@style/isa_style_bottom_button_default" />
+        <View android:id="@id/gap1" android:layout_width="2.0dp" android:layout_height="match_parent" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/positive" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.5" style="@style/isa_style_bottom_button_default" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_btn_layout_gb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/positive_gb" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.5" style="@style/isa_style_bottom_button_default" />
+        <View android:id="@id/gap2" android:layout_width="2.0dp" android:layout_height="match_parent" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/negative_gb" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.5" style="@style/isa_style_bottom_button_default" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_single_btn_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/positive_single" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/isa_style_bottom_button_default" />
+    </LinearLayout>
+</LinearLayout>

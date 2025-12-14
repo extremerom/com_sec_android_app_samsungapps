@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:tag="layout/layout_search_ad_item_banner_tablet_only_0" android:background="@color/isa_245245245" android:layout_width="match_parent" android:layout_height="101.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center" android:id="@id/search_banner_image_only" android:tag="binding_1" android:background="@drawable/search_banner_type_style" android:focusable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:src="@drawable/isa_drawable_list_effect" android:layout_weight="1.26" android:layout_centerHorizontal="true" app:cornerRadius="@dimen/mask_shape_radius" app:is_show_default_while_loading="true" app:is_webimage_background="true" app:is_webimage_default="@drawable/icon_default_galaxy_store_r26" />
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+</LinearLayout>

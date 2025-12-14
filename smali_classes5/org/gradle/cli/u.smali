@@ -1,0 +1,87 @@
+.class public Lorg/gradle/cli/u;
+.super Lorg/gradle/cli/b;
+.source "ProGuard"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.gradle.cli.ProjectPropertiesCommandLineConverter: void <init>()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+
+# virtual methods
+.method public b()Ljava/lang/String;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.gradle.cli.ProjectPropertiesCommandLineConverter: java.lang.String getPropertyOption()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public c()Ljava/lang/String;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.gradle.cli.ProjectPropertiesCommandLineConverter: java.lang.String getPropertyOptionDescription()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public d()Ljava/lang/String;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.gradle.cli.ProjectPropertiesCommandLineConverter: java.lang.String getPropertyOptionDetailed()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

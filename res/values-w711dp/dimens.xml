@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_page_button_top_bottom_margin">48.0dp</dimen>
+    <dimen name="welcome_page_buttons_half_space_max">10.0dp</dimen>
+</resources>

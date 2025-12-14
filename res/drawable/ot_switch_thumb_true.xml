@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="oval" android:alpha="1.0">
+            <size android:height="@dimen/ot_switch_button_size" android:width="@dimen/ot_switch_button_size" />
+            <stroke android:width="@dimen/ot_switch_stroke" android:color="@color/ot_switch_enable_on_thumb_stroke_color" />
+            <solid android:color="@color/ot_switch_thumb_on_background_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/layout_search_ad_item_parent_single_with_banner_0" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/common_list_side_margin_china" android:paddingEnd="@dimen/common_list_side_margin_china"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="19.0dp" layout="@layout/layout_search_ad_item_title" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/search_item_section" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_search_ad_item_single_flow_type" />
+        <View android:id="@id/search_item_flow_banner_margin" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="15.0dp" />
+        <include android:id="@id/search_banner_section" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_search_ad_item_banner_hhp" />
+    </LinearLayout>
+</LinearLayout>

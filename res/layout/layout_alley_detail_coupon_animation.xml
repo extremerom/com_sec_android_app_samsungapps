@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/isa_qip_coupon_view_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/animationView" android:layout_width="42.0dp" android:layout_height="42.0dp" android:layout_marginLeft="6.0dp" android:layout_marginStart="6.0dp" app:lottie_autoPlay="true" app:lottie_fileName="coupon.json" app:lottie_loop="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="75.0dp" android:layout_marginLeft="7.0dp" android:layout_marginRight="5.0dp" android:layout_marginStart="7.0dp" android:layout_marginEnd="5.0dp">
+        <TextView android:textSize="14.0dp" android:textColor="@color/detail_coupon_drop_title_text" android:id="@id/coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18.0dp" style="@style/isa_style_one_ui_font_bold" />
+        <TextView android:textSize="14.0dp" android:textColor="@color/detail_coupon_drop_text" android:id="@id/coupon_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="18.0dp" style="@style/isa_style_one_ui_font_regular" />
+    </LinearLayout>
+</LinearLayout>

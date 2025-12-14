@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="container" android:pivotX="48.0" android:pivotY="48.0">
+        <group android:name="dotLeft" android:translateX="-35.0">
+            <path android:fillColor="@color/detail_circle_progress_top" android:pathData="M48,48m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+        </group>
+        <group android:name="dotTop" android:translateY="-35.0">
+            <path android:fillColor="@color/detail_circle_progress_top" android:pathData="M48,48m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+        </group>
+        <group android:name="dotRight" android:translateX="35.0">
+            <path android:fillColor="@color/detail_circle_progress_top" android:pathData="M48,48m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" android:fillAlpha="0.4" />
+        </group>
+        <group android:name="dotBottom" android:translateY="35.0">
+            <path android:fillColor="@color/detail_circle_progress_top" android:pathData="M48,48m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+        </group>
+    </group>
+</vector>

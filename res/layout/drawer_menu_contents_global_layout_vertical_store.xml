@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/drawer_menu_fragment" android:background="@color/drawer_base_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/drawer_layout_margin">
+        <include layout="@layout/pop_over_title_layout" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ScrollView android:scrollbarThumbVertical="@drawable/drawer_scrollbar" android:id="@id/detail_scroll" android:paddingLeft="@dimen/detail_margin_for_landscape" android:paddingRight="@dimen/detail_margin_for_landscape" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:fillViewport="true" android:layoutDirection="locale" android:layout_marginHorizontal="10.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/myapps_menu_items_container1" android:background="@drawable/isa_drawable_drawer_containers_background" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginBottom="@dimen/drawer_list_item_margin" android:layout_weight="1.0" android:paddingVertical="24.0dp" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/drawer_tip_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <androidx.cardview.widget.CardView android:id="@id/menu_cardview2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/drawer_list_item_margin" android:layout_marginBottom="@dimen/drawer_list_item_margin" app:cardCornerRadius="22.0dp" app:cardElevation="0.0dp">
+                        <LinearLayout android:orientation="vertical" android:id="@id/myapps_menu_items_container2" android:background="@color/drawer_background" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView android:id="@id/menu_cardview3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/drawer_list_item_margin" android:layout_marginBottom="@dimen/drawer_list_item_margin" app:cardCornerRadius="22.0dp" app:cardElevation="0.0dp">
+                        <LinearLayout android:orientation="vertical" android:id="@id/myapps_menu_items_container3" android:background="@color/drawer_background" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView android:id="@id/menu_cardview4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/drawer_list_item_margin" android:layout_marginBottom="@dimen/drawer_list_item_margin" app:cardCornerRadius="22.0dp" app:cardElevation="0.0dp">
+                        <LinearLayout android:orientation="vertical" android:id="@id/myapps_menu_items_container4" android:background="@color/drawer_background" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </ScrollView>
+            <include layout="@layout/layout_drawer_menu_vertical_store_rounded_corner_22dp" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

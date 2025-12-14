@@ -1,0 +1,77 @@
+.class public final Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j$b;
+.super Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;-><init>()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j$b;->a:Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;
+
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
+    .locals 1
+
+    const-string v0, "recyclerView"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-super {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrolled(Landroidx/recyclerview/widget/RecyclerView;II)V
+
+    iget-object p2, p0, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j$b;->a:Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;
+
+    invoke-static {p2, p1}, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;->f(Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;Landroidx/recyclerview/widget/RecyclerView;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j$b;->a:Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;
+
+    invoke-virtual {p1}, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;->t()Lcom/sec/android/app/samsungapps/editorial/detail/data/EditorialDetailCardData;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p2, p0, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j$b;->a:Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;
+
+    invoke-virtual {p1}, Lcom/sec/android/app/samsungapps/editorial/detail/data/EditorialDetailCardData;->getProductSetId()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p2}, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;->d(Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;)I
+
+    move-result p3
+
+    invoke-static {p2}, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;->c(Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;)I
+
+    move-result v0
+
+    invoke-static {p2, p1, p3, v0}, Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;->e(Lcom/sec/android/app/samsungapps/editorial/detail/ui/main/j;Ljava/lang/String;II)V
+
+    :cond_0
+    return-void
+.end method

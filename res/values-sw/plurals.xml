@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pointi %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pointi %d</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Huwezi kuchagua zaidi ya lebo %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Huwezi kuchagua zaidi ya lebo %d.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unahitaji kuwa na angalau umri wa mwaka %d ili kutumia Instant Plays.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Unahitaji kuwa na angalau umri wa miaka %d ili kutumia Instant Plays.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imechaguliwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imechaguliwa</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pointi %1$s zitaongezwa kwenye akaunti yako ndani ya takribani siku %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pointi %1$s zitawekwa kwenye akaunti yako ndani ya karibu siku %2$d.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="one">Ili kupakua programu hii, unahitaji kuthibitisha utambulisho wako na kuwa una umri wa zaidi ya mwaka %d.</item>
+        <item quantity="two">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="few">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="many">"To download this app, you need to verify your identity and confirm that you're over %d years old."</item>
+        <item quantity="other">Ili kupakua programu hii, unahitaji kuthibitisha utambulisho wako na kuwa una umri wa zaidi ya miaka %d.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unahitaji kuwa na angalau umri wa mwaka %1$d ili kutumia %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Unahitaji kuwa na angalau umri wa miaka %1$d ili kutumia %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Imesalia siku %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Zimesalia siku %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kufuta seti ya vibandiko kutoka kwenye %1$s, %2$s, %3$s, na programu nyingine %4$d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ungependa kufuta seti ya vibandiko kutoka kwenye %1$s, %2$s, %3$s, na programu zingine %4$d?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lazima uwe na angalau umri wa mwaka %d ili kusakinisha. Unaweza kumwomba mwandalizi wa familia yako abadilishe mipangilio ya ukadiriaji wa umri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lazima uwe na angalau umri wa miaka %d ili kusakinisha. Unaweza kumwomba mwandalizi wa familia yako abadilishe mipangilio ya ukadiriaji wa umri.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pointi %d itaongezwa kwenye akaunti yako ndani ya takribani siku 7.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pointi %d zitaongezwa kwenye akaunti yako ndani ya takribani siku 7.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pointi %d ya Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pointi %d za Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ili kujisajili mapema kwa programu hii, unahitaji kuthibitisha kuwa una umri wa zaidi ya mwaka %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ili kujisajili mapema kwa programu hii, unahitaji kuthibitisha kuwa una umri wa zaidi ya miaka %d.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ili kutazama programu hii, unahitaji kuingia na kuthibitisha kuwa una umri wa zaidi ya mwaka %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ili kutazama programu hii, unahitaji kuingia na kuthibitisha kuwa una umri wa zaidi ya miaka %d.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tayari umesakinisha programu yetu %d bora. Bonyeza > ili kuona zaidi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tayari umesakinisha programu zetu %d bora. Bonyeza > ili kuona zaidi.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tayari umesakinisha mchezo wetu %d bora wa. Bonyeza > ili kuona zaidi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tayari umesakinisha michezo yetu %d bora. Bonyeza > ili kuona zaidi.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tayari umesakinisha kipengee chetu %d bora cha mtindo. Bonyeza > ili kuona zaidi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tayari umesakinisha vipengee vyetu %d bora vya mtindo. Bonyeza > ili kuona zaidi.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tayari umesakinisha mandhari yetu %d bora. Bonyeza > ili kuona zaidi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tayari umesakinisha mandhari zetu %d bora. Bonyeza > ili kuona zaidi.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Umejishindia pointi 1! Sasa una pointi %d unayoweza kutumia kununua programu na vitu vingine kwenye Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Umejishindia pointi 1! Sasa una pointi %d unayoweza kutumia kununua programu na vitu vingine kwenye Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lazima uwe na angalau umri wa mwaka %d ili kupakua programu hii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lazima uwe na angalau umri wa miaka %d ili kupakua programu hii.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lazima uwe na angalau umri wa mwaka %d ili kujisajili mapema kwenye programu hii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lazima uwe na angalau umri wa miaka %d ili kujisajili mapema kwenye programu hii.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usionyeshe tena kwa siku %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Usionyeshe tena kwa siku %d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kila siku %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s kila siku %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kila mwezi %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s kila miezi %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kila wiki %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s kila wiki %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kila mwaka %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s kila miaka %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pointi %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pointi %d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bure hadi %1$s, kisha %2$s kila siku %3$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bure hadi %1$s, kisha %2$s kila siku %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bure hadi %1$s, kisha %2$s kila mwezi %3$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bure hadi %1$s, kisha %2$s kila miezi %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bure hadi %1$s, kisha %2$s kila wiki %3$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bure hadi %1$s, kisha %2$s kila wiki %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bure hadi %1$s, kisha %2$s kila mwaka %3$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bure hadi %1$s, kisha %2$s kila miaka %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mtu %d aligundua hii inasaidia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Watu %d waligundua hii inasaidia</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sasisho la %d linapatikana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Masasisho %d yanapatikana</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Maoni %d ya nyota</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Maoni %d ya nyota</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ukadiriaji wako: Nyota %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ukadiriaji wako: Nyota %d</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Arifa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Arifa %d</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">You must be at least %d years old to play this game.</item>
+        <item quantity="one">You must be at least %d year old to play this game.</item>
+        <item quantity="two">You must be at least %d years old to play this game.</item>
+        <item quantity="few">You must be at least %d years old to play this game.</item>
+        <item quantity="many">You must be at least %d years old to play this game.</item>
+        <item quantity="other">You must be at least %d years old to play this game.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">Game session will end in %d minutes.</item>
+        <item quantity="one">Game session will end in %d minute.</item>
+        <item quantity="two">Game session will end in %d minutes.</item>
+        <item quantity="few">Game session will end in %d minutes.</item>
+        <item quantity="many">Game session will end in %d minutes.</item>
+        <item quantity="other">Game session will end in %d minutes.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="one">"Your network connection is unstable. The game will close in %d second if we can't connect. Your game status will be saved."</item>
+        <item quantity="two">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="few">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="many">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+        <item quantity="other">"Your network connection is unstable. The game will close in %d seconds if we can't connect. Your game status will be saved."</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Sogeza mbele haraka kwa sekunde %d</item>
+        <item quantity="other">Sogeza mbele haraka kwa sekunde %d</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rudisha nyuma kwa sekunde %d</item>
+        <item quantity="other">Rudisha nyuma kwa sekunde %d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">Arifa %d mpya</item>
+        <item quantity="other">Arifa %d mpya</item>
+    </plurals>
+</resources>

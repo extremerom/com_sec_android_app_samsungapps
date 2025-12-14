@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/loading_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/isa_layout_dummy_card_view" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_data_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="227.0dp">
+            <TextView android:textSize="15.0dp" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10.0dp" android:text="@string/IDS_SAPPS_BODY_NO_DATA" android:textDirection="locale" style="@style/isa_style_no_items_text" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/scrolling_recyclerview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

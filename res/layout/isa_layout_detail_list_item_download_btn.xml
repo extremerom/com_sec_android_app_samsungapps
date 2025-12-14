@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/isa_layout_detail_list_item_download_btn_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_progress_sector" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/staffpick_progress_sector_height">
+            <ProgressBar android:id="@id/pb_progressbar" android:tag="binding_2" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/isa_detail_progressbar_oneclick_small" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/btn_progress_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                <RelativeLayout android:id="@id/pause_resume_button_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/resume_button" android:tag="binding_3" android:src="@drawable/isa_drawable_detail_main_btn_resume" android:contentDescription="@string/MIDS_SAPPS_BUTTON_RESUME" android:layout_marginStart="4.0dp" style="@style/isa_list_percent_resume" />
+                    <ImageView android:id="@id/pause_button" android:tag="binding_4" android:src="@drawable/isa_drawable_detail_main_btn_pause" android:contentDescription="@string/MIDS_SAPPS_BUTTON_PAUSE" android:layout_marginStart="4.0dp" style="@style/isa_list_percent_pause" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/cancel_button_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/cancel_button" android:tag="binding_5" android:src="@drawable/isa_drawable_detail_main_btn_cancel" android:layout_marginStart="4.0dp" style="@style/isa_list_percent_cancel" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.sec.android.app.samsungapps.commonview.DownloadBtnView android:layout_gravity="center_horizontal" android:id="@id/download_btn_view" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="@dimen/staffpick_progress_sector_height" android:layout_centerVertical="true" />
+</FrameLayout>

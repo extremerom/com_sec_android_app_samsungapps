@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GALAXY_STORE_only_ApplicationLabel">Galaxy Store</string>
+    <string name="STORE_ONLY_SIMPLE_APP_NAME">Store</string>
+</resources>

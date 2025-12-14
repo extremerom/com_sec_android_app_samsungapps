@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/content_detail_main_left_layout_margin_left" android:layout_marginEnd="@dimen/content_detail_main_right_layout_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/layout_main_left_edge" android:visibility="gone" layout="@layout/isa_layout_detail_main_left_edge" />
+        <include android:id="@id/layout_main_left_wide_edge" android:visibility="gone" layout="@layout/isa_layout_detail_main_left_wide_edge" />
+        <include android:id="@id/layout_main_left" android:visibility="visible" layout="@layout/isa_layout_beta_test_phone_intro_detail_main_left" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/phone_app_beta_test_intro_details_info_margin_left">
+        <TextView android:ellipsize="end" android:id="@id/tv_beta_test_intro_details_product_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" style="@style/isa_style_betatest_intro_detail_app_name" />
+        <TextView android:id="@id/tv_beta_test_intro_details_beta_test" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="@string/MIDS_SAPPS_MBODY_BETA_TEST" android:maxLines="1" style="@style/isa_style_betatest_intro_detail_beta_test" />
+    </LinearLayout>
+</LinearLayout>

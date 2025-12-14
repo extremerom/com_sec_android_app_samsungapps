@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="dialog_width_percentage" format="float">0.6836</item>
+    <item type="integer" name="popup_left_gap_percent" format="float">0.185</item>
+    <item type="integer" name="popup_right_gap_percent" format="float">0.815</item>
+    <item type="integer" name="promotion_list_begin_percent" format="float">0.035</item>
+    <integer name="promotion_list_column_count">2</integer>
+    <integer name="promotion_list_column_type">2</integer>
+    <item type="integer" name="promotion_list_end_percent" format="float">0.965</item>
+    <item type="integer" name="promotion_list_item_margin_percent" format="float">0.035</item>
+    <item type="integer" name="qip_window_width_percent" format="float">0.7</item>
+</resources>

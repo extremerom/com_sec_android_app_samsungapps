@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_performance_test_widget" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/tv_test_report_performance_test_title" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/DREAM_SAPPS_HEADER_PERFORMANCE_TEST_CHN" android:layout_alignParentLeft="true" android:textDirection="locale" style="@style/isa_style_detail_security_scan_result_title" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="5.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dp" android:textStyle="italic" android:textColor="#1f99ef" android:gravity="center_vertical" android:id="@id/tv_install_time_score" android:background="@drawable/performance_test_oval" android:layout_width="45.0dp" android:layout_height="45.0dp" android:text="88" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0dp" android:textColor="#1f99ef" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="sec" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10.0dp" android:textColor="#666666" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/DREAM_SAPPS_BODY_INSTALLATION_TIME_CHN" android:maxLines="2" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+                <View android:background="#8b8b8b" android:layout_width="2.0px" android:layout_height="46.0px" android:layout_marginTop="8.0dp" android:layout_alignParentRight="true" android:alpha="0.4" />
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="18.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dp" android:textStyle="italic" android:textColor="#1f99ef" android:gravity="center_vertical" android:id="@id/tv_startup_time_score" android:background="@drawable/performance_test_oval" android:layout_width="45.0dp" android:layout_height="45.0dp" android:text="88" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0dp" android:textColor="#1f99ef" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="sec" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10.0dp" android:textColor="#666666" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/DREAM_SAPPS_BODY_STARTUP_TIME_CHN" android:maxLines="2" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+                <View android:background="#8b8b8b" android:layout_width="2.0px" android:layout_height="46.0px" android:layout_marginTop="8.0dp" android:layout_alignParentRight="true" android:alpha="0.4" />
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="18.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dp" android:textStyle="italic" android:textColor="#1f99ef" android:gravity="center_vertical" android:id="@id/tv_cpu_usage_score" android:background="@drawable/performance_test_oval" android:layout_width="45.0dp" android:layout_height="45.0dp" android:text="88" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0dp" android:textColor="#1f99ef" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="%" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10.0dp" android:textColor="#666666" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/DREAM_SAPPS_BODY_CPU_USAGE_CHN" android:maxLines="2" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+                <View android:background="#8b8b8b" android:layout_width="2.0px" android:layout_height="46.0px" android:layout_marginTop="8.0dp" android:layout_alignParentRight="true" android:alpha="0.4" />
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="18.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dp" android:textStyle="italic" android:textColor="#1f99ef" android:gravity="center_vertical" android:id="@id/tv_ram_usage_score" android:background="@drawable/performance_test_oval" android:layout_width="45.0dp" android:layout_height="45.0dp" android:text="88" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0dp" android:textColor="#1f99ef" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="MB" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10.0dp" android:textColor="#666666" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/DREAM_SAPPS_BODY_RAM_USAGE_CHN" android:maxLines="2" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+                <View android:background="#8b8b8b" android:layout_width="2.0px" android:layout_height="46.0px" android:layout_marginTop="8.0dp" android:layout_alignParentRight="true" android:alpha="0.4" />
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="18.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0dp" android:textStyle="italic" android:textColor="#1f99ef" android:gravity="center_vertical" android:id="@id/tv_data_consumption_score" android:background="@drawable/performance_test_oval" android:layout_width="45.0dp" android:layout_height="45.0dp" android:text="88" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0dp" android:textColor="#1f99ef" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="MB/min" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10.0dp" android:textColor="#666666" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/DREAM_SAPPS_BODY_DATA_CONSUMPTION_CHN" android:maxLines="3" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="18.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

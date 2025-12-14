@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_business_info" android:tag="layout/layout_businessinfo_bundle_qip_0" android:paddingLeft="@dimen/qip_margin_horizontal" android:paddingRight="@dimen/qip_margin_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingHorizontal="@dimen/qip_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="match_parent" android:layout_height="@dimen/detailpage_layout_main_widget_divider" layout="@layout/isa_layout_detail_line_no_theme" />
+    <com.sec.android.app.samsungapps.commonview.BusinessInfoViewForQIP android:id="@id/business_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:legalText_bottom="@string/LDS_SAPPS_BODY_SAMSUNG_ELECTRONICS_CO_LTD_ONLY_ACTS_AS_AN_INTERMEDIARY_THE_SELLER_HAS_FULL_RESPONSIBILITY_FOR_ITS_CONTENT" app:legalText_mid="@string/LDS_SAPPS_BODY_TO_SEE_THE_DETAILS_OF_EACH_APP_TAP_THE_ICON_FOR_THAT_APP_FROM_THE_LIST" app:legalText_top="@string/LDS_SAPPS_BODY_START_TO_DOWNLOAD_THE_APP_INSTANTLY_WHEN_YOU_TAP_THE_INSTALL_BUTTON_AND_DATA_CHARGES_MAY_APPLY" />
+</LinearLayout>

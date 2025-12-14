@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="visible" layout="@layout/isa_layout_detail_related_productlist_widget_title" />
+    <RelativeLayout android:gravity="start" android:id="@id/horizontal_product_list_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.sec.android.app.samsungapps.detail.productlist.DetailRecyclerView android:orientation="horizontal" android:id="@id/horizontal_product_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layoutDirection="locale" android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+</LinearLayout>

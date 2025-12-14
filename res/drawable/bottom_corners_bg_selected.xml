@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/isa_250250250" />
+                    <corners android:bottomLeftRadius="26.0dp" android:bottomRightRadius="26.0dp" />
+                    <stroke android:width="@dimen/download_btn_outline_size" android:color="@color/isa_250250250" />
+                </shape>
+            </item>
+        </layer-list>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/isa_opa12_Color4" />
+                    <corners android:bottomLeftRadius="26.0dp" android:bottomRightRadius="26.0dp" />
+                    <stroke android:width="@dimen/download_btn_outline_size" android:color="@color/isa_opa12_Color4" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

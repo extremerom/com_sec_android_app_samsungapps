@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_interim_google_1" android:maxLevel="1" />
+    <item android:drawable="@drawable/ic_interim_tencent_1" android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_interim_gift_light" android:maxLevel="3" />
+    <item android:drawable="@drawable/ic_interim_gift_dark" android:maxLevel="13" />
+</level-list>

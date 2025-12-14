@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bt_search_tag_layout" android:tag="layout/isa_layout_search_popular_keyword_item_0" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="333.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/bt_search_tag_item" android:tag="binding_1" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="@dimen/search_recent_keyword_item_height" android:paddingStart="@dimen/search_popular_keyword_item_inside_padding" android:paddingEnd="@dimen/search_popular_keyword_item_inside_padding" style="@style/isa_widget_tag_button_text" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_interim_download_1_light" android:maxLevel="1" />
+    <item android:drawable="@drawable/ic_interim_update_1_light" android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_interim_play_1_light" android:maxLevel="3" />
+    <item android:drawable="@drawable/isa_home_btn_wait" android:maxLevel="4" />
+    <item android:drawable="@drawable/txt_interim_china_reservation_01" android:maxLevel="6" />
+    <item android:drawable="@drawable/txt_interim_china_reserved_01" android:maxLevel="7" /> //For Global Icons <item android:drawable="@drawable/isa_home_btn_download" android:maxLevel="11" />
+    <item android:drawable="@drawable/isa_home_btn_update" android:maxLevel="12" />
+    <item android:drawable="@drawable/isa_home_btn_start" android:maxLevel="13" />
+    <item android:drawable="@drawable/isa_home_btn_wait" android:maxLevel="14" />
+    <item android:drawable="@drawable/txt_interim_china_download_light" android:maxLevel="31" />
+    <item android:drawable="@drawable/txt_interim_china_update_light" android:maxLevel="32" />
+    <item android:drawable="@drawable/txt_interim_china_open_light" android:maxLevel="33" />
+    <item android:drawable="@drawable/isa_home_btn_wait" android:maxLevel="34" />
+    <item android:drawable="@drawable/txt_interim_china_reservation_01" android:maxLevel="36" />
+    <item android:drawable="@drawable/txt_interim_china_reserved_01" android:maxLevel="37" />
+    <item android:drawable="@drawable/isa_home_btn_w_download" android:maxLevel="41" />
+    <item android:drawable="@drawable/apps_ic_refresh" android:maxLevel="42" />
+    <item android:drawable="@drawable/isa_home_btn_w_start" android:maxLevel="43" />
+    <item android:drawable="@drawable/gs_ic_detail_wifi" android:maxLevel="44" />
+</level-list>

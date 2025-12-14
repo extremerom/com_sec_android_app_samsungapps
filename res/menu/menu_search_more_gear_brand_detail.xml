@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/gs_ic_search" android:enabled="true" android:id="@id/option_menu_search" android:title="@string/DREAM_IDLE_OPT_SEARCH" android:contentDescription="@string/DREAM_IDLE_OPT_SEARCH" app:iconTint="@color/one_ui_app_bar_icon_color_dark" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/gs_ic_more" android:enabled="true" android:id="@id/option_menu_more_detail_page" android:title="@string/IDS_GALLERY_TBOPT_MORE_OPTIONS" android:contentDescription="@string/IDS_GALLERY_TBOPT_MORE_OPTIONS" app:iconTint="@color/one_ui_app_bar_icon_color_dark" app:showAsAction="ifRoom" />
+</menu>

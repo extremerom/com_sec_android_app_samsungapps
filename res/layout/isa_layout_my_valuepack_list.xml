@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/parentCategoryLayout" android:background="@color/value_pack_list_bg" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_more_view_contaner" layout="@layout/isa_layout_list_com_loading_item" />
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/content_list" android:background="@color/value_pack_list_bg" android:scrollbars="vertical" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/detail_body_width_max" app:layout_constraintWidth_percent="@integer/detail_body_width_percent" style="@style/isa_samsungapps_list_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

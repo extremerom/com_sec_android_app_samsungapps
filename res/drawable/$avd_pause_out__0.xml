@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="left" android:pivotX="4.6875" android:pivotY="8.0">
+        <path android:name="leftBar" android:fillColor="@color/button_text_color" android:pathData="M4.7,2c0.935,0 1.701,0.766 1.701,1.7v8.503c0,0.935 -0.766,1.7 -1.7,1.7 -0.935,0 -1.701,-0.765 -1.701,-1.7L3,3.701C3,2.766 3.766,2 4.7,2z" />
+    </group>
+    <group android:name="right" android:pivotX="11.1375" android:pivotY="8.0">
+        <path android:name="rightBar" android:fillColor="@color/button_text_color" android:pathData="M11.125,2c0.935,0 1.7,0.766 1.7,1.7v8.503c0,0.935 -0.765,1.7 -1.7,1.7 -0.935,0 -1.7,-0.765 -1.7,-1.7L9.425,3.701c0,-0.935 0.765,-1.701 1.7,-1.701z" />
+    </group>
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="19.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="20.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_layout_detail_review_user_item" />
+        <RelativeLayout android:layout_gravity="end" android:id="@id/layout_review_list_item_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/sd_popup_bottom_buttons_height" android:layoutDirection="locale"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <Button android:textSize="15.0dp" android:textColor="@color/detail_app_info_01" android:id="@id/btn_review_edit" android:background="@drawable/isa_drawable_list_effect" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:text="@string/IDS_SAPPS_BUTTON_EDIT" android:contentDescription="@string/IDS_SAPPS_BUTTON_EDIT" android:textDirection="locale" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" style="@style/isa_style_one_ui_font_semi_bold" />
+            <Button android:textSize="15.0dp" android:textColor="@color/detail_app_info_01" android:id="@id/btn_review_delete" android:background="@drawable/isa_drawable_list_effect" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:text="@string/IDS_SAPPS_SK_DELETE" android:layout_toRightOf="@id/btn_review_edit" android:contentDescription="@string/IDS_SAPPS_SK_DELETE" android:textDirection="locale" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:layout_toEndOf="@id/btn_review_edit" style="@style/isa_style_one_ui_font_semi_bold" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_review_list_item_seller_review" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp">
+        <View android:id="@id/review_list_item_bottom_divider" android:background="@color/review_list_divider_color" android:layout_width="match_parent" android:layout_height="2.0px" android:dividerHeight="@dimen/one_px_line_divider" />
+    </FrameLayout>
+</LinearLayout>

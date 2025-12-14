@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_badge_view_margin_right">16.0dp</dimen>
+    <dimen name="main_tab_divider_drawing_top">47.0dp</dimen>
+    <dimen name="material_badge_color_padding">2.0dp</dimen>
+</resources>

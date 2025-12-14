@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/detail_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/detail_refund_policy_info_text" android:id="@id/tv_refund_policy_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:textAlignment="viewStart" android:layoutDirection="locale" />
+    </LinearLayout>
+</ScrollView>

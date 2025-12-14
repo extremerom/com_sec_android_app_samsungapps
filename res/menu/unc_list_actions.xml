@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/gs_ic_more" android:id="@id/option_menu" android:title="@string/IDS_SAPPS_MBODY_VERSION_INFO_ETC" android:contentDescription="@string/IDS_GALLERY_TBOPT_MORE_OPTIONS" app:iconTint="@color/actionbar_icon_color" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@id/unc_list_version_info" android:title="@string/IDS_SAPPS_MBODY_VERSION_INFO_ETC" />
+        </menu>
+    </item>
+</menu>

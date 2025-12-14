@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/detail_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/option_country_samsung_ads" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <include layout="@layout/isa_ad_layout_common_single_choice_item" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/option_country_ad_mob" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/isa_ad_layout_common_single_choice_item" />
+    </LinearLayout>
+</LinearLayout>

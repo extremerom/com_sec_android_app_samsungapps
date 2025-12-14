@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/detail_hero_image_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/detail_main_imageview" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:tint="@color/Color47_OP10" app:animated="false" app:is_webimage_default="@drawable/icon_default_galaxy_store_square" app:is_webimage_immediate_loading="true" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="0.4" />
+    <ImageView android:layout_gravity="center" android:id="@id/detail_youtube_play_overlay" android:visibility="gone" android:layout_width="42.0dp" android:layout_height="42.0dp" android:src="@drawable/isa_detail_info_play" />
+    <View android:layout_gravity="bottom" android:id="@id/detail_coverimage_overlay_bottom_padding" android:background="@drawable/top_corners_bg" android:layout_width="match_parent" android:layout_height="24.0dp" />
+</FrameLayout>

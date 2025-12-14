@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <Button android:theme="@android:style/Theme.DeviceDefault.Light" android:textSize="18.0dp" android:textColor="@color/main_slot_item_title" android:id="@id/retry_button" android:background="@drawable/isa_drawable_network_effect" android:layout_width="0.0dp" android:layout_height="44.0dp" android:layout_marginTop="25.0dp" android:text="@string/IDS_SAPPS_BUTTON_TRY_AGAIN_ABB" android:layout_weight="3.0" android:layoutDirection="locale" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+</LinearLayout>

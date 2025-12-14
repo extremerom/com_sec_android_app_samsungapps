@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/report_inappropriate_review" android:visible="true" android:title="@string/DREAM_SAPPS_OPT_REPORT_AS_INAPPROPRIATE_ABB" app:showAsAction="always" />
+    <item android:id="@id/report_as_spam_review" android:visible="true" android:title="@string/DREAM_SAPPS_OPT_REPORT_AS_SPAM_ABB" app:showAsAction="always" />
+</menu>

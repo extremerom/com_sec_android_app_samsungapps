@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/privacy_policy_layout" android:paddingBottom="@dimen/content_detail_tv_line_spacing" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?detailContentTextColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/MIDS_SAPPS_BODY_SELLERS_PRIVACY_POLICY" android:includeFontPadding="false" android:textDirection="locale" style="@style/isa_style_appinfo_summary_value" />
+    <TextView android:textColor="?detailHeaderTextColor" android:autoLink="web|email" android:id="@id/tv_seller_info_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/isa_detail_seller_info_linked_text" />
+</LinearLayout>

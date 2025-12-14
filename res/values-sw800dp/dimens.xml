@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cloudgame_loading_contained_button_width">296.0dp</dimen>
+    <dimen name="cloudgame_loading_description_text_max_width">432.0dp</dimen>
+    <dimen name="cloudgame_splash_width_percent">0.45</dimen>
+</resources>

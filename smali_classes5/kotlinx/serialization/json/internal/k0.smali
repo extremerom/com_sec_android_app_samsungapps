@@ -1,0 +1,512 @@
+.class public final Lkotlinx/serialization/json/internal/k0;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# direct methods
+.method public static final a(Ljava/lang/Number;Ljava/lang/String;Ljava/lang/String;)Lkotlinx/serialization/json/internal/JsonDecodingException;
+    .locals 1
+
+    const-string v0, "value"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "key"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "output"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, -0x1
+
+    invoke-static {p0, p1, p2}, Lkotlinx/serialization/json/internal/k0;->l(Ljava/lang/Number;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Lkotlinx/serialization/json/internal/k0;->e(ILjava/lang/String;)Lkotlinx/serialization/json/internal/JsonDecodingException;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final b(Ljava/lang/Number;Ljava/lang/String;)Lkotlinx/serialization/json/internal/JsonEncodingException;
+    .locals 4
+
+    const-string v0, "value"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "output"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lkotlinx/serialization/json/internal/JsonEncodingException;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Unexpected special floating-point value "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string p0, ". By default, non-finite floating point values are prohibited because they do not conform JSON specification. It is possible to deserialize them using \'JsonBuilder.allowSpecialFloatingPointValues = true\'\nCurrent output: "
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 p0, 0x1
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v3, p0, v2}, Lkotlinx/serialization/json/internal/k0;->j(Ljava/lang/CharSequence;IILjava/lang/Object;)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lkotlinx/serialization/json/internal/JsonEncodingException;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static final c(Ljava/lang/Number;Ljava/lang/String;Ljava/lang/String;)Lkotlinx/serialization/json/internal/JsonEncodingException;
+    .locals 0
+
+    const-string p0, "[R8]"
+
+    invoke-static {p0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p0
+
+    const-string p1, "Shaking error: Missing method in kotlinx.serialization.json.internal.JsonExceptionsKt: kotlinx.serialization.json.internal.JsonEncodingException InvalidFloatingPointEncoded(java.lang.Number,java.lang.String,java.lang.String)"
+
+    invoke-virtual {p0, p1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p0, Ljava/lang/RuntimeException;
+
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static final d(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/json/internal/JsonEncodingException;
+    .locals 3
+
+    const-string v0, "keyDescriptor"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lkotlinx/serialization/json/internal/JsonEncodingException;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Value of type \'"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-interface {p0}, Lkotlinx/serialization/descriptors/SerialDescriptor;->getSerialName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "\' can\'t be used in JSON as a key in the map. It should have either primitive or enum kind, but its kind is \'"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-interface {p0}, Lkotlinx/serialization/descriptors/SerialDescriptor;->getKind()Lkotlinx/serialization/descriptors/n;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string p0, "\'.\nUse \'allowStructuredMapKeys = true\' in \'Json {}\' builder to convert such maps to [key1, value1, key2, value2,...] arrays."
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lkotlinx/serialization/json/internal/JsonEncodingException;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static final e(ILjava/lang/String;)Lkotlinx/serialization/json/internal/JsonDecodingException;
+    .locals 3
+
+    const-string v0, "message"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Lkotlinx/serialization/json/internal/JsonDecodingException;
+
+    if-ltz p0, :cond_0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Unexpected JSON token at offset "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p0, ": "
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    :cond_0
+    invoke-direct {v0, p1}, Lkotlinx/serialization/json/internal/JsonDecodingException;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static final f(ILjava/lang/String;Ljava/lang/CharSequence;)Lkotlinx/serialization/json/internal/JsonDecodingException;
+    .locals 1
+
+    const-string v0, "message"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "input"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, "\nJSON input: "
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {p2, p0}, Lkotlinx/serialization/json/internal/k0;->i(Ljava/lang/CharSequence;I)Ljava/lang/CharSequence;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p0, p1}, Lkotlinx/serialization/json/internal/k0;->e(ILjava/lang/String;)Lkotlinx/serialization/json/internal/JsonDecodingException;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final g(Lkotlinx/serialization/json/internal/b;Ljava/lang/String;)Ljava/lang/Void;
+    .locals 2
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "entity"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "Trailing comma before the end of JSON "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    iget v0, p0, Lkotlinx/serialization/json/internal/b;->a:I
+
+    add-int/lit8 v0, v0, -0x1
+
+    const-string v1, "Trailing commas are non-complaint JSON and not allowed by default. Use \'allowTrailingComma = true\' in \'Json {}\' builder to support them."
+
+    invoke-virtual {p0, p1, v0, v1}, Lkotlinx/serialization/json/internal/b;->A(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/Void;
+
+    new-instance p0, Lkotlin/KotlinNothingValueException;
+
+    invoke-direct {p0}, Lkotlin/KotlinNothingValueException;-><init>()V
+
+    throw p0
+.end method
+
+.method public static synthetic h(Lkotlinx/serialization/json/internal/b;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/Void;
+    .locals 0
+
+    and-int/lit8 p2, p2, 0x1
+
+    if-eqz p2, :cond_0
+
+    const-string p1, "object"
+
+    :cond_0
+    invoke-static {p0, p1}, Lkotlinx/serialization/json/internal/k0;->g(Lkotlinx/serialization/json/internal/b;Ljava/lang/String;)Ljava/lang/Void;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final i(Ljava/lang/CharSequence;I)Ljava/lang/CharSequence;
+    .locals 5
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+
+    move-result v0
+
+    const/16 v1, 0xc8
+
+    if-ge v0, v1, :cond_0
+
+    return-object p0
+
+    :cond_0
+    const/4 v0, -0x1
+
+    const-string v1, "....."
+
+    if-ne p1, v0, :cond_2
+
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+
+    move-result p1
+
+    add-int/lit8 p1, p1, -0x3c
+
+    if-gtz p1, :cond_1
+
+    return-object p0
+
+    :cond_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+
+    move-result v1
+
+    invoke-interface {p0, p1, v1}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_2
+    add-int/lit8 v0, p1, -0x1e
+
+    add-int/lit8 p1, p1, 0x1e
+
+    const-string v2, ""
+
+    if-gtz v0, :cond_3
+
+    move-object v3, v2
+
+    goto :goto_0
+
+    :cond_3
+    move-object v3, v1
+
+    :goto_0
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+
+    move-result v4
+
+    if-lt p1, v4, :cond_4
+
+    move-object v1, v2
+
+    :cond_4
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 v3, 0x0
+
+    invoke-static {v0, v3}, Lkotlin/ranges/v;->u(II)I
+
+    move-result v0
+
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
+
+    move-result v3
+
+    invoke-static {p1, v3}, Lkotlin/ranges/v;->B(II)I
+
+    move-result p1
+
+    invoke-interface {p0, v0, p1}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic j(Ljava/lang/CharSequence;IILjava/lang/Object;)Ljava/lang/CharSequence;
+    .locals 0
+
+    and-int/lit8 p2, p2, 0x1
+
+    if-eqz p2, :cond_0
+
+    const/4 p1, -0x1
+
+    :cond_0
+    invoke-static {p0, p1}, Lkotlinx/serialization/json/internal/k0;->i(Ljava/lang/CharSequence;I)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final k(Lkotlinx/serialization/json/internal/b;Ljava/lang/Number;)Ljava/lang/Void;
+    .locals 7
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "result"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "Unexpected special floating-point value "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string p1, ". By default, non-finite floating point values are prohibited because they do not conform JSON specification"
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v5, 0x2
+
+    const/4 v6, 0x0
+
+    const/4 v3, 0x0
+
+    const-string v4, "It is possible to deserialize them using \'JsonBuilder.allowSpecialFloatingPointValues = true\'"
+
+    move-object v1, p0
+
+    invoke-static/range {v1 .. v6}, Lkotlinx/serialization/json/internal/b;->B(Lkotlinx/serialization/json/internal/b;Ljava/lang/String;ILjava/lang/String;ILjava/lang/Object;)Ljava/lang/Void;
+
+    new-instance p0, Lkotlin/KotlinNothingValueException;
+
+    invoke-direct {p0}, Lkotlin/KotlinNothingValueException;-><init>()V
+
+    throw p0
+.end method
+
+.method public static final l(Ljava/lang/Number;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "Unexpected special floating-point value "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string p0, " with key "
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, ". By default, non-finite floating point values are prohibited because they do not conform JSON specification. It is possible to deserialize them using \'JsonBuilder.allowSpecialFloatingPointValues = true\'\nCurrent output: "
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/4 p0, 0x1
+
+    const/4 p1, 0x0
+
+    const/4 v1, 0x0
+
+    invoke-static {p2, v1, p0, p1}, Lkotlinx/serialization/json/internal/k0;->j(Ljava/lang/CharSequence;IILjava/lang/Object;)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

@@ -1,0 +1,641 @@
+.class public Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;
+.super Lcom/sec/android/app/samsungapps/widget/dialog/f0;
+.source "ProGuard"
+
+
+# instance fields
+.field public A:Z
+
+.field public B:Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;
+
+.field public w:Z
+
+.field public x:Ljava/lang/String;
+
+.field public y:Ljava/lang/String;
+
+.field public z:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/sec/android/app/samsungapps/widget/dialog/f0;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic e0(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;Landroid/content/DialogInterface;)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->r0(Landroid/content/DialogInterface;)V
+
+    return-void
+.end method
+
+.method public static synthetic f0(Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;I)V
+    .locals 0
+
+    invoke-static {p0, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->p0(Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;I)V
+
+    return-void
+.end method
+
+.method public static synthetic g0(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;I)V
+    .locals 0
+
+    invoke-virtual {p0, p1, p2}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->o0(Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;I)V
+
+    return-void
+.end method
+
+.method public static synthetic h0(Landroid/content/DialogInterface;)V
+    .locals 0
+
+    invoke-static {p0}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->q0(Landroid/content/DialogInterface;)V
+
+    return-void
+.end method
+
+.method public static bridge synthetic i0(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)Ljava/lang/String;
+    .locals 0
+
+    iget-object p0, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->z:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic j0(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)Z
+    .locals 0
+
+    iget-boolean p0, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->A:Z
+
+    return p0
+.end method
+
+.method public static bridge synthetic k0(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)Ljava/lang/String;
+    .locals 0
+
+    iget-object p0, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->y:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public static synthetic p0(Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static synthetic q0(Landroid/content/DialogInterface;)V
+    .locals 0
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final l0()Z
+    .locals 4
+
+    invoke-static {}, Lcom/sec/android/app/samsungapps/utility/push/PushUtil;->g()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccount;->H()Z
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {}, Lcom/sec/android/app/commonlib/doc/Document;->C()Lcom/sec/android/app/commonlib/doc/Document;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/sec/android/app/commonlib/doc/Document;->O()Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;->P()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    move v1, v3
+
+    goto :goto_0
+
+    :cond_0
+    move v1, v2
+
+    :goto_0
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    if-eqz v1, :cond_1
+
+    move v2, v3
+
+    :cond_1
+    return v2
+.end method
+
+.method public m0(Lcom/sec/android/app/samsungapps/log/analytics/o;)Lcom/sec/android/app/samsungapps/log/analytics/o;
+    .locals 3
+
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    sget-object v1, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;->PREVIOUS_PAGE_ID:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;
+
+    invoke-static {}, Lcom/sec/android/app/samsungapps/log/analytics/g0;->g()Lcom/sec/android/app/samsungapps/log/analytics/g0;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/sec/android/app/samsungapps/log/analytics/g0;->j()Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;->b()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->z:Ljava/lang/String;
+
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    sget-object v1, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;->MARKETING_SOURCE:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;
+
+    iget-object v2, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->z:Ljava/lang/String;
+
+    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_0
+    iget-object v1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->x:Ljava/lang/String;
+
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    sget-object v1, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;->URL:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;
+
+    iget-object v2, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->x:Ljava/lang/String;
+
+    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :cond_1
+    invoke-virtual {p1, v0}, Lcom/sec/android/app/samsungapps/log/analytics/o;->j(Ljava/util/Map;)Lcom/sec/android/app/samsungapps/log/analytics/o;
+
+    return-object p1
+.end method
+
+.method public n0()Landroid/text/SpannableString;
+    .locals 8
+
+    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    sget v1, Lcom/sec/android/app/samsungapps/r3;->g5:I
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "StartOfLink"
+
+    const-string v2, "EndOfLink"
+
+    const/4 v3, 0x2
+
+    new-array v4, v3, [Ljava/lang/Object;
+
+    const/4 v5, 0x0
+
+    aput-object v1, v4, v5
+
+    const/4 v6, 0x1
+
+    aput-object v2, v4, v6
+
+    invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    new-array v3, v3, [Ljava/lang/Object;
+
+    const-string v7, ""
+
+    aput-object v7, v3, v5
+
+    aput-object v7, v3, v6
+
+    invoke-static {v0, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v4, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v1
+
+    invoke-virtual {v4, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v2
+
+    add-int/lit8 v2, v2, -0xb
+
+    new-array v3, v5, [Ljava/lang/Object;
+
+    invoke-static {v0, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v0
+
+    add-int/2addr v1, v0
+
+    add-int/2addr v0, v2
+
+    new-instance v2, Landroid/text/SpannableString;
+
+    invoke-direct {v2, v3}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
+
+    new-instance v3, Landroid/text/style/StyleSpan;
+
+    invoke-direct {v3, v6}, Landroid/text/style/StyleSpan;-><init>(I)V
+
+    const/16 v4, 0x21
+
+    invoke-virtual {v2, v3, v1, v0, v4}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
+
+    new-instance v3, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity$a;
+
+    invoke-direct {v3, p0}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity$a;-><init>(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)V
+
+    invoke-virtual {v2, v3, v1, v0, v4}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
+
+    return-object v2
+.end method
+
+.method public final synthetic o0(Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;I)V
+    .locals 0
+
+    const/4 p1, 0x1
+
+    invoke-virtual {p0, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->s0(Z)V
+
+    return-void
+.end method
+
+.method public onConfigurationChanged(Landroid/content/res/Configuration;)V
+    .locals 1
+
+    invoke-super {p0, p1}, Lcom/sec/android/app/samsungapps/b4;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+
+    iget-object v0, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->B:Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;->I(Landroid/content/res/Configuration;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onCreate(Landroid/os/Bundle;)V
+    .locals 4
+
+    invoke-super {p0, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/f0;->onCreate(Landroid/os/Bundle;)V
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object p1
+
+    const-string v0, "isDeepLink"
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    move-result p1
+
+    iput-boolean p1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->w:Z
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object p1
+
+    const-string v0, "deepLinkURL"
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->x:Ljava/lang/String;
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object p1
+
+    const-string v0, "sender"
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->y:Ljava/lang/String;
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object p1
+
+    const-string v0, "from"
+
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->z:Ljava/lang/String;
+
+    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    sget v0, Lcom/sec/android/app/samsungapps/r3;->Y8:I
+
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    sget v1, Lcom/sec/android/app/samsungapps/r3;->Jh:I
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    sget v2, Lcom/sec/android/app/samsungapps/r3;->Gh:I
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog$f;
+
+    invoke-direct {v2}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog$f;-><init>()V
+
+    invoke-virtual {v2, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->w0(Ljava/lang/String;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    const/4 v2, 0x1
+
+    invoke-virtual {p1, v2}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->v0(Z)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->n0()Landroid/text/SpannableString;
+
+    move-result-object v3
+
+    invoke-virtual {p1, v3}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->f0(Ljava/lang/CharSequence;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    new-instance v3, Lcom/sec/android/app/samsungapps/widget/dialog/k;
+
+    invoke-direct {v3, p0}, Lcom/sec/android/app/samsungapps/widget/dialog/k;-><init>(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)V
+
+    invoke-virtual {p1, v0, v3}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->s0(Ljava/lang/String;Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog$onClickListener;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    new-instance v0, Lcom/sec/android/app/samsungapps/widget/dialog/l;
+
+    invoke-direct {v0}, Lcom/sec/android/app/samsungapps/widget/dialog/l;-><init>()V
+
+    invoke-virtual {p1, v1, v0}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->j0(Ljava/lang/String;Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog$onClickListener;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    new-instance v0, Lcom/sec/android/app/samsungapps/widget/dialog/m;
+
+    invoke-direct {v0}, Lcom/sec/android/app/samsungapps/widget/dialog/m;-><init>()V
+
+    invoke-virtual {p1, v0}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->k0(Landroid/content/DialogInterface$OnCancelListener;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    new-instance v0, Lcom/sec/android/app/samsungapps/widget/dialog/n;
+
+    invoke-direct {v0, p0}, Lcom/sec/android/app/samsungapps/widget/dialog/n;-><init>(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)V
+
+    invoke-virtual {p1, v0}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->n0(Landroid/content/DialogInterface$OnDismissListener;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v2}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->T(Z)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v2}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->d0(Z)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;
+
+    move-result-object p1
+
+    invoke-virtual {p1, p0}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialogBuilder;->c(Landroid/content/Context;)Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->B:Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;
+
+    invoke-virtual {p1}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;->show()V
+
+    new-instance p1, Ljava/util/HashMap;
+
+    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+
+    sget-object v0, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;->MARKETING_SOURCE:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$AdditionalKey;
+
+    iget-object v1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->z:Ljava/lang/String;
+
+    invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    new-instance v0, Lcom/sec/android/app/samsungapps/log/analytics/h0;
+
+    sget-object v1, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;->MARKETING_INFORMATION_ON:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;
+
+    invoke-direct {v0, v1}, Lcom/sec/android/app/samsungapps/log/analytics/h0;-><init>(Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;)V
+
+    invoke-virtual {v0, p1}, Lcom/sec/android/app/samsungapps/log/analytics/h0;->o(Ljava/util/Map;)Lcom/sec/android/app/samsungapps/log/analytics/h0;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/sec/android/app/samsungapps/log/analytics/h0;->g()V
+
+    return-void
+.end method
+
+.method public onDestroy()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->B:Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/sec/android/app/samsungapps/widget/dialog/AppDialog;->dismiss()V
+
+    :cond_0
+    invoke-super {p0}, Lcom/sec/android/app/samsungapps/b4;->onDestroy()V
+
+    return-void
+.end method
+
+.method public final synthetic r0(Landroid/content/DialogInterface;)V
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    return-void
+.end method
+
+.method public s0(Z)V
+    .locals 2
+
+    iput-boolean p1, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->A:Z
+
+    new-instance p1, Lcom/sec/android/app/samsungapps/log/analytics/n;
+
+    sget-object v0, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;->MARKETING_CHOICE_GDPR:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;
+
+    sget-object v1, Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$EventID;->CLICKED_MARKETING_POPUP_AGREEMENT_BUTTON:Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$EventID;
+
+    invoke-direct {p1, v0, v1}, Lcom/sec/android/app/samsungapps/log/analytics/n;-><init>(Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$ScreenID;Lcom/sec/android/app/samsungapps/log/analytics/SALogFormat$EventID;)V
+
+    iget-boolean v0, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->A:Z
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/sec/android/app/samsungapps/log/analytics/SALogValues$CLICKED_BUTTON;->AGREE:Lcom/sec/android/app/samsungapps/log/analytics/SALogValues$CLICKED_BUTTON;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    sget-object v0, Lcom/sec/android/app/samsungapps/log/analytics/SALogValues$CLICKED_BUTTON;->CANCEL:Lcom/sec/android/app/samsungapps/log/analytics/SALogValues$CLICKED_BUTTON;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-virtual {p1, v0}, Lcom/sec/android/app/samsungapps/log/analytics/n;->r(Ljava/lang/String;)Lcom/sec/android/app/samsungapps/log/analytics/n;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->m0(Lcom/sec/android/app/samsungapps/log/analytics/o;)Lcom/sec/android/app/samsungapps/log/analytics/o;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/sec/android/app/samsungapps/log/analytics/o;->g()V
+
+    invoke-virtual {p0}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->t0()V
+
+    invoke-virtual {p0}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->l0()Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    invoke-virtual {p0}, Lcom/sec/android/app/samsungapps/b4;->requestSignIn()V
+
+    :cond_1
+    return-void
+.end method
+
+.method public t0()V
+    .locals 4
+
+    new-instance v0, Lcom/sec/android/app/joule/c$a;
+
+    const-string v1, "marketinginformationsetting"
+
+    invoke-direct {v0, v1}, Lcom/sec/android/app/joule/c$a;-><init>(Ljava/lang/String;)V
+
+    const-string v1, "Start"
+
+    invoke-virtual {v0, v1}, Lcom/sec/android/app/joule/c$a;->b(Ljava/lang/String;)Lcom/sec/android/app/joule/c$a;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/sec/android/app/joule/c$a;->a()Lcom/sec/android/app/joule/c;
+
+    move-result-object v0
+
+    invoke-static {}, Lcom/sec/android/app/joule/b;->b()Lcom/sec/android/app/joule/g$a;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v0}, Lcom/sec/android/app/joule/g$a;->g(Lcom/sec/android/app/joule/c;)Lcom/sec/android/app/joule/g$a;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity$b;
+
+    invoke-direct {v1, p0}, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity$b;-><init>(Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;)V
+
+    invoke-virtual {v0, v1}, Lcom/sec/android/app/joule/g$a;->f(Lcom/sec/android/app/joule/ITaskListener;)Lcom/sec/android/app/joule/g$a;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/sec/android/app/samsungapps/curate/joule/unit/SetMarketPushAgreementTaskUnit;
+
+    iget-boolean v2, p0, Lcom/sec/android/app/samsungapps/widget/dialog/ConsentMarketingGDPRDialogActivity;->A:Z
+
+    invoke-direct {v1, v2}, Lcom/sec/android/app/samsungapps/curate/joule/unit/SetMarketPushAgreementTaskUnit;-><init>(Z)V
+
+    const/4 v2, 0x1
+
+    new-array v2, v2, [Lcom/sec/android/app/joule/ITaskUnit;
+
+    const/4 v3, 0x0
+
+    aput-object v1, v2, v3
+
+    invoke-virtual {v0, v2}, Lcom/sec/android/app/joule/g$a;->b([Lcom/sec/android/app/joule/ITaskUnit;)Lcom/sec/android/app/joule/g$a;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/sec/android/app/joule/g$a;->c()Lcom/sec/android/app/joule/g;
+
+    return-void
+.end method

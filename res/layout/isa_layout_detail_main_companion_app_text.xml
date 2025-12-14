@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_main_companion_app_state" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="19.0dp" android:layout_marginTop="7.0dp" android:foreground="@drawable/isa_drawable_list_effect">
+        <ImageView android:layout_width="@dimen/content_detail_main_progress_gear_mobile_icon_size" android:layout_height="@dimen/content_detail_main_progress_mobile_icon_height" android:layout_marginRight="@dimen/content_detail_main_progress_gear_mobile_icon_margin_right" android:src="@drawable/progressbar_ic_mobile" android:layout_marginEnd="@dimen/content_detail_main_progress_gear_mobile_icon_margin_right" />
+        <TextView android:id="@id/detail_main_companion_app_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_progress_text" />
+        <ProgressBar android:gravity="center" android:id="@id/detail_main_companion_app_state_progress" android:layout_width="13.0dp" android:layout_height="13.0dp" android:layout_marginLeft="6.0dp" android:layout_marginStart="6.0dp" style="@style/isa_waiting_progress_small" />
+        <ImageView android:id="@id/detail_main_companion_app_state_more" android:layout_width="5.0dp" android:layout_height="13.0dp" android:layout_marginLeft="5.0dp" android:src="@drawable/progressbar_arrow_more" android:layout_marginStart="5.0dp" />
+    </LinearLayout>
+</merge>

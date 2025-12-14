@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/isa_layout_detail_screenshot_image_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/layout_detail_screenshot_border" android:focusable="true" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/isa_drawable_list_effect">
+        <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center" android:id="@id/layout_detail_screenshot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/isa_drawable_mask_shape_screenshot_image" android:scaleType="fitXY" app:animated="true" app:is_mask_image="@drawable/isa_drawable_mask_shape_screenshot_image" app:is_show_default_while_loading="false" app:is_webimage_immediate_loading="true" />
+    </FrameLayout>
+    <View android:id="@id/image_padding" android:layout_width="4.0dp" android:layout_height="match_parent" />
+</LinearLayout>

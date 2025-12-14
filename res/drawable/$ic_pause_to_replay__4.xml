@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$ic_pause_to_replay__5" android:duration="183" android:valueFrom="24" android:valueTo="8" android:propertyName="strokeWidth" />
+    </set>
+</set>

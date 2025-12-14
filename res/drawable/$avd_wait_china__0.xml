@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="dot" android:fillColor="@color/button_text_color" android:pathData="M7.984,13.105m-0,-1.13a1.13,1.13 0,1 1,-0 2.26a1.13,1.13 0,1 1,-0 -2.26" />
+    <path android:name="arc1" android:fillColor="@color/button_text_color" android:pathData="M5.027,10.007a4.182,4.182 0,0 1,5.915 0,0.791 0.791,0 0,1 -1.12,1.119 2.6,2.6 0,0 0,-3.676 0,0.791 0.791,0 0,1 -1.119,-1.12z" />
+    <path android:name="arc2" android:fillColor="@color/button_text_color" android:pathData="M2.63,7.609a7.573,7.573 0,0 1,10.71 0,0.791 0.791,0 1,1 -1.12,1.119 5.99,5.99 0,0 0,-8.472 0A0.791,0.791 0,0 1,2.63 7.609z" />
+    <path android:name="arc3" android:fillColor="@color/button_text_color" android:pathData="M0.232,5.211c4.281,-4.281 11.223,-4.281 15.505,0a0.791,0.791 0,1 1,-1.119 1.12,9.381 9.381,0 0,0 -13.267,0A0.791,0.791 0,1 1,0.23 5.21z" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="interstitialAd_ad_badge_text_margin_top">30.0dp</dimen>
+    <dimen name="interstitialAd_layout_guideline_begin">30.0dp</dimen>
+    <dimen name="interstitialAd_layout_guideline_end">30.0dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/isa_layout_myapps_list_0" android:background="@color/mygalaxy_sublist_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraintLayout_id" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.sec.android.app.samsungapps.commonview.CommonSubtab android:id="@id/common_subtab" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:alignUsingSubTabWidth="true" app:layout_constraintBottom_toTopOf="@id/pager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" app:layout_constraintVertical_chainStyle="packed" />
+            <com.sec.android.app.samsungapps.commonview.CustomViewPager android:id="@id/pager" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/common_subtab" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end|top" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="end|top" android:id="@id/popup_view_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="@dimen/search_result_activity_more_window_top_margin" />
+    </FrameLayout>
+</FrameLayout>

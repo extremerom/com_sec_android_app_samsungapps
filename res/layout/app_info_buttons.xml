@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/app_info_buttons_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_permissions" android:tag="binding_1" android:focusable="true" android:clickable="true" android:text="@string/DREAM_SAPPS_OPT_PERMISSIONS" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tv_privacy_policy" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/isa_style_appinfo_summary_button" />
+    <TextView android:id="@id/tv_privacy_policy" android:tag="binding_2" android:text="@string/DREAM_SAPPS_OPT_PRIVACY_POLICY" android:layout_marginStart="10.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/tv_permissions" app:layout_constraintTop_toTopOf="parent" style="@style/isa_style_appinfo_summary_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

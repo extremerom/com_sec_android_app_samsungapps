@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/sort_my_apps" android:visible="true" android:title="@string/DREAM_SAPPS_BUTTON_SORT_BY_9_CHN" app:showAsAction="always" />
+    <item android:id="@id/uninstall_my_apps" android:visible="true" android:title="@string/IDS_SAPPS_BUTTON_UNINSTALL_ABB" app:showAsAction="always" />
+</menu>

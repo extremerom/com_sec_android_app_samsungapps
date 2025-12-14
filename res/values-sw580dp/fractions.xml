@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="instant_plays_pp_logo_margin_top">0.34</fraction>
+    <fraction name="instant_plays_pp_view_guide_end">0.8611</fraction>
+    <fraction name="instant_plays_pp_view_guide_start">0.1389</fraction>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="popup_left_gap_percent" format="float">0.325</item>
+    <item type="integer" name="popup_right_gap_percent" format="float">0.675</item>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chart_list_item_root" android:tag="layout/layout_list_normal_item_0" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/category_list_item_height" android:foreground="@drawable/isa_drawable_list_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/category_list_item_height" android:layoutDirection="locale">
+        <LinearLayout android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/common_list_side_item_margin" android:layout_marginRight="@dimen/common_list_side_item_margin" android:baselineAligned="false" android:layout_marginHorizontal="@dimen/common_list_side_item_margin">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/layout_list_itemly_imgly" android:duplicateParentState="true" android:layout_width="@dimen/common_list_icon_size" android:layout_height="match_parent">
+                <FrameLayout android:layout_gravity="center" android:id="@id/webFrameLayout" android:tag="binding_1" android:layout_width="@dimen/common_list_icon_size" android:layout_height="@dimen/common_list_icon_size">
+                    <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/layout_list_itemly_imgly_pimg" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:adjustViewBounds="true" app:cornerRadius="@dimen/common_list_icon_radius" app:is_show_default_while_loading="true" app:is_webimage_default="@drawable/common_list_default_icon" />
+                    <ImageView android:layout_gravity="right|bottom" android:id="@id/layout_list_itemly_imgly_ptype" android:tag="binding_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dp" android:src="@drawable/isa_badge_widget_list" android:layoutDirection="ltr" android:layout_marginEnd="4.0dp" />
+                    <ImageView android:layout_gravity="right|bottom" android:id="@id/adult_icon" android:tag="binding_4" android:visibility="gone" android:layout_width="@dimen/contents_img_badge_adult_size_small" android:layout_height="@dimen/contents_img_badge_adult_size_small" android:layout_marginRight="4.0dp" android:layout_marginBottom="4.0dp" android:src="@drawable/contents_ic_nowfree_19_s" android:scaleType="fitXY" android:layoutDirection="ltr" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="center" android:id="@id/edgeFrameLayout" android:tag="binding_5" android:visibility="gone" android:layout_width="@dimen/common_list_icon_size" android:layout_height="@dimen/common_list_icon_size">
+                    <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center|bottom" android:id="@id/layout_list_itemly_edge_imgly_pimg" android:tag="binding_6" android:paddingLeft="1.0px" android:paddingTop="1.0px" android:paddingBottom="1.0px" android:layout_width="wrap_content" android:layout_height="@dimen/common_list_icon_size" android:scaleType="fitXY" android:adjustViewBounds="true" android:paddingStart="1.0px" app:cornerRadius="@dimen/edge_list_app_icon_radius" app:is_webimage_immediate_loading="false" />
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16.0dp" android:layout_marginStart="16.0dp">
+                <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:tag="binding_7" android:layout_width="51.0dp" android:layout_height="14.0dp" android:layout_marginRight="8.0dp" android:src="@drawable/onestore_list_ic" android:layout_marginEnd="8.0dp" />
+                        <TextView android:gravity="start" android:id="@id/layout_list_itemly_rank" android:tag="binding_8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dp" android:minHeight="17.0dp" android:singleLine="true" android:textDirection="locale" android:layout_marginEnd="8.0dp" style="@style/top_list_rank" />
+                        <TextView android:layout_gravity="center_vertical" android:id="@id/layout_list_itemly_centerly_pname" android:tag="binding_9" android:background="@drawable/isa_drawable_common_hoverd_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_style_list_view_01_title" />
+                        <FrameLayout android:tag="binding_10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp">
+                            <ImageView android:tag="binding_11" style="@style/isa_list_percent_pause" />
+                            <ImageView android:tag="binding_12" style="@style/isa_list_percent_resume" />
+                            <ImageView android:tag="binding_13" android:layout_marginStart="32.0dp" style="@style/isa_list_percent_cancel" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:id="@id/layout_sector" android:tag="binding_14" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:gravity="start" android:id="@id/layout_list_itemly_app_category_name" android:tag="binding_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:singleLine="true" style="@style/app_info_seller_name_text" />
+                            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:gravity="bottom" android:id="@id/layout_list_itemly_discprice" android:tag="binding_16" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_thumbnail_view_type_01_category" />
+                                <TextView android:textSize="@dimen/category_item_original_price_size" android:id="@id/layout_list_itemly_price" android:tag="binding_17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginStart="5.0dp" style="@style/isa_style_thumbnail_view_type_01_price" />
+                                <TextView android:id="@id/layout_list_itemly_isIAP" android:tag="binding_18" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginStart="5.0dp" style="@style/isa_style_list_view_iap_text" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/layout_list_itemly_centerly_bottomly_rating" android:tag="binding_19" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:layout_gravity="center" android:layout_width="10.0dp" android:layout_height="10.0dp" android:layout_marginRight="2.0dp" android:src="@drawable/isa_home_star_normal_cr12" android:scaleType="fitXY" android:layout_marginEnd="2.0dp" app:tint="@color/rating_string_text_color" />
+                                <TextView android:textSize="10.0dp" android:textColor="@color/rating_string_text_color" android:tag="binding_20" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/layout_progress_sector" android:tag="binding_21" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_centerVertical="true">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ProgressBar android:id="@id/pb_progressbar" android:tag="binding_22" android:layout_width="22.0dp" android:layout_height="22.0dp" style="@style/isa_circle_progressbar" />
+                                <TextView android:ellipsize="end" android:id="@id/progress_text" android:tag="binding_23" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="11.0dp" style="@style/style_list_progress_text" />
+                                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp">
+                                    <ImageView android:id="@id/pause_button" android:tag="binding_24" style="@style/isa_list_percent_pause" />
+                                    <ImageView android:id="@id/resume_button" android:tag="binding_25" style="@style/isa_list_percent_resume" />
+                                    <ImageView android:id="@id/cancel_button" android:tag="binding_26" android:layout_marginStart="32.0dp" style="@style/isa_list_percent_cancel" />
+                                </FrameLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <com.sec.android.app.samsungapps.commonview.DownloadBtnView android:layout_gravity="right|center" android:id="@id/download_btn_view" android:tag="binding_27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dp" android:layout_centerVertical="true" android:layout_marginStart="12.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

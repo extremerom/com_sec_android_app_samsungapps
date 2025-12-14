@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/no_search_layout_root" android:tag="layout/isa_layout_list_no_search_result_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/search_list_no_result_color" android:ellipsize="end" android:gravity="center" android:id="@id/no_search_result_fullt_scrn_text_view" android:tag="binding_1" android:padding="13.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/IDS_SAPPS_BODY_NO_SEARCH_RESULTS" style="@style/isa_style_no_items_text" />
+    <ScrollView android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/no_search_layout" android:layout_width="match_parent" android:layout_height="0.0dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_search_result_text_layout" android:layout_width="match_parent" android:layout_height="@dimen/no_search_result_text_layout_height_china">
+                <TextView android:textColor="@color/search_list_no_result_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/no_search_result_text_view" android:tag="binding_3" android:padding="13.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_BODY_NO_SEARCH_RESULTS" style="@style/isa_style_no_items_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/search_list_bg" android:paddingLeft="@dimen/search_section_horizontal_padding" android:paddingRight="@dimen/search_section_horizontal_padding" android:paddingBottom="@dimen/search_section_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:paddingHorizontal="@dimen/search_section_horizontal_padding">
+                <LinearLayout android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/search_widget_title_parent_bottom_margin">
+                    <TextView android:ellipsize="end" android:id="@id/no_search_result_popular_keyword_title" android:layout_width="match_parent" android:layout_height="@dimen/search_widget_title_tv_height" android:text="@string/DREAM_SAPPS_HEADER_RECOMMENDED_SEARCHES_M_POPULAR" style="@style/isa_style_search_widget_title_text" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/popular_keyword_layout_no_search_result" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.sec.android.app.samsungapps.search.SearchPopularKeywordListWidget android:id="@id/popular_keyword_widget_no_search_result" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/no_search_ad_item_list" android:tag="binding_6" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/isa_samsungapps_list_view" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

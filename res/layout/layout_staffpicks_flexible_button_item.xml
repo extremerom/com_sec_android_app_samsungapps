@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/isa_drawable_list_effect" android:focusable="true" android:layout_width="65.0dp" android:layout_height="74.0dp" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/flexible_icon" android:duplicateParentState="true" android:layout_width="41.0dp" android:layout_height="41.0dp" android:scaleType="fitCenter" />
+    <TextView android:textSize="11.0dp" android:textColor="@color/flex_btn_title" android:gravity="center" android:id="@id/flexible_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="5.0dp" android:maxLines="1" android:includeFontPadding="false" style="@style/isa_style_one_ui_font_regular" />
+</LinearLayout>

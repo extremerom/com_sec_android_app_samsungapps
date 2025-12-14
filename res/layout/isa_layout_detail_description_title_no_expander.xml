@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/detail_description_title_container" android:tag="layout/isa_layout_detail_description_title_no_expander_0" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:weightSum="1.0" android:minHeight="?detailHeaderMinHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/tv_title" android:tag="binding_1" android:paddingLeft="@dimen/content_detail_main_left_layout_margin_left" android:paddingRight="@dimen/content_detail_main_left_layout_margin_left" android:focusable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_style_detail_title" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/purchase_widget_left_right_margin" android:layout_marginRight="@dimen/purchase_widget_left_right_margin" android:minHeight="@dimen/basic_listtext_minheight_2line">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/second_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_basic_list_text_list_title" />
+            <TextView android:id="@id/second_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" style="@style/isa_style_basic_list_text_list_subtext" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center" android:id="@id/permission_list_subicon" android:background="@drawable/isa_drawable_depth_btn" android:layout_width="@dimen/purchase_arrow_icon_size" android:layout_height="@dimen/purchase_arrow_icon_size" android:layout_marginLeft="@dimen/purchase_arrow_icon_left_margin" android:layout_marginStart="@dimen/purchase_arrow_icon_left_margin" />
+    </LinearLayout>
+    <View android:id="@id/list_line" android:background="@drawable/isa_drawable_list_view_divder" android:layout_width="match_parent" android:layout_height="@dimen/two_px_line_divider" android:layout_marginLeft="@dimen/basic_list_divider_margine" android:layout_marginRight="@dimen/basic_list_divider_margine" />
+</LinearLayout>

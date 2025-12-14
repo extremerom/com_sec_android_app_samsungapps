@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginStart="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.sec.android.app.samsungapps.commonview.AdjustableTitleText android:ellipsize="end" android:id="@id/tv_detail_main_product_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_title" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/gear_mark" android:visibility="gone" android:layout_width="26.0dp" android:layout_height="26.0dp" android:layout_marginLeft="4.0dp" android:src="@drawable/receipt_details_icn_gear" android:scaleType="fitXY" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_detail_main_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:maxLines="1" style="@style/isa_style_order_history_details_seller_name" />
+</LinearLayout>

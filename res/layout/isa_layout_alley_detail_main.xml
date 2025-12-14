@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/layout_widget_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qip_img_margin_start" android:layout_marginEnd="@dimen/qip_margin_horizontal">
+        <include layout="@layout/isa_layout_alley_detail_main_left" />
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qip_main_icon_margin" layout="@layout/isa_layout_alley_detail_main_right" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="36.0dp" android:minHeight="20.0dp">
+            <TextView android:textSize="11.0dp" android:textColor="@color/sap_header_badge_text" android:gravity="center" android:id="@id/sap_ad_title_prefix" android:background="@drawable/staffpicks_sap_ad_header_rounded_corner" android:layout_width="wrap_content" android:layout_height="18.0dp" android:text="@string/DREAM_IDLE_HEADER_AD" android:singleLine="true" android:layout_weight="0.0" android:paddingStart="5.0dp" android:paddingEnd="5.0dp" android:layout_marginStart="@dimen/staffpick_title_sector_padding_left_right" android:layout_marginEnd="5.0dp" style="@style/isa_style_one_ui_font_semi_bold" />
+            <TextView android:ellipsize="end" android:id="@id/sap_ad_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_HEADER_APPS_FOR_YOU" android:layout_weight="1.0" style="@style/staffpicks_title_style" />
+            <ImageView android:id="@id/layout_list_itemly_moremenu" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_weight="0.0" android:layout_marginEnd="24.0dp" style="@style/isa_style_sap_item_moremenu" />
+        </LinearLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/list_text_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/staffpicks_description_style" />
+    </LinearLayout>
+</merge>

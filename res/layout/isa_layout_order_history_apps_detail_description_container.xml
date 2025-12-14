@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="23.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_main" android:background="@drawable/order_detail_background" android:paddingLeft="18.0dp" android:paddingTop="15.0dp" android:paddingRight="18.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_order_number" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/detail_info_order_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MIDS_OTS_BODY_ORDER_NUMBER" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_order_number" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_payment_method" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:id="@id/detail_info_payment_method" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dp" android:text="@string/IDS_SAPPS_BODY_PAYMENT_METHOD" android:layout_marginEnd="12.0dp" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_payment_method" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_purchase_date" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:id="@id/detail_info_purchase_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_SBODY_PURCHASED" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_purchase_date" android:layout_width="0.0dp" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+        </LinearLayout>
+        <View android:background="@drawable/isa_drawable_orderhistory_detail_dotted" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" android:layout_marginTop="13.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_app_price" android:visibility="gone" android:layout_width="match_parent" android:layout_height="45.0dp">
+            <TextView android:id="@id/detail_info_app_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_OTS_BODY_PRICE" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_app_price" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_price" />
+        </LinearLayout>
+        <View android:background="@drawable/isa_drawable_orderhistory_detail_dotted" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_app_tax" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="13.0dp">
+            <TextView android:id="@id/detail_info_app_tax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dp" android:layout_marginEnd="12.0dp" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_app_tax" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_detail_info_discount" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/detail_info_discount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_PH_BODY_DISCOUNT_ABB2" style="@style/isa_style_order_history_details_sub_title" />
+                <LinearLayout android:gravity="end|center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/tv_detail_info_discount_samsung_rewards_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                    <TextView android:id="@id/tv_detail_info_discount_gift_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                    <TextView android:id="@id/tv_detail_info_discount_point_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                    <TextView android:id="@id/tv_detail_info_discount_voucher_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                    <TextView android:id="@id/tv_detail_info_discount_grewards_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="end|center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_discount_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+                <TextView android:id="@id/tv_detail_info_discount_samsung_rewards" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                <TextView android:id="@id/tv_detail_info_discount_gift" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                <TextView android:id="@id/tv_detail_info_discount_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                <TextView android:id="@id/tv_detail_info_discount_voucher" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+                <TextView android:id="@id/tv_detail_info_discount_grewards" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_order_history_details_price" />
+            </LinearLayout>
+            <LinearLayout android:gravity="end|center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_detail_info_discount_rewards" android:paddingLeft="5.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_discount_local_rewards" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+                    <TextView android:id="@id/detail_info_discount_local_rewards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_OPT_SAMSUNG_REWARDS_HLOCAL_POINTS" style="@style/isa_style_order_history_details_dim_title" />
+                    <TextView android:textColor="@color/order_history_detail_content_text_blue_color" android:id="@id/tv_detail_info_discount_local_rewards" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_discount_global_rewards" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+                    <TextView android:id="@id/detail_info_discount_global_rewards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_OPT_SAMSUNG_REWARDS_HGLOBAL_POINTS" style="@style/isa_style_order_history_details_dim_title" />
+                    <TextView android:textColor="@color/order_history_detail_content_text_blue_color" android:id="@id/tv_detail_info_discount_global_rewards" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/layout_detail_divider_before_free" android:background="@drawable/isa_drawable_orderhistory_detail_dotted" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_detail_info_supply_price" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+            <TextView android:id="@id/detail_info_supply_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MIDS_SAPPS_BODY_SUPPLY_PRICE_ABB" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_supply_price" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_detail_info_additional_tax" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="13.0dp">
+            <TextView android:id="@id/detail_info_additional_tax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MIDS_SAPPS_BODY_TAXES_ABB" style="@style/isa_style_order_history_details_sub_title" />
+            <TextView android:id="@id/tv_detail_info_additional_tax" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+        </LinearLayout>
+        <View android:background="@color/order_history_detail_receipt_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" />
+        <LinearLayout android:gravity="end|center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="15.0dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_total_price" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/detail_info_total_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_BODY_TOTAL_PRICE" style="@style/isa_style_order_history_details_sub_title" />
+                <TextView android:id="@id/tv_detail_info_total_price" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_total_price" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_info_samsung_rewards" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp">
+                <TextView android:id="@id/tv_detail_info_total_samsung_rewards" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_info_vat_layout" android:background="@drawable/order_detail_background" android:paddingLeft="18.0dp" android:paddingRight="18.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp">
+        <include layout="@layout/isa_layout_order_history_common_detail_vat_info" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_info_rewards_layout" android:background="@drawable/order_detail_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dp">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_detail_info_gcdm_layout" android:paddingLeft="18.0dp" android:paddingTop="15.0dp" android:paddingRight="18.0dp" android:paddingBottom="15.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/detail_info_gcdm_amount_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dp" android:text="@string/DREAM_SAPPS_OPT_SAMSUNG_MEMBERSHIP_POINTS" android:layout_marginEnd="12.0dp" style="@style/isa_style_order_history_details_sub_title" />
+                <TextView android:id="@id/tv_detail_info_gcmd_amount" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+                <TextView android:id="@id/detail_info_gcdm_date_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_OPT_ADDED_TO_ACCOUNT_M_DATE" style="@style/isa_style_order_history_details_sub_title" />
+                <TextView android:id="@id/tv_detail_info_gcdm_date" android:layout_width="0.0dp" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_detail_info_grewards_layout" android:paddingLeft="18.0dp" android:paddingTop="15.0dp" android:paddingRight="18.0dp" android:paddingBottom="15.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/detail_info_grewards_amount_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dp" android:text="@string/DREAM_SAPPS_TMBODY_SAMSUNG_REWARDS_POINTS" android:layout_marginEnd="12.0dp" style="@style/isa_style_order_history_details_sub_title" />
+                <TextView android:id="@id/tv_detail_info_grewards_amount" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+                <TextView android:gravity="start" android:id="@id/tv_detail_info_grewards_date" android:layout_width="0.0dp" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@style/isa_style_order_history_details_app_info" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="12.0dp" />
+    <TextView android:textSize="12.0dp" android:id="@id/detail_info_guide_text" android:paddingLeft="30.0dp" android:paddingRight="30.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_THIS_PURCHASE_WAS_APPROVED_BY_YOUR_FAMILY_ORGANIZER" android:singleLine="false" style="@style/isa_style_order_history_details_sub_title" />
+    <include layout="@layout/isa_layout_order_history_apps_detail_description_seller_info" />
+    <TextView android:gravity="center_horizontal" android:id="@id/detail_info_samsung_reg_no" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dp" android:text="@string/DREAM_SAPPS_BODY_SAMSUNG_ELECTRONICS_CO_LTD_BUSINESS_REG_NO_C" android:singleLine="false" style="@style/isa_style_order_history_details_company_name" />
+</LinearLayout>

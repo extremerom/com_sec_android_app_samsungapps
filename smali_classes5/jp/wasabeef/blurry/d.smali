@@ -1,0 +1,50 @@
+.class public Ljp/wasabeef/blurry/d;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Ljp/wasabeef/blurry/BlurTask$Callback;
+
+
+# direct methods
+.method public constructor <init>(Ljp/wasabeef/blurry/c$b;Landroid/view/ViewGroup;)V
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in jp.wasabeef.blurry.Blurry$Composer$1: void <init>(jp.wasabeef.blurry.Blurry$Composer,android.view.ViewGroup)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+
+# virtual methods
+.method public done(Landroid/graphics/Bitmap;)V
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in jp.wasabeef.blurry.Blurry$Composer$1: void done(android.graphics.Bitmap)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method

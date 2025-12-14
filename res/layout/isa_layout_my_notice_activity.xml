@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/deals_and_events_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layout_widget_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/my_notice_recycler_view" android:background="@color/isa_transparent" android:scrollbars="vertical" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/isa_samsungapps_list_view" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/list_go_to_top_btn" android:visibility="gone" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_marginBottom="20.0dp" android:src="@drawable/ic_go_to_top_mtrl" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/MIDS_SAPPS_BUTTON_GO_TO_TOP_TTS" app:backgroundTint="@color/isa_transparent" app:borderWidth="0.0dp" app:elevation="@dimen/go_to_top_shadow" app:fabSize="mini" app:maxImageSize="@dimen/go_to_top_btn_size" app:pressedTranslationZ="0.0dp" />
+    </RelativeLayout>
+</LinearLayout>

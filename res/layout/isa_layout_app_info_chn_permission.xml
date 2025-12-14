@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/detail_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/detail_scroll" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/app_info_detail_parent" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.sec.android.app.samsungapps.detail.widget.appinfo.AppInfoPermissionWidget android:id="@id/extra_permission_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:hideTitle="true" app:isExpandable="false" app:isExtraPermission="true" />
+            <com.sec.android.app.samsungapps.detail.widget.appinfo.AppInfoPermissionWidget android:id="@id/permission_detail" android:layout_width="match_parent" android:layout_height="wrap_content" app:hideTitle="true" app:isExpandable="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:layout_gravity="center" android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</FrameLayout>

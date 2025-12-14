@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/stub_tablayout_device_global" android:layout_width="match_parent" android:layout_height="60.0dp" android:layout_marginStart="@dimen/subtab_margin_left_right" android:layout_marginEnd="@dimen/subtab_margin_left_right" app:tabGravity="fill" app:tabMaxWidth="0.0dp" app:tabMode="scrollable" app:tabRippleColor="@color/isa_transparent" style="@style/style_common_subtab" />
+</FrameLayout>

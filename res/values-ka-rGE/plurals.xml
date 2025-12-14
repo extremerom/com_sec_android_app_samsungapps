@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ქულა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ქულა</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი ჩანართის არჩევა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-ზე მეტი ჩანართის არჩევა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %d წლის უნდა იყოთ, რომ გამოიყენოთ მომენტალური თამაშები.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მინიმუმ %d წლის უნდა იყოთ, რომ გამოიყენოთ მომენტალური თამაშები.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">არჩეულია %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">არჩეულია %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენს ანგარიშზე %1$s ქულა დაგემატებათ დაახლოებით %2$d დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენს ანგარიშზე %1$s ქულა დაგემატებათ დაახლოებით %2$d დღეში.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს აპლიკაცია რომ ჩამოტვირთოთ, უნდა დაამოწმოთ თქვენი პირადობა და დაადასტუროთ, რომ %d წელზე მეტი ასაკის ხართ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ეს აპლიკაცია რომ ჩამოტვირთოთ, უნდა დაამოწმოთ თქვენი პირადობა და დაადასტუროთ, რომ %d წელზე მეტი ასაკის ხართ.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %1$d წლის უნდა იყოთ, რომ გამოიყენოთ %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მინიმუმ %1$d წლის უნდა იყოთ, რომ გამოიყენოთ %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დარჩა %d დღე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">დარჩა %d დღე</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ანგარიშზე დაგემატებათ 1 ქულა, დაახლოებით %d დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ანგარიშზე დაგემატებათ 1 ქულა, დაახლოებით %d დღეში.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაშლით სტიკერების ნაკრებს %1$s, %2$s, %3$s და კიდევ %4$d სხვა აპლიკაციიდან?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">წაშლით სტიკერების ნაკრებს %1$s, %2$s, %3$s და კიდევ %4$d სხვა აპლიკაციიდან?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">უნდა იყოთ მინიმუმ %d წლის, რომ დააინსტალიროთ. ოჯახის ორგანიზატორს სთხოვეთ შეცვალოს ასაკობრივი შეფასება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">უნდა იყოთ მინიმუმ %d წლის, რომ დააინსტალიროთ. ოჯახის ორგანიზატორს სთხოვეთ შეცვალოს ასაკობრივი შეფასება.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენს ანგარიშზე %1$s ქულა დაგემატებათ დაახლოებით %2$d დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენს ანგარიშზე %1$s ქულა დაგემატებათ დაახლოებით %2$d დღეში.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენს ანგარიშზე %d ქულა დაგემატებათ 7 დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენს ანგარიშზე %d ქულა დაგემატებათ 7 დღეში.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Samsung Rewards ქულა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Samsung Rewards ქულა</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ აპლიკაციის წინასწარ დასარეგისტრირებლად უნდა დაადასტუროთ, რომ %d წელზე მეტი ასაკის ხართ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ამ აპლიკაციის წინასწარ დასარეგისტრირებლად უნდა დაადასტუროთ, რომ %d წელზე მეტი ასაკის ხართ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ აპლიკაციის სანახავად უნდა შეხვიდეთ და დაადასტუროთ, რომ %d წელზე მეტი ასაკის ხართ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ამ აპლიკაციის სანახავად უნდა შეხვიდეთ და დაადასტუროთ, რომ %d წელზე მეტი ასაკის ხართ.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ჩვენი ძირითადი %d აპლიკაცია უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ჩვენი ძირითადი %d აპლიკაცია უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ჩვენი ძირითადი %d თამაში უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ჩვენი ძირითადი %d თამაში უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ჩვენი ძირითადი %d მოდელირების ელემენტი უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ჩვენი ძირითადი %d მოდელირების ელემენტი უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ჩვენი ძირითადი %d თემა უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ჩვენი ძირითადი %d თემა უკვე დაინსტალირებული გაქვთ. სხვების სანახავად შეეხეთ ნიშანს >.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენ ეს წუთია მიიღეთ 1 ქულა! ახლა თქვენ გაქვთ %d ქულა, რომლის გამოყენებით შეგიძლიათ შეიძინოთ აპლიკაციები და სხვა რამ Galaxy Store-ში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენ ეს წუთია მიიღეთ 1 ქულა! ახლა თქვენ გაქვთ %d ქულა, რომლის გამოყენებით შეგიძლიათ შეიძინოთ აპლიკაციები და სხვა რამ Galaxy Store-ში.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %d წლის უნდა იყოთ, რომ ჩამოტვირთოთ ეს აპლიკაცია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მინიმუმ %d წლის უნდა იყოთ, რომ ჩამოტვირთოთ ეს აპლიკაცია.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %d წლის უნდა იყოთ, რომ წინასწარ დარეგისტრირდეთ ამ აპლიკაციაზე.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მინიმუმ %d წლის უნდა იყოთ, რომ წინასწარ დარეგისტრირდეთ ამ აპლიკაციაზე.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">აღარ მაჩვენო %d დღის განმავლობაში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">აღარ მაჩვენო %d დღის განმავლობაში</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ყოველ %2$d დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ყოველ %2$d დღეში</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ყოველ %2$d თვეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ყოველ %2$d თვეში</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ყოველ %2$d კვირაში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ყოველ %2$d კვირაში</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ყოველ %2$d წელში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ყოველ %2$d წელში</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ქულა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ქულა</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d დღეში</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d თვეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d თვეში</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d კვირაში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d კვირაში</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d წელში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">უფასოა ვადამდე %1$s, შემდეგ კი მისი ფასია %2$s ყოველ %3$d წელში</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ადამიანს გამოადგა ეს</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ადამიანს გამოადგა ეს</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გამოვიდა %d განახლება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">გამოვიდა %d განახლება</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ვარსკვლავიანი შეფასება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ვარსკვლავიანი შეფასებები</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენი შეფასება: %d ვარსკვლავი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თქვენი შეფასება: %d ვარსკვლავი</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d შეტყობინება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d შეტყობინება</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %d წლის უნდა იყოთ, რომ ეს თამაში ითამაშოთ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მინიმუმ %d წლის უნდა იყოთ, რომ ეს თამაში ითამაშოთ.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თამაშის სესია მთავრდება %d წუთში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">თამაშის სესია მთავრდება %d წუთში.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ქსელთან კავშირი არასტაბილურია. თამაში %d წამში დაიხურება, თუ დაკავშირებას ვერ შევძლებთ. თქვენი თამაშის სტატუსი შეინახება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ქსელთან კავშირი არასტაბილურია. თამაში %d წამში დაიხურება, თუ დაკავშირებას ვერ შევძლებთ. თქვენი თამაშის სტატუსი შეინახება.</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წმ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წმ</item>
+    </plurals>
+</resources>

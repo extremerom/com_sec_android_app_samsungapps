@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="21.0dp" android:width="21.0dp" android:viewportWidth="21.0" android:viewportHeight="21.0" aapt:fps="60"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="s4" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="0.25" android:scaleY="0.25" android:rotation="0.0" android:translateX="10.5" android:translateY="10.5" aapt:layer_name="ic_pause to play">
+        <path android:name="s4p20" android:fillColor="#ffffff" android:pathData="M 13.206 38.082 C 13.812 38.082 22.739 38.063 23.299 38.063 C 27 38.063 29.943 35.25 29.943 31.214 C 29.943 30.646 29.943 -25.672 29.943 -31.575 C 29.943 -34.75 27 -37.821 23.287 -37.821 C 22.703 -37.821 13.735 -37.821 13.102 -37.821 C 9 -37.821 6.157 -34.75 6.157 -31.69 C 6.157 -31.69 6.157 31.321 6.157 31.321 C 6.157 35.25 9 38.082 13.206 38.082 Z" android:fillAlpha="1.0" aapt:layer_name="Path 2" aapt:style_name="Fill 3" />
+        <path android:name="s4p10" android:fillColor="#ffffff" android:pathData="M -23.254 38.25 C -22.976 38.25 -12.754 38.228 -12.386 38.228 C -9 38.228 -6 35.375 -6 31.415 C -6 30.833 -6 -25.641 -6 -31.556 C -6 -34.75 -9 -37.791 -12.485 -37.791 C -12.824 -37.791 -23.012 -37.8 -23.281 -37.8 C -27 -37.8 -30 -34.75 -30 -31.671 C -30 -31.671 -30 31.457 -30 31.457 C -30 35.25 -26.83 38.25 -23.254 38.25 Z" android:fillAlpha="1.0" aapt:layer_name="Path 1" aapt:style_name="Fill 3" />
+    </group>
+</vector>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d бал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балы</item>
+        <item quantity="many">%d балаў</item>
+        <item quantity="other">%d балаў</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выбраць больш за %d цэтлік.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выбраць больш за %d цэтлікі.</item>
+        <item quantity="many">Немагчыма выбраць больш за %d цэтлікаў.</item>
+        <item quantity="other">Немагчыма выбраць больш за %d цэтлікаў.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць імгненныя гульні, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць імгненныя гульні, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць імгненныя гульні, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць імгненныя гульні, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дні.</item>
+        <item quantity="many">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дзён.</item>
+        <item quantity="other">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дзён.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб спампаваць гэту праграму, трэба праверыць асобу і пацвердзіць, што вам больш за %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб спампаваць гэту праграму, трэба праверыць асобу і пацвердзіць, што вам больш за %d гады.</item>
+        <item quantity="many">Каб спампаваць гэту праграму, трэба праверыць асобу і пацвердзіць, што вам больш за %d гадоў.</item>
+        <item quantity="other">Каб спампаваць гэту праграму, трэба праверыць асобу і пацвердзіць, што вам больш за %d гадоў.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гадоў.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Застаўся %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Засталося %d дзён</item>
+        <item quantity="many">Засталося %d дні</item>
+        <item quantity="other">Засталося %d дні</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 бал будзе дададзены на ваш уліковы запіс прыкладна праз %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 бал будзе дададзены на ваш уліковы запіс прыкладна праз %d дні.</item>
+        <item quantity="many">1 бал будзе дададзены на ваш уліковы запіс прыкладна праз %d дзён.</item>
+        <item quantity="other">1 бал будзе дададзены на ваш уліковы запіс прыкладна праз %d дзён.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць набор стыкераў з %1$s, %2$s, %3$s і %4$d іншай праграмы?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць набор стыкераў з %1$s, %2$s, %3$s і %4$d іншых праграм?</item>
+        <item quantity="many">Выдаліць набор стыкераў з %1$s, %2$s, %3$s і %4$d іншых праграм?</item>
+        <item quantity="other">Выдаліць набор стыкераў з %1$s, %2$s, %3$s і %4$d іншых праграм?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Для ўсталёўкі вам павінен быць мін. %d год. Папрасіце сямейнага арганізатара змяніць узроставы рэйтынг.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Для ўсталёўкі вам павінна быць мін. %d гады. Папрасіце сямейнага арганізатара змяніць узроставы рэйтынг.</item>
+        <item quantity="many">Для ўсталёўкі вам павінна быць мін. %d гадоў. Папрасіце сямейнага арганізатара змяніць узроставы рэйтынг.</item>
+        <item quantity="other">Для ўсталёўкі вам павінна быць мін. %d гадоў. Папрасіце сямейнага арганізатара змяніць узроставы рэйтынг.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дні.</item>
+        <item quantity="many">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дзён.</item>
+        <item quantity="other">Балы %1$s будуць дададзены на ваш уліковы запіс прыблізна праз %2$d дзён.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d бал будзе дададзены на ваш уліковы запіс у межах 7 дзён.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балы будуць дададзены на ваш уліковы запіс у межах 7 дзён.</item>
+        <item quantity="many">%d балаў будзе дададзена на ваш уліковы запіс у межах 7 дзён.</item>
+        <item quantity="other">%d балаў будзе дададзена на ваш уліковы запіс у межах 7 дзён.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d бал Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балы Samsung Rewards</item>
+        <item quantity="many">%d балаў Samsung Rewards</item>
+        <item quantity="other">%d балаў Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб папярэдне зарэгістравацца ў гэтай праграме, вы павінны пацвердзіць, што вам больш за %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб папярэдне зарэгістравацца ў гэтай праграме, вы павінны пацвердзіць, што вам больш за %d гады.</item>
+        <item quantity="many">Каб папярэдне зарэгістравацца ў гэтай праграме, вы павінны пацвердзіць, што вам больш за %d гадоў.</item>
+        <item quantity="other">Каб папярэдне зарэгістравацца ў гэтай праграме, вы павінны пацвердзіць, што вам больш за %d гадоў.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб праглядзець гэту праграму, вы павінны ўвайсці і пацвердзіць, што вам больш за %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб праглядзець гэту праграму, вы павінны ўвайсці і пацвердзіць, што вам больш за %d гады.</item>
+        <item quantity="many">Каб праглядзець гэту праграму, вы павінны ўвайсці і пацвердзіць, што вам больш за %d гадоў.</item>
+        <item quantity="other">Каб праглядзець гэту праграму, вы павінны ўвайсці і пацвердзіць, што вам больш за %d гадоў.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы ўжо ўсталявалі %d нашу самую папулярную праграму. Націсніце >, каб убачыць больш.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы ўжо ўсталявалі %d нашы самыя папулярныя праграмы. Націсніце >, каб убачыць больш.</item>
+        <item quantity="many">Вы ўжо ўсталявалі %d нашых самых папулярных праграм. Націсніце >, каб убачыць больш.</item>
+        <item quantity="other">Вы ўжо ўсталявалі %d нашых самых папулярных праграм. Націсніце >, каб убачыць больш.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы ўжо ўсталявалі %d нашу самую папулярную гульню. Націсніце >, каб убачыць больш.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы ўжо ўсталявалі %d нашы самыя папулярныя гульні. Націсніце >, каб убачыць больш.</item>
+        <item quantity="many">Вы ўжо ўсталявалі %d нашых самых папулярных гульняў. Націсніце >, каб убачыць больш.</item>
+        <item quantity="other">Вы ўжо ўсталявалі %d нашых самых папулярных гульняў. Націсніце >, каб убачыць больш.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы ўжо ўсталявалі %d наш самы папулярны элемент для стварэння стылю. Націсніце >, каб убачыць больш.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы ўжо ўсталявалі %d нашы самыя папулярныя элементы для стварэння стылю. Націсніце >, каб убачыць больш.</item>
+        <item quantity="many">Вы ўжо ўсталявалі %d нашых самых папулярных элементаў для стварэння стылю. Націсніце >, каб убачыць больш.</item>
+        <item quantity="other">Вы ўжо ўсталявалі %d нашых самых папулярных элементаў для стварэння стылю. Націсніце >, каб убачыць больш.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы ўжо ўсталявалі %d нашу самую папулярную тэму. Націсніце >, каб убачыць больш.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы ўжо ўсталявалі %d нашы самыя папулярныя тэмы. Націсніце >, каб убачыць больш.</item>
+        <item quantity="many">Вы ўжо ўсталявалі %d нашых самых папулярных тэм. Націсніце >, каб убачыць больш.</item>
+        <item quantity="other">Вы ўжо ўсталявалі %d нашых самых папулярных тэм. Націсніце >, каб убачыць больш.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы толькі што зарабілі 1 бал! Цяпер у вас ёсць %d бал, які вы можаце выкарыстоўваць для пакупкі праграм і іншых рэчаў у Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы толькі што зарабілі 1 бал! Цяпер у вас ёсць %d балы, якія вы можаце выкарыстоўваць для пакупкі праграм і іншых рэчаў у Galaxy Store.</item>
+        <item quantity="many">Вы толькі што зарабілі 1 бал! Цяпер у вас ёсць %d балаў, якія вы можаце выкарыстоўваць для пакупкі праграм і іншых рэчаў у Galaxy Store.</item>
+        <item quantity="other">Вы толькі што зарабілі 1 бал! Цяпер у вас ёсць %d балаў, якія вы можаце выкарыстоўваць для пакупкі праграм і іншых рэчаў у Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб спампаваць гэту праграму, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб спампаваць гэту праграму, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб спампаваць гэту праграму, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="other">Каб спампаваць гэту праграму, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вам павінен быць мінімум %d год, каб папярэдне зарэгістравацца ў гэтай праграме.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вам павінна быць мінімум %d гады, каб папярэдне зарэгістравацца ў гэтай праграме.</item>
+        <item quantity="many">Вам павінна быць мінімум %d гадоў, каб папярэдне зарэгістравацца ў гэтай праграме.</item>
+        <item quantity="other">Вам павінна быць мінімум %d гадоў, каб папярэдне зарэгістравацца ў гэтай праграме.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Больш не паказваць на працягу %d дня</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Больш не паказваць на працягу %d дзён</item>
+        <item quantity="many">Больш не паказваць на працягу %d дзён</item>
+        <item quantity="other">Больш не паказваць на працягу %d дзён</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s кожны %2$d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s кожныя %2$d дні</item>
+        <item quantity="many">%1$s кожныя %2$d дзён</item>
+        <item quantity="other">%1$s кожныя %2$d дзён</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s кожны %2$d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s кожныя %2$d месяцы</item>
+        <item quantity="many">%1$s кожныя %2$d месяцаў</item>
+        <item quantity="other">%1$s кожныя %2$d месяцаў</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s кожны %2$d тыдзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s кожныя %2$d тыдні</item>
+        <item quantity="many">%1$s кожныя %2$d тыдняў</item>
+        <item quantity="other">%1$s кожныя %2$d тыдняў</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s кожны %2$d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s кожныя %2$d гады</item>
+        <item quantity="many">%1$s кожныя %2$d гадоў</item>
+        <item quantity="other">%1$s кожныя %2$d гадоў</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d бал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балы</item>
+        <item quantity="many">%d балаў</item>
+        <item quantity="other">%d балаў</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бясплатна да %1$s, потым – %2$s кожны %3$d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бясплатна да %1$s, потым – %2$s кожныя %3$d дні</item>
+        <item quantity="many">Бясплатна да %1$s, потым – %2$s кожныя %3$d дзён</item>
+        <item quantity="other">Бясплатна да %1$s, потым – %2$s кожныя %3$d дзён</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бясплатна да %1$s, потым – %2$s кожны %3$d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бясплатна да %1$s, потым – %2$s кожныя %3$d месяцы</item>
+        <item quantity="many">Бясплатна да %1$s, потым – %2$s кожныя %3$d месяцаў</item>
+        <item quantity="other">Бясплатна да %1$s, потым – %2$s кожныя %3$d месяцаў</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бясплатна да %1$s, потым – %2$s кожны %3$d тыдзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бясплатна да %1$s, потым – %2$s кожныя %3$d тыдні</item>
+        <item quantity="many">Бясплатна да %1$s, потым – %2$s кожныя %3$d тыдняў</item>
+        <item quantity="other">Бясплатна да %1$s, потым – %2$s кожныя %3$d тыдняў</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бясплатна да %1$s, потым – %2$s кожны %3$d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бясплатна да %1$s, потым – %2$s кожныя %3$d гады</item>
+        <item quantity="many">Бясплатна да %1$s, потым – %2$s кожныя %3$d гадоў</item>
+        <item quantity="other">Бясплатна да %1$s, потым – %2$s кожныя %3$d гадоў</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d чалавек знайшоў гэта карысным</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d чалавекі лічаць гэта карысным</item>
+        <item quantity="many">%d чалавек лічаць гэта карысным</item>
+        <item quantity="other">%d чалавек знайшло гэта карысным</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Даступна %d абнаўленне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Даступны %d абнаўленні</item>
+        <item quantity="many">Даступна %d абнаўленняў</item>
+        <item quantity="other">Даступна %d абнаўленняў</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d водгук з зоркай</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d водгукі з зоркай</item>
+        <item quantity="many">%d водгукаў з зоркай</item>
+        <item quantity="other">%d водгукаў з зоркай</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ваш рэйтынг: %d зорка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ваш рэйтынг: %d зоркі</item>
+        <item quantity="many">Ваш рэйтынг: %d зорак</item>
+        <item quantity="other">Ваш рэйтынг: %d зорак</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d апавяшчэнне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d апавяшчэнні</item>
+        <item quantity="many">%d апавяшчэнняў</item>
+        <item quantity="other">%d апавяшчэнняў</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб згуляць у гэту гульню, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб згуляць у гэту гульню, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб згуляць у гэту гульню, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="other">Каб згуляць у гэту гульню, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сеанс гульні скончыцца праз %d хвіліну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сеанс гульні скончыцца праз %d хвіліны.</item>
+        <item quantity="many">Сеанс гульні скончыцца праз %d хвілін.</item>
+        <item quantity="other">Сеанс гульні скончыцца праз %d хвілін.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сеткавае падлучэнне нестабільнае. Гульня закрыецца праз %d секунду, калі падлучыцца будзе немагчыма. Стан гульні будзе захаваны.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сеткавае падлучэнне нестабільнае. Гульня закрыецца праз %d секунды, калі падлучыцца будзе немагчыма. Стан гульні будзе захаваны.</item>
+        <item quantity="many">Сеткавае падлучэнне нестабільнае. Гульня закрыецца праз %d секунд, калі падлучыцца будзе немагчыма. Стан гульні будзе захаваны.</item>
+        <item quantity="other">Сеткавае падлучэнне нестабільнае. Гульня закрыецца праз %d секунд, калі падлучыцца будзе немагчыма. Стан гульні будзе захаваны.</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+</resources>

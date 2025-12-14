@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pōnkt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pōnkty</item>
+        <item quantity="many">%d pōnktōw</item>
+        <item quantity="other">%d pōnktōw</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Idzie ôbrać maksymalnie %d tag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Idzie ôbrać maksymalnie %d tagi.</item>
+        <item quantity="many">Idzie ôbrać maksymalnie %d tagōw.</item>
+        <item quantity="other">Idzie ôbrać maksymalnie %d tagōw.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d lata.</item>
+        <item quantity="many">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d lat.</item>
+        <item quantity="other">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d roku.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s punkt zostanie dodany na Twoje konto za około %2$d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s punkty zostaną dodane na Twoje konto za około %2$d dni.</item>
+        <item quantity="many">%1$s punktów zostanie dodanych na Twoje konto za około %2$d dni.</item>
+        <item quantity="other">%1$s punktu zostanie dodane na Twoje konto za około %2$d dni.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Coby używać %2$s, trza mieć co nojmynij %1$d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Coby używać %2$s, trza mieć co nojmynij %1$d lata.</item>
+        <item quantity="many">Coby używać %2$s, trza mieć co nojmynij %1$d lŏt.</item>
+        <item quantity="other">Coby używać %2$s, trza mieć co nojmynij %1$d lŏt.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ôstōł %d dziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ôstały %d dni</item>
+        <item quantity="many">Ôstało %d dni</item>
+        <item quantity="other">Ôstało %d dni</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W ciągu około %d dnia nastąpi dodanie 1 punktu do Twojego konta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W ciągu około %d dni nastąpi dodanie 1 punktu do Twojego konta.</item>
+        <item quantity="many">W ciągu około %d dni nastąpi dodanie 1 punktu do Twojego konta.</item>
+        <item quantity="other">W ciągu około %d dnia nastąpi dodanie 1 punktu do Twojego konta.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunąć zestaw naklejek z %1$s, %2$s, %3$s i %4$d innej aplikacji?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunąć zestaw naklejek z %1$s, %2$s, %3$s i %4$d innych aplikacji?</item>
+        <item quantity="many">Usunąć zestaw naklejek z %1$s, %2$s, %3$s i %4$d innych aplikacji?</item>
+        <item quantity="other">Usunąć zestaw naklejek z %1$s, %2$s, %3$s i %4$d innej aplikacji?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="one">Must be at least %d year old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="two">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="few">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="many">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+        <item quantity="other">Must be at least %d years old to install. You can ask your family organizer to change age rating settings.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s punkt zostanie dodany na Twoje konto za około %2$d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s punkty zostaną dodane na Twoje konto za około %2$d dni.</item>
+        <item quantity="many">%1$s punktów zostanie dodanych na Twoje konto za około %2$d dni.</item>
+        <item quantity="other">%1$s punktu zostanie dodane na Twoje konto za około %2$d dni.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W ciągu 7 dni nastąpi dodanie %d punktu do Twojego konta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W ciągu 7 dni nastąpi dodanie %d punktów do Twojego konta.</item>
+        <item quantity="many">W ciągu 7 dni nastąpi dodanie %d punktów do Twojego konta.</item>
+        <item quantity="other">W ciągu 7 dni nastąpi dodanie %d punktu do Twojego konta.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pōnkt Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pōnkty Samsung Rewards</item>
+        <item quantity="many">%d pōnktōw Samsung Rewards</item>
+        <item quantity="other">%d pōnktōw Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Coby używać tyj aplikacyje, trza przituplować, iże mŏsz skōńczōny %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Coby używać tyj aplikacyje, trza przituplować, iże mŏsz skōńczōne %d lata.</item>
+        <item quantity="many">Coby używać tyj aplikacyje, trza przituplować, iże mŏsz skōńczōne %d lŏt.</item>
+        <item quantity="other">Coby używać tyj aplikacyje, trza przituplować, iże mŏsz skōńczōne %d lŏt.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aby wyświetlić tę aplikację, musisz się zalogować i potwierdzić, że masz ukończony %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aby wyświetlić tę aplikację, musisz się zalogować i potwierdzić, że masz ukończone %d lata.</item>
+        <item quantity="many">Aby wyświetlić tę aplikację, musisz się zalogować i potwierdzić, że masz ukończone %d lat.</item>
+        <item quantity="other">Aby wyświetlić tę aplikację, musisz się zalogować i potwierdzić, że masz ukończone %d roku.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Już ôstała zainsztalowanŏ %d nasza nojpopularniyjszŏ aplikacyjŏ. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Już ôstały zainsztalowane %d nasze nojpopularniyjsze aplikacyje. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="many">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych aplikacyjōw. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="other">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych aplikacyjōw. Tyknij > coby pokŏzać ekstra info.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Już ôstała zainsztalowanŏ %d nasza nojpopularniyjszŏ gra. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Już ôstały zainsztalowane %d nasze nojpopularniyjsze gry. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="many">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych grōw. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="other">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych grōw. Tyknij > coby pokŏzać ekstra info.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Już ôstōł zainsztalowany %d nasz nojpopularniyjszy elymynt do stylizacyje. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Już ôstały zainsztalowane %d nasze nojpopularniyjsze elymynta do stylizacyje. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="many">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych elymyntōw do stylizacyje. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="other">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych elymyntōw do stylizacyje. Tyknij > coby pokŏzać ekstra info.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Już ôstōł zainsztalowany %d nasz nojpopularniyjszy motyw. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Już ôstały zainsztalowane %d nasze nojpopularniyjsze motywy. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="many">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych motywōw. Tyknij > coby pokŏzać ekstra info.</item>
+        <item quantity="other">Już ôstało zainsztalowanych %d naszych nojpopularniyjszych motywōw. Tyknij > coby pokŏzać ekstra info.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dostŏwŏsz 1 pōnkt! Terŏzki mŏsz %d pōnkt i możesz za niego kupować aplikacyje abo możesz spotrzebować go na sprŏwōnek aplikacyjōw i inkszyj materyji z Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dostŏwŏsz 1 pōnkt! Terŏzki mŏsz %d pōnkty i możesz za nie kupować aplikacyje abo możesz spotrzebować je na sprŏwōnek aplikacyjōw i inkszyj materyji z Galaxy Store.</item>
+        <item quantity="many">Dostŏwŏsz 1 pōnkt! Terŏzki mŏsz %d pōnktōw i możesz za nie kupować aplikacyje abo możesz spotrzebować je na sprŏwōnek aplikacyjōw i inkszyj materyji z Galaxy Store.</item>
+        <item quantity="other">Dostŏwŏsz 1 pōnkt! Terŏzki mŏsz %d pōnktōw i możesz za nie kupować aplikacyje abo możesz spotrzebować je na sprŏwōnek aplikacyjōw i inkszyj materyji z Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aby pobrać tę aplikację, musisz mieć ukończony co najmniej %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aby pobrać tę aplikację, musisz mieć ukończone co najmniej %d lata.</item>
+        <item quantity="many">Aby pobrać tę aplikację, musisz mieć ukończone co najmniej %d lat.</item>
+        <item quantity="other">Aby pobrać tę aplikację, musisz mieć ukończone co najmniej %d roku.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Coby zaregistrować sie w tyj aplikacyji, trza mieć co nojmynij %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Coby zaregistrować sie w tyj aplikacyji, trza mieć co nojmynij %d lata.</item>
+        <item quantity="many">Coby zaregistrować sie w tyj aplikacyji, trza mieć co nojmynij %d lŏt.</item>
+        <item quantity="other">Coby zaregistrować sie w tyj aplikacyji, trza mieć co nojmynij %d lŏt.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy pokazuj zajś bez %d dziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy pokazuj zajś bez %d dni</item>
+        <item quantity="many">Niy pokazuj zajś bez %d dni</item>
+        <item quantity="other">Niy pokazuj zajś bez %d dni</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s za %2$d dziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s za %2$d dni</item>
+        <item quantity="many">%1$s za %2$d dni</item>
+        <item quantity="other">%1$s za %2$d dni</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s za %2$d miesiōnc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s za %2$d miesiōnce</item>
+        <item quantity="many">%1$s za %2$d miesiyncy</item>
+        <item quantity="other">%1$s za %2$d miesiyncy</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s za %2$d tydziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s za %2$d tydnie</item>
+        <item quantity="many">%1$s za %2$d tydni</item>
+        <item quantity="other">%1$s za %2$d tydni</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s za %2$d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s za %2$d lata</item>
+        <item quantity="many">%1$s za %2$d lŏt</item>
+        <item quantity="other">%1$s za %2$d lŏt</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d punkt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d punkty</item>
+        <item quantity="many">%d punktów</item>
+        <item quantity="other">%d punktu</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za darmo do %1$s, potym %2$s za kŏżdy %3$d dziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za darmo do %1$s, potym %2$s za kŏżde %3$d dni</item>
+        <item quantity="many">Za darmo do %1$s, potym %2$s za kŏżdych %3$d dni</item>
+        <item quantity="other">Za darmo do %1$s, potym %2$s za kŏżde %3$d dni</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za darmo do %1$s, potym %2$s za kŏżdy %3$d miesiōnc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za darmo do %1$s, potym %2$s za kŏżde %3$d miesiōnce</item>
+        <item quantity="many">Za darmo do %1$s, potym %2$s za kŏżdych %3$d miesiyncy</item>
+        <item quantity="other">Za darmo do %1$s, potym %2$s za kŏżde %3$d miesiyncy</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za darmo do %1$s, potym %2$s za kŏżdy %3$d tydziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za darmo do %1$s, potym %2$s za kŏżde %3$d tydnie</item>
+        <item quantity="many">Za darmo do %1$s, potym %2$s za kŏżdych %3$d tydni</item>
+        <item quantity="other">Za darmo do %1$s, potym %2$s za kŏżde %3$d tydni</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za darmo do %1$s, potym %2$s za kŏżdy %3$d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za darmo do %1$s, potym %2$s za kŏżde %3$d lata</item>
+        <item quantity="many">Za darmo do %1$s, potym %2$s za kŏżdych %3$d lŏt</item>
+        <item quantity="other">Za darmo do %1$s, potym %2$s za kŏżde %3$d lŏt</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba uznała to za pomocne</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osoby uznały to za pomocne</item>
+        <item quantity="many">%d osób uznało to za pomocne</item>
+        <item quantity="other">%d osoby uznało to za pomocne</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dostympnŏ je %d aktualizacyjŏ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dostympne sōm %d aktualizacyje</item>
+        <item quantity="many">Dostympnych je %d aktualizacyjōw</item>
+        <item quantity="other">Dostympnych je %d aktualizacyjōw</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Recenzje z %d gwiazdką</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Recenzje z %d gwiazdkami</item>
+        <item quantity="many">Recenzje z %d gwiazdkami</item>
+        <item quantity="other">Recenzje z %d gwiazdki</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Twoja ôcyna: %d gwiŏzdka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Twoja ôcyna: %d gwiŏzdki</item>
+        <item quantity="many">Twoja ôcyna: %d gwiŏzdek</item>
+        <item quantity="other">Twoja ôcyna: %d gwiŏzdek</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nowina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nowiny</item>
+        <item quantity="many">%d nowin</item>
+        <item quantity="other">%d nowin</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aby zagrać w tę grę, musisz mieć ukończony co najmniej %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aby zagrać w tę grę, musisz mieć ukończony co najmniej %d lata.</item>
+        <item quantity="many">Aby zagrać w tę grę, musisz mieć ukończony co najmniej %d lat.</item>
+        <item quantity="other">Aby zagrać w tę grę, musisz mieć ukończony co najmniej %d roku.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sesja grania zakończy się za %d minutę.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Sesja grania zakończy się za %d minuty.</item>
+        <item quantity="many">Sesja grania zakończy się za %d minut.</item>
+        <item quantity="other">Sesja grania zakończy się za %d minuty.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Połączenie sieciowe jest niestabilne. Gra zostanie zamknięta za %d sekundę, jeśli nie będziemy mogli się połączyć. Stan gry zostanie zapisany.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Połączenie sieciowe jest niestabilne. Gra zostanie zamknięta za %d sekundy, jeśli nie będziemy mogli się połączyć. Stan gry zostanie zapisany.</item>
+        <item quantity="many">Połączenie sieciowe jest niestabilne. Gra zostanie zamknięta za %d sekund, jeśli nie będziemy mogli się połączyć. Stan gry zostanie zapisany.</item>
+        <item quantity="other">Połączenie sieciowe jest niestabilne. Gra zostanie zamknięta za %d sekundy, jeśli nie będziemy mogli się połączyć. Stan gry zostanie zapisany.</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+        <item quantity="other">%d sek.</item>
+    </plurals>
+</resources>

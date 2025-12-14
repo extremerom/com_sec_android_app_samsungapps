@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/category_item" android:background="@drawable/selector_staffpicks_scrolling_item" android:focusable="true" android:layout_width="match_parent" android:layout_height="80.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivCategoryIcon" android:layout_width="@dimen/staffpicks_category_item_icon_size" android:layout_height="@dimen/staffpicks_category_item_icon_size" android:layout_marginTop="16.0dp" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/staffpicks_category_item_title_text_size" android:textColor="@color/main_category_slot_item_title" android:ellipsize="marquee" android:id="@id/tvCategoryName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/staffpicks_category_item_title_top_margin" android:maxLines="2" android:textAlignment="center" style="@style/isa_style_one_ui_font_regular" />
+</com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout>

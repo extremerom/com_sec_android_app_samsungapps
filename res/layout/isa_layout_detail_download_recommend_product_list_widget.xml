@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/slot_title" android:visibility="visible" app:layout_constraintBottom_toTopOf="@id/horizontal_product_list_holder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/isa_layout_detail_download_recommend_slot_popup_title" />
+    <RelativeLayout android:gravity="start" android:id="@id/horizontal_product_list_holder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/slot_title">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/horizontal_product_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layoutDirection="locale" android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

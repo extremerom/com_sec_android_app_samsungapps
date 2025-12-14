@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_detail_main_left_layout_margin_top" android:layout_marginBottom="@dimen/content_detail_main_margin_bottom" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_widget_view" android:paddingLeft="@dimen/content_detail_main_left_layout_margin_left" android:paddingRight="@dimen/content_detail_main_left_layout_margin_left" android:paddingBottom="10.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingHorizontal="@dimen/content_detail_main_left_layout_margin_left" app:layout_constraintBottom_toTopOf="@id/rating_category_btn_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed">
+        <include android:id="@id/layout_main_left" layout="@layout/isa_layout_detail_main_sticker_left" />
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dp" android:layout_marginStart="14.0dp" layout="@layout/isa_layout_detail_main_sticker_right" />
+    </LinearLayout>
+    <include layout="@layout/isa_layout_detail_main_middle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

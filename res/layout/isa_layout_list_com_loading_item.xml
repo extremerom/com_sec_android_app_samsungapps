@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/more_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/retry_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <Button android:ellipsize="marquee" android:id="@id/retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_BODY_RETRY" android:singleLine="true" android:textDirection="locale" style="@style/isa_style_basic_button_square_red" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/empty_loading" android:layout_width="match_parent" android:layout_height="43.0dp">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_waiting_progress_small" />
+        <TextView android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dp" android:text="@string/IDS_SAPPS_BODY_LOADING_ING" android:includeFontPadding="true" android:textDirection="locale" android:layout_marginStart="11.0dp" style="@style/isa_style_loading_text_small" />
+    </LinearLayout>
+</RelativeLayout>

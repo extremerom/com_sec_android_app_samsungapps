@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/whole_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/isa_style_dialog"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/permission_title_layout" android:layout_width="match_parent" android:layout_height="58.0dp" android:layout_marginLeft="24.0dp" android:layout_marginTop="24.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="16.0dp">
+        <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center_vertical" android:id="@id/product_img" android:layout_width="58.0dp" android:layout_height="58.0dp" android:src="@drawable/icon_default_01" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/permission_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dp" android:text="@string/IDS_SAPPS_POP_APP_PERMISSIONS" android:layout_marginStart="17.0dp" style="@style/isa_ssapps_permission_title_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/scroll_container" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.sec.android.app.samsungapps.widget.purchase.PermissionPopupWidget android:id="@id/payment_permission" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.sec.android.app.samsungapps.widget.purchase.PermissionPopupButtonWidget android:id="@id/purchase_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+</LinearLayout>

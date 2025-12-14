@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/permissionLabelgap" android:layout_width="match_parent" android:layout_height="19.0dp" />
+    <TextView android:id="@id/permissionLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:includeFontPadding="true" android:textDirection="locale" style="@style/isa_popup_app_permissions_title_text" />
+    <TextView android:id="@id/permissionContents" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" android:includeFontPadding="true" android:textDirection="locale" style="@style/isa_popup_app_permissions_title_text" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appIconAdTopItem_wide_gap_max">8.0dp</dimen>
+    <dimen name="appIconAdTop_detail_paddingTop">20.0dp</dimen>
+    <dimen name="appIconAdTop_paddingHorizontal">14.0dp</dimen>
+    <dimen name="mas_single_app_icon_ad_icon_corner_radius">10.0dp</dimen>
+    <dimen name="top_bannerAdView_title_marginBottom">16.0dp</dimen>
+    <dimen name="top_bannerAdView_title_marginEnd">14.0dp</dimen>
+    <dimen name="top_bannerAdView_title_marginStart">24.0dp</dimen>
+    <dimen name="videoAdTopView_cta_marginBottom">14.0dp</dimen>
+    <dimen name="videoAdTopView_cta_marginEnd">13.0dp</dimen>
+    <dimen name="videoAdTopView_cta_marginStart">11.0dp</dimen>
+    <dimen name="videoAdTopView_duration_marginEnd">6.0dp</dimen>
+    <dimen name="videoAdTopView_duration_marginStart">13.0dp</dimen>
+</resources>

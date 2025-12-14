@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/one_ui_default_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="1.0dp" />
+    <androidx.core.widget.NestedScrollView android:id="@id/layout_detail_nested_scroll_super_parent" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_nested_scroll_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ScrollView android:id="@id/detail_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layoutDirection="locale" style="@style/isa_style_scroll_bar">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_detail_widgets_parent" android:background="@color/detail_bg" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/detail_body_width_max" app:layout_constraintWidth_percent="@integer/detail_body_width_percent">
+                        <include layout="@layout/isa_layout_multi_app_detail_main" />
+                        <include layout="@layout/isa_layout_multi_app_detail_sub" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/detail_go_to_top_btn" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginBottom="20.0dp" android:src="@drawable/ic_go_to_top_mtrl" android:scaleType="centerInside" android:adjustViewBounds="true" app:backgroundTint="@color/isa_transparent" app:borderWidth="0.0dp" app:elevation="@dimen/go_to_top_shadow" app:fabSize="mini" app:layout_anchor="@id/layout_detail_nested_scroll_super_parent" app:layout_anchorGravity="center|bottom" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:maxImageSize="@dimen/go_to_top_btn_size" app:pressedTranslationZ="0.0dp" />
+    <View android:id="@id/popup_view_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="6.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" />
+    <include layout="@layout/layout_detail_rounded_corner" />
+</androidx.constraintlayout.widget.ConstraintLayout>

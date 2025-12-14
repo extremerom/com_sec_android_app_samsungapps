@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/container_legal_text" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_french_disclaimer_widget" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style_detail_legal_text" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_tab_divider_drawing_top">47.5dp</dimen>
+    <dimen name="minus_one_page_banner_bottom_padding">14.0dp</dimen>
+    <dimen name="minus_one_page_banner_side_padding">156.56299dp</dimen>
+    <dimen name="minus_one_page_banner_top_padding">24.0dp</dimen>
+    <dimen name="minus_one_page_banner_width">351.0dp</dimen>
+    <dimen name="minus_one_page_copyright_bottom_padding">22.5dp</dimen>
+    <dimen name="minus_one_page_copyright_side_padding">42.0dp</dimen>
+    <dimen name="minus_one_page_copyright_ts">11.25dp</dimen>
+    <dimen name="minus_one_page_error_text_bottom_margin">20.25dp</dimen>
+    <dimen name="minus_one_page_error_text_size">9.0dp</dimen>
+    <dimen name="minus_one_page_grid_horizontal_padding">25.312988dp</dimen>
+    <dimen name="minus_one_page_grid_item_horizontal_padding_half">17.0dp</dimen>
+    <dimen name="minus_one_page_grid_item_width">94.0dp</dimen>
+    <dimen name="minus_one_page_retry_button_height">35.25dp</dimen>
+    <dimen name="minus_one_page_retry_button_width">117.75dp</dimen>
+</resources>

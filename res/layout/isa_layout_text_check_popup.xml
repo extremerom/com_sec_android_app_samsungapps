@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:samsungapps="http://schemas.android.com/apk/res/com.sec.android.app.samsungapps">
+    <TextView android:textSize="17.0dp" android:id="@id/notification_popup_text" android:paddingLeft="3.0dp" android:paddingRight="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_popup_do_not_show_again_text" />
+    <com.sec.android.app.samsungapps.commonview.AnimatedCheckBox android:id="@id/notification_popup_check_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:checked="false" android:text="@string/IDS_SAPPS_POP_DO_NOT_SHOW_AGAIN" samsungapps:is_button="@drawable/isa_drawable_checkbox" samsungapps:is_checkbox_image="@drawable/isa_drawable_check_box_ani" samsungapps:is_uncheckbox_image="@drawable/isa_drawable_uncheck_box_ani" style="@style/isa_style_popup_do_not_show_again_text" />
+</LinearLayout>

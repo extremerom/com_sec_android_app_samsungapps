@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/rolling_banner_viewpager_indicator_dot_selected" />
+    <size android:height="@dimen/staffpick_banner_rolling_indicator_size" />
+</shape>

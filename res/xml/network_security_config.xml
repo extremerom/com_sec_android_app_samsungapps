@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ak-dn.gw.samsungapps.com</domain>
+        <domain includeSubdomains="true">galaxystore.ad-survey.com</domain>
+        <domain includeSubdomains="true">cn-ms.galaxyappstore.com</domain>
+        <domain includeSubdomains="true">img.samsungapps.com</domain>
+        <domain includeSubdomains="true">pp.myapp.com</domain>
+        <domain includeSubdomains="true">imtt.dd.qq.com</domain>
+        <domain includeSubdomains="true">dd.myapp.com</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">34.248.169.234</domain>
+        <domain includeSubdomains="true">ec2-43-200-124-177.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-3-36-25-13.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-43-200-103-123.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-43-200-223-128.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-43-200-154-37.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-3-35-86-201.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-43-201-3-114.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-3-35-145-168.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-3-39-159-114.ap-northeast-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-52-35-76-18.us-west-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">ec2-54-186-128-68.us-west-2.compute.amazonaws.com</domain>
+    </domain-config>
+</network-security-config>

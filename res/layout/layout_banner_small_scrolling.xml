@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:layout_width="@dimen/staffpick_smallbanner_item_width" android:layout_height="@dimen/staffpick_smallbanner_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/banner_image_boarder" android:background="@drawable/banner_boarder_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/banner_image" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_banner_item_effect" android:scaleType="centerCrop" />
+    <View android:layout_gravity="center" android:id="@id/banner_image_round_mask" android:background="@drawable/banner_round_corner_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/layout_download_btn_progress_view_banner" />
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/review_rating_viewgroup" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/avgRatingLayout" android:focusable="true" android:layout_width="140.0dp" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/tvAvgRating" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@style/isa_style_user_review_average_rating_text" />
+        <com.sec.android.app.samsungapps.detail.widget.DetailMainRatingBar android:layout_gravity="center_horizontal" android:id="@id/rbAvgRating" android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginTop="12.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/review_rating_progress_area" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:layout_marginStart="@dimen/review_score_progress_start_margin" style="@style/reviewscore_progress_bar">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tvRatingStat_5" android:text="5" style="@style/isa_style_user_review_rating_progress_text" />
+            <ProgressBar android:id="@id/pbRatingStat_5" style="@style/isa_style_user_review_rating_progress" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+            <TextView android:id="@id/tvRatingStat_4" android:text="4" style="@style/isa_style_user_review_rating_progress_text" />
+            <ProgressBar android:id="@id/pbRatingStat_4" style="@style/isa_style_user_review_rating_progress" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+            <TextView android:id="@id/tvRatingStat_3" android:text="3" style="@style/isa_style_user_review_rating_progress_text" />
+            <ProgressBar android:id="@id/pbRatingStat_3" style="@style/isa_style_user_review_rating_progress" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+            <TextView android:id="@id/tvRatingStat_2" android:text="2" style="@style/isa_style_user_review_rating_progress_text" />
+            <ProgressBar android:id="@id/pbRatingStat_2" style="@style/isa_style_user_review_rating_progress" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+            <TextView android:id="@id/tvRatingStat_1" android:text="1" style="@style/isa_style_user_review_rating_progress_text" />
+            <ProgressBar android:id="@id/pbRatingStat_1" style="@style/isa_style_user_review_rating_progress" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

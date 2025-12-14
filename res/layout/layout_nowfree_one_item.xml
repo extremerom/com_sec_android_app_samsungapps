@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:samsungapps="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/whole_layout" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_banner_item_effect" android:layoutDirection="locale">
+        <RelativeLayout android:gravity="center" android:id="@id/layout_list_thumbnail_outer" android:background="@color/now_free_slot_bg" android:layout_width="142.0dp" android:layout_height="156.0dp">
+            <RelativeLayout android:id="@id/layout_list_itemly_img_frame" android:layout_width="102.0dp" android:layout_height="102.0dp" android:layout_centerInParent="true">
+                <ImageView android:id="@id/layout_list_itemly_imgly_pimg" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+                <ViewStub android:id="@id/stub_tab_badge_widget" android:layout="@layout/staffpick_tab_badge_widget" android:inflatedId="@id/staffpick_tab_badge_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/layout_list_itemly_imgly_pimg" android:layout_alignBottom="@id/layout_list_itemly_imgly_pimg" android:layout_alignEnd="@id/layout_list_itemly_imgly_pimg" />
+                <ViewStub android:id="@id/stub_adult_icon" android:layout="@layout/staffpick_adult_icon" android:inflatedId="@id/staffpick_adult_icon" android:layout_width="@dimen/contents_img_badge_adult_size_small" android:layout_height="@dimen/contents_img_badge_adult_size_small" android:layout_alignRight="@id/layout_list_itemly_imgly_pimg" android:layout_alignBottom="@id/layout_list_itemly_imgly_pimg" android:layout_alignEnd="@id/layout_list_itemly_imgly_pimg" style="@style/isa_style_staffpicks_admin_badge" />
+                <ViewStub android:id="@id/list_vr_badge" android:layout="@layout/staffpick_vr_icon" android:inflatedId="@id/staffpick_vr_icon" android:layout_width="@dimen/vr_badge_size" android:layout_height="@dimen/vr_badge_size" />
+                <ImageView android:id="@id/staffpick_normal_items_edge" android:background="@drawable/long_banner_shadow" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="46.0dp" android:minWidth="31.0dp" android:layout_centerInParent="true" />
+                <TextView android:textSize="10.0dp" android:textColor="@color/isa_255255255" android:gravity="end|center" android:id="@id/tag_badge" android:background="@drawable/bg_theme_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dp" android:layout_marginBottom="5.0dp" android:layout_alignParentBottom="true" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" style="@style/isa_style_one_ui_font_semi_bold" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/corner_layout_phone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:layout_gravity="center" android:id="@id/corner_layout_phone_inner" android:background="@drawable/nowfree_corner_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:id="@id/thumb_nail_layout_divider" android:background="@color/now_free_slot_round" android:layout_width="1.0px" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="12.0dp" android:layout_marginEnd="10.0dp">
+            <TextView android:textSize="14.0dp" android:textColor="@color/main_slot_item_title" android:ellipsize="end" android:gravity="start" android:id="@id/layout_list_itemly_centerly_pname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:textDirection="locale" style="@style/style_main_title_3" />
+            <RelativeLayout android:id="@id/layout_list_itemly_pricely" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignRight="@id/download_btn_view" android:layout_alignEnd="@id/download_btn_view">
+                    <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_item_title" android:ellipsize="end" android:id="@id/layout_list_itemly_app_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/isa_style_now_free_01_discount_price" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/layout_price_sector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+                        <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_item_title" android:id="@id/layout_list_itemly_discprice" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_now_free_01_discount_price" />
+                        <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_item_price" android:ellipsize="end" android:id="@id/layout_list_itemly_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dp" style="@style/isa_style_now_free_01_original_price" />
+                        <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_item_title" android:id="@id/layout_list_itemly_isIAP" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_HEADER_IN_APP_PURCHASE" android:includeFontPadding="false" android:layout_marginStart="3.0dp" style="@style/isa_style_for_galaxy_list01_iap" />
+                        <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_item_title" android:id="@id/layout_list_itemly_installed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_BODY_INSTALLED_M_NOUN" android:includeFontPadding="false" android:layout_marginStart="3.0dp" style="@style/isa_style_now_free_01_original_price" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_staffpick_item_progress_sector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ProgressBar android:id="@id/pb_progressbar" android:layout_width="22.0dp" android:layout_height="22.0dp" style="@style/isa_circle_progressbar" />
+                    <TextView android:textSize="12.0dp" android:textColor="@color/main_slot_progress_color" android:ellipsize="end" android:gravity="start" android:id="@id/progress_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="5.0dp" style="@style/isa_style_one_ui_font_regular" />
+                    <LinearLayout android:id="@id/btn_progress_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/resume_button" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginLeft="8.0dp" android:contentDescription="@string/MIDS_SAPPS_BUTTON_RESUME" android:layout_marginStart="8.0dp" style="@style/isa_detail_percent_resume" />
+                            <ImageView android:id="@id/pause_button" android:visibility="gone" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginLeft="8.0dp" android:contentDescription="@string/MIDS_SAPPS_BUTTON_PAUSE" android:layout_marginStart="8.0dp" style="@style/isa_detail_percent_pause" />
+                        </RelativeLayout>
+                        <ImageView android:id="@id/cancel_button" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_marginLeft="8.0dp" android:contentDescription="@string/IDS_SAPPS_BUTTON_CANCEL_ABB" android:layout_marginStart="8.0dp" style="@style/isa_detail_percent_cancel" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/staffpick_download_button_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.sec.android.app.samsungapps.commonview.DownloadBtnView android:id="@id/download_btn_view" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginEnd="10.0dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/tablet_deco_layout" android:visibility="gone" android:layout_width="420.0dp" android:layout_height="match_parent">
+        <ImageView android:layout_width="420.0dp" android:layout_height="170.0dp" android:src="@drawable/nowfree_illust_tablet" />
+        <TextView android:textSize="14.0dp" android:textColor="#376fde" android:ellipsize="end" android:layout_gravity="bottom" android:layout_width="149.0dp" android:layout_height="wrap_content" android:layout_marginBottom="35.0dp" android:text="@string/DREAM_SAPPS_HEADER_GRAB_THIS_DEAL_BEFORE_ITS_GONE_E" android:maxLines="2" android:textAlignment="center" android:layout_marginStart="40.0dp" style="@style/isa_style_one_ui_font_semi_bold" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,146 @@
+.class public Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lcom/sec/android/app/samsungapps/curate/basedata/IBaseData;
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private descriptionText:Ljava/lang/String;
+
+.field private kidsMode:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem$a;
+
+    invoke-direct {v0}, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem$a;-><init>()V
+
+    sput-object v0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/os/Parcel;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->kidsMode:Z
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->kidsMode:Z
+
+    invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Z)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    iput-boolean p1, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->kidsMode:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public b()Z
+    .locals 1
+
+    iget-boolean v0, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->kidsMode:Z
+
+    return v0
+.end method
+
+.method public c(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    iget-object p2, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->descriptionText:Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-boolean p2, p0, Lcom/sec/android/app/samsungapps/curate/slotpage/category/CommonDescriptionItem;->kidsMode:Z
+
+    int-to-byte p2, p2
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
+
+    return-void
+.end method

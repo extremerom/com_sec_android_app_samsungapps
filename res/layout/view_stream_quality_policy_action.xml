@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/stream_quality_policy_action_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/expand_toggle" android:background="@drawable/ic_expand_less" android:layout_width="50.0dp" android:layout_height="50.0dp" android:backgroundTint="@color/cloudgame_stream_quality_policy_action_button" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Action" android:textAlignment="center" android:paddingStart="10.0dp" />
+        <Spinner android:gravity="end" android:entries="@array/cloudgame_stream_quality_policy_actions" android:id="@id/action_spinner" android:layout_width="wrap_content" android:layout_height="50.0dp" android:layout_weight="1.0" />
+        <Button android:id="@id/action_remove" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Del" app:backgroundTint="@color/cloudgame_stream_quality_policy_action_button" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/child_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp">
+        <Button android:id="@id/add_condition" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add condition" app:backgroundTint="@color/cloudgame_stream_quality_policy_condition_button" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/child_condition_layout" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="10.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

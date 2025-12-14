@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/banner_image_rolling_wrapper" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/banner_image_boarder" android:background="@drawable/banner_boarder_bg" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="@dimen/staffpick_banner_rolling_item_height" />
+    <ImageView android:id="@id/banner_image" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="@dimen/staffpick_banner_rolling_item_height" android:foreground="@drawable/isa_drawable_banner_item_effect" android:scaleType="centerCrop" />
+    <include layout="@layout/layout_auto_download_banner" />
+    <View android:id="@id/banner_image_round_mask" android:background="@drawable/banner_round_corner_bg" android:layout_width="@dimen/staffpick_banner_item_width" android:layout_height="@dimen/staffpick_banner_rolling_item_height" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.samsungapps.detail.widget.sticker.DetailSupportedStickerView android:id="@id/layout_detail_sticker_supported_app" android:tag="layout/isa_layout_alley_detail_sub_detail_supported_sticker_view_0" android:paddingTop="@dimen/qip_description_margin_vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@android:anim/linear_interpolator" android:duration="300" android:startOffset="0" android:fromXDelta="0.0" android:toXDelta="0.0" android:fromYDelta="0.0" android:toYDelta="0.0" />
+    <rotate android:interpolator="@anim/interpolator_sine_inout_80" android:duration="117" android:fromDegrees="0.0" android:toDegrees="-14.0" android:pivotX="50.0%" android:pivotY="0.0%" android:startOffset="300" />
+    <rotate android:interpolator="@anim/interpolator_sine_inout_80" android:duration="117" android:fromDegrees="-14.0" android:toDegrees="14.0" android:pivotX="50.0%" android:pivotY="0.0%" android:startOffset="417" />
+    <rotate android:interpolator="@anim/interpolator_sine_inout_33" android:duration="117" android:fromDegrees="14.0" android:toDegrees="-7.0" android:pivotX="50.0%" android:pivotY="0.0%" android:startOffset="534" />
+    <rotate android:interpolator="@anim/interpolator_sine_inout_33" android:duration="117" android:fromDegrees="-7.0" android:toDegrees="7.0" android:pivotX="50.0%" android:pivotY="0.0%" android:startOffset="651" />
+    <rotate android:interpolator="@anim/interpolator_sine_inout_33" android:duration="117" android:fromDegrees="7.0" android:toDegrees="0.0" android:pivotX="50.0%" android:pivotY="0.0%" android:startOffset="768" />
+    <translate android:interpolator="@android:anim/linear_interpolator" android:duration="885" android:startOffset="885" android:fromXDelta="0.0" android:toXDelta="0.0" android:fromYDelta="0.0" android:toYDelta="0.0" />
+</set>

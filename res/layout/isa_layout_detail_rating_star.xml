@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/detail_rating_single_star_parent" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" app:srcCompat="@drawable/isa_drawable_detail_rating_bar_star_status" />
+    <View android:id="@id/horizontal_spacing" android:visibility="invisible" android:layout_width="8.0dp" android:layout_height="match_parent" />
+</LinearLayout>

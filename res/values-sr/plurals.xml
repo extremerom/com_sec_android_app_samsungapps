@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poena</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poena</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da izaberete najviše %d oznaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da izaberete najviše %d oznake.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Možete da izaberete najviše %d oznaka.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Morate imati najmanje %d godinu da biste koristili instant igre.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Morate imati najmanje %d godine da biste koristili instant igre.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Morate imati najmanje %d godina da biste koristili instant igre.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izabrano: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izabrano: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izabrano: %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poeni (%1$s) će biti dodati na vaš nalog za oko %2$d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Poeni (%1$s) će biti dodati na vaš nalog za oko %2$d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poeni (%1$s) će biti dodati na vaš nalog za oko %2$d dana.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste preuzeli ovu aplikaciju, morate da potvrdite identitet i potvrdite da imate više od %d godine.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste preuzeli ovu aplikaciju, morate da potvrdite identitet i potvrdite da imate više od %d godine.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Da biste preuzeli ovu aplikaciju, morate da potvrdite identitet i potvrdite da imate više od %d godina.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste koristili %2$s, morate da imate najmanje %1$d godinu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste koristili %2$s, morate da imate najmanje %1$d godine.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Da biste koristili %2$s, morate da imate najmanje %1$d godina.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Preostao je %d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Preostala su %d dana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Preostalo je %d dana</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 poen će biti dodat na vaš nalog za oko %d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 poen će biti dodat na vaš nalog za oko %d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 poen će biti dodat na vaš nalog za oko %d dana.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da izbrišete komplet nalepnica iz aplikacija %1$s, %2$s, %3$s i još %4$d aplikacije?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da izbrišete komplet nalepnica iz aplikacija %1$s, %2$s, %3$s i još %4$d aplikacije?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite li da izbrišete komplet nalepnica iz aplikacija %1$s, %2$s, %3$s i još %4$d aplikacija?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Morate imati bar %d godinu za instaliranje. Možete tražiti od porod. organizatora da promeni podeš. ocene uzrasta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Morate imati bar %d godine za instaliranje. Možete tražiti od porod. organizatora da promeni podeš. ocene uzrasta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Morate imati bar %d godina za instaliranje. Možete tražiti od porod. organizatora da promeni podeš. ocene uzrasta.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poeni (%1$s) će biti dodati na vaš nalog za oko %2$d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Poeni (%1$s) će biti dodati na vaš nalog za oko %2$d dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poeni (%1$s) će biti dodati na vaš nalog za oko %2$d dana.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poen će biti dodat na vaš nalog u roku od 7 dana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poena će biti dodata na vaš nalog u roku od 7 dana.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poena će biti dodato na vaš nalog u roku od 7 dana.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poen za Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poena za Samsung Rewards</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poena za Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste se unapred registrovali za ovu aplikaciju, morate da potvrdite da imate %d godinu ili više.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste se unapred registrovali za ovu aplikaciju, morate da potvrdite da imate %d godine ili više.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Da biste se unapred registrovali za ovu aplikaciju, morate da potvrdite da imate %d godina ili više.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Da biste videli ovu aplikaciju, morate da se prijavite i potvrdite da imate više od %d godine.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Da biste videli ovu aplikaciju, morate da se prijavite i potvrdite da imate više od %d godine.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Da biste videli ovu aplikaciju, morate da se prijavite i potvrdite da imate više od %d godina.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Već ste instalirali našu najpopularniju aplikaciju (%d). Kucnite > da biste videli više.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Već ste instalirali naše najpopularnije %d aplikacije. Kucnite > da biste videli više.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Već ste instalirali naših najpopularnijih %d aplikacija. Kucnite > da biste videli više.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Već ste instalirali našu najpopularniju igru (%d). Kucnite > da biste videli više.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Već ste instalirali naše najpopularnije %d igre. Kucnite > da biste videli više.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Već ste instalirali naših najpopularnijih %d igara. Kucnite > da biste videli više.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Već ste instalirali našu najpopularniju stavku za stilizovanje (%d). Kucnite > da biste videli više.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Već ste instalirali naše %d najpopularnije stavke za stilizovanje. Kucnite > da biste videli više.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Već ste instalirali naših %d najpopularnijih stavki sa stilizovanje. Kucnite > da biste videli više.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Već ste instalirali našu najpopularniju temu (%d). Kucnite > da biste videli više.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Već ste instalirali naše %d najpopularnije teme. Kucnite > da biste videli više.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Već ste instalirali naših %d najpopularnijih tema. Kucnite > da biste videli više.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Upravo ste zaradili 1 poen! Sada imate %d poen koji možete koristiti za kupovinu aplikacija i drugih stvari u prodavnici Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Upravo ste zaradili 1 poen! Sada imate %d poena koji možete koristiti za kupovinu aplikacija i drugih stvari u prodavnici Galaxy Store.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Upravo ste zaradili 1 poen! Sada imate %d poena koji možete koristiti za kupovinu aplikacija i drugih stvari u prodavnici Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Morate da imate bar %d godinu da biste preuzeli ovu aplikaciju.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Morate da imate bar %d godine da biste preuzeli ovu aplikaciju.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Morate da imate bar %d godina da biste preuzeli ovu aplikaciju.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Morate imati najmanje %d godinu da biste ste unapred registrovali za ovu aplikaciju.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Morate imati najmanje %d godine da biste ste unapred registrovali za ovu aplikaciju.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Morate imati najmanje %d godina da biste ste unapred registrovali za ovu aplikaciju.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne prikazuj ponovo %d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne prikazuj ponovo %d dana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ne prikazuj ponovo %d dana</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na svaki %2$d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s na svaka %2$d dana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na svakih %2$d dana</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na svakih mesec (%2$d) dana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s na svaka %2$d meseca</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na svakih %2$d meseci</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s svake nedelje (%2$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s na svake %2$d nedelje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na svakih %2$d nedelja</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na svakih godinu dana (%2$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s na svake %2$d godine</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na svakih %2$d godina</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poena</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d poena</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Besplatno do %1$s, zatim %2$s svakog dana (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Besplatno do %1$s, zatim %2$s svaka %3$d dana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Besplatno do %1$s, zatim %2$s svakih %3$d dana</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Besplatno do %1$s, zatim %2$s svakog meseca (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Besplatno do %1$s, zatim %2$s svaka %3$d meseca</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Besplatno do %1$s, zatim %2$s svakih %3$d meseci</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Besplatno do %1$s, zatim %2$s svake nedelje (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Besplatno do %1$s, zatim %2$s svake %3$d nedelje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Besplatno do %1$s, zatim %2$s svakih %3$d nedelja</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Besplatno do %1$s, zatim %2$s svake godine (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Besplatno do %1$s, a zatim %2$s svake %3$d godine</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Besplatno do %1$s, a zatim %2$s svakih %3$d godina</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba misli da je ovo korisno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osobe misle da je ovo korisno</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d osoba misli da je ovo korisno</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dostupno je %d ažuriranje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dostupna su %dažuriranja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dostupno je %d ažuriranja</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Recenzije sa %d zvezdicom</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Recenzije sa %d zvezdice</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Recenzije sa %d zvezdica</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ocena: %d zvezdica</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ocena: %d zvezdice</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ocena: %d zvezdica</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d obaveštenje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d obaveštenja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d obaveštenja</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Morate da imate bar %d godinu da biste igrali ovu igru.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Morate da imate bar %d godine da biste igrali ovu igru.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Morate da imate bar %d godina da biste igrali ovu igru.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sesija igre će se završiti za %d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Sesija igre će se završiti za %d minuta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sesija igre će se završiti za %d minuta.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mrežna veza je nestabilna. Igra će se zatvoriti za %d sekundu ako ne budemo mogli da se povežemo. Status igre će biti sačuvan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mrežna veza je nestabilna. Igra će se zatvoriti za %d sekunde ako ne budemo mogli da se povežemo. Status igre će biti sačuvan.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mrežna veza je nestabilna. Igra će se zatvoriti za %d sekundi ako ne budemo mogli da se povežemo. Status igre će biti sačuvan.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+        <item quantity="other">Премотајте %d секунди унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+        <item quantity="other">Премотајте %d секунди уназад</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+        <item quantity="other">%d нових обавештења</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekundi</item>
+    </plurals>
+</resources>

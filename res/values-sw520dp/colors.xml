@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="detail_bg">@color/one_ui_bright_bg_color</color>
+    <color name="detail_sticker_widget_background">@color/one_ui_grey_scale_4</color>
+    <color name="detail_sticker_widget_preview_background">@color/one_ui_grey_scale_4_opa85</color>
+    <color name="game_detail_download_button_shadow_end">#0d000000</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="horizontal" android:id="@id/game_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.samsungapps.instantplays.view.VerticalToolbar android:theme="@style/style_menu_tooltip" android:id="@id/vertical_toolbar" android:background="@color/actionbar_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="56.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/game_container" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/game_container" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/vertical_toolbar" app:layout_constraintTop_toTopOf="parent" />
+    <include android:visibility="visible" layout="@layout/layout_instant_plays_floating_area_widget" />
+</androidx.constraintlayout.widget.ConstraintLayout>

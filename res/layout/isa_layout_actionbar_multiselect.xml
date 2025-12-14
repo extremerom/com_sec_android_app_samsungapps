@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/selectionmode_layout" android:paddingLeft="2.0dp" android:layout_width="match_parent" android:layout_height="@dimen/action_bar_select_all_height" android:layoutDirection="locale" android:paddingStart="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:samsungapps="http://schemas.android.com/apk/res/com.sec.android.app.samsungapps">
+    <RelativeLayout android:id="@id/ly_checkbox_selectall" android:focusable="true" android:layout_width="64.0dp" android:layout_height="@dimen/action_bar_select_all_height">
+        <com.sec.android.app.samsungapps.commonview.AnimatedCheckBox android:gravity="top" android:id="@id/checkbox_selectall" android:background="@drawable/isa_drawable_actionbar_touch_effect" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="32.0dp" android:layout_height="30.0dp" android:layout_marginTop="@dimen/action_bar_selection_mode_selectall_checkbox_top_margine" android:layout_centerHorizontal="true" samsungapps:is_button="@drawable/isa_drawable_checkbox" samsungapps:is_checkbox_image="@drawable/isa_drawable_check_box_ani" samsungapps:is_uncheckbox_image="@drawable/isa_drawable_uncheck_box_ani" />
+        <TextView android:id="@id/text_selectall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/action_bar_selection_mode_selectall_text_bottom_margine" android:text="@string/IDS_SAPPS_OPT2_ALL" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/all_text_style" />
+    </RelativeLayout>
+    <TextView android:id="@id/tv_selectedCount" android:layout_width="0.0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/isa_actionbar_multiple_selection_text_style" />
+</LinearLayout>

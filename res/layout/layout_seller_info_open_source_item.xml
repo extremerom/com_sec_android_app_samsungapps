@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/layout_open_source" android:paddingBottom="@dimen/content_detail_tv_line_spacing" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?detailContentTextColor" android:ellipsize="end" android:id="@id/tv_appinfo_info_open_source" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_OPT_OPEN_SOURCE_LICENSES" android:singleLine="true" android:textDirection="locale" style="@style/isa_style_appinfo_info_subtitle" />
+    <TextView android:ellipsize="end" android:id="@id/tv_appinfo_info_open_source_value" android:clickable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="version value" android:singleLine="true" android:textDirection="locale" android:layout_marginStart="@dimen/app_info_title_value_margin" android:layout_toEndOf="@id/tv_appinfo_info_open_source" style="@style/isa_style_appinfo_info_subtitle_value" />
+</RelativeLayout>

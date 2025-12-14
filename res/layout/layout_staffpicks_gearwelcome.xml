@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/boarder" android:background="@drawable/isa_drawable_bg_watch_welcome" android:paddingTop="23.0dp" android:paddingBottom="22.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" android:minHeight="86.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="20.0dp" android:src="@drawable/home_gear_logo_jr" android:tint="@color/main_slot_gear_welcome_logo" />
+    <TextView android:textSize="13.0dp" android:textColor="@color/main_slot_gear_welcome_text" android:gravity="center" android:id="@id/gear_welcome_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="5.0dp" android:layout_marginRight="15.0dp" android:minHeight="17.0dp" android:maxLines="3" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" style="@style/isa_style_one_ui_font_regular" />
+</LinearLayout>

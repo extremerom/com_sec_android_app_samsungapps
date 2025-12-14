@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_detail_cttl_notice_container" android:tag="layout/isa_layout_detail_security_scan_result_widget_0" android:background="@drawable/cttl_widget_bg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:foreground="?android:selectableItemBackground" android:weightSum="1.0" android:minHeight="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/detail_ic_safe" android:layout_width="@dimen/cttl_detail_ic_safe_height" android:layout_height="@dimen/cttl_detail_ic_safe_height" android:tint="@color/detail_cttl_smile_face" android:layout_marginStart="20.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mid" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="10.5dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="10.5dp" android:layout_weight="1.0" android:layout_marginHorizontal="20.0dp" android:layout_marginVertical="10.5dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/certified_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/more_view" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="20.0dp">
+        <ImageView android:id="@id/more_view_img" android:layout_width="@dimen/content_detail_more_arrow_width" android:layout_height="@dimen/content_detail_more_arrow_height" android:src="@drawable/subheader_next_detail_tint" android:layoutDirection="locale" />
+    </LinearLayout>
+</LinearLayout>

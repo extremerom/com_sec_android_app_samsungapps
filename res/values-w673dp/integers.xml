@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="popup_left_gap_percent" format="float">0.225</item>
+    <item type="integer" name="popup_right_gap_percent" format="float">0.775</item>
+    <item type="integer" name="qip_window_height_percent" format="float">1.0</item>
+    <item type="integer" name="qip_window_width_percent" format="float">0.55</item>
+</resources>

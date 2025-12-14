@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ad_backgroundThumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="H, 1.91:1" />
+    <View android:id="@id/dim_background" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <com.google.android.gms.ads.nativead.NativeAdView android:id="@id/admobNativeAdView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp" android:layout_marginHorizontal="20.0dp">
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.google.android.gms.ads.nativead.MediaView android:layout_gravity="center_horizontal" android:id="@id/adMedia" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginLeft="15.0dp" android:layout_marginRight="15.0dp" android:layout_marginHorizontal="15.0dp" app:layout_constraintDimensionRatio="H, 1.91:1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="10.0dp" android:textColor="#ffffffff" android:id="@id/adText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad" android:shadowColor="#80000000" android:shadowRadius="1.0" android:layout_marginEnd="20.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/RobotoRegular" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dp">
+                <ImageView android:id="@id/adAppIcon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="3.0dp" android:layout_marginEnd="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/adHeadline" />
+                <TextView android:textSize="14.0dp" android:textColor="#ffffff" android:ellipsize="end" android:id="@id/adHeadline" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:maxWidth="187.0dp" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/adAppIcon" app:layout_constraintRight_toLeftOf="@id/adCtaText" style="@style/RobotoRegular" />
+                <TextView android:textSize="14.0dp" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:id="@id/adCtaText" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:layout_marginStart="40.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/RobotoRegular" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</FrameLayout>

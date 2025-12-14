@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/detail_webview_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="20.0dp" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="18.0dp">
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <WebView android:scrollbarStyle="outsideOverlay" android:id="@id/detail_webview_software" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="vertical" android:clickable="true" android:layout_width="match_parent" android:layout_height="600.0dp" android:fadeScrollbars="true" />
+            <WebView android:scrollbarStyle="outsideOverlay" android:id="@id/detail_webview_hardware" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="vertical" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="true" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

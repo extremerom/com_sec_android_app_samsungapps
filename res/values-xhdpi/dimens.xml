@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_divider_height">1.0px</dimen>
+    <dimen name="category_item_line_divider">1.0px</dimen>
+    <dimen name="common_divider_height">1.0px</dimen>
+    <dimen name="detailpage_layout_main_widget_divider">1.0px</dimen>
+    <dimen name="download_btn_outline_size">1.0px</dimen>
+    <dimen name="main_tab_divider_drawing_top">39.5dp</dimen>
+    <dimen name="personal_item_list_line_divider">1.0px</dimen>
+    <dimen name="settings_list_item_line_divider">1.0px</dimen>
+    <dimen name="settings_list_item_vertical_line_divider">1.0px</dimen>
+    <dimen name="settings_subtitle_line_divider">2.0px</dimen>
+    <dimen name="shadow_corner_radius">5.0dp</dimen>
+    <dimen name="starter_kit_collapsed_arrow_icon_size">12.0dp</dimen>
+    <dimen name="starter_kit_collapsed_mode_margin_bottom">5.0dp</dimen>
+    <dimen name="starter_kit_collapsed_text_margin_right">3.0dp</dimen>
+    <dimen name="starter_kit_single_item_edge_icon_frame_height">45.0dp</dimen>
+    <dimen name="starter_kit_single_item_edge_icon_width">18.0dp</dimen>
+    <dimen name="starter_kit_single_item_icon_area_margin_top">14.0dp</dimen>
+    <dimen name="starter_kit_single_item_icon_height">43.0dp</dimen>
+    <dimen name="starter_kit_single_item_icon_width">43.0dp</dimen>
+    <dimen name="starter_kit_single_item_text_area_width">83.0dp</dimen>
+    <dimen name="starter_kit_startup_container_area_margin_top">11.0dp</dimen>
+    <dimen name="starter_kit_title_ts">18.0dp</dimen>
+    <dimen name="starter_kit_two_column_title_margin_left">14.0dp</dimen>
+    <dimen name="two_px_line_divider">1.0px</dimen>
+    <dimen name="winset_divider_height">1.0px</dimen>
+</resources>

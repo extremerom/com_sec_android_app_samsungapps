@@ -1,0 +1,49 @@
+.class public Lcom/sec/android/app/samsungapps/instantplays/CloudGameMonitorActivity;
+.super Lcom/sec/android/app/samsungapps/b4;
+.source "ProGuard"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/sec/android/app/samsungapps/b4;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public Y()Z
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.sec.android.app.samsungapps.instantplays.CloudGameMonitorActivity: boolean useDrawerMenu()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public onCreate(Landroid/os/Bundle;)V
+    .locals 0
+
+    invoke-super {p0, p1}, Lcom/sec/android/app/samsungapps/b4;->onCreate(Landroid/os/Bundle;)V
+
+    const-string p1, "Not supported in release mode"
+
+    invoke-static {p0, p1}, Lcom/sec/android/app/util/x;->c(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
+
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    return-void
+.end method

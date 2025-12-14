@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="layout/layout_staffpicks_editorial_grid_item_0" android:background="@drawable/editorial_item_bg" android:visibility="gone" android:layout_width="150.0dp" android:layout_height="150.0dp" android:layout_marginBottom="12.0dp" android:foreground="@drawable/editorial_item_outline_bg" android:importantForAccessibility="yes" android:layout_marginStart="12.0dp">
+        <androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/discover_card_corner_radius" app:cardElevation="0.0dp">
+            <ImageView android:id="@id/banner_image_boarder" android:background="@drawable/banner_boarder_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+            <ImageView android:layout_gravity="center" android:id="@id/bg_view" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_banner_item_effect" android:scaleType="centerCrop" android:importantForAccessibility="no" android:transitionName="@string/bg_image_tran" />
+            <View android:id="@id/banner_image_round_mask" android:background="@drawable/banner_round_corner_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="12.0dp" android:textColor="#fafaff" android:ellipsize="end" android:id="@id/title" android:background="@drawable/background_editorial_grid_title" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dp" android:maxWidth="90.0dp" android:maxLines="1" android:importantForAccessibility="no" android:paddingStart="9.0dp" android:paddingEnd="9.0dp" android:layout_marginStart="9.0dp" android:layout_marginEnd="9.0dp" style="@style/isa_style_now_free_01_discount_price" />
+    </FrameLayout>
+</merge>

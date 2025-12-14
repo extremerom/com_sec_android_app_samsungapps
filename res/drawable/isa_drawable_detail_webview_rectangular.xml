@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffff" />
+    <stroke android:width="@dimen/personal_item_list_line_divider" android:color="#dddddd" />
+    <padding android:left="3.0dp" android:top="3.0dp" android:right="3.0dp" android:bottom="3.0dp" />
+</shape>

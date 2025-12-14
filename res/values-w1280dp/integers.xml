@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="download_recommend_popup_width_percentage" format="float">0.3</item>
+    <item type="integer" name="popup_left_gap_percent" format="float">0.36</item>
+    <item type="integer" name="popup_right_gap_percent" format="float">0.64</item>
+</resources>

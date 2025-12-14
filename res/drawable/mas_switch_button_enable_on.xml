@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:right="@dimen/switch_thumb_margin">
+        <shape android:shape="oval" android:alpha="1.0">
+            <size android:height="@dimen/switch_button_size" android:width="@dimen/switch_button_size" />
+            <stroke android:width="@dimen/switch_stroke" android:color="@color/mas_switch_enable_on_thumb_stroke_color" />
+            <solid android:color="@color/mas_switch_thumb_bg_color" />
+        </shape>
+    </item>
+</layer-list>

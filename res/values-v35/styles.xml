@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyActionBar.ActionBar.MenuText" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:fontFamily">sec</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="SamsungAppsActionBarTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/isa_opa87_373737</item>
+        <item name="android:windowBackground">@color/main_bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownListViewStyle">@style/SamsungAppsDropDownListView</item>
+        <item name="android:textViewStyle">@android:style/Theme.DeviceDefault.Light</item>
+        <item name="android:actionBarStyle">@style/SamsungAppsActionBar</item>
+        <item name="android:actionModeCloseDrawable">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/isa_style_more_menu_icon</item>
+        <item name="android:actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuBackground</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/isa_style_more_popup_menu_text_style</item>
+        <item name="android:homeAsUpIndicator">@drawable/gs_actionbar_title_back</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="android:actionMenuTextColor">@color/isa_color_actionbar_menu_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="android:actionBarItemBackground">@drawable/isa_drawable_actionbar_touch_effect</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:navigationBarColor">@color/settings_body_color</item>
+        <item name="android:colorEdgeEffect">@color/edge_effect_color</item>
+        <item name="android:windowLightStatusBar">@bool/window_light_status_bar</item>
+        <item name="actionBarItemBackground">@drawable/isa_drawable_actionbar_touch_effect</item>
+        <item name="actionBarStyle">@style/SamsungAppsActionBar</item>
+        <item name="actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="actionMenuTextColor">@color/isa_color_actionbar_menu_text</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeCloseDrawable">@null</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="actionOverflowButtonStyle">@style/isa_style_more_menu_icon</item>
+        <item name="colorAccent">@color/isa_22109195</item>
+        <item name="colorPrimary">@color/isa_250250250</item>
+        <item name="colorPrimaryDark">@color/isa_250250250</item>
+        <item name="dropDownListViewStyle">@style/SamsungAppsDropDownListView</item>
+        <item name="homeAsUpIndicator">@drawable/gs_actionbar_title_back</item>
+        <item name="popupMenuStyle">@style/PopupMenuBackground</item>
+        <item name="textAppearanceLargePopupMenu">@style/isa_style_more_popup_menu_text_style</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="app_dialog_theme" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/isa_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowMinWidthMajor">100.0%</item>
+        <item name="android:windowMinWidthMinor">100.0%</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/app_dialog_empty_space_color_using_dimen</item>
+        <item name="android:navigationBarColor">@color/app_dialog_empty_space_color_using_dimen</item>
+    </style>
+    <style name="event_list_title" parent="@style/isa_style_one_ui_font_semi_bold">
+        <item name="android:textSize">14.0dp</item>
+        <item name="android:textColor">@color/promotion_list_title</item>
+    </style>
+    <style name="isa_style_action_bar_text_01" parent="@style/isa_style_one_ui_font_bold">
+        <item name="android:textSize">@dimen/action_bar_text_size</item>
+        <item name="android:textColor">@color/actionbar_title</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="isa_style_expandable_action_bar_text_style" parent="@style/isa_style_one_ui_font_semi_bold">
+        <item name="android:textSize">34.0dp</item>
+        <item name="android:textColor">@color/actionbar_title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+    <style name="isa_style_search_discover_text" parent="@style/isa_style_one_ui_font_regular">
+        <item name="android:textSize">16.0dp</item>
+        <item name="android:textColor">@color/editorial_detail_title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">2.0dp</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+    <style name="style_categorytab_unselected" parent="@style/isa_style_one_ui_font_semi_bold">
+        <item name="android:textSize">14.0dp</item>
+        <item name="android:textColor">@color/one_ui_sub_tab_unselected_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">false</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="style_subtab_selected" parent="@style/isa_style_one_ui_font_semi_bold">
+        <item name="android:textSize">15.0dp</item>
+        <item name="android:textColor">@color/subtab_select_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="theme_full_width_transparent_samsung_apps_dialog" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/isa_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowMinWidthMajor">100.0%</item>
+        <item name="android:windowMinWidthMinor">100.0%</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/app_dialog_empty_space_color_using_dimen</item>
+        <item name="android:navigationBarColor">@color/app_dialog_empty_space_color_using_dimen</item>
+    </style>
+    <style name="theme_normal_details" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/one_ui_default_bg_color</item>
+        <item name="android:dropDownListViewStyle">@style/DetailDropDownListView</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuBackground</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearanceSmall</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="android:actionMenuTextColor">@color/isa_color_actionbar_menu_text</item>
+        <item name="android:listPreferredItemHeightLarge">44.0dp</item>
+        <item name="android:listPreferredItemHeightSmall">44.0dp</item>
+        <item name="android:actionBarItemBackground">@drawable/isa_drawable_actionbar_touch_effect</item>
+        <item name="android:navigationBarColor">@color/one_ui_default_bg_color</item>
+        <item name="actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="colorAccent">@color/check_box_color_moremenu_autoupdate</item>
+        <item name="detailAgeIconColor">@color/detail_age_icon</item>
+        <item name="detailBackgroundTint">@color/transparent</item>
+        <item name="detailBackgroundTintMode">clear</item>
+        <item name="detailBottomBtnBackgroundColor">@color/detail_bg</item>
+        <item name="detailBottomGrayBtnBaseColor">@color/gray_button_color_base</item>
+        <item name="detailBottomGrayBtnDisabledColor">@color/gray_button_color_disabled</item>
+        <item name="detailBottomProgressBarBgColor">@color/detail_progress_bar_bg</item>
+        <item name="detailBottomProgressBarColor">@color/detail_progress_bar</item>
+        <item name="detailBottomProgressBtnBg">@drawable/isa_drawable_oval_btn</item>
+        <item name="detailBottomProgressTintColor">@color/detail_bottom_progress_tint</item>
+        <item name="detailBtnUninstallTextColor">@color/isa_button_text_color_uninstall</item>
+        <item name="detailCategoryTagTextColor">@color/normal_detail_content_text_color</item>
+        <item name="detailContentTextColor">@color/normal_detail_content_text_color</item>
+        <item name="detailDefaultBackground">@color/one_ui_default_bg_color</item>
+        <item name="detailDiscountTextColor">@color/detail_age_icon</item>
+        <item name="detailDiscountTextSize">13.0dp</item>
+        <item name="detailDividerColor">@color/normal_detail_divider_color</item>
+        <item name="detailHeaderMinHeight">42.0dp</item>
+        <item name="detailHeaderTextColor">@color/normal_detail_header_text_color</item>
+        <item name="detailHeaderTextSize">18.0dp</item>
+        <item name="detailLegalTextColor">@color/detail_legal_text</item>
+        <item name="detailLegalTextLinkColor">@color/detail_legal_text_link</item>
+        <item name="detailLinkColor">@color/normal_detail_content_text_color</item>
+        <item name="detailMainInfoTextColor">@color/detail_main_info_text</item>
+        <item name="detailMainRatingStar">@color/detail_qip_rating</item>
+        <item name="detailPopularityDivider">@color/game_detail_popularity_divider_color_common</item>
+        <item name="detailPopularityHead">@color/game_detail_popularity_head_common</item>
+        <item name="detailPopupBackground">@color/game_detail_download_recommend_slot_bg</item>
+        <item name="detailPopupStrokeColor">@color/detail_download_recommend_slot_inside_border</item>
+        <item name="detailRelatedIapTextColor">@color/detail_list_itemly_isiap_text</item>
+        <item name="detailRelatedPriceTextColor">@color/detail_related_price_text</item>
+        <item name="detailRelatedTitleTextColor">@color/detail_related_title_text</item>
+        <item name="detailReviewHelpfulTextColor">@color/normal_detail_review_helpful_count_text_color</item>
+        <item name="detailReviewMoreIconColor">@color/detail_review_more_icon_tint</item>
+        <item name="detailReviewProgressBackground">@color/normal_detail_review_progress_background</item>
+        <item name="detailReviewProgressForeground">@color/normal_detail_review_progress_foreground</item>
+        <item name="detailTagWidgetItemBorderColor">@color/detail_main_tag_button_border</item>
+        <item name="detailTagWidgetItemTextColor">@color/detail_game_tag_font_color</item>
+        <item name="detailToolbarTitleTextColor">@color/actionbar_title</item>
+        <item name="detail_download_recommend_slot_shadow_level_1">@color/detail_download_recommend_slot_shadow_level_1</item>
+        <item name="detail_download_recommend_slot_shadow_level_10">@color/detail_download_recommend_slot_shadow_level_10</item>
+        <item name="detail_download_recommend_slot_shadow_level_2">@color/detail_download_recommend_slot_shadow_level_2</item>
+        <item name="detail_download_recommend_slot_shadow_level_3">@color/detail_download_recommend_slot_shadow_level_3</item>
+        <item name="detail_download_recommend_slot_shadow_level_4">@color/detail_download_recommend_slot_shadow_level_4</item>
+        <item name="detail_download_recommend_slot_shadow_level_5">@color/detail_download_recommend_slot_shadow_level_5</item>
+        <item name="detail_download_recommend_slot_shadow_level_6">@color/detail_download_recommend_slot_shadow_level_6</item>
+        <item name="detail_download_recommend_slot_shadow_level_7">@color/detail_download_recommend_slot_shadow_level_7</item>
+        <item name="detail_download_recommend_slot_shadow_level_8">@color/detail_download_recommend_slot_shadow_level_8</item>
+        <item name="detail_download_recommend_slot_shadow_level_9">@color/detail_download_recommend_slot_shadow_level_9</item>
+        <item name="detailbackgroundHighlightColor">@color/isa_transparent</item>
+        <item name="dropDownListViewStyle">@style/DetailDropDownListView</item>
+        <item name="popupMenuStyle">@style/PopupMenuBackground</item>
+        <item name="textAllCaps">false</item>
+        <item name="themeType">normal</item>
+    </style>
+    <style name="theme_splash" parent="@style/SamsungAppsActionBarTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:statusBarColor">@color/main_bg</item>
+        <item name="android:navigationBarColor">@color/settings_body_color</item>
+        <item name="android:windowLightNavigationBar">@bool/window_light_status_bar</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/blankicon</item>
+    </style>
+</resources>

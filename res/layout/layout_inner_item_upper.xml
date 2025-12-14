@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="anyRtl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/subtitle_view" android:background="@drawable/bg_ripple_no_round" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="36.0dp" android:minHeight="20.0dp" android:paddingStart="5.0dp" android:paddingEnd="5.0dp">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_text_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/staffpick_title_sector_height" android:layoutDirection="locale">
+            <TextView android:gravity="center_vertical" android:id="@id/list_text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" android:textDirection="anyRtl" android:paddingEnd="15.0dp" android:layout_alignParentStart="true" style="@style/staffpicks_title_style_semi_bold" />
+        </RelativeLayout>
+    </com.sec.android.app.samsungapps.commonview.VoiceAssistantButtonLinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_staffpicks_sap_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sap_few_item_parent" android:background="@drawable/now_free_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/staffpick_smallbanner_layer_padding_left_right" android:layout_marginRight="@dimen/staffpick_smallbanner_layer_padding_left_right">
+        <include layout="@layout/layout_normal_item_sap_few" />
+        <include layout="@layout/layout_normal_item_sap_few" />
+        <include layout="@layout/layout_normal_item_sap_few" />
+    </LinearLayout>
+</LinearLayout>

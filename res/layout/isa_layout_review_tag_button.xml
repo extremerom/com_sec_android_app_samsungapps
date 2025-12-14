@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tag_button_view" android:background="@drawable/isa_drawable_review_tag_unselected" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="30.0dp" android:minWidth="60.0dp" android:paddingStart="@dimen/tag_textview_item_inside_padding" android:paddingEnd="@dimen/tag_textview_item_inside_padding">
+        <ImageView android:id="@id/star_prefix_review_tag" android:visibility="gone" android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/detail_review_star_point" android:scaleType="fitCenter" />
+        <TextView android:textSize="13.0dp" android:textColor="@color/detail_review_tag_button_text_unselected_color" android:id="@id/review_tag_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="4.0dp" style="@style/isa_style_one_ui_font_regular" />
+    </LinearLayout>
+</FrameLayout>

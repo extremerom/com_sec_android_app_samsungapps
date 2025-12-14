@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asset_webview_side_margin">0.0dp</dimen>
+    <dimen name="detail_hero_image_height">214.0dp</dimen>
+    <dimen name="detail_wish_list_right_padding">84.0dp</dimen>
+    <dimen name="disclaimer_global_checkbox_text_gap">18.0dp</dimen>
+    <dimen name="editorial_detail_app_bar_card_corner_radius">12.0dp</dimen>
+    <dimen name="editorial_detail_app_bar_card_side_margin">42.0dp</dimen>
+    <dimen name="editorial_detail_app_bar_card_top_margin">80.0dp</dimen>
+    <dimen name="editorial_detail_item_padding_horizontal">42.0dp</dimen>
+    <dimen name="editorial_detail_item_padding_horizontal_theme_list">32.0dp</dimen>
+    <dimen name="lego_page_banner_bottom_padding">30.0dp</dimen>
+    <dimen name="loading_dlg_margin_for_landscape">180.0dp</dimen>
+    <dimen name="minus_one_page_banner_bottom_padding">30.0dp</dimen>
+    <dimen name="minus_one_page_banner_side_padding">208.75dp</dimen>
+    <dimen name="minus_one_page_banner_top_padding">40.0dp</dimen>
+    <dimen name="minus_one_page_banner_width">490.0dp</dimen>
+    <dimen name="minus_one_page_copyright_bottom_padding">30.0dp</dimen>
+    <dimen name="minus_one_page_copyright_side_padding">56.0dp</dimen>
+    <dimen name="minus_one_page_copyright_ts">15.0dp</dimen>
+    <dimen name="minus_one_page_grid_horizontal_padding">33.75dp</dimen>
+    <dimen name="minus_one_page_grid_item_horizontal_padding_half">25.0dp</dimen>
+    <dimen name="minus_one_page_grid_item_width">130.0dp</dimen>
+    <dimen name="page_end_margin">50.0dp</dimen>
+    <dimen name="page_start_margin">50.0dp</dimen>
+    <dimen name="search_settings_list_horizontal_margin">0.0dp</dimen>
+    <dimen name="spacing_sticker">14.0dp</dimen>
+    <dimen name="spacing_sticker_half">7.0dp</dimen>
+    <dimen name="staffpick_youtube_webview_height_tab">188.0dp</dimen>
+    <dimen name="staffpick_youtube_webview_width_tab">334.0dp</dimen>
+    <dimen name="top_big_banner_egp_padding">25.0dp</dimen>
+    <dimen name="top_big_banner_normal_width">265.0dp</dimen>
+    <dimen name="top_big_banner_wrapper_height">147.0dp</dimen>
+    <dimen name="video_info_padding">0.0dp</dimen>
+    <dimen name="welcome_page_agree_button_max_width">240.0dp</dimen>
+</resources>

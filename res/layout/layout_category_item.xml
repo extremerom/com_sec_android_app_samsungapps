@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/list_item_root" android:tag="layout/layout_category_item_0" android:background="@drawable/isa_drawable_list_effect" android:paddingRight="24.0dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="66.0dp" android:layoutDirection="locale" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/layout_item_background" android:background="@drawable/isa_drawable_oval_game_item_tag_bg" android:layout_width="@dimen/tag_list_item_background_size" android:layout_height="@dimen/tag_list_item_background_size" android:layout_marginLeft="20.0dp" android:layout_marginRight="20.0dp">
+        <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center" android:id="@id/category_img" android:tag="binding_1" android:layout_width="24.0dp" android:layout_height="24.0dp" />
+    </FrameLayout>
+    <TextView android:layout_gravity="center" android:id="@id/category_name" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/isa_style_category_title_name" />
+</LinearLayout>

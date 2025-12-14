@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:enabled="true" android:id="@id/option_menu_share" android:title="@string/IDS_SAPPS_OPT_SHARE_ABB" app:showAsAction="ifRoom|withText" />
+    <item android:enabled="true" android:id="@id/option_menu_report" android:title="@string/DREAM_SAPPS_BUTTON_REPORT_16" app:showAsAction="ifRoom|withText" />
+</menu>

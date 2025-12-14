@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/root_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/title_area" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/settings_list_item_title_color" android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" android:layout_marginStart="@dimen/basic_listtext_margin_left_right" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/update_num_background" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" style="@style/isa_style_basic_list_text_list_title" />
+            <ImageView android:id="@id/update_num_background" android:padding="2.0dp" android:visibility="gone" android:layout_width="10.0dp" android:layout_height="10.0dp" android:src="@drawable/round_orange" android:contentDescription="@string/DREAM_ACCS_TBOPT_NEW_CONTENT_AVAILABLE" android:layout_marginStart="3.0dp" android:layout_toEndOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textColor="@color/settings_list_item_subtitle_color" android:id="@id/sub_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_below="@id/title_area" android:textDirection="locale" android:layout_marginStart="@dimen/basic_listtext_margin_left_right" style="@style/isa_style_basic_list_text_list_subtext" />
+    </RelativeLayout>
+</merge>

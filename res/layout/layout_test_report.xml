@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/detail_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/detail_scroll" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.sec.android.app.samsungapps.detail.widget.testreport.TestReportAppInfoWidget android:layout_gravity="center" android:id="@id/test_report_app_info_widget" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+            <com.sec.android.app.samsungapps.detail.widget.securityresult.DetailSecurityScanResultDetailWidget android:layout_gravity="center" android:id="@id/test_report_security_scan_result_widget" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/detailpage_layout_main_widget_divider" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" layout="@layout/isa_layout_detail_line" />
+            <com.sec.android.app.samsungapps.detail.widget.testreport.TestReportPerformanceTestWidget android:layout_gravity="center" android:id="@id/test_report_performance_test_widget" android:visibility="gone" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+            <com.sec.android.app.samsungapps.detail.widget.testreport.TestReportNetworkFriendlyScoreWidget android:layout_gravity="center" android:id="@id/test_report_network_friendly_score_widget" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" />
+            <TextView android:textSize="12.0dp" android:textColor="@color/detail_cttl_detail_security_scan_result_footer" android:paddingTop="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="41.0dp" android:text="@string/DREAM_SAPPS_BODY_DEPENDING_ON_THE_APP_SOME_OF_THE_DATA_LISTED_ABOVE_MAY_NOT_BE_SHOWN_CHN" android:textAlignment="center" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/isa_style_one_ui_font_regular" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

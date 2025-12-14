@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_1" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_2" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_3" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_4" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_5" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_6" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_7" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_8" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_9" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+            <solid android:color="?detail_download_recommend_slot_shadow_level_10" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dp" android:color="?detailPopupStrokeColor" />
+            <solid android:color="?detailPopupBackground" />
+            <corners android:radius="@dimen/background_radius" />
+        </shape>
+    </item>
+</layer-list>

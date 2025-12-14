@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_content_icon_size">32.0dp</dimen>
+    <dimen name="action_bar_height">64.0dp</dimen>
+    <dimen name="action_bar_margin_top">8.0dp</dimen>
+    <dimen name="gcf_setting_action_bar_height">80.0dp</dimen>
+    <dimen name="gcf_setting_action_bar_padding_top">16.0dp</dimen>
+    <dimen name="main_tool_bar_margin_top">8.0dp</dimen>
+    <dimen name="search_result_activity_more_window_top_margin">-58.0dp</dimen>
+</resources>

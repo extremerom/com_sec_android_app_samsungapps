@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:tag="layout/layout_staffpicks_editorial_basic_item_0" android:visibility="gone" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_marginTop="15.0dp" android:layout_marginBottom="15.0dp" android:foreground="@drawable/isa_drawable_banner_item_effect" android:layout_marginStart="15.0dp"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/layout_list_itemly_imgly_pimg" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        <ViewStub android:id="@id/stub_tab_badge_widget" android:layout="@layout/staffpick_tab_badge_widget" android:inflatedId="@id/staffpick_tab_badge_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/layout_list_itemly_imgly_pimg" android:layout_alignBottom="@id/layout_list_itemly_imgly_pimg" android:layout_alignEnd="@id/layout_list_itemly_imgly_pimg" />
+        <ImageView android:id="@id/stub_adult_icon" android:layout_width="@dimen/contents_img_badge_adult_size_small" android:layout_height="@dimen/contents_img_badge_adult_size_small" android:src="@drawable/contents_ic_todays_19_s" android:layout_alignRight="@id/layout_list_itemly_imgly_pimg" android:layout_alignBottom="@id/layout_list_itemly_imgly_pimg" android:layout_alignEnd="@id/layout_list_itemly_imgly_pimg" style="@style/isa_style_staffpicks_admin_badge" />
+        <ViewStub android:id="@id/list_vr_badge" android:layout="@layout/staffpick_vr_icon" android:inflatedId="@id/staffpick_vr_icon" android:layout_width="@dimen/vr_badge_size" android:layout_height="@dimen/vr_badge_size" />
+        <ImageView android:id="@id/staffpick_normal_items_edge" android:background="@drawable/long_banner_shadow" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="46.0dp" android:minWidth="31.0dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</merge>

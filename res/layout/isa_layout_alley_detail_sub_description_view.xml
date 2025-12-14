@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.samsungapps.detail.widget.description.AlleyDetailDescriptionView android:id="@id/layout_detail_alley_description_view" android:tag="layout/isa_layout_alley_detail_sub_description_view_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:info_type="description" app:layout="@layout/isa_layout_detail_description_qip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

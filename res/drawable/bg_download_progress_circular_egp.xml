@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="ring" android:innerRadiusRatio="3.0" android:useLevel="false" android:thickness="@dimen/content_detail_bottom_progress_track_thickness">
+            <solid android:color="@color/egp_progress_down_color" />
+        </shape>
+    </item>
+    <item>
+        <rotate android:fromDegrees="270.0" android:toDegrees="270.0">
+            <shape android:shape="ring" android:innerRadiusRatio="3.0" android:useLevel="true" android:thickness="@dimen/content_detail_bottom_progress_track_thickness">
+                <solid android:color="@color/egp_progress_up_color" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

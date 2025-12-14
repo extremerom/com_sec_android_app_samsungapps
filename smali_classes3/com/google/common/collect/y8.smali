@@ -1,0 +1,447 @@
+.class public final Lcom/google/common/collect/y8;
+.super Lcom/google/common/collect/ImmutableMultimap$c;
+.source "ProGuard"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: void <init>()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a()Lcom/google/common/collect/ImmutableMultimap;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap build()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public bridge synthetic b(Lcom/google/common/collect/ImmutableMultimap$c;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder combine(com.google.common.collect.ImmutableMultimap$Builder)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public c()Ljava/util/Collection;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: java.util.Collection newMutableValueCollection()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public bridge synthetic d(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder orderKeysBy(java.util.Comparator)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic e(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder orderValuesBy(java.util.Comparator)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic f(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder put(java.lang.Object,java.lang.Object)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic g(Ljava/util/Map$Entry;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder put(java.util.Map$Entry)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic h(Lcom/google/common/collect/Multimap;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder putAll(com.google.common.collect.Multimap)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic i(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder putAll(java.lang.Iterable)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic j(Ljava/lang/Object;Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder putAll(java.lang.Object,java.lang.Iterable)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public bridge synthetic k(Ljava/lang/Object;[Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMultimap$c;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableMultimap$Builder putAll(java.lang.Object,java.lang.Object[])"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public l()Lcom/google/common/collect/b9;
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap build()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public m(Lcom/google/common/collect/ImmutableMultimap$c;)Lcom/google/common/collect/y8;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder combine(com.google.common.collect.ImmutableMultimap$Builder)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public n(Ljava/util/Comparator;)Lcom/google/common/collect/y8;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder orderKeysBy(java.util.Comparator)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public o(Ljava/util/Comparator;)Lcom/google/common/collect/y8;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder orderValuesBy(java.util.Comparator)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public p(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/y8;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder put(java.lang.Object,java.lang.Object)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public q(Ljava/util/Map$Entry;)Lcom/google/common/collect/y8;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder put(java.util.Map$Entry)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public r(Lcom/google/common/collect/Multimap;)Lcom/google/common/collect/y8;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder putAll(com.google.common.collect.Multimap)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public s(Ljava/lang/Iterable;)Lcom/google/common/collect/y8;
+    .locals 1
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string v0, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder putAll(java.lang.Iterable)"
+
+    invoke-virtual {p1, v0}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public t(Ljava/lang/Object;Ljava/lang/Iterable;)Lcom/google/common/collect/y8;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder putAll(java.lang.Object,java.lang.Iterable)"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public varargs u(Ljava/lang/Object;[Ljava/lang/Object;)Lcom/google/common/collect/y8;
+    .locals 0
+
+    const-string p1, "[R8]"
+
+    invoke-static {p1}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object p1
+
+    const-string p2, "Shaking error: Missing method in com.google.common.collect.ImmutableSetMultimap$Builder: com.google.common.collect.ImmutableSetMultimap$Builder putAll(java.lang.Object,java.lang.Object[])"
+
+    invoke-virtual {p1, p2}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method

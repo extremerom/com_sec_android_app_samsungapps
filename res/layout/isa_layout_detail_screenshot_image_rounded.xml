@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/layout_detail_screenshot_youtube_border" android:tag="layout/isa_layout_detail_screenshot_image_rounded_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/detail_screenshot_stroke_bg" android:padding="0.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/youtube_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center" android:id="@id/layout_detail_screenshot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" app:animated="true" app:cornerRadius="@dimen/screenshot_image_round_radius" app:is_show_default_while_loading="false" app:is_webimage_immediate_loading="true" />
+    </FrameLayout>
+    <View android:id="@id/image_padding" android:layout_width="@dimen/detail_screenshot_margin" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="circle" android:pathData="M8,8m-7,0a7,7 0 1,1 14,0 a7,7 0 1,1 -14, 0" android:strokeColor="@color/button_text_color" android:strokeWidth="1.55" android:trimPathEnd="0.67" android:trimPathOffset="0.58" android:strokeLineCap="round" />
+    <path android:name="arrowMid" android:pathData="M8,4.5 L8,10.8" android:strokeColor="@color/button_text_color" android:strokeWidth="1.0" android:strokeLineCap="round" />
+    <path android:name="arrowLeft" android:pathData="M5.2,8.2 l2.8,2.8" android:strokeColor="@color/button_text_color" android:strokeWidth="1.0" android:strokeLineCap="round" />
+    <path android:name="arrowRight" android:pathData="M10.8,8.2 l-2.8,2.8" android:strokeColor="@color/button_text_color" android:strokeWidth="1.0" android:strokeLineCap="round" />
+    <path android:name="dot1" android:fillColor="#252525" android:pathData="M15.211,7.218a0.79,0.79 0,0 1,0 1.578h-0.75a0.79,0.79 0,0 1,0 -1.579z" />
+    <path android:name="dot2" android:fillColor="@color/button_text_color" android:pathData="M13.873,3.805a0.789,0.789 0,0 1,0.79 1.367l-0.65,0.375a0.788,0.788 0,1 1,-0.79 -1.367z" />
+    <path android:name="dot3" android:fillColor="#252525" android:pathData="M10.931,1.382a0.79,0.79 0,0 1,1.367 0.79l-0.375,0.65a0.789,0.789 0,1 1,-1.368 -0.79z" />
+</vector>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/dialog_inset" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/select_dialog" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="20.0sp" android:textColor="@color/dialog_title" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:fontFamily="sans-serif-medium" android:layout_marginStart="24.0dp" android:layout_marginEnd="4.0dp" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="38.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dp">
+                    <androidx.cardview.widget.CardView android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginEnd="12.0dp" app:cardCornerRadius="9.399994dp" app:cardElevation="0.0dp">
+                        <ImageView android:id="@id/app_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_title" android:id="@id/item_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="SECRobotoMedium" android:textAlignment="viewStart" />
+                    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_message_agree" android:id="@id/price_string" android:layout_width="70.0dp" android:layout_height="wrap_content" android:fontFamily="SECRobotoRegular" android:textAlignment="viewEnd" android:layout_marginStart="12.0dp" />
+                </LinearLayout>
+                <Button android:textSize="18.0sp" android:layout_gravity="center_horizontal" android:id="@id/credit_or_debit_card_btn" android:layout_width="220.0dp" android:layout_height="44.0dp" android:textAllCaps="false" android:fontFamily="sans-serif-medium" style="@style/DialogButtonRaisedColor" />
+                <ImageButton android:layout_gravity="center_horizontal" android:id="@id/paypal_btn" android:paddingTop="11.0dp" android:paddingBottom="10.799988dp" android:layout_width="220.0dp" android:layout_height="44.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/btn_iap_paypal_logo" android:scaleType="fitCenter" style="@style/DialogButtonRaisedColorless" />
+            </LinearLayout>
+            <Space android:id="@id/gc_btn_bottom_space" android:layout_width="match_parent" android:layout_height="40.0dp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/dialog_message" android:id="@id/receipt_email_notice" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="SECRobotoLight" android:textAlignment="center" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" android:breakStrategy="simple" />
+            <Space android:id="@id/email_notice_bottom_space" android:layout_width="match_parent" android:layout_height="10.0dp" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/orTextLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp">
+                <ImageView android:layout_width="0.0dp" android:layout_height="0.5dp" android:layout_weight="1.0" app:srcCompat="@color/dialog_button_separation_color" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/dialog_sub_message" android:id="@id/orText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:fontFamily="SECRobotoLight" />
+                <ImageView android:layout_width="0.0dp" android:layout_height="0.5dp" android:layout_weight="1.0" app:srcCompat="@color/dialog_button_separation_color" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/dialog_message_extra" android:layout_gravity="center_horizontal" android:id="@id/sign_in_notice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:fontFamily="SECRobotoLight" android:textAlignment="center" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+            <Space android:layout_width="match_parent" android:layout_height="24.0dp" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/guestcheckout_dialog" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="24.0dp">
+            <TextView android:textSize="20.0sp" android:textColor="@color/dialog_title" android:id="@id/guestcheckout_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+            <EditText android:textSize="18.0sp" android:textColor="@color/dialog_title" android:textColorHint="@color/dialog_edit_text_hint" android:id="@id/enter_email" android:paddingLeft="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dp" android:inputType="textEmailAddress" android:textCursorDrawable="@drawable/dialog_edit_text_cursor" android:fontFamily="sans-serif" android:backgroundTint="@color/transparent" />
+            <ImageView android:id="@id/email_underline" android:visibility="visible" android:layout_width="match_parent" android:layout_height="2.0dp" app:srcCompat="@color/dialog_edit_text_underline" />
+            <ImageView android:id="@id/email_error_underline" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2.0dp" app:srcCompat="@color/dialog_edit_text_error_underline" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/dialog_edit_text_error" android:id="@id/email_error" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="sans-serif" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textColor="@color/dialog_button_text_mono" android:id="@id/dialog_cancel_btn" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_weight="1.0" android:layout_centerHorizontal="true" android:textAllCaps="false" style="@style/DialogButton" />
+                <ImageView android:layout_gravity="center" android:id="@id/dialog_btn_padding" android:layout_width="1.0dp" android:layout_height="16.0dp" app:srcCompat="@color/dialog_button_separation_color" />
+                <Button android:textColor="@color/dialog_button_text_mono" android:id="@id/dialog_done_btn" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_weight="1.0" android:layout_centerHorizontal="true" android:textAllCaps="false" style="@style/DialogButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:fillEnabled="true" android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:startOffset="0" android:ordering="together">
+        <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="1383" android:fillBefore="true" android:valueFrom="0f" android:valueTo="0f" android:valueType="floatType" android:propertyName="alpha" />
+        <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="1383">
+            <propertyValuesHolder android:valueFrom="1.0f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="scaleX" />
+            <propertyValuesHolder android:valueFrom="1.0f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="scaleY" />
+        </objectAnimator>
+    </set>
+    <set android:ordering="together">
+        <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="200">
+            <propertyValuesHolder android:valueFrom="1.0f" android:valueTo="1.357f" android:valueType="floatType" android:propertyName="scaleX" />
+            <propertyValuesHolder android:valueFrom="1.0f" android:valueTo="1.357f" android:valueType="floatType" android:propertyName="scaleY" />
+        </objectAnimator>
+        <set android:ordering="sequentially">
+            <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="100" android:valueFrom="0f" android:valueTo="1f" android:propertyName="alpha" />
+            <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="467" android:valueFrom="1f" android:valueTo="0f" android:propertyName="alpha" />
+        </set>
+    </set>
+    <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="400">
+        <propertyValuesHolder android:valueFrom="1.357f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="scaleX" />
+        <propertyValuesHolder android:valueFrom="1.357f" android:valueTo="1.0f" android:valueType="floatType" android:propertyName="scaleY" />
+    </objectAnimator>
+    <set android:ordering="together">
+        <set android:ordering="sequentially">
+            <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="100" android:valueFrom="0f" android:valueTo="1f" android:propertyName="alpha" />
+            <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="467" android:valueFrom="1f" android:valueTo="0f" android:propertyName="alpha" />
+        </set>
+        <objectAnimator android:interpolator="@anim/interpolator_standard" android:duration="200">
+            <propertyValuesHolder android:valueFrom="1.0f" android:valueTo="1.357f" android:valueType="floatType" android:propertyName="scaleX" />
+            <propertyValuesHolder android:valueFrom="1.0f" android:valueTo="1.357f" android:valueType="floatType" android:propertyName="scaleY" />
+        </objectAnimator>
+    </set>
+</set>

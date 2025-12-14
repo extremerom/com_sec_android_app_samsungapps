@@ -1,0 +1,13 @@
+.class public interface abstract Lkotlin/reflect/jvm/internal/impl/load/java/structure/JavaNamedElement;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lkotlin/reflect/jvm/internal/impl/load/java/structure/JavaElement;
+
+
+# virtual methods
+.method public abstract getName()Lkotlin/reflect/jvm/internal/impl/name/f;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method

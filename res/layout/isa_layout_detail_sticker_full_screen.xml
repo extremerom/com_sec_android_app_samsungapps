@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/isa_drawable_bg_sticker_full_previews" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_detail_sticker_full_screen_image" android:layout_width="120.0dp" android:layout_height="120.0dp">
+        <com.sec.android.app.samsungapps.commonview.WebImageView android:id="@id/sticker_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" app:animated="false" app:is_webimage_immediate_loading="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" style="@style/isa_waiting_progress_middle" />
+    </FrameLayout>
+</FrameLayout>

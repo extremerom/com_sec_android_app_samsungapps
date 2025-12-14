@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="rectangle" android:alpha="1.0">
+            <size android:height="@dimen/ot_switch_track_off_height" android:width="@dimen/ot_switch_track_width" />
+            <corners android:radius="@dimen/ot_switch_track_corner_radius" />
+            <stroke android:width="@dimen/ot_switch_stroke" android:color="@color/ot_switch_enable_off_track_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_sub_category_group_item_width">82.5dp</dimen>
+    <dimen name="qip_mini_layout_max_width">340.0dp</dimen>
+</resources>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_PD_POINTS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_PD_POINTS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_PD_POINTS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_PD_POINTS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_PD_POINTS_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_PD_POINTS_ABB %d</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_TPOP_CANT_SELECT_MORE_THAN_PD_TAGS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_TPOP_CANT_SELECT_MORE_THAN_PD_TAGS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_TPOP_CANT_SELECT_MORE_THAN_PD_TAGS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_TPOP_CANT_SELECT_MORE_THAN_PD_TAGS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_TPOP_CANT_SELECT_MORE_THAN_PD_TAGS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_TPOP_CANT_SELECT_MORE_THAN_PD_TAGS %d</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_PD_DAYS_LEFT %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_PD_DAYS_LEFT %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_PD_DAYS_LEFT %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_PD_DAYS_LEFT %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_PD_DAYS_LEFT %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_PD_DAYS_LEFT %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q %1$s %2$s %3$s %4$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q %1$s %2$s %3$s %4$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q %1$s %2$s %3$s %4$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q %1$s %2$s %3$s %4$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q %1$s %2$s %3$s %4$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q %1$s %2$s %3$s %4$d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP %d</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP %d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_P1SS_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_P1SS_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_P1SS_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_P1SS_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_P1SS_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_P1SS_EVERY_P2SD_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS %1$s %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS %1$s %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_P1SS_EVERY_P2SD_YEARS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_P1SS_EVERY_P2SD_YEARS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_P1SS_EVERY_P2SD_YEARS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_P1SS_EVERY_P2SD_YEARS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_P1SS_EVERY_P2SD_YEARS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_P1SS_EVERY_P2SD_YEARS %1$s %2$d</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_PD_POINTS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_PD_POINTS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_PD_POINTS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_PD_POINTS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_PD_POINTS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_PD_POINTS %d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS %1$s %2$s %3$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS %1$s %2$s %3$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS %1$s %2$s %3$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS %1$s %2$s %3$d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB %d</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_STATUS_PD_UPDATES_AVAILABLE %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_STATUS_PD_UPDATES_AVAILABLE %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_STATUS_PD_UPDATES_AVAILABLE %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_STATUS_PD_UPDATES_AVAILABLE %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_STATUS_PD_UPDATES_AVAILABLE %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_STATUS_PD_UPDATES_AVAILABLE %d</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_TBOPT_PD_STAR_REVIEWS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_TBOPT_PD_STAR_REVIEWS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_TBOPT_PD_STAR_REVIEWS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_TBOPT_PD_STAR_REVIEWS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_TBOPT_PD_STAR_REVIEWS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_TBOPT_PD_STAR_REVIEWS %d</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_TBOPT_YOUR_RATING_C_PD_STARS %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_TBOPT_YOUR_RATING_C_PD_STARS %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_TBOPT_YOUR_RATING_C_PD_STARS %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_TBOPT_YOUR_RATING_C_PD_STARS %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_TBOPT_YOUR_RATING_C_PD_STARS %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_TBOPT_YOUR_RATING_C_PD_STARS %d</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">PLURAL_ZERO_ST_HEADER_PD_NOTIFICATIONS %d</item>
+        <item quantity="one">PLURAL_ONE_ST_HEADER_PD_NOTIFICATIONS %d</item>
+        <item quantity="two">PLURAL_TWO_ST_HEADER_PD_NOTIFICATIONS %d</item>
+        <item quantity="few">PLURAL_FEW_ST_HEADER_PD_NOTIFICATIONS %d</item>
+        <item quantity="many">PLURAL_MANY_ST_HEADER_PD_NOTIFICATIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_ST_HEADER_PD_NOTIFICATIONS %d</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PLAY_THIS_GAME %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PLAY_THIS_GAME %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PLAY_THIS_GAME %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PLAY_THIS_GAME %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PLAY_THIS_GAME %d</item>
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PLAY_THIS_GAME %d</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_GAME_SESSION_WILL_END_IN_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_GAME_SESSION_WILL_END_IN_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_GAME_SESSION_WILL_END_IN_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_GAME_SESSION_WILL_END_IN_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_GAME_SESSION_WILL_END_IN_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_GH_BODY_GAME_SESSION_WILL_END_IN_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOUR_NETWORK_CONNECTION_IS_UNSTABLE_THE_GAME_WILL_CLOSE_IN_PD_SECONDS_IF_WE_CANT_CONNECT_YOUR_GAME_STATUS_WILL_BE_SAVED %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOUR_NETWORK_CONNECTION_IS_UNSTABLE_THE_GAME_WILL_CLOSE_IN_PD_SECONDS_IF_WE_CANT_CONNECT_YOUR_GAME_STATUS_WILL_BE_SAVED %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOUR_NETWORK_CONNECTION_IS_UNSTABLE_THE_GAME_WILL_CLOSE_IN_PD_SECONDS_IF_WE_CANT_CONNECT_YOUR_GAME_STATUS_WILL_BE_SAVED %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOUR_NETWORK_CONNECTION_IS_UNSTABLE_THE_GAME_WILL_CLOSE_IN_PD_SECONDS_IF_WE_CANT_CONNECT_YOUR_GAME_STATUS_WILL_BE_SAVED %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOUR_NETWORK_CONNECTION_IS_UNSTABLE_THE_GAME_WILL_CLOSE_IN_PD_SECONDS_IF_WE_CANT_CONNECT_YOUR_GAME_STATUS_WILL_BE_SAVED %d</item>
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOUR_NETWORK_CONNECTION_IS_UNSTABLE_THE_GAME_WILL_CLOSE_IN_PD_SECONDS_IF_WE_CANT_CONNECT_YOUR_GAME_STATUS_WILL_BE_SAVED %d</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">PLURAL_ZERO_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="one">PLURAL_ONE_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="two">PLURAL_TWO_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="few">PLURAL_FEW_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="many">PLURAL_MANY_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="other">PLURAL_OTHER_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+    </plurals>
+</resources>

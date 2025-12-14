@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/layout_search_screenshot_youtube_border" android:focusable="true" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:foreground="@drawable/isa_drawable_list_effect">
+        <com.sec.android.app.samsungapps.commonview.WebImageView android:layout_gravity="center" android:id="@id/layout_search_screenshot_youtube" android:layout_width="@dimen/search_screenshot_youtube_width" android:layout_height="@dimen/search_screenshot_height" android:scaleType="fitXY" android:contentDescription="@string/DREAM_SAPPS_TMBODY_VIDEO" app:animated="true" app:cornerRadius="@dimen/search_screenshot_image_radius" app:is_show_default_while_loading="true" app:is_webimage_default="@drawable/search_screenshot_bg" app:is_webimage_immediate_loading="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/play_overlay" android:visibility="invisible" android:layout_width="42.0dp" android:layout_height="42.0dp" android:src="@drawable/isa_detail_info_play" />
+    </FrameLayout>
+    <View android:id="@id/image_padding" android:layout_width="10.0dp" android:layout_height="match_parent" />
+</LinearLayout>

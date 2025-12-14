@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.samsungapps.commonview.SamsungAppsBasicListText android:id="@id/menu_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/isa_style_basic_list_text_list_title" />
+    <View android:id="@id/line" android:background="@drawable/isa_drawable_list_view_divder" android:layout_width="match_parent" android:layout_marginLeft="@dimen/basic_list_divider_margine" android:layout_marginRight="@dimen/basic_list_divider_margine" style="@style/isa_style_announcements_devider" />
+</LinearLayout>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d punct</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d puncte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d puncte</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate selecta mai mult de %d etichetă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot selecta mai mult de %d etichete.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot selecta mai mult de %d etichete.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a utiliza Jocuri instant.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a utiliza Jocuri instant.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a utiliza Jocuri instant.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S-au selectat %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Punctele %1$s vor fi adăugate în cont în aproximativ %2$d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Punctele %1$s vor fi adăugate în cont în aproximativ %2$d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Punctele %1$s vor fi adăugate în cont în aproximativ %2$d zile.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru a descărca această aplicație, este necesar să vă verificați identitatea și să confirmați că aveți peste %d an.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru a descărca această aplicație, este necesar să vă verificați identitatea și să confirmați că aveți peste %d ani.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pentru a descărca această aplicație, este necesar să vă verificați identitatea și să confirmați că aveți peste %d ani.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Este necesar să aveți cel puțin %1$d an pentru a utiliza %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Este necesar să aveți cel puțin %1$d ani pentru a utiliza %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Este necesar să aveți cel puțin %1$d ani pentru a utiliza %2$s.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi rămasă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile rămase</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zile rămase</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 punct va fi adăugat în contul dumneavoastră în aproximativ %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 punct va fi adăugat în contul dumneavoastră în aproximativ %d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 punct va fi adăugat în contul dumneavoastră în aproximativ %d zile.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți setul de abțibilduri din %1$s, %2$s, %3$s și %4$d altă aplicație?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți setul de abțibilduri din %1$s, %2$s, %3$s și %4$d alte aplicații?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți setul de abțibilduri din %1$s, %2$s, %3$s și %4$d alte aplicații?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pt. instalare, trebuie să aveți peste %d an. Puteți cere organiz. fam. să modif. set. pt. cat. de vârstă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pt. instalare, trebuie să aveți peste %d ani. Puteți cere organiz. fam. să modif. set. pt. cat. de vârstă.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pt. instalare, trebuie să aveți peste %d ani. Puteți cere organiz. fam. să modif. set. pt. cat. de vârstă.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Punctele %1$s vor fi adăugate în cont în aproximativ %2$d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Punctele %1$s vor fi adăugate în cont în aproximativ %2$d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Punctele %1$s vor fi adăugate în cont în aproximativ %2$d zile.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d punct va fi adăugat în contul dvs. în termen de 7 zile.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d puncte vor fi adăugate în contul dvs. în termen de 7 zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d puncte vor fi adăugate în contul dvs. în termen de 7 zile.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d punct Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d puncte Samsung Rewards</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d puncte Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru a vă preînregistra la această aplicație, este necesar să confirmați că aveți peste %d an.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru a vă preînregistra la această aplicație, este necesar să confirmați că aveți peste %d ani.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pentru a vă preînregistra la această aplicație, este necesar să confirmați că aveți peste %d ani.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru a vizualiza această aplicație, este necesar să vă conectați și să confirmați că aveți peste %d an.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru a vizualiza această aplicație, este necesar să vă conectați și să confirmați că aveți peste %d ani.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pentru a vizualiza această aplicație, este necesar să vă conectați și să confirmați că aveți peste %d ani.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați instalat deja aplicația noastră de top (%d). Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați instalat deja cele %d aplicații de top ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați instalat deja cele %d aplicații de top ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați instalat deja jocul nostru de top (%d). Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați instalat deja cele %d jocuri de top ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați instalat deja cele %d jocuri de top ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați instalat deja articolul nostru pentru stil (%d). Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați instalat deja cele %d articole pentru stil ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați instalat deja cele %d articole pentru stil ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați instalat deja tema noastră de top (%d). Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați instalat deja cele %d teme de top ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați instalat deja cele %d teme de top ale noastre. Atingeți > pentru a vizualiza mai multe.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tocmai ați obținut 1 punct! Acum aveți %d punct, pe care îl puteți utiliza pentru a cumpăra aplicații și alte elemente din Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Tocmai ați obținut 1 punct! Acum aveți %d puncte, pe care le puteți utiliza pentru a cumpăra aplicații și alte elemente din Galaxy Store.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tocmai ați obținut 1 punct! Acum aveți %d puncte, pe care le puteți utiliza pentru a cumpăra aplicații și alte elemente din Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a descărca această aplicație.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a descărca această aplicație.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a descărca această aplicație.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a vă preînregistra la această aplicație.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a vă preînregistra la această aplicație.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a vă preînregistra la această aplicație.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se mai afișează timp de %d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se mai afișează timp de %d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se mai afișează timp de %d zile</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s în fiecare zi (%2$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s la fiecare %2$d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s la fiecare %2$d zile</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$sîn fiecare lună (%2$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s la fiecare %2$d luni</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s la fiecare %2$d luni</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s în fiecare săptămână (%2$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s la fiecare %2$d săptămâni</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s la fiecare %2$d săptămâni</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s în fiecare an (%2$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s la fiecare %2$d ani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s la fiecare %2$d ani</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d punct</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d puncte</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d puncte</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gratuit până pe %1$s, apoi %2$s în fiecare zi (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d zile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d zile</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gratuit până pe %1$s, apoi %2$s în fiecare lună (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d luni</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d luni</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gratuit până pe %1$s, apoi %2$s în fiecare săptămână (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d săptămâni</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d săptămâni</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gratuit până pe %1$s, apoi %2$s în fiecare an (%3$d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d ani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gratuit până pe %1$s, apoi %2$s la fiecare %3$d ani</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d persoană crede că a fost util</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d persoane cred că a fost util</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d persoane cred că a fost util</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d actualizare disponibilă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d actualizări disponibile</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d actualizări disponibile</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Recenzii de %d stea</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Recenzii de %d stele</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Recenzii de %d stele</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Evaluarea dvs.: %d stea</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Evaluarea dvs.: %d stele</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Evaluarea dvs.: %d stele</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notificare</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d notificări</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d notificări</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a juca acest joc.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a juca acest joc.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a juca acest joc.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sesiunea de joc se va încheia peste %d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Sesiunea de joc se va încheia peste %d minute.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sesiunea de joc se va încheia peste %d minute.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Conexiunea la rețea este instabilă. Jocul se va închide în %d secundă dacă nu putem să ne conectăm. Starea jocului va fi salvată.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Conexiunea la rețea este instabilă. Jocul se va închide în %d secunde dacă nu putem să ne conectăm. Starea jocului va fi salvată.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Conexiunea la rețea este instabilă. Jocul se va închide în %d secunde dacă nu putem să ne conectăm. Starea jocului va fi salvată.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Derulează rapid înainte cu %d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %d secunde</item>
+        <item quantity="other">Derulează rapid înainte cu %d de secunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Derulează înapoi cu %d secundă</item>
+        <item quantity="few">Derulează înapoi cu %d secunde</item>
+        <item quantity="other">Derulează înapoi cu %d de secunde</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d secunde</item>
+    </plurals>
+</resources>

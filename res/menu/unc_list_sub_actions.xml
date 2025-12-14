@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/unc_list_version_info" android:title="@string/IDS_SAPPS_MBODY_VERSION_INFO_ETC" />
+</menu>

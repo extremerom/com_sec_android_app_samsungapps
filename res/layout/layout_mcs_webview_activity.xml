@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mygalaxy_sublist_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <WebView android:scrollbarStyle="outsideOverlay" android:id="@id/mcs_webview" android:focusable="true" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:windowSoftInputMode="adjustResize" android:fadeScrollbars="true" />
+        <com.sec.android.app.samsungapps.commonview.SamsungAppsCommonNoVisibleWidget android:id="@id/common_no_data" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <com.sec.android.app.samsungapps.commonview.DeeplinkBusinessInfoView android:id="@id/businessInfo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

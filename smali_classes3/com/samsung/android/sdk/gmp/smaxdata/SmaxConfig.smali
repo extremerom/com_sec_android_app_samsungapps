@@ -1,0 +1,31 @@
+.class public final Lcom/samsung/android/sdk/gmp/smaxdata/SmaxConfig;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samsung/android/sdk/gmp/smaxdata/SmaxConfig$Prod;
+    }
+.end annotation
+
+
+# static fields
+.field public static final APPLICATION_ID:Ljava/lang/String; = "com.samsung.android.sdk.gmp"
+
+.field public static final BUILD_TYPE:Ljava/lang/String; = "release"
+
+.field public static final VERSION_CODE:I = 0xa
+
+.field public static final VERSION_NAME:Ljava/lang/String; = "3.10"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

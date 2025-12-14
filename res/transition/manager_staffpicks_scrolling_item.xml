@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition android:fromScene="@layout/scene_download_btn_idle" android:toScene="@layout/scene_download_btn_downloading" android:transition="@transition/download_btn_idle_to_downloading" />
+    <transition android:fromScene="@layout/scene_download_btn_downloading" android:toScene="@layout/scene_download_btn_idle" android:transition="@transition/download_btn_downloading_to_idle" />
+    <transition android:fromScene="@layout/scene_download_btn_downloading" android:toScene="@layout/scene_download_btn_installed" android:transition="@transition/download_btn_downloading_to_installed" />
+</transitionManager>

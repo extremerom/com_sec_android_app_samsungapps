@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.5dp" android:layout_marginBottom="-3.5dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_tencent_mobile_manager" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:layout_marginBottom="3.5dp" android:weightSum="1.0">
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_TENCENT_MOBILE_MANAGER_CHN" style="@style/isa_style_cttl_detail_security_scan_result_item_title" />
+        <ImageView android:layout_width="0.0dp" android:layout_height="1.5dp" android:src="@drawable/isa_drawable_detail_cttl_dash_line" android:layout_weight="1.0" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_SAFE_CHN" style="@style/isa_style_cttl_security_scan_result_item_safe" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_360_mobile_security" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:layout_marginBottom="3.5dp" android:weightSum="1.0">
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_360_TOTAL_SECURITY_CHN" style="@style/isa_style_cttl_detail_security_scan_result_item_title" />
+        <ImageView android:layout_width="0.0dp" android:layout_height="1.5dp" android:src="@drawable/isa_drawable_detail_cttl_dash_line" android:layout_weight="1.0" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_SAFE_CHN" style="@style/isa_style_cttl_security_scan_result_item_safe" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_antiy_avl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:layout_marginBottom="3.5dp" android:weightSum="1.0">
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_ANTIY_AVL_CHN" style="@style/isa_style_cttl_detail_security_scan_result_item_title" />
+        <ImageView android:layout_width="0.0dp" android:layout_height="1.5dp" android:src="@drawable/isa_drawable_detail_cttl_dash_line" android:layout_weight="1.0" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_SAFE_CHN" style="@style/isa_style_cttl_security_scan_result_item_safe" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_cttl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:layout_marginBottom="3.5dp" android:weightSum="1.0">
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_CTTL_CHN" style="@style/isa_style_cttl_detail_security_scan_result_item_title" />
+        <ImageView android:layout_width="0.0dp" android:layout_height="1.5dp" android:src="@drawable/isa_drawable_detail_cttl_dash_line" android:layout_weight="1.0" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DREAM_SAPPS_BODY_SAFE_CHN" style="@style/isa_style_cttl_security_scan_result_item_safe" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/isa_transparent" />
+            <stroke android:width="1.0dp" android:color="@color/color_unsubscribe_button" />
+            <corners android:radius="@dimen/search_list_theme_item_more_btn_radius" />
+            <padding android:left="@dimen/search_list_theme_item_more_btn_radius" android:right="@dimen/search_list_theme_item_more_btn_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/search_popular_keyword_bg_color" />
+            <corners android:radius="@dimen/search_list_theme_item_more_btn_radius" />
+            <padding android:left="@dimen/search_list_theme_item_more_btn_radius" android:right="@dimen/search_list_theme_item_more_btn_radius" />
+        </shape>
+    </item>
+</selector>

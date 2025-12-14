@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/write_review_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/action_bar_height" style="@style/isa_style_scroll_bar">
+        <com.sec.android.app.samsungapps.detail.secondpageactivity.review.widget.WriteReviewWidget android:id="@id/review_detail" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:background="@color/write_review_action_button_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dp" android:id="@id/negative" android:focusable="true" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/bottom_bar_text_only_button_height" android:text="@string/MIDS_SAPPS_SK_CANCEL" android:singleLine="true" android:layout_weight="1.0" android:textDirection="locale" android:focusedByDefault="true" apps:tabPaddingEnd="@dimen/bottom_bar_text_only_button_rct_radius" apps:tabPaddingStart="@dimen/bottom_bar_text_only_button_rct_radius" apps:tabRippleColor="@color/isa_opa10_transparent" style="@style/write_review_action_button_text_style" />
+        <TextView android:id="@id/positive" android:focusable="true" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/bottom_bar_text_only_button_height" android:text="@string/IDS_SAPPS_SK_OK" android:singleLine="true" android:layout_weight="1.0" android:textDirection="locale" apps:tabPaddingEnd="@dimen/bottom_bar_text_only_button_rct_radius" apps:tabPaddingStart="@dimen/bottom_bar_text_only_button_rct_radius" apps:tabRippleColor="@color/isa_opa10_transparent" style="@style/write_review_action_button_text_style" />
+    </LinearLayout>
+</FrameLayout>

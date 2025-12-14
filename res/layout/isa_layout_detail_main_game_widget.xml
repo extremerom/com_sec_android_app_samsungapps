@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_widget_view" android:paddingTop="@dimen/content_detail_main_left_layout_margin_top" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_widget_view_child_bg" android:background="@drawable/drawable_game_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/content_detail_main_left_layout_margin_left" android:paddingRight="@dimen/content_detail_main_left_layout_margin_left" android:paddingBottom="10.0dp" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingHorizontal="@dimen/content_detail_main_left_layout_margin_left">
+            <include android:id="@id/layout_main_left" android:visibility="visible" layout="@layout/isa_layout_detail_main_left" />
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/isa_layout_detail_main_game_right" />
+        </LinearLayout>
+        <include layout="@layout/isa_layout_detail_main_middle" />
+    </LinearLayout>
+</LinearLayout>

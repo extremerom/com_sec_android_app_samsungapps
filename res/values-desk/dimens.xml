@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_menuicon_padding_china">14.0dp</dimen>
+    <dimen name="action_bar_searchbar_height_china">40.0dp</dimen>
+    <dimen name="content_detail_nested_scroll_parent_padding_top">208.0dp</dimen>
+    <dimen name="detailpage_layout_main_widget_divider">1.0px</dimen>
+</resources>

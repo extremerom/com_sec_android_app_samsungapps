@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="256.0dp" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/normal_hun_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_layout" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="7.0dp">
+            <TextView android:textSize="14.0sp" android:textColor="@color/head_up_noti_title" android:ellipsize="end" android:id="@id/hun_main_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:text="main text" android:singleLine="true" android:includeFontPadding="false" style="@style/isa_style_one_ui_font_semi_bold" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/head_up_noti_sub_title" android:ellipsize="end" android:id="@id/hun_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sub text" android:singleLine="false" android:includeFontPadding="false" style="@style/isa_style_one_ui_font_regular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/noti_icon_images_layout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/hun_icon_image_1" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="@dimen/head_up_noti_coallapsed_view_icon_height" android:src="@drawable/icon_default_galaxy_store" android:adjustViewBounds="true" android:layout_weight="1.0" android:layout_marginEnd="3.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/noti_images_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hun_banner_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/icon_default_galaxy_store" />
+    </LinearLayout>
+</LinearLayout>

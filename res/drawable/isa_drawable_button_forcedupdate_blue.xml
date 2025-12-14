@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="1.0dp" />
+            <solid android:color="@color/main_update_btn_primary" />
+            <corners android:radius="@dimen/one_ui_body_area_button_radius" />
+        </shape>
+    </item>
+</ripple>

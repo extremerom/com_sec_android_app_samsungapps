@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/banner_download_btnview_bg" />
+    <corners android:radius="@dimen/staffpick_banner_downloadbtn_radius" />
+    <size android:height="@dimen/staffpick_banner_downloadbtn_height" android:width="@dimen/staffpick_banner_downloadbtn_width" />
+    <stroke android:width="@dimen/staffpick_banner_downloadbtn_outline_size" android:color="@color/banner_download_btnview_outline" />
+</shape>

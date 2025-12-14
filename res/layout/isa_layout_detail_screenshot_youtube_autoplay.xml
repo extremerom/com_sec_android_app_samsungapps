@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/layout_detail_screenshot_youtube_border" android:tag="layout/isa_layout_detail_screenshot_youtube_autoplay_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/youtube_container_autoplay" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/image_padding" android:layout_width="@dimen/detail_screenshot_margin" android:layout_height="match_parent" />
+</LinearLayout>

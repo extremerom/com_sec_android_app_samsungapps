@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d балл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балла</item>
+        <item quantity="many">%d баллов</item>
+        <item quantity="other">%d балла</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно выбрать больше %d тега.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно выбрать больше %d тегов.</item>
+        <item quantity="many">Невозможно выбрать больше %d тегов.</item>
+        <item quantity="other">Невозможно выбрать больше %d тега.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Использовать “Мгновенные платежи” могут только лица, достигшие %d-летнего возраста.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Использовать “Мгновенные платежи” могут только лица, достигшие %d-летнего возраста.</item>
+        <item quantity="many">Использовать “Мгновенные платежи” могут только лица, достигшие %d-летнего возраста.</item>
+        <item quantity="other">Использовать “Мгновенные платежи” могут только лица, достигшие %d-летнего возраста.</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано: %d</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дня.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дней.</item>
+        <item quantity="many">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дней.</item>
+        <item quantity="other">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дня.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Для загрузки этого приложения необходимо подтвердить личность и то, что вам уже исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Для загрузки этого приложения необходимо подтвердить личность и то, что вам уже исполнилось %d года.</item>
+        <item quantity="many">Для загрузки этого приложения необходимо подтвердить личность и то, что вам уже исполнилось %d лет.</item>
+        <item quantity="other">Для загрузки этого приложения необходимо подтвердить личность и то, что вам уже исполнилось %d года.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="many">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="other">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Остался %d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Осталось %d дня</item>
+        <item quantity="many">Осталось %d дней</item>
+        <item quantity="other">Осталось %d дня</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 балл будет добавлен в вашу учетную запись в течение %d дня.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">1 балл будет добавлен в вашу учетную запись в течение %d дней.</item>
+        <item quantity="many">1 балл будет добавлен в вашу учетную запись в течение %d дней.</item>
+        <item quantity="other">1 балл будет добавлен в вашу учетную запись в течение %d дня.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить набор стикеров из “%1$s”, “%2$s”, “%3$s” и еще %4$d приложения?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить набор стикеров из “%1$s”, “%2$s”, “%3$s” и еще %4$d приложений?</item>
+        <item quantity="many">Удалить набор стикеров из “%1$s”, “%2$s”, “%3$s” и еще %4$d приложений?</item>
+        <item quantity="other">Удалить набор стикеров из “%1$s”, “%2$s”, “%3$s” и еще %4$d приложения?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Для установки вам должен исполниться %d год. Проверьте возрастные ограничения с организатором семьи.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Для установки вам должен исполниться %d года. Проверьте возрастные ограничения с организатором семьи.</item>
+        <item quantity="many">Для установки вам должен исполниться %d лет. Проверьте возрастные ограничения с организатором семьи.</item>
+        <item quantity="other">Для установки вам должен исполниться %d года. Проверьте возрастные ограничения с организатором семьи.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дня.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дней.</item>
+        <item quantity="many">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дней.</item>
+        <item quantity="other">Баллы (%1$s) будут добавлены в вашу учетную запись в течение %2$d дня.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d балл будет добавлен на вашу учетную запись в течение 7 дней.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балла будут добавлены на вашу учетную запись в течение 7 дней.</item>
+        <item quantity="many">%d баллов будут добавлены на вашу учетную запись в течение 7 дней.</item>
+        <item quantity="other">%d балла будут добавлены на вашу учетную запись в течение 7 дней.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d балл Samsung Rewards</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балла Samsung Rewards</item>
+        <item quantity="many">%d баллов Samsung Rewards</item>
+        <item quantity="other">%d балла Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Чтобы предварительно зарегистрироваться для этого приложения, вам необходимо подтвердить, что вам уже исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Чтобы предварительно зарегистрироваться для этого приложения, вам необходимо подтвердить, что вам уже исполнилось %d года.</item>
+        <item quantity="many">Чтобы предварительно зарегистрироваться для этого приложения, вам необходимо подтвердить, что вам уже исполнилось %d лет.</item>
+        <item quantity="other">Чтобы предварительно зарегистрироваться для этого приложения, вам необходимо подтвердить, что вам уже исполнилось %d года.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Для просмотра этого приложения необходимо войти в систему и подтвердить, что вам уже исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Для просмотра этого приложения необходимо войти в систему и подтвердить, что вам уже исполнилось %d года.</item>
+        <item quantity="many">Для просмотра этого приложения необходимо войти в систему и подтвердить, что вам уже исполнилось %d лет.</item>
+        <item quantity="other">Для просмотра этого приложения необходимо войти в систему и подтвердить, что вам уже исполнилось %d года.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы уже установили %d наше лучшее приложение. Коснитесь “>”, чтобы просмотреть другие приложения.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы уже установили %d наших лучших приложения. Коснитесь “>”, чтобы просмотреть другие приложения.</item>
+        <item quantity="many">Вы уже установили %d наших лучших приложений. Коснитесь “>”, чтобы просмотреть другие приложения.</item>
+        <item quantity="other">Вы уже установили %d нашего лучшего приложения. Коснитесь “>”, чтобы просмотреть другие приложения.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы уже установили %d нашу лучшую игру. Коснитесь “>”, чтобы просмотреть другие игры.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы уже установили %d наши лучшие игры. Коснитесь “>”, чтобы просмотреть другие игры.</item>
+        <item quantity="many">Вы уже установили %d наших лучших игр. Коснитесь “>”, чтобы просмотреть другие игры.</item>
+        <item quantity="other">Вы уже установили %d нашей лучшей игры. Коснитесь “>”, чтобы просмотреть другие игры.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы уже установили %d наш лучший элемент оформления. Коснитесь “>”, чтобы просмотреть другие элементы.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы уже установили %d наших лучших элемента оформления. Коснитесь “>”, чтобы просмотреть другие элементы.</item>
+        <item quantity="many">Вы уже установили %d наших лучших элементов оформления. Коснитесь “>”, чтобы просмотреть другие элементы.</item>
+        <item quantity="other">Вы уже установили %d нашего лучшего элемента оформления. Коснитесь “>”, чтобы просмотреть другие элементы.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы уже установили %d нашу лучшую тему. Коснитесь “>”, чтобы просмотреть другие темы.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы уже установили %d наши лучшие темы. Коснитесь “>”, чтобы просмотреть другие темы.</item>
+        <item quantity="many">Вы уже установили %d наших лучших тем. Коснитесь “>”, чтобы просмотреть другие темы.</item>
+        <item quantity="other">Вы уже установили %d нашей лучшей темы. Коснитесь “>”, чтобы просмотреть другие темы.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы только что получили 1 балл! Теперь у вас %d балл, которые можно использовать для покупки приложений и других товаров в Galaxy Store.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы только что получили 1 балл! Теперь у вас %d балла, которые можно использовать для покупки приложений и других товаров в Galaxy Store.</item>
+        <item quantity="many">Вы только что получили 1 балл! Теперь у вас %d баллов, которые можно использовать для покупки приложений и других товаров в Galaxy Store.</item>
+        <item quantity="other">Вы только что получили 1 балл! Теперь у вас %d балла, которые можно использовать для покупки приложений и других товаров в Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Загружать это приложение могут только лица, достигшие %d-летнего возраста.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Загружать это приложение могут только лица, достигшие %d-летнего возраста.</item>
+        <item quantity="many">Загружать это приложение могут только лица, достигшие %d-летнего возраста.</item>
+        <item quantity="other">Загружать это приложение могут только лица, достигшие %d-летнего возраста.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Предварительная регистрация для этого приложения доступна людям, которым исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Предварительная регистрация для этого приложения доступна людям, которым исполнилось %d года.</item>
+        <item quantity="many">Предварительная регистрация для этого приложения доступна людям, которым исполнилось %d лет.</item>
+        <item quantity="other">Предварительная регистрация для этого приложения доступна людям, которым исполнилось %d года.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не показывать в течение %d дня</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не показывать в течение %d дней</item>
+        <item quantity="many">Не показывать в течение %d дней</item>
+        <item quantity="other">Не показывать в течение %d дня</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s каждый %2$d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s каждые %2$d дня</item>
+        <item quantity="many">%1$s каждые %2$d дней</item>
+        <item quantity="other">%1$s каждые %2$d дня</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s каждый %2$d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s каждые %2$d месяца</item>
+        <item quantity="many">%1$s каждые %2$d месяцев</item>
+        <item quantity="other">%1$s каждые %2$d месяца</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s каждую %2$d неделю</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s каждые %2$d недели</item>
+        <item quantity="many">%1$s каждые %2$d недель</item>
+        <item quantity="other">%1$s каждые %2$d недели</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s каждый %2$d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s каждые %2$d года</item>
+        <item quantity="many">%1$s каждые %2$d лет</item>
+        <item quantity="other">%1$s каждые %2$d года</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d балл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d балла</item>
+        <item quantity="many">%d баллов</item>
+        <item quantity="other">%d балла</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бесплатно до %1$s, затем %2$s за каждый %3$d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бесплатно до %1$s, затем %2$s за каждые %3$d дня</item>
+        <item quantity="many">Бесплатно до %1$s, затем %2$s за каждые %3$d дней</item>
+        <item quantity="other">Бесплатно до %1$s, затем %2$s за каждые %3$d дня</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бесплатно до %1$s, затем %2$s за каждый %3$d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бесплатно до %1$s, затем %2$s за каждые %3$d месяца</item>
+        <item quantity="many">Бесплатно до %1$s, затем %2$s за каждые %3$d месяцев</item>
+        <item quantity="other">Бесплатно до %1$s, затем %2$s за каждые %3$d месяца</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бесплатно до %1$s, затем %2$s за каждую %3$d неделю</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бесплатно до %1$s, затем %2$s за каждые %3$d недели</item>
+        <item quantity="many">Бесплатно до %1$s, затем %2$s за каждые %3$d недель</item>
+        <item quantity="other">Бесплатно до %1$s, затем %2$s за каждые %3$d недели</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бесплатно до %1$s, затем %2$s за каждый %3$d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Бесплатно до %1$s, затем %2$s за каждые %3$d года</item>
+        <item quantity="many">Бесплатно до %1$s, затем %2$s за каждые %3$d лет</item>
+        <item quantity="other">Бесплатно до %1$s, затем %2$s за каждые %3$d года</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d человек нашел это полезным</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d человека нашли это полезным</item>
+        <item quantity="many">%d человек нашли это полезным</item>
+        <item quantity="other">%d человека нашли это полезным</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Доступно %d обновление</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Доступно %d обновления</item>
+        <item quantity="many">Доступно %d обновлений</item>
+        <item quantity="other">Доступно %d обновления</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Отзывы с %d звездой</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Отзывы с %d звездами</item>
+        <item quantity="many">Отзывы с %d звездами</item>
+        <item quantity="other">Отзывы с %d звезды</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ваша оценка: %d звезда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ваша оценка: %d звезды</item>
+        <item quantity="many">Ваша оценка: %d звезд</item>
+        <item quantity="other">Ваша оценка: %d звезды</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d уведомление</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d уведомления</item>
+        <item quantity="many">%d уведомлений</item>
+        <item quantity="other">%d уведомления</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">В эту игру могут играть пользователи, которым исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">В эту игру могут играть пользователи, которым исполнилось %d года.</item>
+        <item quantity="many">В эту игру могут играть пользователи, которым исполнилось %d лет.</item>
+        <item quantity="other">В эту игру могут играть пользователи, которым исполнилось %d года.</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Игровой сеанс завершится через %d минуту.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Игровой сеанс завершится через %d минуты.</item>
+        <item quantity="many">Игровой сеанс завершится через %d минут.</item>
+        <item quantity="other">Игровой сеанс завершится через %d минуты.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нестабильное подключение к сети. Если не удастся установить стабильное подключение, игра будет закрыта через %d секунду. Игровое состояние будет сохранено.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Нестабильное подключение к сети. Если не удастся установить стабильное подключение, игра будет закрыта через %d секунды. Игровое состояние будет сохранено.</item>
+        <item quantity="many">Нестабильное подключение к сети. Если не удастся установить стабильное подключение, игра будет закрыта через %d секунд. Игровое состояние будет сохранено.</item>
+        <item quantity="other">Нестабильное подключение к сети. Если не удастся установить стабильное подключение, игра будет закрыта через %d секунды. Игровое состояние будет сохранено.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+        <item quantity="other">Перемотать на %d секунды назад</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунды</item>
+    </plurals>
+</resources>

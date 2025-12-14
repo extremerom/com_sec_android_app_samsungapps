@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/button_layout_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="24.0dp" android:layout_marginTop="24.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="20.0dp" android:minHeight="36.0dp" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/negative" android:focusable="true" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_BUTTON_CANCEL_ABB" android:editable="false" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_samsungapps_popup_button_default" />
+    <View android:id="@id/divider" android:background="@color/one_ui_dialog_button_divider_color" android:layout_width="1.0dp" android:layout_height="16.0dp" />
+    <TextView android:id="@id/positive" android:focusable="true" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/IDS_SAPPS_SK_OK" android:editable="false" android:layout_weight="1.0" android:textDirection="locale" style="@style/isa_samsungapps_popup_button_default" />
+</LinearLayout>

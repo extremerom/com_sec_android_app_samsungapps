@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/videoAdTopView_cta_stroke_width" android:color="@color/mas_video_ad_top_view_cta_stroke" />
+            <corners android:radius="@dimen/videoAdTopView_cta_cornerRadius" />
+            <solid android:color="@color/mas_video_ad_top_view_cta_backgroundColor" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ripple_cta_dark_bg" />
+</layer-list>

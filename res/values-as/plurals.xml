@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d পইণ্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d পইণ্ট</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টেগতকৈ অধিক চয়ন কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা টেগতকৈ অধিক চয়ন কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"তাৎক্ষণিক খেল ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"তাৎক্ষণিক খেল ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা চয়ন কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা চয়ন কৰা হৈছে</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%1$s পইণ্টসমূহ প্ৰায় %2$d দিনত আপোনাৰ একাউণ্টত যোগ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%1$s পইণ্টসমূহ প্ৰায় %2$d দিনত আপোনাৰ একাউণ্টত যোগ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই এপ্প্‌টো ডাউনলোড কৰিবলৈ, আপুনি আপোনাৰ পৰিচয় সত্যাপন কৰিব আৰু আপুনি %d বছৰ বয়সতকৈ ডাঙৰ হোৱাটো নিশ্চিত কৰিব লাগিব।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই এপ্প্‌টো ডাউনলোড কৰিবলৈ, আপুনি আপোনাৰ পৰিচয় সত্যাপন কৰিব আৰু আপুনি %d বছৰ বয়সতকৈ ডাঙৰ হোৱাটো নিশ্চিত কৰিব লাগিব।</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%2$s ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %1$d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%2$s ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %1$d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন বাকী আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিন বাকী আছে</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"প্ৰায় %d দিনৰ ভিতৰত আপোনাৰ একাউণ্টত 1 টা পইণ্ট যোগ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"প্ৰায় %d দিনৰ ভিতৰত আপোনাৰ একাউণ্টত 1 টা পইণ্ট যোগ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s, %3$s আৰু %4$d অন্য এপ্প্‌ৰ পৰা ষ্টিকাৰ ছেট বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s, %3$s আৰু %4$d অন্য এপ্প্‌সমূহৰ পৰা ষ্টিকাৰ ছেট বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ইনষ্টল কৰিবলৈ কমেও %d বছৰীয়া হ'বই লাগিব। আপুনি বয়সৰ ৰেটিঙৰ ছেটিংছ পৰিৱৰ্তন কৰিবলৈ আপোনাৰ পৰিয়ালৰ সংগঠকক সুধিব পাৰে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ইনষ্টল কৰিবলৈ কমেও %d বছৰীয়া হ'বই লাগিব। আপুনি বয়সৰ ৰেটিঙৰ ছেটিংছ পৰিৱৰ্তন কৰিবলৈ আপোনাৰ পৰিয়ালৰ সংগঠকক সুধিব পাৰে।"</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%1$s পইণ্টসমূহ প্ৰায় %2$d দিনত আপোনাৰ একাউণ্টত যোগ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%1$s পইণ্টসমূহ প্ৰায় %2$d দিনত আপোনাৰ একাউণ্টত যোগ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"7 দিনৰ ভিতৰত আপোনাৰ একাউণ্টত %d পইণ্ট যোগ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"7 দিনৰ ভিতৰত আপোনাৰ একাউণ্টত %d পইণ্ট যোগ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Samsung Rewards পইণ্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d Samsung Rewards পইণ্ট</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই এপ্প্‌ৰ বাবে পূৰ্বে-পঞ্জীয়ন কৰিবলৈ, আপুনি %d বছৰ বয়সতকৈ ডাঙৰ হোৱাটো সত্যাপন কৰাৰ প্ৰয়োজন।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই এপ্প্‌ৰ বাবে পূৰ্বে-পঞ্জীয়ন কৰিবলৈ, আপুনি %d বছৰ বয়সতকৈ ডাঙৰ হোৱাটো সত্যাপন কৰাৰ প্ৰয়োজন।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই এপ্প্‌টো চাবলৈ, আপুনি ছাইন ইন কৰিব আৰু %d বছৰ বয়সতকৈ ডাঙৰ হোৱাটো সত্যাপন কৰিব লাগিব।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই এপ্প্‌টো চাবলৈ, আপুনি ছাইন ইন কৰিব আৰু %d বছৰ বয়সতকৈ ডাঙৰ হোৱাটো সত্যাপন কৰিব লাগিব।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d এপ্প্‌ ইনষ্টল কৰিছে। অধিক চাবলৈ > টেপ কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d এপ্প্‌সমূহ ইনষ্টল কৰিছে। অধিক চাবলৈ > টেপ কৰক।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d গেম ইনষ্টল কৰিছে। অধিক চাবলৈ > টেপ কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d গেমবোৰ ইনষ্টল কৰিছে। অধিক চাবলৈ > টেপ কৰক।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d ষ্টাইলিং আইটেম ইনষ্টল কৰিছে। অধিক চাবলৈ > টেপ কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d ষ্টাইলিং আইটেমবোৰ ইনষ্টল কৰিছে। অধিক চাবলৈ > টেপ কৰক।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d থীম ইনষ্টল কৰিছে। অধিক চাবলৈ > টিপক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপুনি ইতিমধ্যেই আমাৰ শীৰ্ষ %d থীমবোৰ ইনষ্টল কৰিছে। অধিক চাবলৈ > টিপক।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপুনি এইমাত্ৰ 1 পইণ্ট অৰ্জন কৰিছে! Galaxy Store-ত এপ্প্‌সমূহ আৰু অন্য বস্তু ক্ৰয় কৰিবলৈ ব্যৱহাৰ কৰিব পৰা এতিয়া আপোনাৰ %d পইণ্ট আছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপুনি এইমাত্ৰ 1 পইণ্ট অৰ্জন কৰিছে! Galaxy Store-ত এপ্প্‌সমূহ আৰু অন্য বস্তু ক্ৰয় কৰিবলৈ ব্যৱহাৰ কৰিব পৰা এতিয়া আপোনাৰ %d পইণ্ট আছে।</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপুনি এই এপ্প্‌টো ডাউনলোড কৰিবলৈ কমেও %d বছৰ বয়সৰ হ'বই লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপুনি এই এপ্প্‌টো ডাউনলোড কৰিবলৈ কমেও %d বছৰ বয়সৰ হ'বই লাগিব।"</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপুনি এই এপ্প্‌টোৰ বাবে পূৰ্বে-পঞ্জীয়ন কৰিবলৈ কমেও %d বছৰ বয়সৰ হ'বই লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপুনি এই এপ্প্‌টোৰ বাবে পূৰ্বে-পঞ্জীয়ন কৰিবলৈ কমেও %d বছৰ বয়সৰ হ'বই লাগিব।"</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিনৰ বাবে পুনৰ নেদেখুৱাব</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d দিনৰ বাবে পুনৰ নেদেখুৱাব</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">প্ৰতি %2$d দিনত %1$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">প্ৰতি %2$d দিনত %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">প্ৰতি %2$d মাহত %1$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">প্ৰতি %2$d মাহত %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">প্ৰতি %2$d সপ্তাহত %1$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">প্ৰতি %2$d সপ্তাহত %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">প্ৰতি %2$d বছৰত %1$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">প্ৰতি %2$d বছৰত %1$s</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d পইণ্ট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d পইণ্ট</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d দিনত %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d দিনত %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d মাহত %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d মাহত %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d সপ্তাহত %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d সপ্তাহত %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d বছৰত %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-লৈকে বিনামূলীয়া, তাৰপিছত প্ৰতি %3$d বছৰত %2$s</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জন ব্যক্তিয়ে এয়া উপকাৰী পাইছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d জন ব্যক্তিয়ে এয়া উপকাৰী পাইছে</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা আপডেট উপলব্ধ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা আপডেট উপলব্ধ</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ষ্টাৰ সমীক্ষা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ষ্টাৰ সমীক্ষা</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ ৰেটিং: %d টা তৰা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ ৰেটিং: %d টা তৰা</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা জাননী</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা জাননী</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপুনি এই গেমটো খেলিবলৈ কমেও %d বছৰ বয়সৰ হ'বই লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপুনি এই গেমটো খেলিবলৈ কমেও %d বছৰ বয়সৰ হ'বই লাগিব।"</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"গেম ছেচন %d মিনিটত শেষ হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"গেম ছেচন %d মিনিটত শেষ হ'ব।"</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপোনাৰ নেটৱৰ্ক সংযোগ অস্থিৰ। আমি সংযোগ কৰিব নোৱাৰিলে গেমটো %d ছেকেণ্ডত বন্ধ হ'ব। আপোনাৰ গেমৰ স্থিতি সংৰক্ষণ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আপোনাৰ নেটৱৰ্ক সংযোগ অস্থিৰ। আমি সংযোগ কৰিব নোৱাৰিলে গেমটো %d ছেকেণ্ডত বন্ধ হ'ব। আপোনাৰ গেমৰ স্থিতি সংৰক্ষণ কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ছেকেণ্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ছেকেণ্ড</item>
+    </plurals>
+</resources>

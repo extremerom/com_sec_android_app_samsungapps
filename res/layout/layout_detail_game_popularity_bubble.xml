@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container_game_popularity_bubble_tip" android:visibility="gone" android:layout_height="wrap_content" android:minHeight="@dimen/detail_popularity_bubble_min_height" android:layout_weight="1.0" style="@style/game_detail_popularity_bubble">
+        <TextView android:id="@id/tv_game_user_behavior_bubble" android:background="@drawable/detail_popularity_bubble_bg" android:paddingLeft="18.0dp" android:paddingTop="10.0dp" android:paddingRight="18.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_popularity_bubble_min_height" android:paddingHorizontal="18.0dp" android:paddingVertical="10.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" style="@style/detail_game_user_behavior_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

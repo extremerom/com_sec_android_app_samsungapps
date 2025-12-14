@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/actionbar_touch_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="end|center" android:id="@android:id/mask" android:height="48.0dp" android:width="48.0dp">
+        <shape android:shape="oval">
+            <solid android:color="?android:colorPrimary" />
+            <corners android:radius="26.0dp" />
+        </shape>
+        <color android:color="@color/isa_transparent" />
+    </item>
+</ripple>

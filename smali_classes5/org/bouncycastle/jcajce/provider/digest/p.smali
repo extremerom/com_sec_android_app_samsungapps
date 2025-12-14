@@ -1,0 +1,25 @@
+.class public Lorg/bouncycastle/jcajce/provider/digest/p;
+.super Lorg/bouncycastle/jcajce/provider/symmetric/util/h;
+.source "ProGuard"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const-string v0, "[R8]"
+
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    move-result-object v0
+
+    const-string v1, "Shaking error: Missing method in org.bouncycastle.jcajce.provider.digest.GOST3411$KeyGenerator2012_512: void <init>()"
+
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->severe(Ljava/lang/String;)V
+
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/option_menu_my_sticker_sticker_center" android:title="@string/DREAM_SAPPS_OPT_MY_STICKERS_ABB" app:showAsAction="never" />
+    <item android:id="@id/option_menu_sign_in" android:title="@string/DREAM_SAPPS_BUTTON_SIGN_IN_22_CHN" app:showAsAction="never" />
+</menu>

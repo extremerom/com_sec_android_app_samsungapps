@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BODY_PD_POINTS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d phointe</item>
+        <item quantity="two">%d phointe</item>
+        <item quantity="few">%d phointe</item>
+        <item quantity="many">%d bpointe</item>
+        <item quantity="other">%d pointe</item>
+    </plurals>
+    <plurals name="CANT_SELECT_MORE_THAN_PD_TAGS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d chlib a roghnú.</item>
+        <item quantity="two">Ní féidir níos mó ná %d chlib a roghnú.</item>
+        <item quantity="few">Ní féidir níos mó ná %d chlib a roghnú.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gclib a roghnú.</item>
+        <item quantity="other">Ní féidir níos mó ná %d clib a roghnú.</item>
+    </plurals>
+    <plurals name="GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %d bliana d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %d mbliana d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %d bliain d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+    </plurals>
+    <plurals name="PLURAL_IDLE_HEADER_PD_SELECTED">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+        <item quantity="other">%d roghnaithe</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuirfear %1$s phointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="two">Cuirfear %1$s phointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="few">Cuirfear %1$s phointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="many">Cuirfear %1$s bpointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="other">Cuirfear %1$s pointe le do chuntas i gceann thart ar %2$d lá.</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_TO_DOWNLOAD_THIS_APP_YOU_NEED_TO_VERIFY_YOUR_IDENTITY_AND_CONFIRM_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Leis an bhfeidhmchlár seo a íoslódáil, ní foláir duit d'aitheantas a fhíorú agus a dheimhniú go bhfuil %d bhliain d'aois slánaithe agat."</item>
+        <item quantity="two">"Leis an bhfeidhmchlár seo a íoslódáil, ní foláir duit d'aitheantas a fhíorú agus a dheimhniú go bhfuil %d bhliain d'aois slánaithe agat."</item>
+        <item quantity="few">"Leis an bhfeidhmchlár seo a íoslódáil, ní foláir duit d'aitheantas a fhíorú agus a dheimhniú go bhfuil %d bliana d'aois slánaithe agat."</item>
+        <item quantity="many">"Leis an bhfeidhmchlár seo a íoslódáil, ní foláir duit d'aitheantas a fhíorú agus a dheimhniú go bhfuil %d mbliana d'aois slánaithe agat."</item>
+        <item quantity="other">"Leis an bhfeidhmchlár seo a íoslódáil, ní foláir duit d'aitheantas a fhíorú agus a dheimhniú go bhfuil %d bliain d'aois slánaithe agat."</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %1$d bhliain d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %1$d bhliain d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %1$d bliana d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %1$d mbliana d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %1$d bliain d'aois ar a laghad le %2$s a úsáid."</item>
+    </plurals>
+    <plurals name="PLURAL_SAPPS_OPT_PD_DAYS_LEFT">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá fágtha</item>
+        <item quantity="two">%d lá fágtha</item>
+        <item quantity="few">%d lá fágtha</item>
+        <item quantity="many">%d lá fágtha</item>
+        <item quantity="other">%d lá fágtha</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_1_POINT_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuirfear 1 phointe le do chuntas i gceann %d lae nó mar sin.</item>
+        <item quantity="two">Cuirfear 1 phointe le do chuntas i gceann %d lá nó mar sin.</item>
+        <item quantity="few">Cuirfear 1 phointe le do chuntas i gceann %d lá nó mar sin.</item>
+        <item quantity="many">Cuirfear 1 phointe le do chuntas i gceann %d lá nó mar sin.</item>
+        <item quantity="other">Cuirfear 1 phointe le do chuntas i gceann %d lá nó mar sin.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_DELETE_STICKER_SET_FROM_P1SS_P2SS_P3SS_AND_P4SD_OTHER_APPS_Q">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios tacar greamán ó %1$s, %2$s, %3$s, agus %4$d fheidhmchlár eile?</item>
+        <item quantity="two">Scrios tacar greamán ó %1$s, %2$s, %3$s, agus %4$d fheidhmchlár eile?</item>
+        <item quantity="few">Scrios tacar greamán ó %1$s, %2$s, %3$s, agus %4$d fheidhmchlár eile?</item>
+        <item quantity="many">Scrios tacar greamán ó %1$s, %2$s, %3$s, agus %4$d bhfeidhmchlár eile?</item>
+        <item quantity="other">Scrios tacar greamán ó %1$s, %2$s, %3$s, agus %4$d feidhmchlár eile?</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_INSTALL_YOU_CAN_ASK_YOUR_FAMILY_ORGANIZER_TO_CHANGE_AGE_RATING_SETTINGS_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní mór duit a bheith %d bhliain d’aois ar a laghad le suiteáil. Iarr ar d'eagraí teagh. soc. rátála aoise a athrú."</item>
+        <item quantity="two">"Ní mór duit a bheith %d bhliain d’aois ar a laghad le suiteáil. Iarr ar d'eagraí teagh. soc. rátála aoise a athrú."</item>
+        <item quantity="few">"Ní mór duit a bheith %d bliana d’aois ar a laghad le suiteáil. Iarr ar d'eagraí teagh. soc. rátála aoise a athrú."</item>
+        <item quantity="many">"Ní mór duit a bheith %d mbliana d’aois ar a laghad le suiteáil. Iarr ar d'eagraí teagh. soc. rátála aoise a athrú."</item>
+        <item quantity="other">"Ní mór duit a bheith %d bliain d’aois ar a laghad le suiteáil. Iarr ar d'eagraí teagh. soc. rátála aoise a athrú."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_P1SS_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_IN_ABOUT_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuirfear %1$s phointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="two">Cuirfear %1$s phointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="few">Cuirfear %1$s phointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="many">Cuirfear %1$s bpointe le do chuntas i gceann thart ar %2$d lá.</item>
+        <item quantity="other">Cuirfear %1$s pointe le do chuntas i gceann thart ar %2$d lá.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_POINTS_WILL_BE_ADDED_TO_YOUR_ACCOUNT_WITHIN_7_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuirfear %d phointe le do chuntas laistigh de 7 lá.</item>
+        <item quantity="two">Cuirfear %d phointe le do chuntas laistigh de 7 lá.</item>
+        <item quantity="few">Cuirfear %d phointe le do chuntas laistigh de 7 lá.</item>
+        <item quantity="many">Cuirfear %d bpointe le do chuntas laistigh de 7 lá.</item>
+        <item quantity="other">Cuirfear %d pointe le do chuntas laistigh de 7 lá.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_PD_SAMSUNG_REWARDS_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d phointe Samsung Rewards</item>
+        <item quantity="two">%d phointe Samsung Rewards</item>
+        <item quantity="few">%d phointe Samsung Rewards</item>
+        <item quantity="many">%d bpointe Samsung Rewards</item>
+        <item quantity="other">%d pointe Samsung Rewards</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_PRE_REGISTER_FOR_THIS_APP_YOU_NEED_TO_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Le réamhchlárú le haghaidh an fheidhmchláir seo, ní foláir duit a fhíorú go bhfuil tú %d bhliain d'aois ar a laghad."</item>
+        <item quantity="two">"Le réamhchlárú le haghaidh an fheidhmchláir seo, ní foláir duit a fhíorú go bhfuil tú %d bhliain d'aois ar a laghad."</item>
+        <item quantity="few">"Le réamhchlárú le haghaidh an fheidhmchláir seo, ní foláir duit a fhíorú go bhfuil tú %d bliana d'aois ar a laghad."</item>
+        <item quantity="many">"Le réamhchlárú le haghaidh an fheidhmchláir seo, ní foláir duit a fhíorú go bhfuil tú %d mbliana d'aois ar a laghad."</item>
+        <item quantity="other">"Le réamhchlárú le haghaidh an fheidhmchláir seo, ní foláir duit a fhíorú go bhfuil tú %d bliain d'aois ar a laghad."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_TO_VIEW_THIS_APP_YOU_NEED_TO_SIGN_IN_AND_VERIFY_THAT_YOURE_OVER_PD_YEARS_OLD">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Le hamharc ar an bhfeidhmchlár seo, ní foláir duit síniú isteach agus a fhíorú go bhfuil %d bhliain d'aois slánaithe agat."</item>
+        <item quantity="two">"Le hamharc ar an bhfeidhmchlár seo, ní foláir duit síniú isteach agus a fhíorú go bhfuil %d bhliain d'aois slánaithe agat."</item>
+        <item quantity="few">"Le hamharc ar an bhfeidhmchlár seo, ní foláir duit síniú isteach agus a fhíorú go bhfuil %d bliana d'aois slánaithe agat."</item>
+        <item quantity="many">"Le hamharc ar an bhfeidhmchlár seo, ní foláir duit síniú isteach agus a fhíorú go bhfuil %d mbliana d'aois slánaithe agat."</item>
+        <item quantity="other">"Le hamharc ar an bhfeidhmchlár seo, ní foláir duit síniú isteach agus a fhíorú go bhfuil %d bliain d'aois slánaithe agat."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_APPS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an %d fheidhmchlár móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="two">Tá an %d fheidhmchlár móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="few">Tá na %d fheidhmchlár móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="many">Tá na %d bhfeidhmchlár móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="other">Tá na %d feidhmchlár móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_GAMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an %d chluiche móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="two">Tá an %d chluiche móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="few">Tá na %d chluiche móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="many">Tá na %d gcluiche móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="other">Tá na %d cluiche móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_STYLING_ITEMS_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an %d mhír stíleála mhóréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="two">Tá an %d mhír stíleála mhóréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="few">Tá na %d mhír stíleála mhóréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="many">Tá na %d mír stíleála mhóréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="other">Tá na %d mír stíleála mhóréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOUVE_ALREADY_INSTALLED_OUR_TOP_PD_THEMES_TAP_TO_SEE_MORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an %d téama móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="two">Tá an %d théama móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="few">Tá na %d théama móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="many">Tá na %d dtéama móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+        <item quantity="other">Tá na %d téama móréilimh dár gcuid suiteáilte agat cheana. Tapáil > le tuilleadh a fheiceáil.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_JUST_EARNED_1_POINT_E_NOW_YOU_HAVE_PD_POINTS_YOU_CAN_USE_TO_BUY_APPS_AND_OTHER_STUFF_IN_THE_GALAXY_STORE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá tú díreach tar éis 1 phointe a thuilleamh! Anois tá %d phointe agat is féidir leat a úsáid le feidhmchláir agus rudaí eile a cheannach in Galaxy Store.</item>
+        <item quantity="two">Tá tú díreach tar éis 1 phointe a thuilleamh! Anois tá %d phointe agat is féidir leat a úsáid le feidhmchláir agus rudaí eile a cheannach in Galaxy Store.</item>
+        <item quantity="few">Tá tú díreach tar éis 1 phointe a thuilleamh! Anois tá %d phointe agat is féidir leat a úsáid le feidhmchláir agus rudaí eile a cheannach in Galaxy Store.</item>
+        <item quantity="many">Tá tú díreach tar éis 1 phointe a thuilleamh! Anois tá %d bpointe agat is féidir leat a úsáid le feidhmchláir agus rudaí eile a cheannach in Galaxy Store.</item>
+        <item quantity="other">Tá tú díreach tar éis 1 phointe a thuilleamh! Anois tá %d pointe agat is féidir leat a úsáid le feidhmchláir agus rudaí eile a cheannach in Galaxy Store.</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_DOWNLOAD_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní mór duit a bheith %d bhliain d'aois ar a laghad leis an bhfeidhmchlár seo a íoslódáil."</item>
+        <item quantity="two">"Ní mór duit a bheith %d bhliain d'aois ar a laghad leis an bhfeidhmchlár seo a íoslódáil."</item>
+        <item quantity="few">"Ní mór duit a bheith %d bliana d'aois ar a laghad leis an bhfeidhmchlár seo a íoslódáil."</item>
+        <item quantity="many">"Ní mór duit a bheith %d mbliana d'aois ar a laghad leis an bhfeidhmchlár seo a íoslódáil."</item>
+        <item quantity="other">"Ní mór duit a bheith %d bliain d'aois ar a laghad leis an bhfeidhmchlár seo a íoslódáil."</item>
+    </plurals>
+    <plurals name="SAPPS_BODY_YOU_MUST_BE_AT_LEAST_PD_YEARS_OLD_TO_PRE_REGISTER_FOR_THIS_APP">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní mór duit a bheith %d bhliain d’aois ar a laghad le réamhchlárú le haghaidh an fheidhmchláir seo.</item>
+        <item quantity="two">Ní mór duit a bheith %d bhliain d’aois ar a laghad le réamhchlárú le haghaidh an fheidhmchláir seo.</item>
+        <item quantity="few">Ní mór duit a bheith %d bliana d’aois ar a laghad le réamhchlárú le haghaidh an fheidhmchláir seo.</item>
+        <item quantity="many">Ní mór duit a bheith %d mbliana d’aois ar a laghad le réamhchlárú le haghaidh an fheidhmchláir seo.</item>
+        <item quantity="other">Ní mór duit a bheith %d bliain d’aois ar a laghad le réamhchlárú le haghaidh an fheidhmchláir seo.</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_DONT_SHOW_AGAIN_FOR_PD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ná taispeáin arís go ceann %d lae</item>
+        <item quantity="two">Ná taispeáin arís go ceann %d lá</item>
+        <item quantity="few">Ná taispeáin arís go ceann %d lá</item>
+        <item quantity="many">Ná taispeáin arís go ceann %d lá</item>
+        <item quantity="other">Ná taispeáin arís go ceann %d lá</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s gach %2$d lá</item>
+        <item quantity="two">%1$s gach %2$d lá</item>
+        <item quantity="few">%1$s gach %2$d lá</item>
+        <item quantity="many">%1$s gach %2$d lá</item>
+        <item quantity="other">%1$s gach %2$d lá</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s gach %2$d mhí</item>
+        <item quantity="two">%1$s gach %2$d mhí</item>
+        <item quantity="few">%1$s gach %2$d mhí</item>
+        <item quantity="many">%1$s gach %2$d mí</item>
+        <item quantity="other">%1$s gach %2$d mí</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s gach %2$d seachtain</item>
+        <item quantity="two">%1$s gach %2$d sheachtain</item>
+        <item quantity="few">%1$s gach %2$d seachtaine</item>
+        <item quantity="many">%1$s gach %2$d seachtaine</item>
+        <item quantity="other">%1$s gach %2$d seachtain</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_P1SS_EVERY_P2SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s gach %2$d bhliain</item>
+        <item quantity="two">%1$s gach %2$d bhliain</item>
+        <item quantity="few">%1$s gach %2$d bliana</item>
+        <item quantity="many">%1$s gach %2$d mbliana</item>
+        <item quantity="other">%1$s gach %2$d bliain</item>
+    </plurals>
+    <plurals name="SAPPS_OPT_PD_POINTS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d phointe</item>
+        <item quantity="two">%d phointe</item>
+        <item quantity="few">%d phointe</item>
+        <item quantity="many">%d bpointe</item>
+        <item quantity="other">%d pointe</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_DAYS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d lá</item>
+        <item quantity="two">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d lá</item>
+        <item quantity="few">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d lá</item>
+        <item quantity="many">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d lá</item>
+        <item quantity="other">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d lá</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_MONTHS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d mhí</item>
+        <item quantity="two">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d mhí</item>
+        <item quantity="few">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d mhí</item>
+        <item quantity="many">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d mí</item>
+        <item quantity="other">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d mí</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_WEEKS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d seachtain</item>
+        <item quantity="two">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d sheachtain</item>
+        <item quantity="few">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d seachtaine</item>
+        <item quantity="many">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d seachtaine</item>
+        <item quantity="other">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d seachtain</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_FREE_UNTIL_P1SS_THEN_P2SS_EVERY_P3SD_YEARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d bhliain</item>
+        <item quantity="two">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d bhliain</item>
+        <item quantity="few">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d bliana</item>
+        <item quantity="many">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d mbliana</item>
+        <item quantity="other">Saor in aisce go dtí an %1$s, ansin %2$s gach %3$d bliain</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_PEOPLE_FOUND_THIS_HELPFUL_ABB">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bhí sé seo cabhrach do %d duine</item>
+        <item quantity="two">Bhí sé seo cabhrach do %d dhuine</item>
+        <item quantity="few">Bhí sé seo cabhrach do %d dhuine</item>
+        <item quantity="many">Bhí sé seo cabhrach do %d nduine</item>
+        <item quantity="other">Bhí sé seo cabhrach do %d duine</item>
+    </plurals>
+    <plurals name="SAPPS_STATUS_PD_UPDATES_AVAILABLE">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nuashonrú ar fáil</item>
+        <item quantity="two">%d nuashonrú ar fáil</item>
+        <item quantity="few">%d nuashonrú ar fáil</item>
+        <item quantity="many">%d nuashonrú ar fáil</item>
+        <item quantity="other">%d nuashonrú ar fáil</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_PD_STAR_REVIEWS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">léirmheas %d réalta</item>
+        <item quantity="two">léirmheas %d réalta</item>
+        <item quantity="few">léirmheas %d réalta</item>
+        <item quantity="many">léirmheas %d réalta</item>
+        <item quantity="other">léirmheas %d réalta</item>
+    </plurals>
+    <plurals name="SAPPS_TBOPT_YOUR_RATING_C_PD_STARS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do rátáil: %d réalta</item>
+        <item quantity="two">Do rátáil: %d réalta</item>
+        <item quantity="few">Do rátáil: %d réalta</item>
+        <item quantity="many">Do rátáil: %d réalta</item>
+        <item quantity="other">Do rátáil: %d réalta</item>
+    </plurals>
+    <plurals name="ST_HEADER_PD_NOTIFICATIONS">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhógra</item>
+        <item quantity="two">%d fhógra</item>
+        <item quantity="few">%d fhógra</item>
+        <item quantity="many">%d bhfógra</item>
+        <item quantity="other">%d fógra</item>
+    </plurals>
+    <plurals name="cloudgame_child_case_error_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní mór duit %d bhliain d'aois a bheith slánaithe agat leis an gcluiche seo a imirt."</item>
+        <item quantity="two">"Ní mór duit %d bhliain d'aois a bheith slánaithe agat leis an gcluiche seo a imirt."</item>
+        <item quantity="few">"Ní mór duit %d bliana d'aois a bheith slánaithe agat leis an gcluiche seo a imirt."</item>
+        <item quantity="many">"Ní mór duit %d mbliana d'aois a bheith slánaithe agat leis an gcluiche seo a imirt."</item>
+        <item quantity="other">"Ní mór duit %d bliain d'aois a bheith slánaithe agat leis an gcluiche seo a imirt."</item>
+    </plurals>
+    <plurals name="cloudgame_hybrid_alternative_timeout_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Críochnófar seisiún an chluiche i gceann %d nóiméid.</item>
+        <item quantity="two">Críochnófar seisiún an chluiche i gceann %d nóiméad.</item>
+        <item quantity="few">Críochnófar seisiún an chluiche i gceann %d nóiméad.</item>
+        <item quantity="many">Críochnófar seisiún an chluiche i gceann %d nóiméad.</item>
+        <item quantity="other">Críochnófar seisiún an chluiche i gceann %d nóiméad.</item>
+    </plurals>
+    <plurals name="cloudgame_playing_exception_dialog_body_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá do nasc líonra éagobhsaí. Dúnfar an cluiche i gceann %d soicind mura féidir linn nascadh. Sábhálfar do stádas cluiche.</item>
+        <item quantity="two">Tá do nasc líonra éagobhsaí. Dúnfar an cluiche i gceann %d shoicind mura féidir linn nascadh. Sábhálfar do stádas cluiche.</item>
+        <item quantity="few">Tá do nasc líonra éagobhsaí. Dúnfar an cluiche i gceann %d shoicind mura féidir linn nascadh. Sábhálfar do stádas cluiche.</item>
+        <item quantity="many">Tá do nasc líonra éagobhsaí. Dúnfar an cluiche i gceann %d soicind mura féidir linn nascadh. Sábhálfar do stádas cluiche.</item>
+        <item quantity="other">Tá do nasc líonra éagobhsaí. Dúnfar an cluiche i gceann %d soicind mura féidir linn nascadh. Sábhálfar do stádas cluiche.</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soic</item>
+        <item quantity="two">%d shoic</item>
+        <item quantity="few">%d shoic</item>
+        <item quantity="many">%d soic</item>
+        <item quantity="other">%d soic</item>
+    </plurals>
+</resources>

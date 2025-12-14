@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.samsungapps.instantplays.view.FloatingAreaLayout android:id="@id/floating_area" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="@id/game_container" app:layout_constraintEnd_toEndOf="@id/game_container" app:layout_constraintStart_toStartOf="@id/game_container" app:layout_constraintTop_toTopOf="@id/game_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
