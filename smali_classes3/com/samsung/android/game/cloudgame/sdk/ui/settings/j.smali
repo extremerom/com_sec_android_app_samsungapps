@@ -66,6 +66,8 @@
 
     move-result p1
 
+    const/4 p1, 0x1
+
     invoke-virtual {v0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
 
     iget-object p1, p0, Lcom/samsung/android/game/cloudgame/sdk/ui/settings/j;->a:Landroidx/preference/SwitchPreference;
