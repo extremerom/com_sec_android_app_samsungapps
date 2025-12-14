@@ -212,7 +212,7 @@ adb logcat -v time SAUI:V *:S
 
 ### Permissions
 Some activities still require specific permissions:
-- `com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY`
+- `com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY` (Note: "GENERNAL" is Samsung's original typo)
 - `com.sec.android.app.samsungapps.accesspermission.CONTENT_ACTIVITY`
 
 These are signature-level permissions, so some features may not work unless you sign with Samsung's key.
