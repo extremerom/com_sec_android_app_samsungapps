@@ -28,9 +28,11 @@ This document details all the hidden menus, debug options, and developer feature
 
 **Authorization errors removed:**
 4. **Error 2280:7200**: "You're not authorized to access the QA Store" message no longer displayed
+5. **Authorization verification**: QA Store authorization always validates as correct/valid
 
 **Benefits:**
 - Direct access to QA Store without authorization
+- **QA Store is always authorized - server verification is forced to succeed**
 - No "You're not authorized to access the QA Store" message (error 2280:7200 suppressed)
 - Immediate test mode activation in game settings
 - Full access to developer settings

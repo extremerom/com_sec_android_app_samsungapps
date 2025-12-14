@@ -13,26 +13,31 @@ This implementation removes all password prompts in the Samsung Galaxy Store app
 
 ## Cambios Realizados / Changes Made
 
-### 1. Bypass de Contraseña de QA Store
+### 1. Bypass de Contraseña y Autorización de QA Store
 **Archivo / File:** `smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali`
 
 **Cambios:**
 - Modificado el campo estático `C:Z = false` a `C:Z = true`
 - Modificado el método `<clinit>()` para establecer explícitamente `C = true`
+- **NUEVO:** Modificado el método `K()` para forzar que la verificación de autorización siempre devuelva éxito
 
 **Efecto:**
 - La unidad de verificación de contraseña nunca se agrega al flujo de inicialización
 - Los usuarios ya no verán la solicitud de contraseña de QA Store
+- **La autorización de QA Store siempre se valida como correcta/autorizada**
+- El servidor puede devolver cualquier respuesta y la app la interpretará como autorizada
 - No aparecerá el diálogo de autorización "No tiene autorización para acceder a QA Store"
 
 **Detalles Técnicos:**
 El PasswordCheckUnit se agrega a la cadena de inicialización solo cuando `PasswordCheckUnit;->C:Z` devuelve false. Al establecerlo en true por defecto, la unidad se omite por completo.
 
+Además, en el método `K()` que verifica la autorización del servidor, se fuerza el resultado de la verificación a ser siempre `true` (1), lo que hace que la autorización siempre sea válida sin importar la respuesta del servidor.
+
 ```smali
-# Cambio en el campo estático
+# Cambio 1: Campo estático
 .field public static C:Z = true  # Era: false
 
-# Cambio en <clinit>()
+# Cambio 2: <clinit>()
 .method static constructor <clinit>()V
     .locals 1
 
@@ -41,6 +46,17 @@ El PasswordCheckUnit se agrega a la cadena de inicialización solo cuando `Passw
 
     return-void
 .end method
+
+# Cambio 3: Método K() - Línea ~371 (NUEVO)
+# Después de verificar la autorización del servidor, forzar resultado a true
+invoke-static {p2, v2}, Lcom/sec/android/app/commonlib/xml/StrStrMap;->l(Ljava/lang/String;Z)Z
+
+move-result p2
+
+const/4 p2, 0x1  # <-- Línea agregada: fuerza p2 = true (autorizado)
+
+if-nez p2, :cond_5
+# Como p2 siempre es 1, siempre salta a :cond_5 (autorizado)
 ```
 
 ---
@@ -218,8 +234,10 @@ Las modificaciones utilizan el enfoque más simple: sobrescribir los resultados 
 
 ```
 smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali
-  - Líneas modificadas: 7, 17-24
-  - Cambios: 8 líneas (+6 agregadas, -2 modificadas)
+  - Líneas modificadas: 7, 17-24, 371
+  - Cambios: 10 líneas (+8 agregadas, -2 modificadas)
+  - Bypass de contraseña de QA Store
+  - Bypass de verificación de autorización de QA Store (fuerza autorización válida)
 
 smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali
   - Líneas modificadas: 1285-1292
@@ -234,7 +252,7 @@ smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali
   - Líneas modificadas: 191
   - Cambios: 2 líneas agregadas
 
-Total: 4 archivos modificados, 12 líneas agregadas/modificadas
+Total: 4 archivos modificados, 14 líneas agregadas/modificadas
 ```
 
 ---

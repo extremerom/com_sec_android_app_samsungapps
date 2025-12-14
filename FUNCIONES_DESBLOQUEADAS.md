@@ -28,9 +28,11 @@ Este documento detalla todos los menús ocultos, opciones de depuración y funci
 
 **Errores de autorización eliminados:**
 4. **Error 2280:7200**: El mensaje "No tiene autorización para acceder a QA Store" ya no se muestra
+5. **Verificación de autorización**: La autorización de QA Store siempre se valida como correcta/válida
 
 **Beneficios:**
 - Acceso directo a QA Store sin autorización
+- **QA Store siempre está autorizado - la verificación del servidor se fuerza a éxito**
 - Sin mensaje "No tiene autorización para acceder a QA Store" (error 2280:7200 suprimido)
 - Activación inmediata del modo de prueba en configuración de juegos
 - Acceso completo a configuración de desarrollador
