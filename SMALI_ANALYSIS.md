@@ -1,5 +1,18 @@
 # Análisis de Código Smali - saconfig.ini
 
+## Tabla de Contenidos
+
+1. [Resumen del Análisis](#resumen-del-análisis)
+2. [Clases Analizadas](#clases-analizadas)
+   - [com.samsung.android.sso.manager.b](#1-comsamsungandroidssomanagerb)
+   - [com.samsung.android.sso.manager.doc.SAppsConfig](#2-comsamsungandroidssomanagerdocsappsconfig)
+   - [com.sec.android.app.commonlib.doc.SAppsConfig](#3-comsecandroidappcommonlibdocsappsconfig)
+3. [Mapeo Completo de Claves a Campos](#mapeo-completo-de-claves-a-campos)
+4. [Notas Adicionales](#notas-adicionales)
+5. [Conclusiones](#conclusiones)
+
+---
+
 ## Resumen del Análisis
 
 Este documento detalla el análisis realizado del código Smali de Samsung Galaxy Store para crear el archivo de configuración `saconfig.ini`.
