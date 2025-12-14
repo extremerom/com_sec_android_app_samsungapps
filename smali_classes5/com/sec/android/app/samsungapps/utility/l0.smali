@@ -540,7 +540,7 @@
     # Previously required dialing *#88277*66# to enable
     const/4 v1, 0x1
 
-    const-string v0, "TestMode ALWAYS ENABLED - go_to_andromeda.test"
+    const-string v0, "TestMode PERMANENTLY ENABLED - All hidden features unlocked"
 
     invoke-static {v0}, Lcom/sec/android/app/samsungapps/utility/f;->d(Ljava/lang/String;)V
 
