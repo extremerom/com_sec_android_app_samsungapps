@@ -1,0 +1,66 @@
+# saconfig.ini - Example Configuration for Testing
+# Copy this file to: /sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+
+# ===================================
+# MINIMAL CONFIGURATION
+# ===================================
+# This is a minimal working configuration
+# Uncomment and edit the lines you need
+
+# Enable Test Mode (recommended for testing)
+63=1
+
+# Set Billing Server to TEST mode
+47=TEST
+
+# Increase network timeout (useful for slow connections)
+60=60
+
+# ===================================
+# DEVICE SIMULATION
+# ===================================
+# Uncomment to simulate different device/region
+
+# Simulate Galaxy S21 Ultra
+#1=SM-G998B
+
+# Simulate US region
+#2=USA
+#4=310
+#9=260
+
+# Simulate France region
+#2=XEF
+#4=208
+#9=01
+
+# Simulate UK region
+#2=BTU
+#4=234
+#9=15
+
+# ===================================
+# SERVER CONFIGURATION
+# ===================================
+# Uncomment to use different servers
+
+# Production (default)
+#0=https://galaxystore.samsung.com
+#48=galaxystore.samsung.com
+
+# Staging
+#0=https://staging.galaxystore.samsung.com
+#48=staging.galaxystore.samsung.com
+
+# ===================================
+# DEBUG OPTIONS
+# ===================================
+
+# Enable auto-update test mode
+#63=1
+
+# Use direct IP instead of DNS
+#61=1
+
+# Set custom timeout (seconds)
+#60=30
