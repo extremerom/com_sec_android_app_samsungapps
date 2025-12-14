@@ -143,30 +143,8 @@
 .method public hasAccountSetting()Z
     .locals 1
 
-    iget-object v0, p0, Lcom/sec/android/app/samsungapps/settings/f0;->a:Landroid/content/Context;
-
-    if-nez v0, :cond_0
-
-    const/4 v0, 0x0
-
-    return v0
-
-    :cond_0
-    invoke-static {}, Lcom/sec/android/app/initializer/c0;->x()Lcom/sec/android/app/initializer/c0;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/initializer/c0;->r()Lcom/sec/android/app/commonlib/doc/Document;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Document;->O()Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;->P()Z
-
-    move-result v0
+    # UNLOCKED: Always show account settings regardless of login state
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -174,17 +152,8 @@
 .method public hasAdPreference()Z
     .locals 2
 
-    new-instance v0, Lcom/sec/android/app/samsungapps/utility/AppManager;
-
-    iget-object v1, p0, Lcom/sec/android/app/samsungapps/settings/f0;->a:Landroid/content/Context;
-
-    invoke-direct {v0, v1}, Lcom/sec/android/app/samsungapps/utility/AppManager;-><init>(Landroid/content/Context;)V
-
-    const-string v1, "com.sec.android.app.secad"
-
-    invoke-virtual {v0, v1}, Lcom/sec/android/app/samsungapps/utility/AppManager;->Q(Ljava/lang/String;)Z
-
-    move-result v0
+    # UNLOCKED: Always show ad preferences without package check
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -192,38 +161,8 @@
 .method public hasAddToHomeScreen()Z
     .locals 2
 
-    invoke-static {}, Lcom/sec/android/app/commonlib/doc/Document;->C()Lcom/sec/android/app/commonlib/doc/Document;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Document;->k()Lcom/sec/android/app/commonlib/doc/Country;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Country;->S()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x1d
-
-    if-lt v0, v1, :cond_0
-
-    invoke-virtual {p0}, Lcom/sec/android/app/samsungapps/settings/f0;->e()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
+    # UNLOCKED: Always show add to home screen option (was region/SDK restricted)
     const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
 
     return v0
 .end method
@@ -255,7 +194,8 @@
 .method public hasContactUs()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/sec/android/app/samsungapps/settings/f0;->b:Z
+    # UNLOCKED: Always show contact us option
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -263,42 +203,9 @@
 .method public hasDownloadOrErasePersonalData()Z
     .locals 1
 
-    invoke-static {}, Lcom/sec/android/app/commonlib/doc/Document;->C()Lcom/sec/android/app/commonlib/doc/Document;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Document;->k()Lcom/sec/android/app/commonlib/doc/Country;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Country;->V()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-static {}, Lcom/sec/android/app/commonlib/doc/Document;->C()Lcom/sec/android/app/commonlib/doc/Document;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Document;->O()Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;->L()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
+    # UNLOCKED: Always show GDPR data management (was region-restricted)
     const/4 v0, 0x1
 
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
     return v0
 .end method
 
@@ -333,95 +240,17 @@
 .method public hasPurchaseProtection()Z
     .locals 4
 
-    invoke-static {}, Lcom/sec/android/app/commonlib/doc/Document;->C()Lcom/sec/android/app/commonlib/doc/Document;
+    # UNLOCKED: Always show purchase protection regardless of account state
+    const/4 v0, 0x1
 
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Document;->O()Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;->L()Z
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_0
-
-    return v1
-
-    :cond_0
-    invoke-static {}, Lcom/sec/android/app/initializer/c0;->x()Lcom/sec/android/app/initializer/c0;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/initializer/c0;->r()Lcom/sec/android/app/commonlib/doc/Document;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/doc/Document;->O()Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccountInfo;->P()Z
-
-    move-result v0
-
-    const/4 v2, 0x1
-
-    if-nez v0, :cond_2
-
-    invoke-static {}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccount;->I()Z
-
-    move-result v0
-
-    if-ne v0, v2, :cond_1
-
-    invoke-static {}, Lcom/sec/android/app/samsungapps/accountlib/SamsungAccount;->u()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/sec/android/app/commonlib/concreteloader/c;->g(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    :cond_1
-    return v1
-
-    :cond_2
-    new-instance v0, Lcom/sec/android/app/commonlib/unifiedbilling/j;
-
-    invoke-direct {v0}, Lcom/sec/android/app/commonlib/unifiedbilling/j;-><init>()V
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/unifiedbilling/j;->b()Z
-
-    move-result v3
-
-    if-nez v3, :cond_4
-
-    invoke-virtual {v0}, Lcom/sec/android/app/commonlib/unifiedbilling/j;->f()Z
-
-    move-result v0
-
-    if-nez v0, :cond_3
-
-    goto :goto_0
-
-    :cond_3
-    return v2
-
-    :cond_4
-    :goto_0
-    return v1
+    return v0
 .end method
 
 .method public hasSamsungAppsAutoUpdate()Z
     .locals 1
 
-    const/4 v0, 0x0
+    # UNLOCKED: Enable hidden auto-update setting (was completely disabled)
+    const/4 v0, 0x1
 
     return v0
 .end method

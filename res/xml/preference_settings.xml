@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- UNLOCKED: All hidden developer settings exposed -->
+<!-- Removed isPreferenceVisible="false" and test mode dependencies -->
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
     <Preference />
     <Preference app:icon="@drawable/ic_settings_cloud" app:summary="@string/cloudgame_sdk_version_name" app:title="@string/cloudgame_settings_sdk_version_title" />
     <SwitchPreference app:defaultValue="false" app:icon="@drawable/ic_settings_test" app:key="@string/cloudgame_settings_key_test_mode" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_test_mode_summary_on" app:title="@string/cloudgame_settings_test_mode_title" />
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_api" app:isPreferenceVisible="false" app:title="@string/cloudgame_settings_api_title">
+    <PreferenceCategory app:icon="@drawable/ic_settings_api" app:title="@string/cloudgame_settings_api_title">
         <ListPreference app:defaultValue="@string/cloudgame_settings_api_endpoint_value_prd" app:entries="@array/cloudgame_settings_api_endpoint_entries" app:entryValues="@array/cloudgame_settings_api_endpoint_values" app:key="@string/cloudgame_settings_key_api_endpoint" app:title="@string/cloudgame_settings_api_endpoint_title" app:useSimpleSummaryProvider="true" />
         <ListPreference app:defaultValue="@string/cloudgame_settings_api_streaming_region_entry_auto" app:key="@string/cloudgame_settings_key_api_streaming_region" app:title="@string/cloudgame_settings_api_streaming_region_title" app:useSimpleSummaryProvider="true" />
         <SwitchPreference app:defaultValue="false" app:key="@string/cloudgame_settings_key_session_test_mode" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_test_mode_summary_on" app:title="@string/cloudgame_settings_session_test_mode_title" />
@@ -11,25 +13,25 @@
         <SwitchPreference app:defaultValue="false" app:key="@string/cloudgame_settings_key_use_upscaling" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_test_mode_summary_on" app:title="@string/cloudgame_settings_use_upscaling_title" />
         <SwitchPreference app:defaultValue="true" app:key="@string/cloudgame_settings_key_use_test_watermark" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_test_mode_summary_on" app:title="@string/cloudgame_settings_use_test_watermark" />
     </PreferenceCategory>
-    <SwitchPreference app:defaultValue="false" app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_red_eye" app:key="@string/cloudgame_settings_key_use_custom_abnormal_detector" app:title="@string/cloudgame_setting_use_custom_abnormal_detector" />
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_use_custom_abnormal_detector" app:isPreferenceVisible="false" app:title="@string/cloudgame_setting_use_custom_abnormal_detector">
+    <SwitchPreference app:defaultValue="false" app:icon="@drawable/ic_settings_red_eye" app:key="@string/cloudgame_settings_key_use_custom_abnormal_detector" app:title="@string/cloudgame_setting_use_custom_abnormal_detector" />
+    <PreferenceCategory app:title="@string/cloudgame_setting_use_custom_abnormal_detector">
         <Preference app:key="@string/cloudgame_settings_key_abnormal_stream_quality_policies" app:title="@string/cloudgame_settings_abnormal_stream_quality_policies" />
     </PreferenceCategory>
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_log" app:isPreferenceVisible="false" app:title="@string/cloudgame_settings_log_title">
+    <PreferenceCategory app:icon="@drawable/ic_settings_log" app:title="@string/cloudgame_settings_log_title">
         <ListPreference app:defaultValue="@string/cloudgame_settings_api_endpoint_value_prd" app:entries="@array/cloudgame_settings_log_ureca_api_endpoint_entries" app:entryValues="@array/cloudgame_settings_log_ureca_api_endpoint_values" app:key="@string/cloudgame_settings_key_ureca_api_endpoint" app:title="@string/cloudgame_settings_log_ureca_api_endpoint_title" app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_ui" app:isPreferenceVisible="false" app:title="@string/cloudgame_settings_ui_title">
+    <PreferenceCategory app:icon="@drawable/ic_settings_ui" app:title="@string/cloudgame_settings_ui_title">
         <SwitchPreference app:defaultValue="@string/cloudgame_settings_ui_first_play_default" app:key="@string/cloudgame_settings_key_ui_first_play" app:summaryOff="@string/cloudgame_settings_ui_first_play_off" app:summaryOn="@string/cloudgame_settings_ui_first_play_on" app:title="@string/cloudgame_settings_ui_first_play" />
     </PreferenceCategory>
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_data_migration" app:isPreferenceVisible="false" app:title="@string/cloudgame_settings_dm">
+    <PreferenceCategory app:icon="@drawable/ic_settings_data_migration" app:title="@string/cloudgame_settings_dm">
         <SwitchPreference app:defaultValue="@string/cloudgame_settings_dm_custom_trigger_default" app:key="@string/cloudgame_settings_key_dm_custom_trigger" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_dm_custom_trigger_summary_on" app:title="@string/cloudgame_settings_dm_custom_trigger_title" />
         <Preference app:key="@string/cloudgame_settings_key_worker_trigger_history" app:title="@string/cloudgame_settings_log_worker_trigger_history" />
     </PreferenceCategory>
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_preferred_decoder_codecs" app:isPreferenceVisible="false" app:title="@string/cloudgame_settings_pdc_title">
+    <PreferenceCategory app:icon="@drawable/ic_settings_preferred_decoder_codecs" app:title="@string/cloudgame_settings_pdc_title">
         <SwitchPreference app:defaultValue="false" app:key="@string/cloudgame_settings_key_preferred_decoder_codecs_av1" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_test_mode_summary_on" app:title="@string/cloudgame_settings_pdc_av1_title" />
         <SwitchPreference app:defaultValue="false" app:key="@string/cloudgame_settings_key_preferred_decoder_codecs_h264" app:summaryOff="@string/cloudgame_settings_test_mode_summary_off" app:summaryOn="@string/cloudgame_settings_test_mode_summary_on" app:title="@string/cloudgame_settings_pdc_h264_title" />
     </PreferenceCategory>
-    <PreferenceCategory app:dependency="@string/cloudgame_settings_key_test_mode" app:icon="@drawable/ic_settings_dev" app:isPreferenceVisible="false" app:title="@string/cloudgame_settings_dev_title">
+    <PreferenceCategory app:icon="@drawable/ic_settings_dev" app:title="@string/cloudgame_settings_dev_title">
         <Preference app:enableCopying="true" app:key="@string/cloudgame_settings_key_temp_dev_gaid" app:summary="@string/cloudgame_settings_dev_gaid_summary" app:title="@string/cloudgame_settings_dev_gaid_title" />
         <Preference app:enableCopying="true" app:key="@string/cloudgame_settings_key_temp_dev_android_id" app:summary="@string/cloudgame_settings_dev_android_id_summary" app:title="@string/cloudgame_settings_dev_android_id_title" />
     </PreferenceCategory>
