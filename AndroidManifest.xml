@@ -997,7 +997,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@style/TestSettingPage" android:name="com.samsung.android.mas.internal.ui.DevSettingsPage" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/TestSettingPage" android:name="com.samsung.android.mas.internal.ui.DevSettingsPage" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:theme="@style/InterstitialAdStyle" android:name="com.samsung.android.mas.internal.ui.InterstitialAdActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|density">
             <intent-filter>
                 <action android:name="com.samsung.android.mas.OPEN_INTERSTITIAL_AD" />
