@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static C:Z = false
+.field public static C:Z = true
 
 
 # instance fields
@@ -15,7 +15,11 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 0
+    .locals 1
+
+    const/4 v0, 0x1
+
+    sput-boolean v0, Lcom/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit;->C:Z
 
     return-void
 .end method

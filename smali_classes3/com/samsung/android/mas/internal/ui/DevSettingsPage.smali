@@ -188,6 +188,8 @@
 
     move-result p1
 
+    const/4 p1, 0x1
+
     if-eqz p1, :cond_0
 
     invoke-virtual {p2}, Landroid/app/Dialog;->dismiss()V
