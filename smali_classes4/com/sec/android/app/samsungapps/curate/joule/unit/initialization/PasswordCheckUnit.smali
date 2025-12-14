@@ -368,9 +368,6 @@
 
     move-result p2
 
-    # Force QA Store authorization to always succeed - bypass server check
-    const/4 p2, 0x1
-
     if-nez p2, :cond_5
 
     invoke-virtual {p1, v2}, Lcom/sec/android/app/joule/c;->t(I)V

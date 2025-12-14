@@ -14,10 +14,9 @@ This document details all the hidden menus, debug options, and developer feature
 
 ## Password Bypass
 
-### ⭐ NEW: Removal of Password Prompts and Authorization Errors
+### ⭐ NEW: Removal of Password Prompts
 **Modified files:**
 - `smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali`
-- `smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali` (NEW)
 - `smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali`
 - `smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali`
 
@@ -26,17 +25,11 @@ This document details all the hidden menus, debug options, and developer feature
 2. **CloudGame Settings Test Mode**: Accepts any password
 3. **Developer Settings (Test Mode)**: Accepts any password
 
-**Authorization errors removed:**
-4. **Error 2280:7200**: "You're not authorized to access the QA Store" message no longer displayed
-5. **Authorization verification**: QA Store authorization always validates as correct/valid
-
 **Benefits:**
 - Direct access to QA Store without authorization
-- **QA Store is always authorized - server verification is forced to succeed**
-- No "You're not authorized to access the QA Store" message (error 2280:7200 suppressed)
+- No "You're not authorized to access the QA Store" message
 - Immediate test mode activation in game settings
 - Full access to developer settings
-- App continues to function without interruption from authorization errors
 
 For more details, see [PASSWORD_BYPASS.md](PASSWORD_BYPASS.md)
 
