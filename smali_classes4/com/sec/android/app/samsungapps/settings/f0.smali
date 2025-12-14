@@ -143,6 +143,7 @@
 .method public hasAccountSetting()Z
     .locals 1
 
+    # UNLOCKED: Always show account settings regardless of login state
     const/4 v0, 0x1
 
     return v0
@@ -151,6 +152,7 @@
 .method public hasAdPreference()Z
     .locals 2
 
+    # UNLOCKED: Always show ad preferences without package check
     const/4 v0, 0x1
 
     return v0
@@ -159,6 +161,7 @@
 .method public hasAddToHomeScreen()Z
     .locals 2
 
+    # UNLOCKED: Always show add to home screen option (was region/SDK restricted)
     const/4 v0, 0x1
 
     return v0
@@ -191,6 +194,7 @@
 .method public hasContactUs()Z
     .locals 1
 
+    # UNLOCKED: Always show contact us option
     const/4 v0, 0x1
 
     return v0
@@ -199,6 +203,7 @@
 .method public hasDownloadOrErasePersonalData()Z
     .locals 1
 
+    # UNLOCKED: Always show GDPR data management (was region-restricted)
     const/4 v0, 0x1
 
     return v0
@@ -235,14 +240,16 @@
 .method public hasPurchaseProtection()Z
     .locals 4
 
-    const/4 v2, 0x1
+    # UNLOCKED: Always show purchase protection regardless of account state
+    const/4 v0, 0x1
 
-    return v2
+    return v0
 .end method
 
 .method public hasSamsungAppsAutoUpdate()Z
     .locals 1
 
+    # UNLOCKED: Enable hidden auto-update setting (was completely disabled)
     const/4 v0, 0x1
 
     return v0

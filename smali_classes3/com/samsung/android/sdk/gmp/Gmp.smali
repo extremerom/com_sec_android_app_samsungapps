@@ -4,6 +4,7 @@
 
 
 # static fields
+# UNLOCKED: Debug mode enabled for Gaming Platform SDK
 .field public static DEBUG:Z = true
 
 .field private static final TAG:Ljava/lang/String; = "Gmp"

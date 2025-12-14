@@ -536,6 +536,8 @@
 .method public i()Z
     .locals 2
 
+    # UNLOCKED: Test mode always enabled - bypasses secret code check
+    # Previously required dialing *#88277*66# to enable
     const/4 v1, 0x1
 
     const-string v0, "TestMode ALWAYS ENABLED - go_to_andromeda.test"

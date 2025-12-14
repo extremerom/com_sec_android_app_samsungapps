@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- UNLOCKED: All hidden developer settings exposed -->
+<!-- Removed isPreferenceVisible="false" and test mode dependencies -->
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
     <Preference />
     <Preference app:icon="@drawable/ic_settings_cloud" app:summary="@string/cloudgame_sdk_version_name" app:title="@string/cloudgame_settings_sdk_version_title" />
