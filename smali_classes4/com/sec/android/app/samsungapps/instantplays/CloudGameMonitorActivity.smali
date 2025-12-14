@@ -39,11 +39,5 @@
 
     invoke-super {p0, p1}, Lcom/sec/android/app/samsungapps/b4;->onCreate(Landroid/os/Bundle;)V
 
-    const-string p1, "Not supported in release mode"
-
-    invoke-static {p0, p1}, Lcom/sec/android/app/util/x;->c(Landroid/content/Context;Ljava/lang/String;)Landroid/widget/Toast;
-
-    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
-
     return-void
 .end method
