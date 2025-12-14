@@ -1282,14 +1282,15 @@
 
     goto/16 :goto_0
 
+    # QA Store authorization error bypass - suppress error dialog for code 0x1c20 (7200)
     :cond_3
-    sget p0, Lcom/sec/android/app/samsungapps/r3;->n5:I
+    sget-object v1, Lcom/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo$POPUP_TYPE;->NO_POPUP:Lcom/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo$POPUP_TYPE;
 
-    invoke-virtual {p3, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move p1, v0
 
-    move-result-object p0
+    move-object p0, v3
 
-    goto/16 :goto_0
+    goto :goto_1
 
     :cond_4
     sget p0, Lcom/sec/android/app/samsungapps/r3;->q0:I

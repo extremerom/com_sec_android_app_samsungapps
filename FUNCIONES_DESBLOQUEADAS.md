@@ -14,9 +14,10 @@ Este documento detalla todos los menús ocultos, opciones de depuración y funci
 
 ## Bypass de Contraseñas
 
-### ⭐ NUEVO: Eliminación de Solicitudes de Contraseña
+### ⭐ NUEVO: Eliminación de Solicitudes de Contraseña y Errores de Autorización
 **Archivos modificados:**
 - `smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali`
+- `smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali` (NUEVO)
 - `smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali`
 - `smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali`
 
@@ -25,11 +26,17 @@ Este documento detalla todos los menús ocultos, opciones de depuración y funci
 2. **CloudGame Settings Test Mode**: Acepta cualquier contraseña
 3. **Developer Settings (Test Mode)**: Acepta cualquier contraseña
 
+**Errores de autorización eliminados:**
+4. **Error 2280:7200**: El mensaje "No tiene autorización para acceder a QA Store" ya no se muestra
+5. **Verificación de autorización**: La autorización de QA Store siempre se valida como correcta/válida
+
 **Beneficios:**
 - Acceso directo a QA Store sin autorización
-- Sin mensaje "No tiene autorización para acceder a QA Store"
+- **QA Store siempre está autorizado - la verificación del servidor se fuerza a éxito**
+- Sin mensaje "No tiene autorización para acceder a QA Store" (error 2280:7200 suprimido)
 - Activación inmediata del modo de prueba en configuración de juegos
 - Acceso completo a configuración de desarrollador
+- La aplicación continúa funcionando sin interrupciones por errores de autorización
 
 Para más detalles, consulta [PASSWORD_BYPASS.md](PASSWORD_BYPASS.md)
 

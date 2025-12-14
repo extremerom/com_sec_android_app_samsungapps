@@ -13,26 +13,31 @@ This implementation removes all password prompts in the Samsung Galaxy Store app
 
 ## Cambios Realizados / Changes Made
 
-### 1. Bypass de Contraseña de QA Store
+### 1. Bypass de Contraseña y Autorización de QA Store
 **Archivo / File:** `smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali`
 
 **Cambios:**
 - Modificado el campo estático `C:Z = false` a `C:Z = true`
 - Modificado el método `<clinit>()` para establecer explícitamente `C = true`
+- **NUEVO:** Modificado el método `K()` para forzar que la verificación de autorización siempre devuelva éxito
 
 **Efecto:**
 - La unidad de verificación de contraseña nunca se agrega al flujo de inicialización
 - Los usuarios ya no verán la solicitud de contraseña de QA Store
+- **La autorización de QA Store siempre se valida como correcta/autorizada**
+- El servidor puede devolver cualquier respuesta y la app la interpretará como autorizada
 - No aparecerá el diálogo de autorización "No tiene autorización para acceder a QA Store"
 
 **Detalles Técnicos:**
 El PasswordCheckUnit se agrega a la cadena de inicialización solo cuando `PasswordCheckUnit;->C:Z` devuelve false. Al establecerlo en true por defecto, la unidad se omite por completo.
 
+Además, en el método `K()` que verifica la autorización del servidor, se fuerza el resultado de la verificación a ser siempre `true` (1), lo que hace que la autorización siempre sea válida sin importar la respuesta del servidor.
+
 ```smali
-# Cambio en el campo estático
+# Cambio 1: Campo estático
 .field public static C:Z = true  # Era: false
 
-# Cambio en <clinit>()
+# Cambio 2: <clinit>()
 .method static constructor <clinit>()V
     .locals 1
 
@@ -41,11 +46,58 @@ El PasswordCheckUnit se agrega a la cadena de inicialización solo cuando `Passw
 
     return-void
 .end method
+
+# Cambio 3: Método K() - Línea ~371 (NUEVO)
+# Después de verificar la autorización del servidor, forzar resultado a true
+invoke-static {p2, v2}, Lcom/sec/android/app/commonlib/xml/StrStrMap;->l(Ljava/lang/String;Z)Z
+
+move-result p2
+
+const/4 p2, 0x1  # <-- Línea agregada: fuerza p2 = true (autorizado)
+
+if-nez p2, :cond_5
+# Como p2 siempre es 1, siempre salta a :cond_5 (autorizado)
 ```
 
 ---
 
-### 2. Bypass de Contraseña de CloudGame Settings Test Mode
+### 2. Bypass de Error de Autorización de QA Store
+**Archivo / File:** `smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali`
+
+**Cambios:**
+- Modificado el manejo del error código 0x1c20 (7200 decimal) en el método `i()`
+- Cambiado el tipo de popup de DIALOG a NO_POPUP para este error específico
+
+**Efecto:**
+- El error "No tiene autorización para acceder a QA Store" (código 2280:7200) ya no se muestra
+- La aplicación continúa sin interrupciones cuando se encuentra este error
+- No se muestra ningún diálogo de error ni notificación
+
+**Detalles Técnicos:**
+Cuando la API devuelve el error 7200 (acceso no autorizado a QA Store), el código originalmente mostraba un diálogo con el mensaje de error. Al cambiar el tipo de popup a NO_POPUP, el error se ignora completamente.
+
+```smali
+# Cambio en el método i() - Líneas ~1285-1292
+:cond_3
+sget-object v1, Lcom/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo$POPUP_TYPE;->NO_POPUP:Lcom/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo$POPUP_TYPE;
+
+move p1, v0
+
+move-object p0, v3
+
+goto :goto_1
+
+# Código original (comentado):
+# :cond_3
+# sget p0, Lcom/sec/android/app/samsungapps/r3;->n5:I  # String: "No tiene autorización..."
+# invoke-virtual {p3, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+# move-result-object p0
+# goto/16 :goto_0
+```
+
+---
+
+### 3. Bypass de Contraseña de CloudGame Settings Test Mode
 **Archivo / File:** `smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali`
 
 **Cambios:**
@@ -72,7 +124,7 @@ invoke-virtual {v0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)
 
 ---
 
-### 3. Bypass de Contraseña de Test Mode (Developer Settings)
+### 4. Bypass de Contraseña de Test Mode (Developer Settings)
 **Archivo / File:** `smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali`
 
 **Cambios:**
@@ -182,8 +234,15 @@ Las modificaciones utilizan el enfoque más simple: sobrescribir los resultados 
 
 ```
 smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali
-  - Líneas modificadas: 7, 17-24
-  - Cambios: 8 líneas (+6 agregadas, -2 modificadas)
+  - Líneas modificadas: 7, 17-24, 371
+  - Cambios: 10 líneas (+8 agregadas, -2 modificadas)
+  - Bypass de contraseña de QA Store
+  - Bypass de verificación de autorización de QA Store (fuerza autorización válida)
+
+smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali
+  - Líneas modificadas: 1285-1292
+  - Cambios: 4 líneas modificadas
+  - Bypass de error de autorización QA Store (código 0x1c20/7200)
 
 smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali
   - Líneas modificadas: 69
@@ -193,7 +252,7 @@ smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali
   - Líneas modificadas: 191
   - Cambios: 2 líneas agregadas
 
-Total: 3 archivos modificados, 10 líneas agregadas, 2 líneas modificadas
+Total: 4 archivos modificados, 14 líneas agregadas/modificadas
 ```
 
 ---
