@@ -1,7 +1,7 @@
 # Verification of QA Store Password Bypass Implementation
 
 ## Problem Statement
-The issue "No tiene autorización para acceder a QA Store modifica el smali" (You're not authorized to access the QA Store modify the smali) requires modifying the smali bytecode to bypass the authorization check that prevents users from accessing the QA Store.
+The issue "No tiene autorización para acceder a QA Store, modifica el smali" (You're not authorized to access the QA Store, modify the smali) requires modifying the smali bytecode to bypass the authorization check that prevents users from accessing the QA Store.
 
 ## Implementation Summary
 
@@ -23,10 +23,11 @@ All required modifications have been successfully implemented to bypass the QA S
 - Direct access to QA Store features without authorization
 
 **Technical Details:**
-The field `PasswordCheckUnit;->C:Z` is checked in three locations in `smali_classes4/com/sec/android/app/samsungapps/curate/joule/c.smali`:
-- Line 5276: `sget-boolean v2, Lcom/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit;->C:Z`
-- Line 5338: `sget-boolean v2, Lcom/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit;->C:Z`
-- Line 5523: `sget-boolean v2, Lcom/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit;->C:Z`
+The field `PasswordCheckUnit;->C:Z` is checked in multiple locations in `smali_classes4/com/sec/android/app/samsungapps/curate/joule/c.smali` using the pattern:
+```smali
+sget-boolean v2, Lcom/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit;->C:Z
+if-nez v2, :cond_X
+```
 
 In all cases, the code uses `if-nez v2` which means "if C is false, add PasswordCheckUnit". By setting C to true, the PasswordCheckUnit is skipped entirely.
 
@@ -98,6 +99,8 @@ invoke-virtual {v0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)
 ### 3. Developer Settings
 ✅ **Expected Behavior:**
 - Launch developer settings: `adb shell am start -n com.sec.android.app.samsungapps/com.samsung.android.mas.internal.ui.DevSettingsPage`
+  - **Note:** Requires USB debugging enabled on the device
+  - May not work on all devices or Android versions due to security restrictions
 - Enter any password when prompted
 - Developer settings open successfully
 
@@ -137,13 +140,22 @@ if-eqz p1, :cond_0
 
 ## Security Implications
 
-⚠️ **Important Notes:**
+⚠️ **CRITICAL SECURITY WARNINGS:**
 - These modifications remove authentication barriers for developer/QA features
-- Intended for educational and research purposes only
-- May affect device stability if system app is modified
-- Should only be used on personal devices with understanding of risks
+- **Legal Considerations:** Bypassing security controls may violate the app's Terms of Service and could have legal implications depending on your jurisdiction
+- **Intended Use:** Educational and research purposes only
+- **Device Impact:** May affect device stability if system app is modified
+- **Personal Use Only:** Should only be used on personal devices with full understanding of risks
+- **No Warranty:** Use at your own risk with no guarantees of functionality or safety
 
 ## Build Instructions
+
+⚠️ **CRITICAL WARNING:** Installing modified system apps requires the following:
+- **Root Access:** Device must be rooted to replace system apps
+- **Risk of Bricking:** Improper installation may brick your device
+- **Warranty Void:** This process will likely void your device warranty
+- **Backup Required:** Always backup your device before proceeding
+- **Expert Knowledge:** Only attempt if you have experience with Android system modification
 
 After verification, the modified app can be rebuilt:
 
