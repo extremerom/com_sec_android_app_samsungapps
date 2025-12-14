@@ -177,4 +177,4 @@ Para más información, consulta:
 
 **Creado:** 2025-12-14  
 **Versión:** 1.0  
-**Compatibilidad:** Samsung Galaxy Store v6.6.17.1+
+**Compatibilidad:** Probado en Samsung Galaxy Store v6.6.17.1 (puede funcionar en otras versiones)

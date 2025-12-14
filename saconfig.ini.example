@@ -56,11 +56,10 @@
 # DEBUG OPTIONS
 # ===================================
 
-# Enable auto-update test mode
-#63=1
-
 # Use direct IP instead of DNS
 #61=1
 
 # Set custom timeout (seconds)
 #60=30
+
+# Note: Key 63 (auto-update test mode) is already enabled above

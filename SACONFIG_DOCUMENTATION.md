@@ -256,6 +256,8 @@ The file is read in class `com.samsung.android.sso.manager.b` during initializat
 
 - Máximo ID de clave conocido: 1001 (0x3e9) / Maximum known key ID: 1001 (0x3e9)
 - Claves desconocidas se ignoran silenciosamente / Unknown keys are silently ignored
+  - ⚠️ **Advertencia:** Esto puede dificultar la depuración de errores tipográficos en las claves
+  - ⚠️ **Warning:** This can make debugging typos in keys difficult - verify key names carefully
 - Los valores booleanos deben ser "1" (true) o "0" (false) / Boolean values must be "1" (true) or "0" (false)
 - Los valores enteros deben ser números válidos / Integer values must be valid numbers
 
