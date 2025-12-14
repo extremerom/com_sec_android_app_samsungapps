@@ -3,6 +3,38 @@
 ## Descripción General
 Este documento detalla todos los menús ocultos, opciones de depuración y funciones de desarrollador que han sido desbloqueados en la aplicación Samsung Galaxy Store (com.sec.android.app.samsungapps).
 
+## Índice
+1. [Bypass de Contraseñas](#bypass-de-contraseñas)
+2. [Modo de Prueba Siempre Activado](#1-modo-de-prueba-siempre-activado)
+3. [Menú de Configuración Principal](#2-menú-de-configuración-principal---todas-las-opciones-desbloqueadas)
+4. [Modos de Depuración de SDK](#3-modos-de-depuración-de-sdk-habilitados)
+5. [Configuraciones de Juegos en la Nube](#4-configuraciones-ocultas-de-juegos-en-la-nube-expuestas)
+
+---
+
+## Bypass de Contraseñas
+
+### ⭐ NUEVO: Eliminación de Solicitudes de Contraseña
+**Archivos modificados:**
+- `smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali`
+- `smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali`
+- `smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali`
+
+**Contraseñas eliminadas:**
+1. **QA Store Password**: Ya no se solicita al abrir la aplicación
+2. **CloudGame Settings Test Mode**: Acepta cualquier contraseña
+3. **Developer Settings (Test Mode)**: Acepta cualquier contraseña
+
+**Beneficios:**
+- Acceso directo a QA Store sin autorización
+- Sin mensaje "No tiene autorización para acceder a QA Store"
+- Activación inmediata del modo de prueba en configuración de juegos
+- Acceso completo a configuración de desarrollador
+
+Para más detalles, consulta [PASSWORD_BYPASS.md](PASSWORD_BYPASS.md)
+
+---
+
 ## Cambios Realizados
 
 ### 1. Modo de Prueba Siempre Activado

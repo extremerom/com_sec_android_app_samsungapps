@@ -3,6 +3,38 @@
 ## Overview
 This document details all the hidden menus, debug options, and developer features that have been unlocked in the Samsung Galaxy Store app (com.sec.android.app.samsungapps).
 
+## Table of Contents
+1. [Password Bypass](#password-bypass)
+2. [Test Mode Always Enabled](#1-test-mode-always-enabled)
+3. [Main Settings Menu](#2-main-settings-menu---all-options-unlocked)
+4. [SDK Debug Modes](#3-sdk-debug-modes-enabled)
+5. [Cloud Gaming Settings](#4-cloud-gaming-hidden-settings-exposed)
+
+---
+
+## Password Bypass
+
+### ⭐ NEW: Removal of Password Prompts
+**Modified files:**
+- `smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/PasswordCheckUnit.smali`
+- `smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali`
+- `smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali`
+
+**Passwords removed:**
+1. **QA Store Password**: No longer prompted when opening the app
+2. **CloudGame Settings Test Mode**: Accepts any password
+3. **Developer Settings (Test Mode)**: Accepts any password
+
+**Benefits:**
+- Direct access to QA Store without authorization
+- No "You're not authorized to access the QA Store" message
+- Immediate test mode activation in game settings
+- Full access to developer settings
+
+For more details, see [PASSWORD_BYPASS.md](PASSWORD_BYPASS.md)
+
+---
+
 ## Changes Made
 
 ### 1. Test Mode Always Enabled
