@@ -536,15 +536,22 @@
 .method public i()Z
     .locals 2
 
-    # UNLOCKED: Test mode always enabled - bypasses secret code check
-    # Previously required dialing *#88277*66# to enable
+    iget v0, p0, Lcom/sec/android/app/samsungapps/utility/l0;->a:I
+
     const/4 v1, 0x1
 
-    const-string v0, "TestMode PERMANENTLY ENABLED - All hidden features unlocked"
+    if-ne v0, v1, :cond_0
+
+    const-string v0, "TestMode go_to_testmode.test"
 
     invoke-static {v0}, Lcom/sec/android/app/samsungapps/utility/f;->d(Ljava/lang/String;)V
 
     return v1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public j()Z
