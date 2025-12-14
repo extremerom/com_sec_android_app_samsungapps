@@ -25,7 +25,7 @@
 
     sput-object v0, Lcom/sec/android/app/samsungapps/utility/a0;->b:Ljava/lang/String;
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     sput-boolean v0, Lcom/sec/android/app/samsungapps/utility/a0;->c:Z
 
@@ -194,15 +194,9 @@
 .end method
 
 .method public static f()Z
-    .locals 2
+    .locals 1
 
-    const-string v0, "eng"
-
-    sget-object v1, Landroid/os/Build;->TYPE:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method

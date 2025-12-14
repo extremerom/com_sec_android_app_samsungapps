@@ -168,7 +168,7 @@
     <uses-permission android:name="freemme.permission.msa" />
     <uses-permission android:name="com.samsung.android.dbsc.provider.permission.WRITE_GCF_VALUE" />
     <permission android:label="@string/mids_sapps_header_samsung_in_app_purchase_abb" android:icon="@mipmap/icon_billing" android:name="com.samsung.android.iap.permission.BILLING" android:protectionLevel="normal" android:description="@string/mids_sapps_header_samsung_in_app_purchase_abb" />
-    <application android:theme="@style/SamsungAppsActionBarTheme" android:label="@string/GALAXY_STORE_only_ApplicationLabel" android:icon="@mipmap/icon" android:name="com.sec.android.app.samsungapps.SamsungApps" android:debuggable="false" android:allowBackup="false" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:requiredAccountType="com.samsung.android.iap" android:extractNativeLibs="false" android:usesCleartextTraffic="true" android:networkSecurityConfig="@xml/network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:useEmbeddedDex="true" android:requestLegacyExternalStorage="true">
+    <application android:theme="@style/SamsungAppsActionBarTheme" android:label="@string/GALAXY_STORE_only_ApplicationLabel" android:icon="@mipmap/icon" android:name="com.sec.android.app.samsungapps.SamsungApps" android:debuggable="true" android:allowBackup="false" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:requiredAccountType="com.samsung.android.iap" android:extractNativeLibs="false" android:usesCleartextTraffic="true" android:networkSecurityConfig="@xml/network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:useEmbeddedDex="true" android:requestLegacyExternalStorage="true">
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <meta-data android:name="runtime.manifest.overlay" android:resource="@xml/runtime_manifest_overlay" />
         <meta-data android:name="com.samsung.android.resolver.ranking_priority" android:value="5100" />
@@ -600,9 +600,24 @@
         <activity android:theme="@android:style/Theme.Dialog" android:name="com.sec.android.app.samsungapps.preloadupdate.AppsUpdateActivity" android:exported="false" />
         <activity android:label="@string/DREAM_SAPPS_HEADER_MY_PAGE" android:name="com.sec.android.app.samsungapps.MyAppsActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
         <activity android:label="@string/DREAM_SAPPS_OPT_DEALS_AND_EVENTS_ABB" android:name="com.sec.android.app.samsungapps.mynotice.MyNoticeActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
-        <activity android:name="com.sec.android.app.samsungapps.betatest.GearAppBetaTestActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
-        <activity android:name="com.sec.android.app.samsungapps.betatest.GearAppBetaTestListActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.CONTENT_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
-        <activity android:name="com.sec.android.app.samsungapps.betatest.PhoneAppBetaTestIntroActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.sec.android.app.samsungapps.betatest.GearAppBetaTestActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="true" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sec.android.app.samsungapps.betatest.GearAppBetaTestListActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.CONTENT_ACTIVITY" android:exported="true" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sec.android.app.samsungapps.betatest.PhoneAppBetaTestIntroActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="true" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:theme="@style/SmpPopupTheme" android:name="com.samsung.android.sdk.smp.SmpPopupActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity android:theme="@style/theme_normal_details" android:name="com.sec.android.app.samsungapps.detail.preorder.PreOrderDetailActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.CONTENT_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|smallestScreenSize" />
         <activity android:theme="@style/theme_normal_details" android:name="com.sec.android.app.samsungapps.slotpage.gear.GearBrandDetailActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.CONTENT_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" />
@@ -826,7 +841,12 @@
         </receiver>
         <activity android:theme="@style/MinusOneFullScreen" android:name="com.sec.android.app.samsungapps.minusone.MinusOnePageActivity" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity android:theme="@style/Theme.Dialog" android:name="com.sec.android.app.samsungapps.preloadupdate.bootpopup.UrgentUpdateAgreeActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:taskAffinity="com.sec.android.app.samsungapps.urgentupdateagree" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:noHistory="false" android:autoRemoveFromRecents="true" />
-        <activity android:theme="@style/theme_normal_details" android:name="com.sec.android.app.samsungapps.detail.activity.TestReportActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/theme_normal_details" android:name="com.sec.android.app.samsungapps.detail.activity.TestReportActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="true" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:theme="@style/bootup_starterkit" android:name="com.sec.android.app.samsungapps.startup.starterkit.StarterKitBootupActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
         <activity android:name="com.sec.android.app.samsungapps.RecommendationSettingsActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
         <activity android:theme="@style/theme_normal_details" android:name="com.sec.android.app.samsungapps.detail.activity.AppInfoDetailActivity" android:permission="com.sec.android.app.samsungapps.accesspermission.GENERNAL_ACTIVITY" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
@@ -985,10 +1005,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@style/InterstitialAdStyle" android:name="com.samsung.android.mas.internal.ui.InterstitialHtmlTestAdActivity" android:exported="false" android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize">
+        <activity android:theme="@style/InterstitialAdStyle" android:name="com.samsung.android.mas.internal.ui.InterstitialHtmlTestAdActivity" android:exported="true" android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="com.samsung.android.mas.OPEN_HTML_TEST_AD" />
                 <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:theme="@style/PolicyPage" android:name="com.samsung.android.mas.internal.ui.PolicyPage" android:exported="false" android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize">
