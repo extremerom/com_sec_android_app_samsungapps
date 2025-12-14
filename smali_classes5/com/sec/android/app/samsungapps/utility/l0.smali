@@ -536,31 +536,13 @@
 .method public i()Z
     .locals 2
 
-    iget v0, p0, Lcom/sec/android/app/samsungapps/utility/l0;->a:I
-
     const/4 v1, 0x1
 
-    if-ne v0, v1, :cond_0
-
-    const-string v0, "TestMode go_to_andromeda.test"
+    const-string v0, "TestMode ALWAYS ENABLED - go_to_andromeda.test"
 
     invoke-static {v0}, Lcom/sec/android/app/samsungapps/utility/f;->d(Ljava/lang/String;)V
 
     return v1
-
-    :cond_0
-    invoke-virtual {p0}, Lcom/sec/android/app/samsungapps/utility/l0;->j()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    return v1
-
-    :cond_1
-    const/4 v0, 0x0
-
-    return v0
 .end method
 
 .method public j()Z

@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static DEBUG:Z = false
+.field public static DEBUG:Z = true
 
 .field private static final TAG:Ljava/lang/String; = "Smax"
 
