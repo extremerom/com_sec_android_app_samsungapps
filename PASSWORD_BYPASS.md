@@ -45,7 +45,43 @@ El PasswordCheckUnit se agrega a la cadena de inicialización solo cuando `Passw
 
 ---
 
-### 2. Bypass de Contraseña de CloudGame Settings Test Mode
+### 2. Bypass de Error de Autorización de QA Store
+**Archivo / File:** `smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali`
+
+**Cambios:**
+- Modificado el manejo del error código 0x1c20 (7200 decimal) en el método `i()`
+- Cambiado el tipo de popup de DIALOG a NO_POPUP para este error específico
+
+**Efecto:**
+- El error "No tiene autorización para acceder a QA Store" (código 2280:7200) ya no se muestra
+- La aplicación continúa sin interrupciones cuando se encuentra este error
+- No se muestra ningún diálogo de error ni notificación
+
+**Detalles Técnicos:**
+Cuando la API devuelve el error 7200 (acceso no autorizado a QA Store), el código originalmente mostraba un diálogo con el mensaje de error. Al cambiar el tipo de popup a NO_POPUP, el error se ignora completamente.
+
+```smali
+# Cambio en el método i() - Líneas ~1285-1292
+:cond_3
+sget-object v1, Lcom/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo$POPUP_TYPE;->NO_POPUP:Lcom/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo$POPUP_TYPE;
+
+move p1, v0
+
+move-object p0, v3
+
+goto :goto_1
+
+# Código original (comentado):
+# :cond_3
+# sget p0, Lcom/sec/android/app/samsungapps/r3;->n5:I  # String: "No tiene autorización..."
+# invoke-virtual {p3, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+# move-result-object p0
+# goto/16 :goto_0
+```
+
+---
+
+### 3. Bypass de Contraseña de CloudGame Settings Test Mode
 **Archivo / File:** `smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali`
 
 **Cambios:**
@@ -72,7 +108,7 @@ invoke-virtual {v0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)
 
 ---
 
-### 3. Bypass de Contraseña de Test Mode (Developer Settings)
+### 4. Bypass de Contraseña de Test Mode (Developer Settings)
 **Archivo / File:** `smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali`
 
 **Cambios:**
@@ -185,6 +221,11 @@ smali_classes4/com/sec/android/app/samsungapps/curate/joule/unit/initialization/
   - Líneas modificadas: 7, 17-24
   - Cambios: 8 líneas (+6 agregadas, -2 modificadas)
 
+smali_classes4/com/sec/android/app/samsungapps/restapi/RestApiErrorPopupInfo.smali
+  - Líneas modificadas: 1285-1292
+  - Cambios: 4 líneas modificadas
+  - Bypass de error de autorización QA Store (código 0x1c20/7200)
+
 smali_classes3/com/samsung/android/game/cloudgame/sdk/ui/settings/j.smali
   - Líneas modificadas: 69
   - Cambios: 2 líneas agregadas
@@ -193,7 +234,7 @@ smali_classes3/com/samsung/android/mas/internal/ui/DevSettingsPage.smali
   - Líneas modificadas: 191
   - Cambios: 2 líneas agregadas
 
-Total: 3 archivos modificados, 10 líneas agregadas, 2 líneas modificadas
+Total: 4 archivos modificados, 12 líneas agregadas/modificadas
 ```
 
 ---
