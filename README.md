@@ -63,7 +63,7 @@ Special configuration file to override system settings and enable test features.
 
 ```bash
 # Copiar archivo de configuración / Copy configuration file
-adb push saconfig.ini /sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+adb push saconfig.ini /sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
 
 # Reiniciar aplicación / Restart app
 adb shell am force-stop com.sec.android.app.samsungapps

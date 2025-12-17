@@ -8,10 +8,10 @@
 
 ```bash
 # 1. Copiar el archivo al dispositivo
-adb push saconfig.ini /sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+adb push saconfig.ini /sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
 
 # 2. Verificar que el archivo existe
-adb shell ls -la /sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+adb shell ls -la /sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
 
 # 3. Reiniciar la aplicación
 adb shell am force-stop com.sec.android.app.samsungapps

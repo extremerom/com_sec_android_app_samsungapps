@@ -25,11 +25,13 @@ Este documento detalla el análisis realizado del código Smali de Samsung Galax
 **Función:** Implementación del cargador de configuración que lee y parsea el archivo saconfig.ini
 
 **Hallazgos clave:**
-- El archivo se lee desde el directorio OBB: `getObbDir()/xbdfjskl3nsn`
-- El nombre del archivo está codificado en hex: `78,66,68,74,73,6b,6e,6c,33,6e,73,6e,`
+- El archivo se lee desde el directorio OBB: `getObbDir()/saconfig.ini`
+- El nombre del archivo está codificado en hex: `78,66,68,74,73,6b,6e,6c,33,6e,73,6e,` que se decodifica a `saconfig.ini`
+- Algoritmo de decodificación: restar 5 a cada valor hex y convertir a ASCII
 - Formato de lectura: línea por línea, buscando patrón `KEY=VALUE`
 - La clave se convierte a entero usando `Lcom/samsung/android/sso/util/f;->g()`
 - El valor se recorta (trim) y se almacena en el campo correspondiente
+- **No hay encriptación de los valores** - se almacenan como texto plano
 
 **Switch statements encontrados:**
 ```smali

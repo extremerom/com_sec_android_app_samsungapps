@@ -12,16 +12,18 @@ The `saconfig.ini` file is a special configuration file used by Samsung Galaxy S
 
 **Ubicación esperada / Expected location:**
 ```
-/sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+/sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
 ```
 
-**Nota:** El nombre del archivo está codificado en hexadecimal en el código de la aplicación:
-- Hex: `78,66,68,74,73,6b,6e,6c,33,6e,73,6e,`
-- Decoded: `xbdfjskl3nsn`
+**Nota importante:** El nombre del archivo está ofuscado en el código de la aplicación, pero se decodifica automáticamente:
+- Hex en código: `78,66,68,74,73,6b,6e,6c,33,6e,73,6e,`
+- Algoritmo: Cada valor hex se resta 5 y se convierte a ASCII
+- Resultado decodificado: `saconfig.ini`
 
-**Note:** The filename is hex-encoded in the application code:
-- Hex: `78,66,68,74,73,6b,6e,6c,33,6e,73,6e,`
-- Decoded: `xbdfjskl3nsn`
+**Important note:** The filename is obfuscated in the application code but automatically decoded:
+- Hex in code: `78,66,68,74,73,6b,6e,6c,33,6e,73,6e,`
+- Algorithm: Each hex value is subtracted by 5 and converted to ASCII
+- Decoded result: `saconfig.ini`
 
 ---
 
