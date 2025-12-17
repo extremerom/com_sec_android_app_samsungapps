@@ -1,0 +1,204 @@
+# ====================================================================
+# saconfig.ini - Configuración para Servidores STG y Modos de Prueba
+# Samsung Galaxy Store - Test Mode & Staging Configuration
+# ====================================================================
+# 
+# Este archivo activa todos los modos de prueba y configura la app
+# para usar servidores de staging (STG) en lugar de producción.
+#
+# This file activates all test modes and configures the app to use
+# staging (STG) servers instead of production.
+#
+# INSTALACIÓN / INSTALLATION:
+# adb push saconfig.ini.stg /sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
+#
+# ====================================================================
+
+# ====================================================================
+# SERVIDORES STAGING / STAGING SERVERS
+# ====================================================================
+
+# ID 0 - HubUrl: URL principal de staging
+# Main staging Hub URL
+0=https://stg.samsungapps.com
+
+# ID 48 - HubHost: Host del Hub de staging
+# Staging Hub host
+48=stg.samsungapps.com
+
+# ID 14 - HeaderHost: Host para encabezados HTTP de staging
+# HTTP header host for staging
+14=iap.stg.samsungapps.com
+
+# ====================================================================
+# CONFIGURACIÓN DE FACTURACIÓN STAGING / STAGING BILLING CONFIG
+# ====================================================================
+
+# ID 47 - BillingServerType: Servidor de pruebas (sin cargos reales)
+# Test billing server (no real charges)
+# Valores válidos: LIVE, TEST, QA, STG
+47=STG
+
+# ====================================================================
+# MODOS DE PRUEBA ACTIVADOS / TEST MODES ENABLED
+# ====================================================================
+
+# ID 63 - IsAutoUpdateTestMode: Modo de prueba de actualización automática
+# Auto-update test mode
+# 0=desactivado, 1=activado
+63=1
+
+# ID 1001 - CustomTestParameter: Parámetro de prueba personalizado
+# Custom test parameter (activa funciones de prueba adicionales)
+# 0=desactivado, 1=activado
+1001=1
+
+# ====================================================================
+# CONFIGURACIÓN DE RED Y TIMEOUTS / NETWORK & TIMEOUT CONFIG
+# ====================================================================
+
+# ID 60 - NetworkingTimeout: Timeout de red aumentado para debugging
+# Network timeout increased for debugging (en segundos/in seconds)
+60=180
+
+# ID 61 - IsUseDirectIP: Usar IP directa para debugging
+# Use direct IP for debugging
+# 0=usar DNS, 1=usar IP directa
+61=1
+
+# ====================================================================
+# INFORMACIÓN DEL DISPOSITIVO (OPCIONAL) / DEVICE INFO (OPTIONAL)
+# ====================================================================
+
+# ID 1 - ModelName: Modelo del dispositivo de prueba
+# Test device model
+1=SM-G998B
+
+# ID 2 - CSC: Código de país para pruebas (USA para staging)
+# Country code for testing (USA for staging)
+2=USA
+
+# ID 10 - MCC: Código de país móvil (310 = USA)
+# Mobile Country Code (310 = USA)
+10=310
+
+# ID 11 - MNC: Código de red móvil (260 = T-Mobile USA)
+# Mobile Network Code (260 = T-Mobile USA)
+11=260
+
+# ====================================================================
+# VERSIONES DE API Y COMPONENTES / API & COMPONENT VERSIONS
+# ====================================================================
+
+# ID 12 - ODCVersion: Versión de ODC para staging
+# ODC version for staging
+12=2.0
+
+# ID 13 - OpenAPIVersion: Versión de API para staging
+# API version for staging
+13=6.0
+
+# ID 18 - InfinityVersion: Versión de Infinity
+# Infinity version
+18=2.0.0
+
+# ID 25 - DisclaimerVersion: Versión del aviso legal (NO usar "0")
+# Disclaimer version (DO NOT use "0")
+25=2.0
+
+# ====================================================================
+# CONFIGURACIÓN ODC / ODC CONFIGURATION
+# ====================================================================
+
+# ID 54 - ODCVersionCode: Código de versión ODC
+# ODC version code
+54=2
+
+# ID 55 - ODCForceUpdate: Forzar actualización ODC en modo de prueba
+# Force ODC update in test mode
+# 0=no forzar, 1=forzar
+55=1
+
+# ====================================================================
+# CONFIGURACIÓN DE STICKER CENTER / STICKER CENTER CONFIG
+# ====================================================================
+
+# ID 62 - StickerCenterVer: Versión del centro de stickers para staging
+# Sticker center version for staging
+62=2.0
+
+# ====================================================================
+# CONFIGURACIÓN DE GEAR/WEARABLES (OPCIONAL) / GEAR/WEARABLES CONFIG
+# ====================================================================
+
+# ID 56 - GearFakeModel: Modelo simulado de Gear para pruebas
+# Simulated Gear model for testing
+56=SM-R890
+
+# ID 57 - GearOSVersion: Versión del SO Gear
+# Gear OS version
+57=6.0.0
+
+# ID 59 - GearWearableDeviceName: Nombre del dispositivo wearable
+# Wearable device name
+59=Galaxy Watch6
+
+# ====================================================================
+# CONFIGURACIÓN DE LÍMITES / LIMITS CONFIGURATION
+# ====================================================================
+
+# ID 43 - SizeLimitation: Límite de tamaño aumentado para pruebas (en MB)
+# Size limitation increased for testing (in MB)
+43=4096
+
+# ====================================================================
+# NOTAS IMPORTANTES / IMPORTANT NOTES
+# ====================================================================
+#
+# VALIDACIÓN DE IDs / ID VALIDATION:
+# ✅ Todos los IDs han sido verificados contra el código Smali
+# ✅ All IDs have been verified against Smali code
+#
+# SERVIDORES STAGING VERIFICADOS / VERIFIED STAGING SERVERS:
+# - https://iap.stg.samsungapps.com/iap/api/ (IAP Staging)
+# - https://ureca-stg.samsungapps.com/ (Ureca Staging)
+# - https://stg.samsungapps.com (Main Staging)
+#
+# MODOS DE PRUEBA ACTIVOS / ACTIVE TEST MODES:
+# ✅ Auto-update test mode (ID 63 = 1)
+# ✅ Custom test parameter (ID 1001 = 1)
+# ✅ Direct IP mode (ID 61 = 1)
+# ✅ STG Billing server (ID 47 = STG)
+# ✅ Force ODC update (ID 55 = 1)
+#
+# VERIFICACIÓN / VERIFICATION:
+# Para verificar que el archivo se cargó correctamente:
+# To verify the file loaded correctly:
+#
+# adb logcat | grep -i "saconfig.ini EXISTS"
+#
+# Deberías ver / You should see:
+# SaconfigInfoLoader: saconfig.ini EXISTS
+#
+# ====================================================================
+# FUENTES DEL ANÁLISIS / ANALYSIS SOURCES
+# ====================================================================
+#
+# URLs de staging extraídas de:
+# Staging URLs extracted from:
+# - smali_classes3/com/samsung/android/sso/manager/a.smali
+# - smali_classes3/com/samsung/android/game/cloudgame/repository/di/a.smali
+#
+# IDs verificados en:
+# IDs verified in:
+# - smali_classes3/com/samsung/android/sso/manager/b.smali (líneas 304-687)
+#
+# Valores de prueba de:
+# Test values from:
+# - smali_classes3/com/samsung/android/mas/utils/i$a.smali (MCC/MNC/CSC)
+# - smali_classes3/com/samsung/android/mas/utils/k.smali (Modelos)
+#
+# ====================================================================
+# FECHA DE CREACIÓN / CREATION DATE: 2025-12-17
+# VERSIÓN DE LA APP / APP VERSION: Samsung Galaxy Store v6.6.17.1
+# ====================================================================
