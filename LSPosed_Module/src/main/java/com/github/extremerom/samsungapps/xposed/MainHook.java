@@ -2,8 +2,9 @@ package com.github.extremerom.samsungapps.xposed;
 
 import android.app.Activity;
 import android.content.ComponentName;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.widget.Toast;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
@@ -13,7 +14,7 @@ import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 /**
- * LSPosed Module for Samsung Galaxy Store
+ * LSPosed Module for Samsung Galaxy Store with UI
  * 
  * Features:
  * - Bypass DevSettings password validation
@@ -21,6 +22,8 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
  * - Bypass QA Store password validation
  * - Force enable TestMode
  * - Enable all disabled activities in manifest
+ * - UI for individual hook control
+ * - Log viewer
  * 
  * Based on Smali code analysis from extremerom/com_sec_android_app_samsungapps
  */
@@ -28,6 +31,9 @@ public class MainHook implements IXposedHookLoadPackage {
 
     private static final String TAG = "SamsungAppsUnlocker";
     private static final String PACKAGE_NAME = "com.sec.android.app.samsungapps";
+    private static final String PREFS_NAME = "SamsungAppsUnlockerPrefs";
+
+    private SharedPreferences prefs;
 
     @Override
     public void handleLoadPackage(LoadPackageParam lpparam) throws Throwable {
@@ -35,25 +41,96 @@ public class MainHook implements IXposedHookLoadPackage {
             return;
         }
 
-        XposedBridge.log(TAG + ": Module loaded for " + PACKAGE_NAME);
+        logAndStore("Module loaded for " + PACKAGE_NAME);
 
+        // Get app context to access preferences
+        hookAppContext(lpparam);
+    }
+
+    /**
+     * Hook to get app context and initialize preferences
+     */
+    private void hookAppContext(LoadPackageParam lpparam) {
+        XposedHelpers.findAndHookMethod(Activity.class, "onCreate",
+            "android.os.Bundle",
+            new XC_MethodHook() {
+                @Override
+                protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                    Activity activity = (Activity) param.thisObject;
+                    
+                    if (!activity.getPackageName().equals(PACKAGE_NAME)) {
+                        return;
+                    }
+
+                    if (prefs == null) {
+                        try {
+                            Context context = activity.getApplicationContext();
+                            prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_WORLD_READABLE);
+                            
+                            // Initialize all hooks after getting preferences
+                            initializeHooks(lpparam);
+                            logAndStore("Preferences loaded, hooks initialized");
+                        } catch (Exception e) {
+                            logAndStore("Error loading preferences: " + e.getMessage());
+                        }
+                    }
+                }
+            }
+        );
+    }
+
+    /**
+     * Initialize all hooks based on preferences
+     */
+    private void initializeHooks(LoadPackageParam lpparam) {
         // Hook 1: DevSettings Password Bypass
-        hookDevSettingsPassword(lpparam);
+        if (isHookEnabled(MainActivity.PREF_HOOK_DEVSETTINGS)) {
+            hookDevSettingsPassword(lpparam);
+        }
 
         // Hook 2: CloudGame Settings Password Bypass
-        hookCloudGamePassword(lpparam);
+        if (isHookEnabled(MainActivity.PREF_HOOK_CLOUDGAME)) {
+            hookCloudGamePassword(lpparam);
+        }
 
         // Hook 3: QA Store Password Bypass
-        hookQAStorePassword(lpparam);
+        if (isHookEnabled(MainActivity.PREF_HOOK_QASTORE)) {
+            hookQAStorePassword(lpparam);
+        }
 
         // Hook 4: Force TestMode ON
-        hookTestMode(lpparam);
+        if (isHookEnabled(MainActivity.PREF_HOOK_TESTMODE)) {
+            hookTestMode(lpparam);
+        }
 
         // Hook 5: Enable disabled activities
-        hookActivityEnabler(lpparam);
+        if (isHookEnabled(MainActivity.PREF_HOOK_ACTIVITIES)) {
+            hookActivityEnabler(lpparam);
+        }
 
         // Hook 6: ContentProvider UT mode bypass
-        hookContentProviderCheck(lpparam);
+        if (isHookEnabled(MainActivity.PREF_HOOK_CONTENTPROVIDER)) {
+            hookContentProviderCheck(lpparam);
+        }
+    }
+
+    /**
+     * Check if a hook is enabled in preferences
+     */
+    private boolean isHookEnabled(String prefKey) {
+        if (prefs == null) {
+            return true; // Default to enabled if prefs not loaded
+        }
+        return prefs.getBoolean(prefKey, true);
+    }
+
+    /**
+     * Log to both Xposed and internal logger
+     */
+    private void logAndStore(String message) {
+        String fullMessage = TAG + ": " + message;
+        XposedBridge.log(fullMessage);
+        Logger.log(message);
     }
 
     /**
@@ -73,7 +150,7 @@ public class MainHook implements IXposedHookLoadPackage {
                 new XC_MethodHook() {
                     @Override
                     protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
-                        XposedBridge.log(TAG + ": DevSettings password check bypassed");
+                        logAndStore("DevSettings password check bypassed");
                     }
 
                     @Override
@@ -86,15 +163,15 @@ public class MainHook implements IXposedHookLoadPackage {
                             
                             // Call the method that should be called after successful validation
                             // The bug in the code already makes this pass, but we ensure it
-                            XposedBridge.log(TAG + ": DevSettings password validation forced to success");
+                            logAndStore("DevSettings password validation forced to success");
                         }
                     }
                 }
             );
 
-            XposedBridge.log(TAG + ": DevSettings password hook installed");
+            logAndStore("DevSettings password hook installed");
         } catch (Throwable t) {
-            XposedBridge.log(TAG + ": Failed to hook DevSettings password: " + t.getMessage());
+            logAndStore("Failed to hook DevSettings password: " + t.getMessage());
         }
     }
 
@@ -116,15 +193,15 @@ public class MainHook implements IXposedHookLoadPackage {
                 new XC_MethodReplacement() {
                     @Override
                     protected Object replaceHookedMethod(MethodHookParam param) throws Throwable {
-                        XposedBridge.log(TAG + ": CloudGame password check bypassed");
+                        logAndStore("CloudGame password check bypassed");
                         return true; // Always return true (password valid)
                     }
                 }
             );
 
-            XposedBridge.log(TAG + ": CloudGame password hook installed");
+            logAndStore("CloudGame password hook installed");
         } catch (Throwable t) {
-            XposedBridge.log(TAG + ": Failed to hook CloudGame password: " + t.getMessage());
+            logAndStore("Failed to hook CloudGame password: " + t.getMessage());
         }
     }
 
@@ -148,7 +225,7 @@ public class MainHook implements IXposedHookLoadPackage {
                     protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                         // Force the result to be successful
                         param.setResult(true);
-                        XposedBridge.log(TAG + ": QA Store password validation bypassed");
+                        logAndStore("QA Store password validation bypassed");
                     }
                 }
             );
@@ -160,15 +237,15 @@ public class MainHook implements IXposedHookLoadPackage {
                     @Override
                     protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                         // Intercept and modify server response to always indicate success
-                        XposedBridge.log(TAG + ": QA Store server response intercepted");
+                        logAndStore("QA Store server response intercepted");
                         param.setResult(null); // Skip original processing
                     }
                 }
             );
 
-            XposedBridge.log(TAG + ": QA Store password hook installed");
+            logAndStore("QA Store password hook installed");
         } catch (Throwable t) {
-            XposedBridge.log(TAG + ": Failed to hook QA Store password: " + t.getMessage());
+            logAndStore("Failed to hook QA Store password: " + t.getMessage());
         }
     }
 
@@ -189,7 +266,7 @@ public class MainHook implements IXposedHookLoadPackage {
                 new XC_MethodReplacement() {
                     @Override
                     protected Object replaceHookedMethod(MethodHookParam param) throws Throwable {
-                        XposedBridge.log(TAG + ": TestMode forced to ON");
+                        logAndStore("TestMode forced to ON");
                         return true; // Always return true (TestMode ON)
                     }
                 }
@@ -206,14 +283,14 @@ public class MainHook implements IXposedHookLoadPackage {
                 new XC_MethodHook() {
                     @Override
                     protected void afterHookedMethod(MethodHookParam param) throws Throwable {
-                        XposedBridge.log(TAG + ": TestMode secret code intercepted");
+                        logAndStore("TestMode secret code intercepted");
                     }
                 }
             );
 
-            XposedBridge.log(TAG + ": TestMode hooks installed");
+            logAndStore("TestMode hooks installed");
         } catch (Throwable t) {
-            XposedBridge.log(TAG + ": Failed to hook TestMode: " + t.getMessage());
+            logAndStore("Failed to hook TestMode: " + t.getMessage());
         }
     }
 
@@ -254,21 +331,21 @@ public class MainHook implements IXposedHookLoadPackage {
                                         PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
                                         PackageManager.DONT_KILL_APP
                                     );
-                                    XposedBridge.log(TAG + ": Enabled activity: " + activityName);
+                                    logAndStore("Enabled activity: " + activityName);
                                 } catch (Exception e) {
                                     // Activity might not exist, skip
                                 }
                             }
                         } catch (Exception e) {
-                            XposedBridge.log(TAG + ": Error enabling activities: " + e.getMessage());
+                            logAndStore("Error enabling activities: " + e.getMessage());
                         }
                     }
                 }
             );
 
-            XposedBridge.log(TAG + ": Activity enabler hook installed");
+            logAndStore("Activity enabler hook installed");
         } catch (Throwable t) {
-            XposedBridge.log(TAG + ": Failed to hook activity enabler: " + t.getMessage());
+            logAndStore("Failed to hook activity enabler: " + t.getMessage());
         }
     }
 
@@ -289,15 +366,15 @@ public class MainHook implements IXposedHookLoadPackage {
                 new XC_MethodReplacement() {
                     @Override
                     protected Object replaceHookedMethod(MethodHookParam param) throws Throwable {
-                        XposedBridge.log(TAG + ": ContentProvider UT mode check bypassed - returning 'on'");
+                        logAndStore("ContentProvider UT mode check bypassed - returning 'on'");
                         return "on"; // Return "on" to activate UT mode without password
                     }
                 }
             );
 
-            XposedBridge.log(TAG + ": ContentProvider bypass hook installed");
+            logAndStore("ContentProvider bypass hook installed");
         } catch (Throwable t) {
-            XposedBridge.log(TAG + ": Failed to hook ContentProvider check: " + t.getMessage());
+            logAndStore("Failed to hook ContentProvider check: " + t.getMessage());
         }
     }
 }
