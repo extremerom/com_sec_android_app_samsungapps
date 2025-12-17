@@ -140,7 +140,7 @@ adb logcat | grep -i "saconfig"
 ## Solución de Problemas
 
 ### El archivo no se carga
-1. Verificar que el nombre del archivo es exactamente `xbdfjskl3nsn` (sin extensión)
+1. Verificar que el nombre del archivo es exactamente `saconfig.ini`
 2. Verificar que está en el directorio correcto
 3. Verificar que la aplicación tiene permisos de lectura
 4. Reiniciar la aplicación

@@ -190,10 +190,10 @@ KEY=VALUE
 adb shell mkdir -p /sdcard/Android/obb/com.sec.android.app.samsungapps
 
 # Subir el archivo con el nombre correcto
-adb push saconfig.ini /sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+adb push saconfig.ini /sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
 
 # Verificar que el archivo existe
-adb shell ls -la /sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn
+adb shell ls -la /sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini
 ```
 
 ### Paso 3: Reiniciar la Aplicación / Step 3: Restart the App
@@ -326,10 +326,10 @@ The file is read in class `com.samsung.android.sso.manager.b` during initializat
 ## Preguntas Frecuentes / FAQ
 
 **P: ¿Dónde se almacena el archivo exactamente?**  
-R: En el directorio OBB de la aplicación: `/sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn`
+R: En el directorio OBB de la aplicación: `/sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini`
 
 **Q: Where is the file stored exactly?**  
-A: In the app's OBB directory: `/sdcard/Android/obb/com.sec.android.app.samsungapps/xbdfjskl3nsn`
+A: In the app's OBB directory: `/sdcard/Android/obb/com.sec.android.app.samsungapps/saconfig.ini`
 
 ---
 
