@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Logs Activity -->
+        <activity
+            android:name=".ui.LogsActivity"
+            android:exported="false"
+            android:label="@string/logs_title"
+            android:parentActivityName=".ui.MainActivity" />
+
+        <!-- Xposed Module Meta-data -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Modular password verification bypass for Samsung Galaxy Store" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" />
+
+    </application>
+
+</manifest>

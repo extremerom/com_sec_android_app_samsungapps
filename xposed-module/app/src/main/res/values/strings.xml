@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Samsung Password Bypass</string>
+    <string name="module_description">Xposed module for bypassing Samsung Galaxy Store password verifications</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Password Bypass Module</string>
+    <string name="hooks_section">Available Hooks</string>
+    <string name="no_hooks">No hooks available</string>
+    <string name="view_logs">View Logs</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    
+    <!-- Hook Cards -->
+    <string name="hook_enabled">Enabled</string>
+    <string name="hook_disabled">Disabled</string>
+    <string name="intercept_count">Intercepts: %d</string>
+    
+    <!-- Logs Activity -->
+    <string name="logs_title">Hook Logs</string>
+    <string name="no_logs">No logs available</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="export_logs">Export Logs</string>
+    <string name="filter_by_hook">Filter by Hook</string>
+    <string name="all_hooks">All Hooks</string>
+    
+    <!-- Settings -->
+    <string name="enable_logging">Enable Logging</string>
+    <string name="logging_description">Record all hook interceptions</string>
+    <string name="max_logs">Maximum Logs</string>
+    <string name="max_logs_description">Maximum number of logs to keep</string>
+    <string name="reset_config">Reset Configuration</string>
+    <string name="reset_config_description">Reset all hooks and settings to default</string>
+    
+    <!-- Dialog Messages -->
+    <string name="confirm_clear_logs">Clear all logs?</string>
+    <string name="confirm_reset_config">Reset all configuration? This will disable all hooks.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Module Info -->
+    <string name="module_status">Module Status</string>
+    <string name="module_active">Module is active</string>
+    <string name="module_inactive">Module is NOT active</string>
+    <string name="xposed_not_active">Xposed Framework not detected. Please install Xposed/LSPosed/EdXposed.</string>
+    <string name="target_app">Target App: Samsung Galaxy Store</string>
+    <string name="target_package">com.sec.android.app.samsungapps</string>
+    
+    <!-- Hook Descriptions -->
+    <string name="qa_store_desc">Bypasses QA Store password check at app initialization</string>
+    <string name="cloudgame_desc">Bypasses CloudGame settings test mode password</string>
+    <string name="dev_settings_desc">Bypasses developer settings menu password</string>
+    
+    <!-- Warnings -->
+    <string name="security_warning">⚠️ Security Warning</string>
+    <string name="security_warning_message">This module bypasses security features. Use only for testing and development purposes. The authors are not responsible for any misuse.</string>
+    <string name="reboot_required">Reboot Required</string>
+    <string name="reboot_required_message">Please reboot your device for changes to take effect.</string>
+</resources>
