@@ -71,29 +71,33 @@ public class DevSettingsHook implements IHook {
                 }
             );
             
-            // Alternative approach: Hook the equals method used for comparison
+            // Alternative approach: Hook String.equals to always return true for password comparison
             try {
-                // Try to find and hook any password comparison methods
-                Class<?> utilsClass = XposedHelpers.findClass(
-                    "com.samsung.android.mas.utils.j",
-                    lpparam.classLoader
-                );
-                
+                // Hook String.equals method specifically for this context
+                // This ensures any password comparison will succeed
                 XposedHelpers.findAndHookMethod(
-                    utilsClass,
-                    "p", // Method that returns the expected password
+                    String.class,
+                    "equals",
+                    Object.class,
                     new XC_MethodHook() {
                         @Override
-                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
-                            // Return a known password or empty string
-                            // This makes any input match
-                            String input = ""; // Will be overridden
-                            XposedBridge.log("[PasswordBypass] Password getter hooked");
+                        protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
+                            // Check if this is a password comparison by inspecting the stack trace
+                            StackTraceElement[] stack = Thread.currentThread().getStackTrace();
+                            for (StackTraceElement element : stack) {
+                                if (element.getClassName().contains("DevSettingsPage")) {
+                                    // This is a password comparison in DevSettingsPage
+                                    // Force it to return true
+                                    param.setResult(true);
+                                    XposedBridge.log("[PasswordBypass] Password comparison bypassed");
+                                    break;
+                                }
+                            }
                         }
                     }
                 );
             } catch (Throwable t) {
-                XposedBridge.log("[PasswordBypass] Could not hook password getter: " + t.getMessage());
+                XposedBridge.log("[PasswordBypass] Could not hook String.equals: " + t.getMessage());
             }
             
             XposedBridge.log("[PasswordBypass] DevSettings hook installed successfully");

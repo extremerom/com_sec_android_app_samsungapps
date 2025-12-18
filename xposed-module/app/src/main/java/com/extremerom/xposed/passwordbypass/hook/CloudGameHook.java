@@ -51,17 +51,20 @@ public class CloudGameHook implements IHook {
                         // The method checks password and sets a boolean result
                         // We intercept after the check and force it to true
                         
-                        // Try to find the TwoStatePreference and set it to checked
                         try {
-                            Object[] args = param.args;
-                            if (args != null && args.length > 0) {
-                                // Look for preference object in the context
-                                Object result = param.getResult();
-                                // Force success
-                                XposedBridge.log("[PasswordBypass] CloudGame password check bypassed");
+                            // The method returns a result that indicates password check success
+                            // Force the result to indicate success
+                            Object result = param.getResult();
+                            
+                            // For methods that check password and return boolean/object
+                            // we force success by setting the result appropriately
+                            if (result instanceof Boolean) {
+                                param.setResult(true);
                             }
+                            
+                            XposedBridge.log("[PasswordBypass] CloudGame password check bypassed");
                         } catch (Throwable t) {
-                            XposedBridge.log("[PasswordBypass] CloudGame bypass attempted: " + t.getMessage());
+                            XposedBridge.log("[PasswordBypass] CloudGame bypass error: " + t.getMessage());
                         }
                     }
                 }

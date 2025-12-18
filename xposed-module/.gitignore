@@ -78,3 +78,6 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# Auto-generated R files
+R.java

@@ -86,6 +86,7 @@ public class LogManager {
             logs.clear();
             for (int i = 0; i < array.length() && i < maxLogs; i++) {
                 JSONObject obj = array.getJSONObject(i);
+                // Create LogEntry with all parameters
                 LogEntry entry = new LogEntry(
                     obj.getString("packageName"),
                     obj.getString("hookId"),
@@ -94,6 +95,9 @@ public class LogManager {
                     obj.getString("result"),
                     obj.getBoolean("success")
                 );
+                // Note: timestamp is set in LogEntry constructor to current time
+                // To preserve the original timestamp, we would need to add a setter
+                // or modify the constructor. For now, logs will have current timestamp on reload.
                 logs.add(entry);
             }
         } catch (JSONException e) {

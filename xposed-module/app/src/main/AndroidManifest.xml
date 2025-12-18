@@ -32,7 +32,7 @@
 
         <meta-data
             android:name="xposeddescription"
-            android:value="Omisión modular de verificación de contraseñas para Samsung Galaxy Store" />
+            android:value="Modular password verification bypass for Samsung Galaxy Store" />
 
         <meta-data
             android:name="xposedminversion"

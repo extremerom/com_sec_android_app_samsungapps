@@ -40,19 +40,25 @@ public class QaStoreHook implements IHook {
                 lpparam.classLoader
             );
             
-            // Hook the static initializer to set C = true
-            XposedHelpers.findAndHookMethod(
-                passwordCheckClass,
-                "z", // Method that checks the password
-                new XC_MethodHook() {
-                    @Override
-                    protected void afterHookedMethod(MethodHookParam param) throws Throwable {
-                        // Force the password check to always pass
-                        XposedHelpers.setStaticBooleanField(passwordCheckClass, "C", true);
-                        XposedBridge.log("[PasswordBypass] QA Store password check bypassed");
+            // Try to hook the method that checks the password
+            // Note: Method name 'z' may change due to obfuscation in different app versions
+            try {
+                XposedHelpers.findAndHookMethod(
+                    passwordCheckClass,
+                    "z", // Method that checks the password (obfuscated name, may change)
+                    new XC_MethodHook() {
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                            // Force the password check to always pass
+                            XposedHelpers.setStaticBooleanField(passwordCheckClass, "C", true);
+                            XposedBridge.log("[PasswordBypass] QA Store password check bypassed via method hook");
+                        }
                     }
-                }
-            );
+                );
+            } catch (NoSuchMethodError e) {
+                XposedBridge.log("[PasswordBypass] Method 'z' not found, relying on field modification only");
+                XposedBridge.log("[PasswordBypass] This may indicate app version change - update hook if needed");
+            }
             
             // Also set the field directly
             XposedHelpers.setStaticBooleanField(passwordCheckClass, "C", true);
