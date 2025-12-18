@@ -1,0 +1,2 @@
+rootProject.name = "SamsungApps Password Bypass"
+include ':app'
